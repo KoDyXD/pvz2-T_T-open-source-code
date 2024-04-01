@@ -1,0 +1,17 @@
+solo ejecuta el install.bat para poder usar el programa
+
+para hacer que las animaciones de spine sean compatibles con la version de game maker 2.3.6.595 debes abrir cmd
+
+1.escribes java -cp
+
+2.pones la ubicacion del archivo skeletonviewer.jar
+
+3. escribe com.esotericsoftware.spine.JsonRollback
+
+4. pones la ubicacion del archivo json de la animacion ya exportada
+
+5.pones 3.7
+
+6. escibe la nueva ubicacion del archivo json ya convertido y listo
+
+7.recuerda que el archivo .atlas debe tener el mismo nombre del .json
