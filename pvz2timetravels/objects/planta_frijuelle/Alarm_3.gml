@@ -1,0 +1,1 @@
+/// @description tiempo maximo para detectar al zombi

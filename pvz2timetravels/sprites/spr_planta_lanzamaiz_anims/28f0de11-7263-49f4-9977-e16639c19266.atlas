@@ -1,0 +1,118 @@
+
+skeleton.png
+size: 361,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ceja
+  rotate: false
+  xy: 147, 19
+  size: 30, 16
+  orig: 34, 19
+  offset: 2, 2
+  index: -1
+cuerpo frente
+  rotate: true
+  xy: 2, 39
+  size: 101, 117
+  orig: 105, 121
+  offset: 2, 2
+  index: -1
+hoja del centro
+  rotate: false
+  xy: 121, 37
+  size: 83, 24
+  orig: 86, 28
+  offset: 1, 2
+  index: -1
+hoja del der
+  rotate: false
+  xy: 209, 48
+  size: 84, 36
+  orig: 87, 39
+  offset: 1, 2
+  index: -1
+hoja del izq 
+  rotate: false
+  xy: 2, 2
+  size: 73, 35
+  orig: 76, 39
+  offset: 1, 2
+  index: -1
+hoja tras der
+  rotate: false
+  xy: 306, 9
+  size: 53, 31
+  orig: 57, 35
+  offset: 2, 2
+  index: -1
+hoja tras izq
+  rotate: false
+  xy: 206, 6
+  size: 52, 40
+  orig: 55, 44
+  offset: 1, 2
+  index: -1
+ojo 1
+  rotate: false
+  xy: 179, 11
+  size: 14, 24
+  orig: 18, 28
+  offset: 2, 2
+  index: -1
+ojo 2
+  rotate: false
+  xy: 147, 3
+  size: 17, 14
+  orig: 21, 18
+  offset: 2, 2
+  index: -1
+ojo 3
+  rotate: true
+  xy: 295, 61
+  size: 23, 6
+  orig: 27, 10
+  offset: 2, 2
+  index: -1
+rama final atras
+  rotate: false
+  xy: 209, 86
+  size: 98, 54
+  orig: 101, 57
+  offset: 1, 2
+  index: -1
+rama final frente
+  rotate: true
+  xy: 309, 42
+  size: 98, 44
+  orig: 101, 48
+  offset: 1, 2
+  index: -1
+rama final muestra maiz
+  rotate: true
+  xy: 260, 6
+  size: 40, 44
+  orig: 44, 48
+  offset: 2, 2
+  index: -1
+rama final muestra mantequilla
+  rotate: true
+  xy: 121, 63
+  size: 77, 86
+  orig: 81, 91
+  offset: 2, 3
+  index: -1
+rama inicio
+  rotate: false
+  xy: 114, 8
+  size: 31, 27
+  orig: 35, 31
+  offset: 2, 2
+  index: -1
+rama mitad
+  rotate: false
+  xy: 77, 7
+  size: 35, 30
+  orig: 39, 34
+  offset: 2, 2
+  index: -1

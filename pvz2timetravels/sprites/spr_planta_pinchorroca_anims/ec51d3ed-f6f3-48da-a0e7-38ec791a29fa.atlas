@@ -1,0 +1,97 @@
+
+skeleton.png
+size: 161,275
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+boca
+  rotate: false
+  xy: 113, 74
+  size: 46, 32
+  orig: 50, 36
+  offset: 2, 2
+  index: -1
+ceja der
+  rotate: false
+  xy: 53, 7
+  size: 45, 30
+  orig: 49, 35
+  offset: 2, 3
+  index: -1
+ceja izq
+  rotate: false
+  xy: 113, 42
+  size: 46, 30
+  orig: 50, 35
+  offset: 2, 3
+  index: -1
+cuerpo 0
+  rotate: false
+  xy: 2, 184
+  size: 154, 49
+  orig: 158, 53
+  offset: 2, 2
+  index: -1
+cuerpo 1
+  rotate: false
+  xy: 53, 158
+  size: 96, 24
+  orig: 101, 28
+  offset: 2, 2
+  index: -1
+cuerpo 2
+  rotate: false
+  xy: 2, 235
+  size: 155, 38
+  orig: 159, 42
+  offset: 2, 2
+  index: -1
+cuerpo 3
+  rotate: true
+  xy: 2, 9
+  size: 173, 49
+  orig: 177, 54
+  offset: 2, 3
+  index: -1
+ojo 0
+  rotate: false
+  xy: 119, 133
+  size: 38, 23
+  orig: 42, 27
+  offset: 2, 2
+  index: -1
+ojo 1
+  rotate: false
+  xy: 119, 108
+  size: 38, 23
+  orig: 42, 27
+  offset: 2, 2
+  index: -1
+ojo 2
+  rotate: true
+  xy: 113, 2
+  size: 38, 23
+  orig: 42, 27
+  offset: 2, 2
+  index: -1
+pico centro
+  rotate: true
+  xy: 53, 117
+  size: 39, 64
+  orig: 44, 69
+  offset: 2, 3
+  index: -1
+pico der
+  rotate: true
+  xy: 53, 78
+  size: 37, 58
+  orig: 41, 62
+  offset: 2, 2
+  index: -1
+pico izq
+  rotate: true
+  xy: 53, 39
+  size: 37, 58
+  orig: 41, 62
+  offset: 2, 2
+  index: -1

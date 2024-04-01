@@ -1,0 +1,1 @@
+/// @description evitar que dispare al plantarse

@@ -1,0 +1,88 @@
+{
+"skeleton": {
+	"hash": "Kjh+eldJH9ILyXTq/UJL1XD0R8U",
+	"spine": "3.7-from-3.8.75",
+	"x": -96.04,
+	"y": -96.04,
+	"width": 192.08,
+	"height": 192.08,
+	"images": "C:/Users/usuario/Desktop/pvz2 deluxe texturas y anims/pvz2-deluxe-texturas-y-animaciones/extras/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "brillo", "parent": "root", "scaleX": 0.9, "scaleY": 0.9 },
+	{ "name": "cuerpo", "parent": "root" }
+],
+"slots": [
+	{ "name": "soles/sol brillo amarillo", "bone": "brillo", "attachment": "soles/sol brillo amarillo" },
+	{ "name": "soles/sol brillo blanco", "bone": "brillo", "attachment": "sol brillo blanco" },
+	{ "name": "soles/sol cuerpo amarillo", "bone": "cuerpo", "attachment": "soles/sol cuerpo amarillo" }
+],
+"animations": {
+	"tranquilo": {
+		"bones": {
+			"cuerpo": {
+				"scale": [
+					{
+						"curve": [ 0.3779999911785126, 0.05999999865889549, 0.5950000286102295, 0.9200000166893005 ],
+						"time": 0.0,
+						"x": 1.0,
+						"y": 1.0
+					},
+					{
+						"time": 0.6667,
+						"x": 0.95,
+						"y": 0.95,
+						"curve": [ 0.3330000042915344, 0.07000000029802322, 0.5410000085830688, 0.9200000166893005 ]
+					},
+					{ "time": 1.3333, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"brillo": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.6667, "angle": 90 },
+					{ "time": 1.3333, "angle": 180 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.5740000009536743, 0.03999999910593033, 0.4350000023841858, 0.949999988079071 ],
+						"time": 0.0,
+						"x": 1.0,
+						"y": 1.0
+					},
+					{
+						"time": 0.6667,
+						"x": 1.111,
+						"y": 1.111,
+						"curve": [ 0.5740000009536743, 0.03999999910593033, 0.4350000023841858, 0.949999988079071 ]
+					},
+					{ "time": 1.3333, "x": 1.0, "y": 1.0 }
+				]
+			}
+		}
+	}
+},
+"skins": {
+	"amarillo": {
+		"soles/sol brillo amarillo": {
+			"soles/sol brillo amarillo": { "rotation": -0.11, "width": 213, "height": 213 }
+		},
+		"soles/sol cuerpo amarillo": {
+			"soles/sol cuerpo amarillo": { "scaleX": 1.1, "scaleY": 1.1, "width": 100, "height": 100 }
+		}
+	},
+	"rojo": {
+		"soles/sol brillo amarillo": {
+			"soles/sol brillo amarillo": { "path": "soles/sol brillo rojo", "scaleX": 0.76, "scaleY": 0.76, "rotation": -0.11, "width": 260, "height": 260 }
+		},
+		"soles/sol cuerpo amarillo": {
+			"soles/sol cuerpo amarillo": { "path": "soles/sol cuerpo rojo", "x": 0.61, "scaleX": 0.68, "scaleY": 0.68, "width": 141, "height": 141 }
+		},
+		"soles/sol brillo blanco": {
+			"sol brillo blanco": { "name": "soles/sol brillo blanco", "color": "ffffffa5", "scaleX": 0.6, "scaleY": 0.6, "width": 260, "height": 260 }
+		}
+	}
+}
+}

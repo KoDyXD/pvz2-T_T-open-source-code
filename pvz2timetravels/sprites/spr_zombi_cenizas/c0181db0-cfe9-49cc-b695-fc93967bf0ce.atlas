@@ -1,0 +1,153 @@
+
+skeleton.png
+size: 1248,380
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+basico/ceniza 1
+  rotate: true
+  xy: 1136, 180
+  size: 101, 110
+  orig: 106, 114
+  offset: 2, 2
+  index: -1
+basico/ceniza 2
+  rotate: false
+  xy: 853, 128
+  size: 113, 250
+  orig: 143, 258
+  offset: 28, 0
+  index: -1
+basico/ceniza efc 1
+  rotate: false
+  xy: 2, 8
+  size: 5, 5
+  orig: 9, 9
+  offset: 2, 2
+  index: -1
+basico/ceniza efc 2
+  rotate: true
+  xy: 601, 15
+  size: 15, 29
+  orig: 19, 34
+  offset: 2, 3
+  index: -1
+basico/ceniza efc 3
+  rotate: true
+  xy: 632, 11
+  size: 19, 14
+  orig: 23, 18
+  offset: 2, 2
+  index: -1
+basico/ojo der
+  rotate: false
+  xy: 787, 4
+  size: 30, 30
+  orig: 34, 34
+  offset: 2, 2
+  index: -1
+basico/ojo izq
+  rotate: false
+  xy: 576, 7
+  size: 23, 23
+  orig: 28, 28
+  offset: 2, 3
+  index: -1
+basico/restos
+  rotate: false
+  xy: 1006, 42
+  size: 128, 141
+  orig: 139, 145
+  offset: 6, 2
+  index: -1
+basico/restos base
+  rotate: true
+  xy: 847, 31
+  size: 64, 38
+  orig: 68, 42
+  offset: 2, 2
+  index: -1
+basico/restos caer
+  rotate: true
+  xy: 968, 136
+  size: 47, 35
+  orig: 51, 39
+  offset: 2, 2
+  index: -1
+basico/restos recibir
+  rotate: false
+  xy: 500, 11
+  size: 44, 19
+  orig: 48, 23
+  offset: 2, 2
+  index: -1
+gaviotero/ceniza 1
+  rotate: false
+  xy: 500, 32
+  size: 160, 346
+  orig: 166, 366
+  offset: 2, 18
+  index: -1
+zombidito/ceniza 1
+  rotate: true
+  xy: 1136, 80
+  size: 98, 101
+  orig: 103, 105
+  offset: 2, 2
+  index: -1
+zombidito/ceniza 2
+  rotate: true
+  xy: 1098, 283
+  size: 95, 125
+  orig: 100, 130
+  offset: 2, 3
+  index: -1
+zombidito/restos
+  rotate: true
+  xy: 887, 3
+  size: 123, 117
+  orig: 135, 125
+  offset: 8, 4
+  index: -1
+zombidito/restos2
+  rotate: false
+  xy: 662, 8
+  size: 123, 87
+  orig: 135, 96
+  offset: 8, 4
+  index: -1
+zombistein/ceniza 1
+  rotate: false
+  xy: 968, 185
+  size: 128, 193
+  orig: 132, 197
+  offset: 2, 2
+  index: -1
+zombistein/ceniza 2
+  rotate: true
+  xy: 2, 15
+  size: 363, 496
+  orig: 371, 499
+  offset: 7, 2
+  index: -1
+zombistein/ojo der
+  rotate: true
+  xy: 787, 36
+  size: 59, 58
+  orig: 63, 62
+  offset: 2, 2
+  index: -1
+zombistein/ojo izq
+  rotate: false
+  xy: 546, 2
+  size: 28, 28
+  orig: 32, 32
+  offset: 2, 2
+  index: -1
+zombistein/restos
+  rotate: true
+  xy: 662, 97
+  size: 281, 189
+  orig: 293, 194
+  offset: 5, 2
+  index: -1

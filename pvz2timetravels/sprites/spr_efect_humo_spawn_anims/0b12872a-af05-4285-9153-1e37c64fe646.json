@@ -1,0 +1,181 @@
+{
+"skeleton": {
+	"hash": "fPqaKhApMFYdTGLlslixL4ZtVOY",
+	"spine": "3.7-from-3.8.75",
+	"x": -1410.42,
+	"y": -580.06,
+	"width": 4048,
+	"height": 1750,
+	"images": "C:/Users/Arnold/Desktop/pvz2 T_T/texturas/extras/spawn humo/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "efect 1", "parent": "root", "scaleX": 0.4 },
+	{ "name": "efect 2", "parent": "root", "scaleX": 0.4, "scaleY": 0.6 },
+	{ "name": "humo principal 1", "parent": "root", "y": 22.17, "scaleX": 1.555, "scaleY": 2 },
+	{ "name": "humo principal 2", "parent": "root", "y": 75.22, "scaleX": 2.5, "scaleY": 2.5 }
+],
+"slots": [
+	{ "name": "9ac3824f-efdb-46df-950d-1e753c527ed8", "bone": "root" },
+	{ "name": "efect 1", "bone": "efect 1", "attachment": "efect 1" },
+	{ "name": "efect 2", "bone": "efect 2" },
+	{ "name": "humo 1", "bone": "humo principal 1", "color": "ffffff00" },
+	{ "name": "humo 2", "bone": "humo principal 2", "color": "ffffff00" }
+],
+"animations": {
+	"aparecer": {
+		"slots": {
+			"humo 2": {
+				"color": [
+					{ "time": 0.3, "color": "ffffff00" },
+					{ "time": 0.4333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.3, "name": "humo 1" }
+				]
+			},
+			"humo 1": {
+				"color": [
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.3, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4667, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1333, "name": "humo 1" }
+				]
+			},
+			"efect 1": {
+				"attachment": [
+					{ "time": 0.1333, "name": null }
+				]
+			},
+			"efect 2": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{ "time": 0.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "efect 2" }
+				]
+			}
+		},
+		"bones": {
+			"efect 1": {
+				"scale": [
+					{
+						"curve": [ 0.0, 0.0, 0.38999998569488525, 1.0 ],
+						"time": 0.0,
+						"x": 1.0,
+						"y": 1.0
+					},
+					{ "time": 0.1667, "x": 2.5, "y": 1.0 }
+				]
+			},
+			"efect 2": {
+				"translate": [
+					{ "time": 0.1 },
+					{ "time": 0.3667, "y": 6.94 }
+				],
+				"scale": [
+					{
+						"time": 0.1,
+						"curve": [ 0.210999995470047, 0.05000000074505806, 0.7400000095367432, 1.0 ],
+						"x": 1.0,
+						"y": 1.0
+					},
+					{ "time": 0.2, "x": 1.81, "y": 1.333 }
+				]
+			},
+			"humo principal 1": {
+				"translate": [
+					{
+						"time": 0.1,
+						"curve": [ 0.0, 0.0, 0.3959999978542328, 0.550000011920929 ]
+					},
+					{
+						"time": 0.4667,
+						"y": 35.54,
+						"curve": [ 0.2800000011920929, 0.5400000214576721, 0.6269999742507935, 1.0 ]
+					},
+					{ "time": 0.7, "y": 41.69 }
+				],
+				"scale": [
+					{
+						"time": 0.1,
+						"curve": [ 0.0, 0.0, 0.3880000114440918, 0.5 ],
+						"x": 1.0,
+						"y": 1.0
+					},
+					{
+						"time": 0.2333,
+						"x": 0.581,
+						"y": 1.275,
+						"curve": [ 0.28700000047683716, 0.36000001430511475, 0.6269999742507935, 0.7300000190734863 ]
+					},
+					{
+						"time": 0.4667,
+						"x": 1.171,
+						"y": 1.069,
+						"curve": [ 0.3109999895095825, 0.6000000238418579, 0.6499999761581421, 1.0 ]
+					},
+					{ "time": 0.7, "x": 1.375, "y": 1.375 }
+				]
+			},
+			"humo principal 2": {
+				"translate": [
+					{
+						"time": 0.2667,
+						"curve": [ 0.0, 0.0, 0.3610000014305115, 0.4099999964237213 ]
+					},
+					{
+						"time": 0.4667,
+						"y": 36.93,
+						"curve": [ 0.5, 0.25999999046325684, 0.5170000195503235, 0.9700000286102295 ]
+					},
+					{ "time": 1, "y": 58.8 }
+				],
+				"scale": [
+					{
+						"time": 0.2667,
+						"x": 0.506,
+						"curve": [ 0.0, 0.0, 0.3880000114440918, 0.5 ],
+						"y": 1.0
+					},
+					{
+						"time": 0.4,
+						"x": 0.809,
+						"y": 1.275,
+						"curve": [ 0.2619999945163727, 0.5, 0.6179999709129333, 1.0 ]
+					},
+					{ "time": 1, "x": 1.689, "y": 1.529 }
+				]
+			}
+		}
+	}
+},
+"skins": {
+	"default": {
+		"humo 1": {
+			"humo 1": { "width": 83, "height": 64 }
+		},
+		"humo 2": {
+			"humo 1": { "width": 83, "height": 64 }
+		},
+		"efect 1": {
+			"efect 1": { "y": 51.6, "width": 78, "height": 172 }
+		},
+		"efect 2": {
+			"efect 2": { "y": 53.41, "width": 375, "height": 337 }
+		}
+	}
+}
+}

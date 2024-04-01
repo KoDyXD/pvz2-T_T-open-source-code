@@ -1,0 +1,34 @@
+/// @description comprobaciones
+#region//comprobar si ya se planto una planta
+if comenzar = true and instance_number(oPlantaGeneral) >= 3
+{
+	alarm_set(0,1200);
+	comenzar = false;
+}
+#endregion
+#region//crear recompensa
+if recompensa = true and not instance_exists(zombi_tipo_general)
+{
+	global.nivel_cual = nivel_tutorial_1_3;	//siguiente nivel
+	if global.nivel_tutorial[2] = false	//si es la primera vez que se completa el nivel
+	{
+		//guardar el progreso del nivel
+		global.cuentaniveles += 1;
+		global.nivel_tutorial[2] = true;
+		ini_open(global.nombre);
+		ini_write_real("Nivel","completados",global.cuentaniveles);
+		ini_write_real("Nivel","tut_1_2", global.nivel_tutorial[2]);
+		ini_close();
+		instance_create_layer(global.xz, global.yz, "hud", recom_pala);
+	}
+	else	//si el nivel ya habia sido completado
+	{
+		instance_create_layer(global.xz, global.yz, "hud", recom_monedas);
+	}
+	if instance_exists(semillero_debug) {semillero_debug.disp_especial = false;}	//desactivar la recarga de las semillas
+	instance_destroy(menu_boton_pausar);	//destruir el boton de pausa
+	recompensa = false;
+}
+#endregion
+
+scr_nivel_esqueleto();	//cosas que son iguales en casi todos los niveles

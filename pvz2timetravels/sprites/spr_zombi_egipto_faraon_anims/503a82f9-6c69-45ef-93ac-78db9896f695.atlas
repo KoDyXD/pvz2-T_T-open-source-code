@@ -1,0 +1,286 @@
+
+skeleton.png
+size: 1143,396
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+faraon/PUM
+  rotate: false
+  xy: 2, 12
+  size: 382, 382
+  orig: 434, 434
+  offset: 24, 28
+  index: -1
+faraon/brazo del 1
+  rotate: false
+  xy: 849, 3
+  size: 23, 59
+  orig: 28, 63
+  offset: 2, 2
+  index: -1
+faraon/brazo del 1 roto
+  rotate: false
+  xy: 966, 100
+  size: 24, 68
+  orig: 28, 72
+  offset: 2, 2
+  index: -1
+faraon/brazo del 2
+  rotate: false
+  xy: 971, 54
+  size: 19, 44
+  orig: 23, 48
+  offset: 2, 2
+  index: -1
+faraon/brazo del 3
+  rotate: true
+  xy: 591, 150
+  size: 41, 46
+  orig: 46, 50
+  offset: 2, 2
+  index: -1
+faraon/brazo del 4
+  rotate: false
+  xy: 643, 93
+  size: 44, 54
+  orig: 48, 59
+  offset: 2, 3
+  index: -1
+faraon/brazo del 5
+  rotate: true
+  xy: 535, 149
+  size: 42, 54
+  orig: 46, 58
+  offset: 2, 2
+  index: -1
+faraon/brazo tras 1
+  rotate: false
+  xy: 1079, 32
+  size: 23, 59
+  orig: 27, 63
+  offset: 2, 2
+  index: -1
+faraon/brazo tras 2
+  rotate: true
+  xy: 902, 20
+  size: 21, 44
+  orig: 25, 48
+  offset: 2, 2
+  index: -1
+faraon/brazo tras 3
+  rotate: false
+  xy: 655, 198
+  size: 32, 38
+  orig: 36, 42
+  offset: 2, 2
+  index: -1
+faraon/cabeza 1
+  rotate: false
+  xy: 774, 64
+  size: 99, 74
+  orig: 104, 78
+  offset: 2, 2
+  index: -1
+faraon/cabeza 2
+  rotate: false
+  xy: 685, 9
+  size: 62, 50
+  orig: 67, 54
+  offset: 2, 2
+  index: -1
+faraon/cabeza detalle 1
+  rotate: true
+  xy: 386, 74
+  size: 117, 147
+  orig: 122, 151
+  offset: 2, 2
+  index: -1
+faraon/caja 1
+  rotate: true
+  xy: 386, 238
+  size: 156, 301
+  orig: 160, 305
+  offset: 2, 2
+  index: -1
+faraon/caja 2
+  rotate: true
+  xy: 689, 245
+  size: 149, 301
+  orig: 153, 305
+  offset: 2, 2
+  index: -1
+faraon/caja 3
+  rotate: false
+  xy: 992, 93
+  size: 149, 301
+  orig: 153, 305
+  offset: 2, 2
+  index: -1
+faraon/caja hueco
+  rotate: false
+  xy: 655, 149
+  size: 31, 47
+  orig: 35, 51
+  offset: 2, 2
+  index: -1
+faraon/cuerpo 1
+  rotate: true
+  xy: 875, 43
+  size: 55, 94
+  orig: 59, 98
+  offset: 2, 2
+  index: -1
+faraon/cuerpo 2
+  rotate: false
+  xy: 1079, 2
+  size: 51, 28
+  orig: 55, 32
+  offset: 2, 2
+  index: -1
+faraon/nada
+  rotate: false
+  xy: 518, 55
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+faraon/pierna del 1
+  rotate: true
+  xy: 626, 5
+  size: 29, 55
+  orig: 34, 59
+  offset: 2, 2
+  index: -1
+faraon/pierna del 2
+  rotate: false
+  xy: 639, 150
+  size: 14, 41
+  orig: 18, 45
+  offset: 2, 2
+  index: -1
+faraon/pierna del 3
+  rotate: false
+  xy: 875, 103
+  size: 40, 35
+  orig: 45, 40
+  offset: 2, 3
+  index: -1
+faraon/pierna del 4
+  rotate: true
+  xy: 1104, 40
+  size: 51, 28
+  orig: 55, 32
+  offset: 2, 2
+  index: -1
+faraon/pierna tras 1
+  rotate: false
+  xy: 602, 2
+  size: 22, 46
+  orig: 26, 51
+  offset: 2, 3
+  index: -1
+faraon/pierna tras 2
+  rotate: false
+  xy: 643, 36
+  size: 40, 55
+  orig: 44, 60
+  offset: 2, 3
+  index: -1
+faraon/pierna tras 3
+  rotate: true
+  xy: 749, 22
+  size: 37, 23
+  orig: 41, 27
+  offset: 2, 2
+  index: -1
+faraon/pierna tras 4
+  rotate: false
+  xy: 917, 111
+  size: 47, 27
+  orig: 51, 31
+  offset: 2, 2
+  index: -1
+faraon/polvo 1
+  rotate: false
+  xy: 689, 140
+  size: 275, 103
+  orig: 295, 122
+  offset: 9, 10
+  index: -1
+faraon/polvo 2
+  rotate: true
+  xy: 992, 24
+  size: 67, 85
+  orig: 81, 99
+  offset: 7, 7
+  index: -1
+faraon/resto 1
+  rotate: false
+  xy: 518, 58
+  size: 13, 14
+  orig: 17, 18
+  offset: 2, 2
+  index: -1
+faraon/resto 10
+  rotate: false
+  xy: 386, 5
+  size: 91, 67
+  orig: 95, 71
+  offset: 2, 2
+  index: -1
+faraon/resto 2
+  rotate: false
+  xy: 874, 18
+  size: 26, 23
+  orig: 30, 27
+  offset: 2, 2
+  index: -1
+faraon/resto 3
+  rotate: true
+  xy: 774, 7
+  size: 55, 73
+  orig: 59, 77
+  offset: 2, 2
+  index: -1
+faraon/resto 4
+  rotate: true
+  xy: 386, 193
+  size: 43, 267
+  orig: 63, 292
+  offset: 10, 12
+  index: -1
+faraon/resto 5
+  rotate: true
+  xy: 479, 2
+  size: 70, 37
+  orig: 74, 41
+  offset: 2, 2
+  index: -1
+faraon/resto 6
+  rotate: true
+  xy: 966, 170
+  size: 73, 24
+  orig: 78, 28
+  offset: 2, 2
+  index: -1
+faraon/resto 7
+  rotate: true
+  xy: 689, 61
+  size: 77, 83
+  orig: 81, 87
+  offset: 2, 2
+  index: -1
+faraon/resto 8
+  rotate: false
+  xy: 518, 2
+  size: 82, 46
+  orig: 86, 50
+  offset: 2, 2
+  index: -1
+faraon/resto 9
+  rotate: true
+  xy: 535, 50
+  size: 97, 106
+  orig: 101, 110
+  offset: 2, 2
+  index: -1

@@ -1,0 +1,495 @@
+{
+"skeleton": {
+	"hash": "CQdvQw93mfxgyb7dVltewSFsXow",
+	"spine": "3.7-from-3.8.75",
+	"x": -114.82,
+	"y": -30.86,
+	"width": 197.1,
+	"height": 168.71,
+	"images": "C:/Users/usuario/Desktop/pvz2 deluxe texturas y anims/pvz2-deluxe-texturas-y-animaciones/extras/podadoras/tutorial/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "cuerpo", "parent": "root", "x": -42.67, "y": 35.59 },
+	{ "name": "rueda 1", "parent": "cuerpo", "x": -0.38, "y": -32.19 },
+	{ "name": "rueda 2", "parent": "cuerpo", "x": 91.5, "y": -32.35 },
+	{ "name": "rueda 3", "parent": "cuerpo", "x": 97.77, "y": 27.91, "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "rueda 4", "parent": "cuerpo", "x": 10.7, "y": 24.67, "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "sujetar", "parent": "cuerpo" },
+	{ "name": "base", "parent": "cuerpo", "x": 51.98, "y": -11.8 },
+	{ "name": "motor", "parent": "base", "x": -4.21, "y": 26.69 },
+	{ "name": "tapa", "parent": "motor", "x": 3.09, "y": 32.6 },
+	{ "name": "wea", "parent": "sujetar", "x": -40.7, "y": 10.36 },
+	{ "name": "detalle 1", "parent": "rueda 1" },
+	{ "name": "rueda 5", "parent": "rueda 2" },
+	{ "name": "rueda 6", "parent": "rueda 3", "scaleX": 0.8, "scaleY": 0.8, "transform": "noScale" },
+	{ "name": "rueda 7", "parent": "rueda 4", "scaleX": 0.8, "scaleY": 0.8, "transform": "noScale" }
+],
+"slots": [
+	{ "name": "rueda 3", "bone": "rueda 3", "attachment": "rueda 1" },
+	{ "name": "rueda 7", "bone": "rueda 4", "attachment": "rueda 1" },
+	{ "name": "rueda 11", "bone": "rueda 6", "attachment": "rueda 2" },
+	{ "name": "rueda 13", "bone": "rueda 7", "attachment": "rueda 2" },
+	{ "name": "sujetar wea", "bone": "wea", "attachment": "sujetar wea" },
+	{ "name": "sujetar base", "bone": "sujetar", "attachment": "sujetar base" },
+	{ "name": "cuerpo 1_1", "bone": "base", "attachment": "cuerpo 1_1" },
+	{ "name": "cuerpo 0_1", "bone": "base", "attachment": "cuerpo 0_1" },
+	{ "name": "sujetar cuerda", "bone": "sujetar", "attachment": "sujetar cuerda" },
+	{ "name": "cuerpo 2_1", "bone": "motor", "attachment": "cuerpo 2_1" },
+	{ "name": "cuerpo 3", "bone": "tapa", "attachment": "cuerpo 3" },
+	{ "name": "rueda 1", "bone": "rueda 1", "attachment": "rueda 1" },
+	{ "name": "rueda 2", "bone": "rueda 2", "attachment": "rueda 1" },
+	{ "name": "rueda 10", "bone": "detalle 1", "attachment": "rueda 2" },
+	{ "name": "rueda 9", "bone": "rueda 5", "attachment": "rueda 2" },
+	{ "name": "tubo", "bone": "motor", "attachment": "tubo" }
+],
+"animations": {
+	"podar1": {
+		"bones": {
+			"sujetar": {
+				"rotate": [
+					{
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0,
+						"angle": 0.0
+					},
+					{ "time": 0.1667, "angle": 2.46, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 2.46 }
+				]
+			},
+			"wea": {
+				"rotate": [
+					{
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0,
+						"angle": 0.0
+					},
+					{ "time": 0.2667, "angle": 10.16, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 10.16 }
+				]
+			},
+			"cuerpo": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.3333, "angle": 1.86 }
+				]
+			},
+			"rueda 1": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.3333, "angle": 180 }
+				]
+			},
+			"detalle 1": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1667, "x": 3.61, "y": 4.69 },
+					{ "time": 0.3333, "y": 9.38 }
+				]
+			},
+			"motor": {
+				"translate": [
+					{
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0
+					},
+					{ "time": 0.3333, "y": 0.7 }
+				]
+			},
+			"tapa": {
+				"translate": [
+					{
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0
+					},
+					{ "time": 0.3333, "y": -0.61 }
+				]
+			},
+			"rueda 5": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1667, "x": 3.61, "y": 4.69 },
+					{ "time": 0.3333, "y": 9.38 }
+				]
+			},
+			"rueda 6": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1667, "x": 3.61, "y": 4.69 },
+					{ "time": 0.3333, "y": 9.38 }
+				]
+			},
+			"rueda 7": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1667, "x": 3.61, "y": 4.69 },
+					{ "time": 0.3333, "y": 9.38 }
+				]
+			},
+			"rueda 2": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.3333, "angle": 180 }
+				]
+			},
+			"rueda 3": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.3333, "angle": 180 }
+				]
+			},
+			"rueda 4": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.3333, "angle": 180 }
+				]
+			}
+		}
+	},
+	"podar2": {
+		"bones": {
+			"sujetar": {
+				"rotate": [
+					{
+						"angle": 2.46,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0
+					},
+					{
+						"time": 0.3333,
+						"angle": 0.82,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{ "time": 0.6667, "angle": 2.46 }
+				]
+			},
+			"wea": {
+				"rotate": [
+					{
+						"angle": 10.16,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0
+					},
+					{
+						"time": 0.1667,
+						"angle": 14.57,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{
+						"time": 0.3333,
+						"angle": 10.16,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{
+						"time": 0.5,
+						"angle": 14.57,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{ "time": 0.6667, "angle": 10.16 }
+				]
+			},
+			"cuerpo": {
+				"rotate": [
+					{
+						"angle": 1.86,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0
+					},
+					{
+						"time": 0.1667,
+						"angle": 0.91,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{
+						"time": 0.3333,
+						"angle": 1.86,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{
+						"time": 0.5,
+						"angle": 0.91,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{ "time": 0.6667, "angle": 1.86 }
+				]
+			},
+			"rueda 1": {
+				"rotate": [
+					{ "angle": 180, "time": 0.0 },
+					{ "time": 0.3333, "angle": 0.0 },
+					{ "time": 0.6667, "angle": 180 }
+				]
+			},
+			"detalle 1": {
+				"translate": [
+					{ "y": 9.38, "time": 0.0 },
+					{ "time": 0.1667, "x": -2.9, "y": 4.49 },
+					{ "time": 0.3333, "y": -0.35 },
+					{ "time": 0.5, "x": 3.59, "y": 4.55 },
+					{ "time": 0.6667, "y": 9.38 }
+				]
+			},
+			"motor": {
+				"translate": [
+					{
+						"y": 0.7,
+						"curve": [ 0.25, 0.0, 0.625, 0.5 ],
+						"time": 0.0
+					},
+					{
+						"time": 0.1667,
+						"y": 0.01,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{
+						"time": 0.3333,
+						"y": 0.7,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{
+						"time": 0.5,
+						"y": 0.01,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{ "time": 0.6667, "y": 0.7 }
+				]
+			},
+			"tapa": {
+				"translate": [
+					{
+						"y": -0.61,
+						"curve": [ 0.25, 0.0, 0.625, 0.5 ],
+						"time": 0.0
+					},
+					{
+						"time": 0.1667,
+						"y": 0.53,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{
+						"time": 0.3333,
+						"y": -0.61,
+						"curve": [ 0.25, 0.0, 0.625, 0.5 ]
+					},
+					{
+						"time": 0.5,
+						"y": 0.53,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{ "time": 0.6667, "y": -0.61 }
+				]
+			},
+			"rueda 5": {
+				"translate": [
+					{ "y": 9.38, "time": 0.0 },
+					{ "time": 0.1667, "x": -2.9, "y": 4.49 },
+					{ "time": 0.3333, "y": -0.35 },
+					{ "time": 0.5, "x": 3.59, "y": 4.55 },
+					{ "time": 0.6667, "y": 9.38 }
+				]
+			},
+			"rueda 6": {
+				"translate": [
+					{ "y": 9.38, "time": 0.0 },
+					{ "time": 0.1667, "x": -2.9, "y": 4.49 },
+					{ "time": 0.3333, "y": -0.35 },
+					{ "time": 0.5, "x": 3.59, "y": 4.55 },
+					{ "time": 0.6667, "y": 9.38 }
+				]
+			},
+			"rueda 7": {
+				"translate": [
+					{ "y": 9.38, "time": 0.0 },
+					{ "time": 0.1667, "x": -2.9, "y": 4.49 },
+					{ "time": 0.3333, "y": -0.35 },
+					{ "time": 0.5, "x": 3.59, "y": 4.55 },
+					{ "time": 0.6667, "y": 9.38 }
+				]
+			},
+			"rueda 2": {
+				"rotate": [
+					{ "angle": 180, "time": 0.0 },
+					{ "time": 0.3333, "angle": 0.0 },
+					{ "time": 0.6667, "angle": 180 }
+				]
+			},
+			"rueda 3": {
+				"rotate": [
+					{ "angle": 180, "time": 0.0 },
+					{ "time": 0.3333, "angle": 0.0 },
+					{ "time": 0.6667, "angle": 180 }
+				]
+			},
+			"rueda 4": {
+				"rotate": [
+					{ "angle": 180, "time": 0.0 },
+					{ "time": 0.3333, "angle": 0.0 },
+					{ "time": 0.6667, "angle": 180 }
+				]
+			}
+		}
+	},
+	"tranquilo": {
+		"bones": {
+			"motor": {
+				"translate": [
+					{
+						"y": 0.7,
+						"curve": [ 0.25, 0.0, 0.625, 0.5 ],
+						"time": 0.0
+					},
+					{
+						"time": 0.1667,
+						"y": 0.01,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{
+						"time": 0.3333,
+						"y": 0.7,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{
+						"time": 0.5,
+						"y": 0.01,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{ "time": 0.6667, "y": 0.7 }
+				]
+			},
+			"tapa": {
+				"translate": [
+					{
+						"y": -0.61,
+						"curve": [ 0.25, 0.0, 0.625, 0.5 ],
+						"time": 0.0
+					},
+					{
+						"time": 0.1667,
+						"y": 0.53,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{
+						"time": 0.3333,
+						"y": -0.61,
+						"curve": [ 0.25, 0.0, 0.625, 0.5 ]
+					},
+					{
+						"time": 0.5,
+						"y": 0.53,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{ "time": 0.6667, "y": -0.61 }
+				]
+			},
+			"base": {
+				"translate": [
+					{
+						"y": 0.7,
+						"curve": [ 0.25, 0.0, 0.625, 0.5 ],
+						"time": 0.0
+					},
+					{
+						"time": 0.1667,
+						"y": 1.17,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{
+						"time": 0.3333,
+						"y": 0.7,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{
+						"time": 0.5,
+						"y": 1.17,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{ "time": 0.6667, "y": 0.7 }
+				]
+			},
+			"sujetar": {
+				"rotate": [
+					{
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0,
+						"angle": 0.0
+					},
+					{
+						"time": 0.3333,
+						"angle": -0.77,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{ "time": 0.6667, "angle": 0.0 }
+				]
+			},
+			"wea": {
+				"rotate": [
+					{
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0,
+						"angle": 0.0
+					},
+					{
+						"time": 0.3333,
+						"angle": 5.16,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{ "time": 0.6667, "angle": 0.0 }
+				]
+			}
+		}
+	}
+},
+"skins": {
+	"default": {
+		"rueda 10": {
+			"rueda 2": { "y": -5.1, "width": 59, "height": 58 }
+		},
+		"sujetar base": {
+			"sujetar base": { "x": -30.65, "y": 36.25, "width": 83, "height": 132 }
+		},
+		"tubo": {
+			"tubo": { "x": -21.22, "y": -30.65, "width": 21, "height": 30 }
+		},
+		"rueda 1": {
+			"rueda 1": { "width": 63, "height": 63 }
+		},
+		"rueda 2": {
+			"rueda 1": { "width": 63, "height": 63 }
+		},
+		"rueda 3": {
+			"rueda 1": { "width": 63, "height": 63 }
+		},
+		"sujetar cuerda": {
+			"sujetar cuerda": { "x": -3.96, "y": 17.56, "width": 64, "height": 22 }
+		},
+		"rueda 7": {
+			"rueda 1": { "width": 63, "height": 63 }
+		},
+		"rueda 9": {
+			"rueda 2": { "y": -5.1, "width": 59, "height": 58 }
+		},
+		"sujetar wea": {
+			"sujetar wea": { "x": -6.23, "y": -10.75, "rotation": -4.91, "width": 34, "height": 31 }
+		},
+		"cuerpo 0_1": {
+			"cuerpo 0_1": { "x": -6.99, "y": -28.99, "width": 37, "height": 28 }
+		},
+		"rueda 11": {
+			"rueda 2": { "y": -5.1, "width": 59, "height": 58 }
+		},
+		"cuerpo 2_1": {
+			"cuerpo 2_1": { "x": 3.44, "y": 3.3, "width": 82, "height": 64 }
+		},
+		"rueda 13": {
+			"rueda 2": { "y": -5.1, "width": 59, "height": 58 }
+		},
+		"cuerpo 3": {
+			"cuerpo 3": { "x": 0.6, "y": -1.97, "width": 58, "height": 35 }
+		},
+		"cuerpo 1_1": {
+			"cuerpo 1_1": { "x": 2.47, "y": 8.02, "width": 141, "height": 83 }
+		}
+	}
+}
+}

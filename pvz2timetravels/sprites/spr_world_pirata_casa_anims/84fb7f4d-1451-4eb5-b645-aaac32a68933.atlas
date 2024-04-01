@@ -1,0 +1,131 @@
+
+skeleton.png
+size: 1939,608
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+agua/cascada/cascada base 1
+  rotate: true
+  xy: 1485, 505
+  size: 101, 339
+  orig: 105, 398
+  offset: 2, 57
+  index: -1
+agua/cascada/cascada base 2
+  rotate: true
+  xy: 2, 475
+  size: 101, 339
+  orig: 105, 398
+  offset: 2, 57
+  index: -1
+agua/cascada/cascada efect 1
+  rotate: true
+  xy: 1101, 516
+  size: 90, 182
+  orig: 94, 226
+  offset: 2, 12
+  index: -1
+agua/cascada/cascada efect 2
+  rotate: true
+  xy: 1826, 504
+  size: 102, 111
+  orig: 106, 300
+  offset: 2, 187
+  index: -1
+agua/efectos/bordes/borde 1
+  rotate: false
+  xy: 347, 575
+  size: 73, 31
+  orig: 78, 35
+  offset: 2, 2
+  index: -1
+agua/efectos/bordes/borde 10
+  rotate: false
+  xy: 2, 588
+  size: 44, 18
+  orig: 50, 23
+  offset: 2, 3
+  index: -1
+agua/efectos/bordes/borde 11
+  rotate: false
+  xy: 48, 588
+  size: 60, 18
+  orig: 64, 22
+  offset: 2, 2
+  index: -1
+agua/efectos/bordes/borde 12
+  rotate: false
+  xy: 110, 582
+  size: 61, 24
+  orig: 66, 28
+  offset: 2, 2
+  index: -1
+agua/efectos/bordes/borde 2
+  rotate: false
+  xy: 422, 569
+  size: 73, 37
+  orig: 78, 41
+  offset: 2, 2
+  index: -1
+agua/efectos/bordes/borde 4
+  rotate: false
+  xy: 235, 578
+  size: 110, 28
+  orig: 114, 32
+  offset: 2, 2
+  index: -1
+agua/efectos/bordes/borde 6
+  rotate: false
+  xy: 497, 546
+  size: 169, 60
+  orig: 173, 64
+  offset: 2, 2
+  index: -1
+agua/efectos/bordes/borde 7
+  rotate: false
+  xy: 1285, 515
+  size: 198, 91
+  orig: 202, 95
+  offset: 2, 2
+  index: -1
+agua/efectos/bordes/borde 8
+  rotate: false
+  xy: 668, 544
+  size: 242, 62
+  orig: 246, 66
+  offset: 2, 2
+  index: -1
+agua/efectos/bordes/borde 9
+  rotate: false
+  xy: 173, 579
+  size: 60, 27
+  orig: 64, 31
+  offset: 2, 2
+  index: -1
+agua/efectos/olas/ola grande 4
+  rotate: false
+  xy: 912, 537
+  size: 187, 69
+  orig: 191, 73
+  offset: 2, 2
+  index: -1
+islas/islota casa 2
+  rotate: false
+  xy: 343, 2
+  size: 937, 512
+  orig: 941, 516
+  offset: 2, 2
+  index: -1
+
+skeleton2.png
+size: 1576,1947
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+islas/islota casa
+  rotate: false
+  xy: 2, 2
+  size: 1572, 1943
+  orig: 1577, 1948
+  offset: 2, 3
+  index: -1

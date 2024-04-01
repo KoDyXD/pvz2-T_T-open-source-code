@@ -1,0 +1,160 @@
+
+skeleton.png
+size: 126,805
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ala 1
+  rotate: true
+  xy: 2, 403
+  size: 51, 73
+  orig: 55, 77
+  offset: 2, 2
+  index: -1
+boca 1
+  rotate: false
+  xy: 2, 456
+  size: 80, 36
+  orig: 85, 46
+  offset: 2, 2
+  index: -1
+boca 2
+  rotate: false
+  xy: 2, 494
+  size: 86, 40
+  orig: 90, 44
+  offset: 2, 2
+  index: -1
+boca fuego
+  rotate: true
+  xy: 2, 606
+  size: 81, 87
+  orig: 99, 109
+  offset: 9, 13
+  index: -1
+cabeza 1
+  rotate: true
+  xy: 2, 689
+  size: 114, 119
+  orig: 118, 123
+  offset: 2, 2
+  index: -1
+frente
+  rotate: false
+  xy: 2, 95
+  size: 68, 30
+  orig: 72, 34
+  offset: 2, 2
+  index: -1
+fuego fondo 1
+  rotate: false
+  xy: 84, 420
+  size: 40, 62
+  orig: 44, 67
+  offset: 2, 3
+  index: -1
+fuego fondo 10
+  rotate: true
+  xy: 76, 87
+  size: 201, 44
+  orig: 205, 49
+  offset: 2, 3
+  index: -1
+fuego fondo 11
+  rotate: true
+  xy: 2, 155
+  size: 246, 72
+  orig: 260, 87
+  offset: 7, 6
+  index: -1
+fuego fondo 2
+  rotate: false
+  xy: 76, 290
+  size: 45, 67
+  orig: 49, 71
+  offset: 2, 2
+  index: -1
+fuego fondo 3
+  rotate: false
+  xy: 77, 359
+  size: 47, 59
+  orig: 51, 63
+  offset: 2, 2
+  index: -1
+hoja del der
+  rotate: true
+  xy: 91, 556
+  size: 65, 32
+  orig: 69, 36
+  offset: 2, 2
+  index: -1
+hoja del izq
+  rotate: true
+  xy: 91, 623
+  size: 64, 33
+  orig: 68, 37
+  offset: 2, 2
+  index: -1
+hoja tras centro
+  rotate: false
+  xy: 61, 2
+  size: 50, 28
+  orig: 54, 32
+  offset: 2, 2
+  index: -1
+nariz 1
+  rotate: false
+  xy: 68, 32
+  size: 54, 53
+  orig: 58, 57
+  offset: 2, 2
+  index: -1
+ojo 1
+  rotate: false
+  xy: 90, 484
+  size: 32, 32
+  orig: 36, 36
+  offset: 2, 2
+  index: -1
+ojo 2
+  rotate: true
+  xy: 90, 518
+  size: 36, 32
+  orig: 40, 36
+  offset: 2, 2
+  index: -1
+tallo 1
+  rotate: true
+  xy: 2, 9
+  size: 14, 23
+  orig: 18, 27
+  offset: 2, 2
+  index: -1
+tallo 2
+  rotate: true
+  xy: 2, 70
+  size: 23, 64
+  orig: 27, 68
+  offset: 2, 2
+  index: -1
+tallo 3
+  rotate: true
+  xy: 2, 127
+  size: 26, 69
+  orig: 30, 73
+  offset: 2, 2
+  index: -1
+vapor 1
+  rotate: false
+  xy: 2, 25
+  size: 57, 43
+  orig: 77, 57
+  offset: 12, 7
+  index: -1
+vapor 2
+  rotate: false
+  xy: 2, 536
+  size: 86, 68
+  orig: 115, 95
+  offset: 13, 17
+  index: -1

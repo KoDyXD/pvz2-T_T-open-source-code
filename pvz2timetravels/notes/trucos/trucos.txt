@@ -1,0 +1,13 @@
+para esta wea se activa el step del objeto obj_control_niveles_extras
+
+
+trucos:
+www = ganas automaticamente
+sss = da el maximo de soles
+rrr = quita la recarga de las semillas
+ggg = semillas gratis
+kkk = matar todos los zombis
+qqq = cerrar el juego
+ppp = perder la partida
+eee = quitar el escudo a los zombis
+ssm = dar soles aleatorios

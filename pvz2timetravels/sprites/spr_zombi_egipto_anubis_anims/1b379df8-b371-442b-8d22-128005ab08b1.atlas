@@ -1,0 +1,223 @@
+
+skeleton.png
+size: 1762,173
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anubis/brazo del 1
+  rotate: false
+  xy: 1738, 62
+  size: 22, 47
+  orig: 26, 51
+  offset: 2, 2
+  index: -1
+anubis/brazo del 1 roto
+  rotate: false
+  xy: 1383, 4
+  size: 22, 57
+  orig: 26, 62
+  offset: 2, 3
+  index: -1
+anubis/brazo del 2
+  rotate: false
+  xy: 1407, 5
+  size: 22, 56
+  orig: 26, 60
+  offset: 2, 2
+  index: -1
+anubis/brazo del 3
+  rotate: false
+  xy: 1636, 13
+  size: 41, 46
+  orig: 46, 50
+  offset: 2, 2
+  index: -1
+anubis/brazo del 4
+  rotate: false
+  xy: 1431, 7
+  size: 44, 54
+  orig: 48, 59
+  offset: 2, 3
+  index: -1
+anubis/brazo del 5
+  rotate: true
+  xy: 1284, 3
+  size: 42, 54
+  orig: 46, 58
+  offset: 2, 2
+  index: -1
+anubis/brazo tras 1
+  rotate: false
+  xy: 1738, 111
+  size: 22, 60
+  orig: 26, 64
+  offset: 2, 2
+  index: -1
+anubis/brazo tras 2
+  rotate: true
+  xy: 1486, 66
+  size: 17, 38
+  orig: 22, 42
+  offset: 2, 2
+  index: -1
+anubis/brazo tras 3
+  rotate: true
+  xy: 1560, 65
+  size: 32, 38
+  orig: 36, 42
+  offset: 2, 2
+  index: -1
+anubis/cabeza 1
+  rotate: true
+  xy: 1373, 63
+  size: 108, 86
+  orig: 112, 90
+  offset: 2, 2
+  index: -1
+anubis/cabeza 2
+  rotate: true
+  xy: 1505, 2
+  size: 62, 36
+  orig: 67, 40
+  offset: 2, 2
+  index: -1
+anubis/cabeza detalle 1
+  rotate: false
+  xy: 1248, 47
+  size: 123, 124
+  orig: 127, 128
+  offset: 2, 2
+  index: -1
+anubis/cabeza detalle 2
+  rotate: false
+  xy: 1340, 3
+  size: 41, 42
+  orig: 45, 46
+  offset: 2, 2
+  index: -1
+anubis/cuerpo 1
+  rotate: false
+  xy: 1461, 85
+  size: 68, 86
+  orig: 72, 90
+  offset: 2, 2
+  index: -1
+anubis/cuerpo 2
+  rotate: false
+  xy: 1600, 70
+  size: 49, 27
+  orig: 53, 31
+  offset: 2, 2
+  index: -1
+anubis/efect estrella 1
+  rotate: true
+  xy: 1679, 12
+  size: 23, 39
+  orig: 28, 44
+  offset: 2, 3
+  index: -1
+anubis/efect estrella 2
+  rotate: true
+  xy: 1461, 64
+  size: 19, 23
+  orig: 23, 28
+  offset: 2, 3
+  index: -1
+anubis/efect luz 3
+  rotate: true
+  xy: 1144, 33
+  size: 138, 102
+  orig: 146, 106
+  offset: 2, 2
+  index: -1
+anubis/efect niebla 1
+  rotate: false
+  xy: 2, 6
+  size: 1140, 165
+  orig: 1273, 213
+  offset: 31, 24
+  index: -1
+anubis/efect niebla 2
+  rotate: false
+  xy: 1543, 99
+  size: 193, 72
+  orig: 209, 83
+  offset: 7, 6
+  index: -1
+anubis/efect niebla 3
+  rotate: true
+  xy: 1543, 7
+  size: 53, 66
+  orig: 63, 76
+  offset: 5, 5
+  index: -1
+anubis/hueso
+  rotate: true
+  xy: 1651, 61
+  size: 36, 76
+  orig: 40, 80
+  offset: 2, 2
+  index: -1
+anubis/nada
+  rotate: false
+  xy: 2, 3
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+anubis/pierna del 1
+  rotate: true
+  xy: 1176, 4
+  size: 27, 54
+  orig: 31, 58
+  offset: 2, 2
+  index: -1
+anubis/pierna del 2
+  rotate: false
+  xy: 1611, 7
+  size: 23, 53
+  orig: 27, 57
+  offset: 2, 2
+  index: -1
+anubis/pierna del 3
+  rotate: true
+  xy: 1531, 66
+  size: 31, 27
+  orig: 35, 31
+  offset: 2, 2
+  index: -1
+anubis/pierna del 4
+  rotate: false
+  xy: 1232, 4
+  size: 50, 27
+  orig: 54, 31
+  offset: 2, 2
+  index: -1
+anubis/pierna tras 1
+  rotate: true
+  xy: 1679, 37
+  size: 22, 46
+  orig: 26, 50
+  offset: 2, 2
+  index: -1
+anubis/pierna tras 2
+  rotate: false
+  xy: 1477, 2
+  size: 26, 60
+  orig: 30, 64
+  offset: 2, 2
+  index: -1
+anubis/pierna tras 3
+  rotate: false
+  xy: 1144, 3
+  size: 30, 28
+  orig: 34, 32
+  offset: 2, 2
+  index: -1
+anubis/pierna tras 4
+  rotate: true
+  xy: 1729, 16
+  size: 44, 27
+  orig: 48, 31
+  offset: 2, 2
+  index: -1

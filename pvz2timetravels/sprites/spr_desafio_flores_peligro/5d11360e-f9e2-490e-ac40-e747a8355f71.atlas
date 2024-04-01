@@ -1,0 +1,90 @@
+
+skeleton.png
+size: 93,46
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+boca
+  rotate: true
+  xy: 66, 27
+  size: 17, 6
+  orig: 21, 10
+  offset: 2, 2
+  index: -1
+cabeza
+  rotate: true
+  xy: 14, 16
+  size: 28, 18
+  orig: 32, 22
+  offset: 2, 2
+  index: -1
+hoja
+  rotate: false
+  xy: 14, 2
+  size: 17, 12
+  orig: 22, 16
+  offset: 2, 2
+  index: -1
+ojo der
+  rotate: false
+  xy: 33, 3
+  size: 11, 11
+  orig: 14, 14
+  offset: 1, 2
+  index: -1
+ojo izq
+  rotate: false
+  xy: 78, 12
+  size: 13, 13
+  orig: 16, 16
+  offset: 1, 2
+  index: -1
+petalo 1
+  rotate: true
+  xy: 34, 23
+  size: 21, 14
+  orig: 25, 18
+  offset: 2, 2
+  index: -1
+petalo 2
+  rotate: true
+  xy: 46, 2
+  size: 19, 14
+  orig: 23, 18
+  offset: 2, 2
+  index: -1
+petalo 3
+  rotate: true
+  xy: 62, 5
+  size: 18, 14
+  orig: 22, 18
+  offset: 2, 2
+  index: -1
+petalo 4
+  rotate: true
+  xy: 50, 25
+  size: 19, 14
+  orig: 23, 18
+  offset: 2, 2
+  index: -1
+petalo 5
+  rotate: true
+  xy: 78, 27
+  size: 17, 13
+  orig: 21, 17
+  offset: 2, 2
+  index: -1
+pupila
+  rotate: false
+  xy: 34, 17
+  size: 4, 4
+  orig: 8, 8
+  offset: 2, 2
+  index: -1
+tallo
+  rotate: false
+  xy: 2, 4
+  size: 10, 40
+  orig: 14, 44
+  offset: 2, 2
+  index: -1

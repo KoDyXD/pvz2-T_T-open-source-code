@@ -1,0 +1,4674 @@
+{
+"skeleton": {
+	"hash": "4N2jotyCKTc3Cd2LoAjSn1d/+Ws",
+	"spine": "3.7-from-3.8.75",
+	"x": -224.66,
+	"y": -7.56,
+	"width": 345.17,
+	"height": 453.28,
+	"images": "C:/Users/usuario/Desktop/pvz2 Deluxe/texturas/texturas/extras/zombis/cenizas/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "CENIZAS", "parent": "root", "x": 2.8, "y": 7.19 },
+	{ "name": "ceniza suelo", "parent": "root", "x": 2.8, "y": 7.19, "scaleX": 0.7, "scaleY": 0.2 },
+	{ "name": "ceniza caer", "parent": "root", "x": 2.8, "y": -3.37 },
+	{ "name": "recibir", "parent": "ceniza suelo" },
+	{ "name": "cabeza general", "parent": "CENIZAS", "x": -41.01, "y": 192.08 },
+	{ "name": "cabeza", "parent": "cabeza general" },
+	{ "name": "polvo", "parent": "root", "x": 2, "y": 217.91 },
+	{ "name": "polvo2", "parent": "root", "x": 2, "y": 217.91 }
+],
+"slots": [
+	{ "name": "restos caer", "bone": "ceniza caer", "attachment": "restos caer" },
+	{ "name": "restos recibir", "bone": "recibir", "attachment": "restos recibir" },
+	{ "name": "restos base", "bone": "ceniza suelo", "attachment": "restos base" },
+	{ "name": "ceniza 1", "bone": "cabeza", "attachment": "ceniza 1" },
+	{ "name": "zombidito/ceniza 1", "bone": "cabeza", "attachment": "zombidito/ceniza 1" },
+	{ "name": "basico/ojo der", "bone": "cabeza", "attachment": "basico/ojo der" },
+	{ "name": "basico/ojo der2", "bone": "cabeza", "attachment": "basico/ojo der" },
+	{ "name": "basico/ceniza efc 1", "bone": "cabeza", "attachment": "basico/ceniza efc 1" },
+	{ "name": "basico/ceniza efc 2", "bone": "cabeza", "attachment": "basico/ceniza efc 1" },
+	{ "name": "zombistein/ceniza 1", "bone": "cabeza", "attachment": "zombistein/ceniza 1" },
+	{ "name": "zombistein/ojo der", "bone": "cabeza", "attachment": "zombistein/ojo der" },
+	{ "name": "zombistein/ojo izq", "bone": "cabeza", "attachment": "zombistein/ojo izq" },
+	{ "name": "zombidito/restos", "bone": "CENIZAS" },
+	{ "name": "basico/restos", "bone": "CENIZAS" },
+	{ "name": "zombidito/restos2", "bone": "root" },
+	{ "name": "zombistein/restos", "bone": "root" },
+	{ "name": "polvo", "bone": "root", "attachment": "polvo" },
+	{ "name": "ceniza efc 3", "bone": "polvo", "attachment": "ceniza efc 2" },
+	{ "name": "ceniza efc 17", "bone": "polvo2", "attachment": "ceniza efc 2" },
+	{ "name": "ceniza efc 10", "bone": "polvo", "attachment": "ceniza efc 2" },
+	{ "name": "ceniza efc 18", "bone": "polvo2", "attachment": "ceniza efc 2" },
+	{ "name": "ceniza efc 4", "bone": "polvo", "attachment": "ceniza efc 3" },
+	{ "name": "ceniza efc 19", "bone": "polvo2", "attachment": "ceniza efc 3" },
+	{ "name": "ceniza efc 11", "bone": "polvo", "attachment": "ceniza efc 3" },
+	{ "name": "ceniza efc 20", "bone": "polvo2", "attachment": "ceniza efc 3" },
+	{ "name": "ceniza efc 5", "bone": "polvo", "attachment": "ceniza efc 2" },
+	{ "name": "ceniza efc 21", "bone": "polvo2", "attachment": "ceniza efc 2" },
+	{ "name": "ceniza efc 12", "bone": "polvo", "attachment": "ceniza efc 2" },
+	{ "name": "ceniza efc 22", "bone": "polvo2", "attachment": "ceniza efc 2" },
+	{ "name": "ceniza efc 7", "bone": "polvo", "attachment": "ceniza efc 2" },
+	{ "name": "ceniza efc 23", "bone": "polvo2", "attachment": "ceniza efc 2" },
+	{ "name": "ceniza efc 14", "bone": "polvo", "attachment": "ceniza efc 2" },
+	{ "name": "ceniza efc 24", "bone": "polvo2", "attachment": "ceniza efc 2" },
+	{ "name": "ceniza efc 9", "bone": "polvo", "attachment": "ceniza efc 2" },
+	{ "name": "ceniza efc 25", "bone": "polvo2", "attachment": "ceniza efc 2" },
+	{ "name": "ceniza efc 16", "bone": "polvo", "attachment": "ceniza efc 2" },
+	{ "name": "ceniza efc 26", "bone": "polvo2", "attachment": "ceniza efc 2" },
+	{ "name": "ceniza efc 6", "bone": "polvo", "attachment": "ceniza efc 3" },
+	{ "name": "ceniza efc 27", "bone": "polvo2", "attachment": "ceniza efc 3" },
+	{ "name": "ceniza efc 13", "bone": "polvo", "attachment": "ceniza efc 3" },
+	{ "name": "ceniza efc 28", "bone": "polvo2", "attachment": "ceniza efc 3" },
+	{ "name": "ceniza efc 8", "bone": "polvo", "attachment": "ceniza efc 3" },
+	{ "name": "ceniza efc 29", "bone": "polvo2", "attachment": "ceniza efc 3" },
+	{ "name": "ceniza efc 30", "bone": "polvo2", "attachment": "ceniza efc 3" },
+	{ "name": "ceniza efc 15", "bone": "polvo", "attachment": "ceniza efc 3" },
+	{ "name": "cabeza", "bone": "root", "attachment": "cabeza" },
+	{ "name": "ojo izq", "bone": "cabeza", "attachment": "ojo izq" },
+	{ "name": "ojo der", "bone": "cabeza", "attachment": "ojo der" },
+	{ "name": "ceniza efc 1", "bone": "cabeza", "attachment": "ceniza efc 1" },
+	{ "name": "ceniza efc 2", "bone": "cabeza", "attachment": "ceniza efc 1" },
+	{ "name": "CENIZAS DIBUJAR", "bone": "root", "attachment": "CENIZAS DIBUJAR" },
+	{ "name": "zombistein/ceniza 2", "bone": "CENIZAS", "attachment": "zombistein/ceniza 2" },
+	{ "name": "zombidito/ceniza 2", "bone": "CENIZAS", "attachment": "zombidito/ceniza 2" },
+	{ "name": "zombidito/ceniza 3", "bone": "CENIZAS", "attachment": "zombidito/ceniza 3" },
+	{ "name": "zombidito/ceniza 4", "bone": "CENIZAS", "attachment": "zombidito/ceniza 4" },
+	{ "name": "zombidito/ceniza 5", "bone": "CENIZAS", "attachment": "zombidito/ceniza 5" },
+	{ "name": "zombidito/ceniza 6", "bone": "CENIZAS", "attachment": "zombidito/ceniza 6" },
+	{ "name": "zombidito/ceniza 7", "bone": "CENIZAS", "attachment": "zombidito/ceniza 7" },
+	{ "name": "ceniza 9", "bone": "CENIZAS", "attachment": "ceniza 9" },
+	{ "name": "ceniza 8", "bone": "CENIZAS", "attachment": "ceniza 8" },
+	{ "name": "ceniza 7", "bone": "CENIZAS", "attachment": "ceniza 7" },
+	{ "name": "ceniza 6", "bone": "CENIZAS", "attachment": "ceniza 6" },
+	{ "name": "ceniza 5", "bone": "CENIZAS", "attachment": "ceniza 5" },
+	{ "name": "ceniza 4", "bone": "CENIZAS", "attachment": "ceniza 4" },
+	{ "name": "ceniza 3", "bone": "CENIZAS", "attachment": "ceniza 3" },
+	{ "name": "ceniza 2", "bone": "CENIZAS", "attachment": "ceniza 2" }
+],
+"animations": {
+	"basico/1": {
+		"slots": {
+			"restos caer": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4667, "color": "ffffff00" },
+					{ "time": 0.5333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.3667, "color": "ffffffff" },
+					{ "time": 1.4333, "color": "ffffff00" }
+				]
+			},
+			"ceniza efc 9": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 18": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 14": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"basico/ojo der": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 12": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 10": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza 7": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"zombidito/ceniza 3": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 16": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 27": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 15": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"zombidito/ceniza 6": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 30": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"zombidito/ceniza 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 6": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 2": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 24": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 26": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza 8": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ojo der": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 22": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"basico/ceniza efc 2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 5": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 17": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"zombidito/ceniza 2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"basico/ojo der2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 13": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"zombidito/ceniza 5": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 21": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 11": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"cabeza": {
+				"attachment": [
+					{ "time": 1, "name": null }
+				]
+			},
+			"ceniza efc 7": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 28": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 20": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"basico/ceniza efc 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 23": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 3": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"zombidito/ceniza 7": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 1": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 25": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza 1": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 8": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"restos base": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4333, "color": "ffffff00" },
+					{ "time": 0.5, "color": "fffffffb" }
+				],
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ojo izq": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"basico/restos": {
+				"color": [
+					{ "time": 2.5, "color": "ffffffff" },
+					{ "time": 3, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.3333, "name": "restos" }
+				]
+			},
+			"ceniza efc 4": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"restos recibir": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.9667, "name": "restos recibir" },
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 29": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"zombidito/ceniza 4": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 19": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza 9": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ceniza caer": {
+				"translate": [
+					{ "time": 0.5, "y": 9.12 },
+					{ "time": 0.5333, "x": -0.03, "y": 9.26 },
+					{ "time": 0.6333, "x": -0.12, "y": 26.02 },
+					{ "time": 0.7333, "x": -0.22, "y": 47.29 },
+					{ "time": 0.8, "x": -20.01, "y": 60.8 },
+					{ "time": 0.8667, "x": -19, "y": 74.31 },
+					{ "time": 0.9667, "x": -9.54, "y": 94.57 },
+					{ "time": 1.0667, "x": -6.81, "y": 114.84 },
+					{ "time": 1.2333, "x": -13.62, "y": 147.2 },
+					{ "time": 1.4, "x": -19.77, "y": 179.56 }
+				],
+				"scale": [
+					{ "x": 0.2, "y": 0.2, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.5, "x": 0.2, "y": 0.2 },
+					{ "time": 0.5333, "x": 1.009, "y": 0.467 },
+					{ "time": 0.6, "x": 1.219, "y": 1.0 },
+					{ "time": 0.6333, "x": 1.189, "y": 1.0 },
+					{ "time": 0.7333, "x": 0.776, "y": 1.0 },
+					{ "time": 0.8, "x": 0.951, "y": 1.0 },
+					{ "time": 0.8667, "x": 1.028, "y": 1.0 },
+					{ "time": 0.9667, "x": 1.041, "y": 1.0 },
+					{ "time": 1.0667, "x": 0.935, "y": 1.0 },
+					{ "time": 1.2333, "x": 0.826, "y": 1.0 },
+					{ "time": 1.4, "x": 0.491, "y": 1.0 }
+				]
+			},
+			"ceniza suelo": {
+				"translate": [
+					{
+						"time": 0.5,
+						"curve": [ 0.25, 0.0, 0.6079999804496765, 1.0 ]
+					},
+					{ "time": 1, "y": 10.84 }
+				],
+				"scale": [
+					{
+						"time": 0.5,
+						"curve": [ 0.25, 0.0, 0.6079999804496765, 1.0 ],
+						"x": 1.0,
+						"y": 1.0
+					},
+					{ "time": 1, "x": 2.714, "y": 8.5 }
+				]
+			},
+			"recibir": {
+				"translate": [
+					{ "time": 0.9667, "y": -19.08 },
+					{ "time": 1.4667, "y": -42 }
+				],
+				"scale": [
+					{ "time": 0.9667, "x": 1.0, "y": 1.0 },
+					{ "time": 1.4667, "x": 1.5, "y": 2 }
+				]
+			},
+			"cabeza": {
+				"rotate": [
+					{
+						"time": 1.4667,
+						"curve": [ 0.5170000195503235, 0.10999999940395355, 0.5, 1.0 ],
+						"angle": 0.0
+					},
+					{
+						"time": 1.6667,
+						"angle": -5.81,
+						"curve": [ 0.5149999856948853, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.9333,
+						"angle": -23.08,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{
+						"time": 2.1333,
+						"angle": -28.56,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{ "time": 2.3333, "angle": -36.9 }
+				],
+				"translate": [
+					{
+						"time": 1.4667,
+						"curve": [ 0.5170000195503235, 0.10999999940395355, 0.5, 1.0 ]
+					},
+					{
+						"time": 1.6667,
+						"y": 26.18,
+						"curve": [ 0.5149999856948853, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.9333,
+						"y": -134.4,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{
+						"time": 2.0333,
+						"y": -119.22,
+						"curve": [ 0.5070000290870667, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 2.1333,
+						"y": -134.4,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{
+						"time": 2.2333,
+						"y": -126.25,
+						"curve": [ 0.5299999713897705, 0.09000000357627869, 1.0, 1.0 ]
+					},
+					{ "time": 2.3333, "y": -134.4 }
+				],
+				"scale": [
+					{ "time": 1.4667, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.6667, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.9333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 2.0333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 2.1333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 2.2333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 2.3333, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"polvo": {
+				"translate": [
+					{ "time": 0.5 },
+					{ "time": 0.7333, "x": 0.25, "y": -52.39 },
+					{ "time": 0.8, "x": -15.02, "y": -67.36 },
+					{ "time": 1.0333, "x": -3.37, "y": -119.75 },
+					{ "time": 1.1667, "x": -6.41, "y": -149.68, "curve": "stepped" },
+					{ "time": 1.2, "x": -10.96, "y": 2.19 },
+					{ "time": 1.4333, "x": -16.39, "y": -49.49 },
+					{ "time": 1.8333, "x": -11.4, "y": -138.09 }
+				]
+			},
+			"cabeza general": {
+				"translate": [
+					{
+						"time": 1.4667,
+						"curve": [ 0.3840000033378601, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{
+						"time": 1.6667,
+						"x": 10.55,
+						"curve": [ 0.4740000069141388, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{
+						"time": 1.9333,
+						"x": 26.96,
+						"curve": [ 0.25, 0.0, 0.5109999775886536, 0.8999999761581421 ]
+					},
+					{
+						"time": 2.1333,
+						"x": 36.86,
+						"curve": [ 0.4740000069141388, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{ "time": 2.3333, "x": 42.86 }
+				]
+			},
+			"polvo2": {
+				"translate": [
+					{ "time": 0.5 },
+					{ "time": 0.7333, "x": 0.25, "y": -52.39 },
+					{ "time": 0.8, "x": -15.02, "y": -67.36 },
+					{ "time": 1.0333, "x": -3.37, "y": -119.75 },
+					{ "time": 1.1667, "x": -6.41, "y": -149.68, "curve": "stepped" },
+					{ "time": 1.2, "x": -10.96, "y": 2.19 },
+					{ "time": 1.4333, "x": -16.39, "y": -49.49 },
+					{ "time": 1.8333, "x": -11.4, "y": -138.09 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"CENIZAS DIBUJAR": {
+					"CENIZAS DIBUJAR": [
+						{
+							"time": 0.5,
+							"offset": 1,
+							"vertices": [ 15.54697, 0, 15.54697 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ 1.62078, 81.77802, 1.62078, 81.77802 ]
+						},
+						{
+							"time": 1.1,
+							"vertices": [ 3.24155, 141.75105, 3.24155, 141.75105 ]
+						},
+						{
+							"time": 1.4,
+							"vertices": [ 4.86233, 202.90332, 4.86233, 202.90332 ]
+						},
+						{
+							"time": 1.6667,
+							"vertices": [ 6.30302, 216.73294, 6.30302, 216.73294 ]
+						}
+					]
+				},
+				"polvo": {
+					"polvo": [
+						{
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ],
+							"curve": "stepped",
+							"time": 0.0
+						},
+						{
+							"time": 0.5,
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ]
+						},
+						{
+							"time": 1.6667,
+							"offset": 4,
+							"vertices": [ -6.94801, 45.90402, -6.94801, 45.90402 ]
+						},
+						{
+							"time": 1.9667,
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ]
+						}
+					]
+				},
+				"cabeza": {
+					"cabeza": [
+						{ "time": 0.0333 },
+						{
+							"time": 0.1667,
+							"offset": 1,
+							"vertices": [ -30.675, 0, -30.675, 0, -30.675, 0, -30.675 ]
+						},
+						{ "time": 0.4, "curve": "stepped" },
+						{ "time": 0.4667 },
+						{
+							"time": 0.6,
+							"offset": 1,
+							"vertices": [ -30.675, 0, -30.675, 0, -30.675, 0, -30.675 ]
+						},
+						{ "time": 0.8333 }
+					]
+				}
+			}
+		}
+	},
+	"zombidito/1": {
+		"slots": {
+			"restos caer": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4667, "color": "ffffff00" },
+					{ "time": 0.5333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1667, "color": "ffffffff" },
+					{ "time": 1.2333, "color": "ffffff00" }
+				]
+			},
+			"basico/ojo der2": {
+				"attachment": [
+					{ "time": 2, "name": null }
+				]
+			},
+			"ceniza efc 14": {
+				"attachment": [
+					{ "time": 2, "name": null }
+				]
+			},
+			"basico/ojo der": {
+				"attachment": [
+					{ "time": 2, "name": null }
+				]
+			},
+			"ceniza 4": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"zombidito/restos": {
+				"color": [
+					{ "time": 2.1667, "color": "ffffffff" },
+					{ "time": 2.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2, "name": "restos" }
+				]
+			},
+			"ceniza 2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza 7": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza 3": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"restos base": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4333, "color": "ffffff00" },
+					{ "time": 0.5, "color": "fffffffb" }
+				],
+				"attachment": [
+					{ "time": 2, "name": null }
+				]
+			},
+			"ceniza 6": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 15": {
+				"attachment": [
+					{ "time": 2, "name": null }
+				]
+			},
+			"zombidito/ceniza 6": {
+				"attachment": [
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"ceniza 8": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"basico/ceniza efc 1": {
+				"attachment": [
+					{ "time": 2, "name": null }
+				]
+			},
+			"zombidito/ceniza 7": {
+				"attachment": [
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"ceniza 5": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 1.9667, "name": null }
+				]
+			},
+			"ceniza 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 1.9667, "name": null }
+				]
+			},
+			"ceniza efc 2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 1.9667, "name": null }
+				]
+			},
+			"ceniza efc 24": {
+				"attachment": [
+					{ "time": 2, "name": null }
+				]
+			},
+			"zombidito/ceniza 1": {
+				"attachment": [
+					{ "time": 2, "name": null }
+				]
+			},
+			"ojo izq": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 1.9667, "name": null }
+				]
+			},
+			"ceniza efc 30": {
+				"attachment": [
+					{ "time": 2, "name": null }
+				]
+			},
+			"ojo der": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 1.9667, "name": null }
+				]
+			},
+			"restos recibir": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.6667, "name": "restos recibir" },
+					{ "time": 2, "name": null }
+				]
+			},
+			"basico/ceniza efc 2": {
+				"attachment": [
+					{ "time": 2, "name": null }
+				]
+			},
+			"cabeza": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza 9": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"ceniza caer": {
+				"translate": [
+					{ "time": 0.5, "y": 9.12 },
+					{ "time": 0.5333, "x": -10.05, "y": 9.26 },
+					{ "time": 0.6, "x": -18.34, "y": 20.43 },
+					{ "time": 0.6333, "x": -16.31, "y": 26.02 },
+					{ "time": 0.6667, "x": -24.83, "y": 33.11 },
+					{ "time": 0.7333, "x": -18.72, "y": 47.29 },
+					{ "time": 0.8, "x": -17.44, "y": 60.8 },
+					{ "time": 0.8667, "x": -19, "y": 74.31 },
+					{ "time": 0.9667, "x": -16.02, "y": 94.57 },
+					{ "time": 1.0667, "x": -53.07, "y": 114.84 }
+				],
+				"scale": [
+					{ "x": 0.2, "y": 0.2, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.5, "x": 0.2, "y": 0.2 },
+					{ "time": 0.5333, "x": 0.773, "y": 0.467 },
+					{ "time": 0.6, "x": 0.78, "y": 1.0 },
+					{ "time": 0.6333, "x": 0.745, "y": 1.0 },
+					{ "time": 0.6667, "x": 1.043, "y": 1.0 },
+					{ "time": 0.7333, "x": 1.062, "y": 1.0 },
+					{ "time": 0.8, "x": 1.066, "y": 1.0 },
+					{ "time": 0.8667, "x": 1.073, "y": 1.0 },
+					{ "time": 0.9667, "x": 0.759, "y": 1.084 },
+					{ "time": 1, "x": 0.9, "y": 1.056 },
+					{ "time": 1.0333, "x": 0.968, "y": 1.028 },
+					{ "time": 1.0667, "x": 0.664, "y": 1.0 }
+				]
+			},
+			"ceniza suelo": {
+				"translate": [
+					{ "x": -15.33, "curve": "stepped", "time": 0.0 },
+					{
+						"time": 0.5,
+						"x": -15.33,
+						"curve": [ 0.25, 0.0, 0.6079999804496765, 1.0 ]
+					},
+					{ "time": 1, "x": -15.33, "y": 10.84 }
+				],
+				"scale": [
+					{
+						"time": 0.5,
+						"curve": [ 0.25, 0.0, 0.6079999804496765, 1.0 ],
+						"x": 1.0,
+						"y": 1.0
+					},
+					{ "time": 1, "x": 2.714, "y": 8.5 }
+				]
+			},
+			"recibir": {
+				"translate": [
+					{ "time": 0.6667, "y": -19.08 },
+					{ "time": 1.1667, "y": -42 }
+				],
+				"scale": [
+					{ "time": 0.6667, "x": 1.0, "y": 1.0 },
+					{ "time": 1.1667, "x": 1.5, "y": 2 }
+				]
+			},
+			"cabeza": {
+				"rotate": [
+					{ "time": 1.1, "angle": 0.0 },
+					{ "time": 1.3, "angle": -3.74 }
+				],
+				"translate": [
+					{
+						"time": 1.1,
+						"curve": [ 0.5170000195503235, 0.10999999940395355, 0.5, 1.0 ]
+					},
+					{
+						"time": 1.3,
+						"y": 26.18,
+						"curve": [ 0.5149999856948853, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.5333,
+						"y": -60.65,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{
+						"time": 1.6333,
+						"y": -44.45,
+						"curve": [ 0.5070000290870667, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.7333,
+						"y": -68.41,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{
+						"time": 1.8333,
+						"y": -66.93,
+						"curve": [ 0.5299999713897705, 0.09000000357627869, 1.0, 1.0 ]
+					},
+					{ "time": 1.9667, "y": -78.38 }
+				],
+				"scale": [
+					{ "time": 1.1, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.3, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.5333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.6333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.7333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.8333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.9667, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"polvo": {
+				"translate": [
+					{ "time": 0.5 },
+					{ "time": 0.7333, "x": -15.18, "y": -52.39 },
+					{ "time": 0.8, "x": -15.02, "y": -67.36 },
+					{ "time": 0.9333, "x": -21.36, "y": -97.29 },
+					{ "time": 1.0333, "x": -31.38, "y": -119.75 },
+					{ "time": 1.2, "x": -35.66, "y": 2.19 },
+					{ "time": 1.4333, "x": -35.66, "y": -49.49 }
+				]
+			},
+			"cabeza general": {
+				"translate": [
+					{
+						"time": 1.1,
+						"curve": [ 0.3840000033378601, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{
+						"time": 1.3,
+						"x": 10.69,
+						"curve": [ 0.4740000069141388, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{
+						"time": 1.5333,
+						"x": 18.22,
+						"curve": [ 0.25, 0.0, 0.5109999775886536, 0.8999999761581421 ]
+					},
+					{
+						"time": 1.7333,
+						"x": 25.46,
+						"curve": [ 0.4740000069141388, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{ "time": 1.9333, "x": 30.72 }
+				]
+			},
+			"polvo2": {
+				"translate": [
+					{ "time": 0.5 },
+					{ "time": 0.7333, "x": -15.18, "y": -52.39 },
+					{ "time": 0.8, "x": -15.02, "y": -67.36 },
+					{ "time": 0.9333, "x": -21.36, "y": -97.29 },
+					{ "time": 1.0333, "x": -31.38, "y": -119.75 },
+					{ "time": 1.2, "x": -35.66, "y": 2.19 },
+					{ "time": 1.4333, "x": -35.66, "y": -49.49 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"CENIZAS DIBUJAR": {
+					"CENIZAS DIBUJAR": [
+						{ "time": 0.0 },
+						{
+							"time": 0.5,
+							"offset": 1,
+							"vertices": [ 1.31702, 0, 1.31702 ]
+						},
+						{
+							"time": 0.5333,
+							"offset": 1,
+							"vertices": [ 24.96317, 0, 24.96317 ]
+						},
+						{
+							"time": 0.5667,
+							"offset": 1,
+							"vertices": [ 33.34529, 0, 33.34529 ]
+						},
+						{
+							"time": 0.6,
+							"offset": 1,
+							"vertices": [ 41.72742, 0, 41.72742 ]
+						},
+						{
+							"time": 0.6667,
+							"offset": 1,
+							"vertices": [ 54.27169, 0, 54.27169 ]
+						},
+						{
+							"time": 0.7,
+							"offset": 1,
+							"vertices": [ 62.45181, 0, 62.45181 ]
+						},
+						{
+							"time": 0.9,
+							"offset": 1,
+							"vertices": [ 102.74262, 0, 102.74262 ]
+						},
+						{
+							"time": 1.0667,
+							"offset": 1,
+							"vertices": [ 139.80547, 1.0E-5, 139.80547 ]
+						}
+					]
+				},
+				"polvo": {
+					"polvo": [
+						{
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ],
+							"curve": "stepped",
+							"time": 0.0
+						},
+						{
+							"time": 0.5,
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ]
+						},
+						{
+							"time": 1.2667,
+							"offset": 4,
+							"vertices": [ -6.28879, -55.67435, -6.28879, -55.67435 ]
+						},
+						{
+							"time": 1.5333,
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ]
+						}
+					]
+				}
+			}
+		}
+	},
+	"zombistein/1": {
+		"slots": {
+			"restos caer": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4667, "color": "ffffff00" },
+					{ "time": 0.5333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.3667, "color": "ffffffff" },
+					{ "time": 1.4333, "color": "ffffff00" }
+				]
+			},
+			"ceniza efc 9": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ceniza efc 18": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ceniza efc 14": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"basico/ojo der": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 12": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"zombistein/restos": {
+				"color": [
+					{ "time": 2.5, "color": "ffffffff" },
+					{ "time": 3.1667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.3333, "name": "restos" }
+				]
+			},
+			"basico/ojo der2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"zombistein/ojo izq": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 10": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ceniza 3": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza 7": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza 6": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"zombidito/ceniza 3": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 16": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ceniza efc 27": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ceniza efc 15": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"zombidito/ceniza 6": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza 5": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 6": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ceniza efc 2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 2.3, "name": null }
+				]
+			},
+			"ceniza efc 24": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ceniza efc 26": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ceniza efc 30": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ojo der": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 2.3, "name": null }
+				]
+			},
+			"ceniza efc 17": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ceniza efc 22": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"zombistein/ojo der": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 5": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ceniza 8": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"zombidito/ceniza 2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 25": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"zombistein/ceniza 1": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"basico/restos": {
+				"color": [
+					{ "time": 2.5, "color": "ffffffff" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"zombidito/ceniza 5": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza 4": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 21": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ceniza 2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 11": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"cabeza": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 1, "name": null }
+				]
+			},
+			"ceniza efc 7": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ceniza efc 28": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ceniza efc 20": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"basico/ceniza efc 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 23": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"zombidito/ceniza 7": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 29": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ceniza efc 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 2.3, "name": null }
+				]
+			},
+			"zombidito/ceniza 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 3": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"basico/ceniza efc 2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 2.3, "name": null }
+				]
+			},
+			"ceniza efc 8": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"restos base": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4333, "color": "ffffff00" },
+					{ "time": 0.5, "color": "fffffffb" }
+				],
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ojo izq": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 2.3, "name": null }
+				]
+			},
+			"ceniza efc 4": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"restos recibir": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.9667, "name": "restos recibir" },
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 13": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"zombidito/ceniza 4": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 19": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ceniza 9": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 2.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ceniza caer": {
+				"translate": [
+					{ "time": 0.5, "y": 9.12 },
+					{ "time": 0.5667, "x": -50.02, "y": 35.56 },
+					{ "time": 0.6, "x": -41.64, "y": 56.84 },
+					{ "time": 0.6333, "x": -28.44, "y": 72.75 },
+					{ "time": 0.6667, "x": -11.35, "y": 79.19 },
+					{ "time": 0.7333, "x": -70.28, "y": 111.51 },
+					{ "time": 0.7667, "x": -82.95, "y": 127.54 },
+					{ "time": 0.8333, "x": -90.35, "y": 160.53 },
+					{ "time": 0.9, "x": -81.24, "y": 192.34 },
+					{ "time": 0.9667, "x": -64, "y": 231.81 },
+					{ "time": 1, "x": -45.04, "y": 241.82 },
+					{ "time": 1.0333, "x": -45.78, "y": 258.32 },
+					{ "time": 1.0667, "x": -41.33, "y": 273.64 },
+					{ "time": 1.1333, "x": 45.49, "y": 306.04 },
+					{ "time": 1.2333, "x": 52.76, "y": 354.94 },
+					{ "time": 1.3, "x": 24.61, "y": 387.34 },
+					{ "time": 1.3667, "x": 105.84, "y": 419.74 },
+					{ "time": 1.4, "x": 105.84, "y": 442.55 }
+				],
+				"scale": [
+					{ "x": 0.2, "y": 0.2, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.5, "x": 0.2, "y": 0.2 },
+					{ "time": 0.5667, "x": 3.265, "y": 0.8 },
+					{ "time": 0.6667, "x": 2.515, "y": 1.4 },
+					{ "time": 0.7333, "x": 4.405, "y": 1.4 },
+					{ "time": 0.7667, "x": 4.741, "y": 1.4 },
+					{ "time": 0.8333, "x": 5.035, "y": 1.4 },
+					{ "time": 0.9, "x": 5.323, "y": 1.4 },
+					{ "time": 1, "x": 4.764, "y": 1.4 },
+					{ "time": 1.0333, "x": 5.059, "y": 1.4 },
+					{ "time": 1.0667, "x": 4.237, "y": 1.4 },
+					{ "time": 1.1333, "x": 2.949, "y": 1.4, "curve": "stepped" },
+					{ "time": 1.2333, "x": 2.949, "y": 1.4 },
+					{ "time": 1.3, "x": 3.275, "y": 1.4 },
+					{ "time": 1.3667, "x": 1.096, "y": 1.4 },
+					{ "time": 1.4, "x": 0.245, "y": 1.4 }
+				]
+			},
+			"ceniza suelo": {
+				"translate": [
+					{
+						"time": 0.5,
+						"curve": [ 0.25, 0.0, 0.6079999804496765, 1.0 ]
+					},
+					{ "time": 1, "y": 10.84 }
+				],
+				"scale": [
+					{
+						"time": 0.5,
+						"curve": [ 0.25, 0.0, 0.6079999804496765, 1.0 ],
+						"x": 1.0,
+						"y": 1.0
+					},
+					{ "time": 1, "x": 7.218, "y": 13.099 }
+				]
+			},
+			"recibir": {
+				"translate": [
+					{ "time": 0.9667, "y": -19.08 },
+					{ "time": 1.4667, "y": -42 }
+				],
+				"scale": [
+					{ "time": 0.9667, "x": 1.0, "y": 1.0 },
+					{ "time": 1.4667, "x": 1.5, "y": 2 }
+				]
+			},
+			"cabeza": {
+				"rotate": [
+					{
+						"time": 1.3667,
+						"curve": [ 0.5170000195503235, 0.10999999940395355, 0.5, 1.0 ],
+						"angle": 0.0
+					},
+					{
+						"time": 1.5667,
+						"angle": -5.81,
+						"curve": [ 0.5149999856948853, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{ "time": 1.8333, "angle": -23.08, "curve": "stepped" },
+					{ "time": 2.0333, "angle": -23.08, "curve": "stepped" },
+					{ "time": 2.3, "angle": -23.08 }
+				],
+				"translate": [
+					{
+						"time": 1.3667,
+						"curve": [ 0.5170000195503235, 0.10999999940395355, 0.5, 1.0 ]
+					},
+					{
+						"time": 1.5667,
+						"y": 26.18,
+						"curve": [ 0.5149999856948853, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.8333,
+						"y": -227.76,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{
+						"time": 1.9333,
+						"y": -209.02,
+						"curve": [ 0.5070000290870667, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 2.0333,
+						"y": -238.13,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{
+						"time": 2.1333,
+						"y": -228.19,
+						"curve": [ 0.5070000290870667, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{ "time": 2.3, "y": -262.62 }
+				],
+				"scale": [
+					{ "time": 1.3667, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.5667, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.8333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.9333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 2.0333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 2.1333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 2.3, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"polvo": {
+				"translate": [
+					{ "time": 0.5 },
+					{ "time": 0.6, "x": -35.11, "y": -22.45 },
+					{ "time": 0.6667, "x": -12.58, "y": -37.42 },
+					{ "time": 0.8333, "x": -85.86, "y": -74.84 },
+					{ "time": 0.9, "x": -75.35, "y": -89.81 },
+					{ "time": 1, "x": -39.6, "y": -112.26 },
+					{ "time": 1.1, "x": 2.12, "y": -134.71 },
+					{ "time": 1.1667, "x": 51.57, "y": -149.68, "curve": "stepped" },
+					{ "time": 1.2, "x": 51.57, "y": 2.19 },
+					{ "time": 1.3, "x": 29.81, "y": -19.96 },
+					{ "time": 1.4333, "x": 98.53, "y": -49.49 },
+					{ "time": 1.8333, "x": 98.53, "y": -138.09 }
+				]
+			},
+			"cabeza general": {
+				"translate": [
+					{
+						"time": 1.3667,
+						"curve": [ 0.3840000033378601, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{
+						"time": 1.5667,
+						"x": 17.74,
+						"curve": [ 0.4740000069141388, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{
+						"time": 1.8333,
+						"x": 38.94,
+						"curve": [ 0.25, 0.0, 0.5109999775886536, 0.8999999761581421 ]
+					},
+					{
+						"time": 2.0333,
+						"x": 56.03,
+						"curve": [ 0.4740000069141388, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{ "time": 2.3, "x": 69.22 }
+				]
+			},
+			"polvo2": {
+				"translate": [
+					{ "time": 0.5, "y": 304.65 },
+					{ "time": 0.6, "x": -35.11, "y": 282.19 },
+					{ "time": 0.6667, "x": -12.58, "y": 267.23 },
+					{ "time": 0.8333, "x": -85.86, "y": 229.81 },
+					{ "time": 0.9, "x": -75.35, "y": 214.84 },
+					{ "time": 1, "x": -39.6, "y": 192.38 },
+					{ "time": 1.1, "x": 2.12, "y": 169.93 },
+					{ "time": 1.1667, "x": 51.57, "y": 154.96, "curve": "stepped" },
+					{ "time": 1.2, "x": 51.57, "y": 306.84 },
+					{ "time": 1.3, "x": 29.81, "y": 284.69 },
+					{ "time": 1.4333, "x": 98.53, "y": 255.16 },
+					{ "time": 1.8333, "x": 98.53, "y": 166.55 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"CENIZAS DIBUJAR": {
+					"CENIZAS DIBUJAR": [
+						{
+							"vertices": [ -158.57397, 0, 70.94102, 0, 70.94102, 186.39392, -158.57397, 186.39392 ],
+							"curve": "stepped",
+							"time": 0.0
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -158.57397, 0, 70.94102, 0, 70.94102, 186.39392, -158.57397, 186.39392 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ -158.57397, 38.72397, 70.94102, 38.72397, 70.94102, 186.39392, -158.57397, 186.39392 ]
+						},
+						{
+							"time": 0.5667,
+							"vertices": [ -158.57397, 54.87592, 70.94102, 54.87592, 70.94102, 186.39392, -158.57397, 186.39392 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -158.57397, 87.17986, 70.94102, 87.17986, 70.94102, 186.39392, -158.57397, 186.39392 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -158.57397, 135.78052, 70.94102, 135.78052, 70.94102, 186.39392, -158.57397, 186.39392 ]
+						},
+						{
+							"time": 0.9667,
+							"vertices": [ -158.57397, 249.077, 70.94102, 249.077, 70.94102, 186.39392, -158.57397, 186.39392 ]
+						},
+						{
+							"time": 1.4,
+							"vertices": [ -158.57397, 459.6499, 70.94102, 459.6499, 70.94102, 186.39392, -158.57397, 186.39392 ]
+						}
+					]
+				},
+				"polvo": {
+					"polvo": [
+						{
+							"offset": 4,
+							"vertices": [ 58.57997, -163.22794, -43.72, -163.22794 ],
+							"curve": "stepped",
+							"time": 0.0
+						},
+						{
+							"time": 0.5,
+							"offset": 4,
+							"vertices": [ 58.57997, -163.22794, -43.72, -163.22794 ]
+						},
+						{
+							"time": 1.1,
+							"offset": 4,
+							"vertices": [ 57.88158, 116.42783, -44.41839, 116.42783 ]
+						},
+						{
+							"time": 1.4,
+							"offset": 4,
+							"vertices": [ 57.53238, 270.56934, -44.76759, 270.56934 ]
+						},
+						{
+							"time": 1.7333,
+							"offset": 4,
+							"vertices": [ 58.57997, -163.22794, -43.72, -163.22794 ]
+						}
+					]
+				},
+				"cabeza": {
+					"cabeza": [
+						{ "time": 0.0333 },
+						{
+							"time": 0.1667,
+							"offset": 1,
+							"vertices": [ -30.675, 0, -30.675, 0, -30.675, 0, -30.675 ]
+						},
+						{ "time": 0.4, "curve": "stepped" },
+						{ "time": 0.4667 },
+						{
+							"time": 0.6,
+							"offset": 1,
+							"vertices": [ -30.675, 0, -30.675, 0, -30.675, 0, -30.675 ]
+						},
+						{ "time": 0.8333 }
+					]
+				}
+			}
+		}
+	},
+	"basico/2": {
+		"slots": {
+			"restos caer": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4, "color": "ffffff00" },
+					{ "time": 0.4667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.3, "color": "ffffffff" },
+					{ "time": 1.3667, "color": "ffffff00" }
+				]
+			},
+			"ceniza efc 9": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 18": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 14": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"basico/ojo der": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 12": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 10": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza 7": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 26": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 16": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 27": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 15": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"zombidito/ceniza 6": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"zombidito/ceniza 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 6": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 2": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 24": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 30": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ojo der": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 17": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 22": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"basico/ceniza efc 2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 5": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza 8": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"zombidito/ceniza 2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"basico/ojo der2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"basico/restos": {
+				"color": [
+					{ "time": 2.6, "color": "ffffffff" },
+					{ "time": 3.1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.2, "name": "restos" }
+				]
+			},
+			"zombidito/ceniza 5": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 21": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 11": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"cabeza": {
+				"attachment": [
+					{ "time": 1, "name": null }
+				]
+			},
+			"ceniza efc 7": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 28": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 20": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"basico/ceniza efc 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 13": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 23": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 3": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"zombidito/ceniza 7": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 1": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 25": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"zombidito/ceniza 3": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza 1": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 8": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"restos base": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.3667, "color": "ffffff00" },
+					{ "time": 0.4333, "color": "fffffffb" }
+				],
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ojo izq": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 4": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"restos recibir": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.9, "name": "restos recibir" },
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 29": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"zombidito/ceniza 4": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 19": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza 9": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ceniza caer": {
+				"translate": [
+					{ "time": 0.4333, "y": 9.12 },
+					{ "time": 0.4667, "x": -0.03, "y": 9.26 },
+					{ "time": 0.5667, "x": -0.12, "y": 26.02 },
+					{ "time": 0.6667, "x": -0.22, "y": 47.29 },
+					{ "time": 0.7333, "x": -20.01, "y": 60.8 },
+					{ "time": 0.8, "x": -19, "y": 74.31 },
+					{ "time": 0.9, "x": -9.54, "y": 94.57 },
+					{ "time": 1, "x": -6.81, "y": 114.84 },
+					{ "time": 1.1667, "x": -13.62, "y": 147.2 },
+					{ "time": 1.3333, "x": -19.77, "y": 179.56 }
+				],
+				"scale": [
+					{ "x": 0.2, "y": 0.2, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4333, "x": 0.2, "y": 0.2 },
+					{ "time": 0.4667, "x": 1.009, "y": 0.467 },
+					{ "time": 0.5333, "x": 1.219, "y": 1.0 },
+					{ "time": 0.5667, "x": 1.189, "y": 1.0 },
+					{ "time": 0.6667, "x": 0.776, "y": 1.0 },
+					{ "time": 0.7333, "x": 0.951, "y": 1.0 },
+					{ "time": 0.8, "x": 1.028, "y": 1.0 },
+					{ "time": 0.9, "x": 1.041, "y": 1.0 },
+					{ "time": 1, "x": 0.935, "y": 1.0 },
+					{ "time": 1.1667, "x": 0.826, "y": 1.0 },
+					{ "time": 1.3333, "x": 0.491, "y": 1.0 }
+				]
+			},
+			"ceniza suelo": {
+				"translate": [
+					{
+						"time": 0.4333,
+						"curve": [ 0.25, 0.0, 0.6079999804496765, 1.0 ]
+					},
+					{ "time": 0.9333, "y": 10.84 }
+				],
+				"scale": [
+					{
+						"time": 0.4333,
+						"curve": [ 0.25, 0.0, 0.6079999804496765, 1.0 ],
+						"x": 1.0,
+						"y": 1.0
+					},
+					{ "time": 0.9333, "x": 2.714, "y": 8.5 }
+				]
+			},
+			"recibir": {
+				"translate": [
+					{ "time": 0.9, "y": -19.08 },
+					{ "time": 1.4, "y": -42 }
+				],
+				"scale": [
+					{ "time": 0.9, "x": 1.0, "y": 1.0 },
+					{ "time": 1.4, "x": 1.5, "y": 2 }
+				]
+			},
+			"cabeza": {
+				"rotate": [
+					{
+						"time": 1.4,
+						"curve": [ 0.5170000195503235, 0.10999999940395355, 0.5, 1.0 ],
+						"angle": 0.0
+					},
+					{
+						"time": 1.5667,
+						"angle": -5.81,
+						"curve": [ 0.5149999856948853, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.8,
+						"angle": -23.08,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{
+						"time": 2,
+						"angle": -28.56,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{ "time": 2.2, "angle": -36.9 }
+				],
+				"translate": [
+					{
+						"time": 1.4,
+						"curve": [ 0.5170000195503235, 0.10999999940395355, 0.5, 1.0 ]
+					},
+					{
+						"time": 1.5667,
+						"y": 26.18,
+						"curve": [ 0.5149999856948853, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.8,
+						"y": -134.4,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{
+						"time": 1.9,
+						"y": -119.22,
+						"curve": [ 0.5070000290870667, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 2,
+						"y": -134.4,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{
+						"time": 2.1,
+						"y": -126.25,
+						"curve": [ 0.5299999713897705, 0.09000000357627869, 1.0, 1.0 ]
+					},
+					{ "time": 2.2, "y": -134.4 }
+				],
+				"scale": [
+					{ "time": 1.4, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.5667, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.8, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.9, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 2, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 2.1, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 2.2, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"polvo": {
+				"translate": [
+					{ "time": 0.4333 },
+					{ "time": 0.6667, "x": 0.25, "y": -52.39 },
+					{ "time": 0.7333, "x": -15.02, "y": -67.36 },
+					{ "time": 0.9667, "x": -3.37, "y": -119.75 },
+					{ "time": 1.1, "x": -6.41, "y": -149.68, "curve": "stepped" },
+					{ "time": 1.1333, "x": -10.96, "y": 2.19 },
+					{ "time": 1.3667, "x": -16.39, "y": -49.49 },
+					{ "time": 1.7, "x": -11.4, "y": -138.09 }
+				]
+			},
+			"cabeza general": {
+				"translate": [
+					{
+						"time": 1.4,
+						"curve": [ 0.3840000033378601, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{
+						"time": 1.5667,
+						"x": 10.55,
+						"curve": [ 0.4740000069141388, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{
+						"time": 1.8,
+						"x": 26.96,
+						"curve": [ 0.25, 0.0, 0.5109999775886536, 0.8999999761581421 ]
+					},
+					{
+						"time": 2,
+						"x": 36.86,
+						"curve": [ 0.4740000069141388, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{ "time": 2.2, "x": 42.86 }
+				]
+			},
+			"polvo2": {
+				"translate": [
+					{ "time": 0.4333 },
+					{ "time": 0.6667, "x": 0.25, "y": -52.39 },
+					{ "time": 0.7333, "x": -15.02, "y": -67.36 },
+					{ "time": 0.9667, "x": -3.37, "y": -119.75 },
+					{ "time": 1.1, "x": -6.41, "y": -149.68, "curve": "stepped" },
+					{ "time": 1.1333, "x": -10.96, "y": 2.19 },
+					{ "time": 1.3667, "x": -16.39, "y": -49.49 },
+					{ "time": 1.7, "x": -11.4, "y": -138.09 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"CENIZAS DIBUJAR": {
+					"CENIZAS DIBUJAR": [
+						{
+							"time": 0.4333,
+							"offset": 1,
+							"vertices": [ 15.54697, 0, 15.54697 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ 1.62078, 81.77802, 1.62078, 81.77802 ]
+						},
+						{
+							"time": 1.0333,
+							"vertices": [ 3.24155, 141.29904, 3.24155, 141.29904 ]
+						},
+						{
+							"time": 1.3333,
+							"vertices": [ 4.86233, 202.90332, 4.86233, 202.90332 ]
+						},
+						{
+							"time": 1.5667,
+							"vertices": [ 6.30302, 216.73294, 6.30302, 216.73294 ]
+						}
+					]
+				},
+				"polvo": {
+					"polvo": [
+						{
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ],
+							"curve": "stepped",
+							"time": 0.0
+						},
+						{
+							"time": 0.4333,
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ]
+						},
+						{
+							"time": 1.5667,
+							"offset": 4,
+							"vertices": [ -6.94801, 45.90402, -6.94801, 45.90402 ]
+						},
+						{
+							"time": 1.8333,
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ]
+						}
+					]
+				},
+				"cabeza": {
+					"cabeza": [
+						{ "time": 0.0333 },
+						{
+							"time": 0.1667,
+							"offset": 1,
+							"vertices": [ -30.675, 0, -30.675, 0, -30.675, 0, -30.675 ]
+						},
+						{ "time": 0.3333, "curve": "stepped" },
+						{ "time": 0.4 },
+						{
+							"time": 0.5333,
+							"offset": 1,
+							"vertices": [ -30.675, 0, -30.675, 0, -30.675, 0, -30.675 ]
+						},
+						{ "time": 0.7667 }
+					]
+				}
+			}
+		}
+	},
+	"zombidito/2": {
+		"slots": {
+			"restos caer": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4667, "color": "ffffff00" },
+					{ "time": 0.5333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffffffff" },
+					{ "time": 1.4, "color": "ffffff00" }
+				]
+			},
+			"ceniza efc 18": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ceniza efc 12": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"zombidito/restos2": {
+				"color": [
+					{ "time": 2.1667, "color": "ffffffff" },
+					{ "time": 2.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 1.8667, "name": "restos2" }
+				]
+			},
+			"ceniza 4": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza 2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 11": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ceniza 7": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 10": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ceniza 3": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"restos base": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4333, "color": "ffffff00" },
+					{ "time": 0.5, "color": "fffffffb" }
+				],
+				"attachment": [
+					{ "time": 1.8667, "name": null }
+				]
+			},
+			"ceniza 6": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"zombidito/ceniza 6": {
+				"attachment": [
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"ceniza 8": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 22": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ceniza efc 20": {
+				"attachment": [
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"zombidito/ceniza 7": {
+				"attachment": [
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ceniza 5": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ojo izq": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"basico/restos": {
+				"color": [
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"ojo der": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"restos recibir": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.9667, "name": "restos recibir" },
+					{ "time": 1.8667, "name": null }
+				]
+			},
+			"cabeza": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza 9": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"ceniza caer": {
+				"translate": [
+					{ "time": 0.5, "y": 9.12 },
+					{ "time": 0.5333, "x": -10.05, "y": 9.26 },
+					{ "time": 0.6, "x": -18.34, "y": 20.43 },
+					{ "time": 0.6333, "x": -16.31, "y": 26.02 },
+					{ "time": 0.6667, "x": -24.83, "y": 33.11 },
+					{ "time": 0.7333, "x": -18.72, "y": 47.29 },
+					{ "time": 0.8, "x": -17.44, "y": 60.8 },
+					{ "time": 0.8667, "x": -19, "y": 74.31 },
+					{ "time": 0.9667, "x": -36.27, "y": 94.57 },
+					{ "time": 1.0333, "x": -51.52, "y": 108.08 },
+					{ "time": 1.0667, "x": -54.59, "y": 114.84 },
+					{ "time": 1.1333, "x": -53.78, "y": 127.78 },
+					{ "time": 1.2333, "x": -53.9, "y": 147.2 },
+					{ "time": 1.2667, "x": -49.2, "y": 153.67 },
+					{ "time": 1.3, "x": -58.14, "y": 160.15 },
+					{ "time": 1.3333, "x": -73.33, "y": 166.62 },
+					{ "time": 1.4, "x": -64.21, "y": 179.56 }
+				],
+				"scale": [
+					{ "x": 0.2, "y": 0.2, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.5, "x": 0.2, "y": 0.2 },
+					{ "time": 0.5333, "x": 0.773, "y": 0.467 },
+					{ "time": 0.6, "x": 0.78, "y": 1.0 },
+					{ "time": 0.6333, "x": 0.745, "y": 1.0 },
+					{ "time": 0.6667, "x": 1.043, "y": 1.0 },
+					{ "time": 0.7333, "x": 1.062, "y": 1.0 },
+					{ "time": 0.8, "x": 1.066, "y": 1.0 },
+					{ "time": 0.8667, "x": 1.073, "y": 1.0 },
+					{ "time": 0.9667, "x": 1.287, "y": 1.084 },
+					{ "time": 1.0333, "x": 1.24, "y": 1.028 },
+					{ "time": 1.0667, "x": 1.175, "y": 1.0 },
+					{ "time": 1.1333, "x": 1.157, "y": 1.0 },
+					{ "time": 1.2333, "x": 0.92, "y": 1.0 },
+					{ "time": 1.2667, "x": 0.929, "y": 1.0 },
+					{ "time": 1.3333, "x": 0.203, "y": 1.0 },
+					{ "time": 1.4, "x": 0.125, "y": 1.0 }
+				]
+			},
+			"ceniza suelo": {
+				"translate": [
+					{
+						"time": 0.5,
+						"x": -9.92,
+						"curve": [ 0.25, 0.0, 0.6079999804496765, 1.0 ]
+					},
+					{ "time": 1, "x": -9.92, "y": 10.84 }
+				],
+				"scale": [
+					{
+						"time": 0.5,
+						"curve": [ 0.25, 0.0, 0.6079999804496765, 1.0 ],
+						"x": 1.0,
+						"y": 1.0
+					},
+					{ "time": 1, "x": 2.714, "y": 8.5 }
+				]
+			},
+			"recibir": {
+				"translate": [
+					{ "time": 0.9667, "y": -19.08 },
+					{ "time": 1.4667, "y": -42 }
+				],
+				"scale": [
+					{ "time": 0.9667, "x": 1.0, "y": 1.0 },
+					{ "time": 1.4667, "x": 1.5, "y": 2 }
+				]
+			},
+			"polvo": {
+				"translate": [
+					{ "time": 0.5 },
+					{ "time": 0.7333, "x": -15.18, "y": -52.39 },
+					{ "time": 0.8, "x": -15.02, "y": -67.36 },
+					{ "time": 0.9333, "x": -21.36, "y": -97.29 },
+					{ "time": 1.0333, "x": -49.35, "y": -119.75 },
+					{ "time": 1.2, "x": -51.94, "y": 2.19 },
+					{ "time": 1.4333, "x": -58.04, "y": -49.49 },
+					{ "time": 1.8333, "x": -58.04, "y": -138.09 }
+				]
+			},
+			"polvo2": {
+				"translate": [
+					{ "time": 0.5 },
+					{ "time": 0.7333, "x": -15.18, "y": -52.39 },
+					{ "time": 0.8, "x": -15.02, "y": -67.36 },
+					{ "time": 0.9333, "x": -21.36, "y": -97.29 },
+					{ "time": 1.0333, "x": -49.35, "y": -119.75 },
+					{ "time": 1.2, "x": -51.94, "y": 2.19 },
+					{ "time": 1.4333, "x": -58.04, "y": -49.49 },
+					{ "time": 1.8333, "x": -58.04, "y": -138.09 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"CENIZAS DIBUJAR": {
+					"CENIZAS DIBUJAR": [
+						{
+							"time": 0.5,
+							"offset": 1,
+							"vertices": [ 0.76, 0, 0.76 ]
+						},
+						{
+							"time": 0.5667,
+							"offset": 1,
+							"vertices": [ 33.04436, 0, 33.04436 ]
+						},
+						{
+							"time": 0.6,
+							"offset": 1,
+							"vertices": [ 41.22754, 0, 41.22754 ]
+						},
+						{
+							"time": 0.7333,
+							"offset": 1,
+							"vertices": [ 68.65423, 0, 68.65423 ]
+						},
+						{
+							"time": 0.9667,
+							"offset": 1,
+							"vertices": [ 116.08244, 1.0E-5, 116.08244 ]
+						},
+						{
+							"time": 1.1,
+							"offset": 1,
+							"vertices": [ 142.54053, 1.0E-5, 142.54053 ]
+						},
+						{
+							"time": 1.2333,
+							"offset": 1,
+							"vertices": [ 168.24059, 1.0E-5, 168.24059 ]
+						},
+						{
+							"time": 1.4333,
+							"offset": 1,
+							"vertices": [ 241.18484, 1.0E-5, 241.18484 ]
+						}
+					]
+				},
+				"polvo": {
+					"polvo": [
+						{
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ],
+							"curve": "stepped",
+							"time": 0.0
+						},
+						{
+							"time": 0.5,
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ],
+							"curve": [ 0.0, 0.0, 1.0, 0.7300000190734863 ]
+						},
+						{
+							"time": 1.4333,
+							"offset": 1,
+							"vertices": [ 7.23, 0, 7.23, -6.94801, 45.90402, -6.94801, 45.90402 ],
+							"curve": [ 0.5189999938011169, 0.10000000149011612, 0.6309999823570251, 1.0 ]
+						},
+						{
+							"time": 1.7667,
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ]
+						}
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "zombidito/ceniza 1", "offset": 56, "time": 0.0 },
+					{ "slot": "basico/ojo der", "offset": 56, "time": 0.0 },
+					{ "slot": "basico/ojo der2", "offset": 56, "time": 0.0 },
+					{ "slot": "basico/ceniza efc 1", "offset": 56, "time": 0.0 },
+					{ "slot": "basico/ceniza efc 2", "offset": 56, "time": 0.0 }
+				],
+				"time": 0.0
+			}
+		]
+	},
+	"basico/3": {
+		"slots": {
+			"restos caer": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4667, "color": "ffffff00" },
+					{ "time": 0.5333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.3667, "color": "ffffffff" },
+					{ "time": 1.4333, "color": "ffffff00" }
+				]
+			},
+			"ceniza efc 9": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 18": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 14": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"basico/ojo der": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 12": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 10": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza 7": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 26": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 16": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 27": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 15": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"zombidito/ceniza 6": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"zombidito/ceniza 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 6": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 2": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 24": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 30": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ojo der": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 17": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 22": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"basico/ceniza efc 2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 5": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza 8": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"zombidito/ceniza 2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"basico/ojo der2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"basico/restos": {
+				"color": [
+					{ "time": 2.8333, "color": "ffffffff" },
+					{ "time": 3.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.3333, "name": "restos" }
+				]
+			},
+			"zombidito/ceniza 5": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 21": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 11": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"cabeza": {
+				"attachment": [
+					{ "time": 1, "name": null }
+				]
+			},
+			"ceniza efc 7": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 28": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 20": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"basico/ceniza efc 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 13": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 23": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 3": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"zombidito/ceniza 7": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 1": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 25": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"zombidito/ceniza 3": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza 1": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 8": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"restos base": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4333, "color": "ffffff00" },
+					{ "time": 0.5, "color": "fffffffb" }
+				],
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ojo izq": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 4": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"restos recibir": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.9667, "name": "restos recibir" },
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza efc 29": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"zombidito/ceniza 4": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 19": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"ceniza 9": {
+				"attachment": [
+					{ "time": 2.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ceniza caer": {
+				"translate": [
+					{ "time": 0.5, "y": 9.12 },
+					{ "time": 0.5333, "x": -0.03, "y": 9.26 },
+					{ "time": 0.6333, "x": -0.12, "y": 26.02 },
+					{ "time": 0.7333, "x": -0.22, "y": 47.29 },
+					{ "time": 0.8, "x": -20.01, "y": 60.8 },
+					{ "time": 0.8667, "x": -19, "y": 74.31 },
+					{ "time": 0.9667, "x": -9.54, "y": 94.57 },
+					{ "time": 1.0667, "x": -6.81, "y": 114.84 },
+					{ "time": 1.2333, "x": -13.62, "y": 147.2 },
+					{ "time": 1.4, "x": -19.77, "y": 179.56 }
+				],
+				"scale": [
+					{ "x": 0.2, "y": 0.2, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.5, "x": 0.2, "y": 0.2 },
+					{ "time": 0.5333, "x": 1.009, "y": 0.467 },
+					{ "time": 0.6, "x": 1.219, "y": 1.0 },
+					{ "time": 0.6333, "x": 1.189, "y": 1.0 },
+					{ "time": 0.7333, "x": 0.776, "y": 1.0 },
+					{ "time": 0.8, "x": 0.951, "y": 1.0 },
+					{ "time": 0.8667, "x": 1.028, "y": 1.0 },
+					{ "time": 0.9667, "x": 1.041, "y": 1.0 },
+					{ "time": 1.0667, "x": 0.935, "y": 1.0 },
+					{ "time": 1.2333, "x": 0.826, "y": 1.0 },
+					{ "time": 1.4, "x": 0.491, "y": 1.0 }
+				]
+			},
+			"ceniza suelo": {
+				"translate": [
+					{
+						"time": 0.5,
+						"curve": [ 0.25, 0.0, 0.6079999804496765, 1.0 ]
+					},
+					{ "time": 1, "y": 10.84 }
+				],
+				"scale": [
+					{
+						"time": 0.5,
+						"curve": [ 0.25, 0.0, 0.6079999804496765, 1.0 ],
+						"x": 1.0,
+						"y": 1.0
+					},
+					{ "time": 1, "x": 2.714, "y": 8.5 }
+				]
+			},
+			"recibir": {
+				"translate": [
+					{ "time": 0.9667, "y": -19.08 },
+					{ "time": 1.4667, "y": -42 }
+				],
+				"scale": [
+					{ "time": 0.9667, "x": 1.0, "y": 1.0 },
+					{ "time": 1.4667, "x": 1.5, "y": 2 }
+				]
+			},
+			"cabeza": {
+				"rotate": [
+					{
+						"time": 1.4667,
+						"curve": [ 0.5170000195503235, 0.10999999940395355, 0.5, 1.0 ],
+						"angle": 0.0
+					},
+					{
+						"time": 1.6667,
+						"angle": -5.81,
+						"curve": [ 0.5149999856948853, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.9333,
+						"angle": -23.08,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{
+						"time": 2.1333,
+						"angle": -28.56,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{ "time": 2.3333, "angle": -36.9 }
+				],
+				"translate": [
+					{
+						"time": 1.4667,
+						"curve": [ 0.5170000195503235, 0.10999999940395355, 0.5, 1.0 ]
+					},
+					{
+						"time": 1.6667,
+						"y": 26.18,
+						"curve": [ 0.5149999856948853, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.9333,
+						"y": -134.4,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{
+						"time": 2.0333,
+						"y": -119.22,
+						"curve": [ 0.5070000290870667, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 2.1333,
+						"y": -134.4,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{
+						"time": 2.2333,
+						"y": -126.25,
+						"curve": [ 0.5299999713897705, 0.09000000357627869, 1.0, 1.0 ]
+					},
+					{ "time": 2.3333, "y": -134.4 }
+				],
+				"scale": [
+					{ "time": 1.4667, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.6667, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.9333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 2.0333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 2.1333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 2.2333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 2.3333, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"polvo": {
+				"translate": [
+					{ "time": 0.5 },
+					{ "time": 0.7333, "x": 0.25, "y": -52.39 },
+					{ "time": 0.8, "x": -15.02, "y": -67.36 },
+					{ "time": 1.0333, "x": -3.37, "y": -119.75 },
+					{ "time": 1.1667, "x": -6.41, "y": -149.68, "curve": "stepped" },
+					{ "time": 1.2, "x": -10.96, "y": 2.19 },
+					{ "time": 1.4333, "x": -16.39, "y": -49.49 },
+					{ "time": 1.8333, "x": -11.4, "y": -138.09 }
+				]
+			},
+			"cabeza general": {
+				"translate": [
+					{
+						"time": 1.4667,
+						"curve": [ 0.3840000033378601, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{
+						"time": 1.6667,
+						"x": 10.55,
+						"curve": [ 0.4740000069141388, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{
+						"time": 1.9333,
+						"x": 26.96,
+						"curve": [ 0.25, 0.0, 0.5109999775886536, 0.8999999761581421 ]
+					},
+					{
+						"time": 2.1333,
+						"x": 36.86,
+						"curve": [ 0.4740000069141388, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{ "time": 2.3333, "x": 42.86 }
+				]
+			},
+			"polvo2": {
+				"translate": [
+					{ "time": 0.5 },
+					{ "time": 0.7333, "x": 0.25, "y": -52.39 },
+					{ "time": 0.8, "x": -15.02, "y": -67.36 },
+					{ "time": 1.0333, "x": -3.37, "y": -119.75 },
+					{ "time": 1.1667, "x": -6.41, "y": -149.68, "curve": "stepped" },
+					{ "time": 1.2, "x": -10.96, "y": 2.19 },
+					{ "time": 1.4333, "x": -16.39, "y": -49.49 },
+					{ "time": 1.8333, "x": -11.4, "y": -138.09 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"CENIZAS DIBUJAR": {
+					"CENIZAS DIBUJAR": [
+						{
+							"time": 0.5,
+							"offset": 1,
+							"vertices": [ 15.54697, 0, 15.54697 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ 1.62078, 81.77802, 1.62078, 81.77802 ]
+						},
+						{
+							"time": 1.1,
+							"vertices": [ 3.24155, 141.75105, 3.24155, 141.75105 ]
+						},
+						{
+							"time": 1.4,
+							"vertices": [ 4.86233, 202.90332, 4.86233, 202.90332 ]
+						},
+						{
+							"time": 1.6667,
+							"vertices": [ 6.30302, 216.73294, 6.30302, 216.73294 ]
+						}
+					]
+				},
+				"polvo": {
+					"polvo": [
+						{
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ],
+							"curve": "stepped",
+							"time": 0.0
+						},
+						{
+							"time": 0.5,
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ]
+						},
+						{
+							"time": 1.6667,
+							"offset": 4,
+							"vertices": [ -6.94801, 45.90402, -6.94801, 45.90402 ]
+						},
+						{
+							"time": 1.9667,
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ]
+						}
+					]
+				},
+				"cabeza": {
+					"cabeza": [
+						{ "time": 0.0333 },
+						{
+							"time": 0.1667,
+							"offset": 1,
+							"vertices": [ -30.675, 0, -30.675, 0, -30.675, 0, -30.675 ]
+						},
+						{ "time": 0.4, "curve": "stepped" },
+						{ "time": 0.4667 },
+						{
+							"time": 0.6,
+							"offset": 1,
+							"vertices": [ -30.675, 0, -30.675, 0, -30.675, 0, -30.675 ]
+						},
+						{ "time": 0.8333 }
+					]
+				}
+			}
+		}
+	},
+	"zombidito/3": {
+		"slots": {
+			"restos caer": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4, "color": "ffffff00" },
+					{ "time": 0.4667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1, "color": "ffffffff" },
+					{ "time": 1.1667, "color": "ffffff00" }
+				]
+			},
+			"basico/ojo der2": {
+				"attachment": [
+					{ "time": 1.9, "name": null }
+				]
+			},
+			"ceniza efc 14": {
+				"attachment": [
+					{ "time": 1.9, "name": null }
+				]
+			},
+			"basico/ojo der": {
+				"attachment": [
+					{ "time": 1.9, "name": null }
+				]
+			},
+			"ceniza 4": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"zombidito/restos": {
+				"color": [
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.8667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 1.9, "name": "restos" }
+				]
+			},
+			"ceniza 2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza 7": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"basico/ceniza efc 1": {
+				"attachment": [
+					{ "time": 1.9, "name": null }
+				]
+			},
+			"ceniza 3": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"restos base": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.3667, "color": "ffffff00" },
+					{ "time": 0.4333, "color": "fffffffb" }
+				],
+				"attachment": [
+					{ "time": 1.9, "name": null }
+				]
+			},
+			"ceniza 6": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 15": {
+				"attachment": [
+					{ "time": 1.9, "name": null }
+				]
+			},
+			"zombidito/ceniza 6": {
+				"attachment": [
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"ceniza 8": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza 5": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"zombidito/ceniza 7": {
+				"attachment": [
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"zombidito/ceniza 1": {
+				"attachment": [
+					{ "time": 1.9, "name": null }
+				]
+			},
+			"ceniza efc 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 1.8667, "name": null }
+				]
+			},
+			"ceniza 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 1.8667, "name": null }
+				]
+			},
+			"ceniza efc 2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 1.8667, "name": null }
+				]
+			},
+			"ceniza efc 24": {
+				"attachment": [
+					{ "time": 1.9, "name": null }
+				]
+			},
+			"ojo izq": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 1.8667, "name": null }
+				]
+			},
+			"ceniza efc 30": {
+				"attachment": [
+					{ "time": 1.9, "name": null }
+				]
+			},
+			"ojo der": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 1.8667, "name": null }
+				]
+			},
+			"restos recibir": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.6, "name": "restos recibir" },
+					{ "time": 1.9, "name": null }
+				]
+			},
+			"basico/ceniza efc 2": {
+				"attachment": [
+					{ "time": 1.9, "name": null }
+				]
+			},
+			"cabeza": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza 9": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"ceniza caer": {
+				"translate": [
+					{ "time": 0.4333, "y": 9.12 },
+					{ "time": 0.4667, "x": -10.05, "y": 9.26 },
+					{ "time": 0.5333, "x": -18.34, "y": 20.43 },
+					{ "time": 0.5667, "x": -16.31, "y": 26.02 },
+					{ "time": 0.6, "x": -24.83, "y": 33.11 },
+					{ "time": 0.6667, "x": -18.72, "y": 47.29 },
+					{ "time": 0.7333, "x": -17.44, "y": 60.8 },
+					{ "time": 0.8, "x": -19, "y": 74.31 },
+					{ "time": 0.9, "x": -16.02, "y": 94.57 },
+					{ "time": 1, "x": -53.07, "y": 114.84 }
+				],
+				"scale": [
+					{ "x": 0.2, "y": 0.2, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4333, "x": 0.2, "y": 0.2 },
+					{ "time": 0.4667, "x": 0.773, "y": 0.467 },
+					{ "time": 0.5333, "x": 0.78, "y": 1.0 },
+					{ "time": 0.5667, "x": 0.745, "y": 1.0 },
+					{ "time": 0.6, "x": 1.043, "y": 1.0 },
+					{ "time": 0.6667, "x": 1.062, "y": 1.0 },
+					{ "time": 0.7333, "x": 1.066, "y": 1.0 },
+					{ "time": 0.8, "x": 1.073, "y": 1.0 },
+					{ "time": 0.9, "x": 0.759, "y": 1.084 },
+					{ "time": 0.9333, "x": 0.9, "y": 1.056 },
+					{ "time": 0.9667, "x": 0.968, "y": 1.028 },
+					{ "time": 1, "x": 0.664, "y": 1.0 }
+				]
+			},
+			"ceniza suelo": {
+				"translate": [
+					{ "x": -15.33, "curve": "stepped", "time": 0.0 },
+					{
+						"time": 0.4333,
+						"x": -15.33,
+						"curve": [ 0.25, 0.0, 0.6079999804496765, 1.0 ]
+					},
+					{ "time": 0.9333, "x": -15.33, "y": 10.84 }
+				],
+				"scale": [
+					{
+						"time": 0.4333,
+						"curve": [ 0.25, 0.0, 0.6079999804496765, 1.0 ],
+						"x": 1.0,
+						"y": 1.0
+					},
+					{ "time": 0.9333, "x": 2.714, "y": 8.5 }
+				]
+			},
+			"recibir": {
+				"translate": [
+					{ "time": 0.6, "y": -19.08 },
+					{ "time": 1.1, "y": -42 }
+				],
+				"scale": [
+					{ "time": 0.6, "x": 1.0, "y": 1.0 },
+					{ "time": 1.1, "x": 1.5, "y": 2 }
+				]
+			},
+			"cabeza": {
+				"rotate": [
+					{ "time": 1.0333, "angle": 0.0 },
+					{ "time": 1.2333, "angle": -3.74 }
+				],
+				"translate": [
+					{
+						"time": 1.0333,
+						"curve": [ 0.5170000195503235, 0.10999999940395355, 0.5, 1.0 ]
+					},
+					{
+						"time": 1.2333,
+						"y": 26.18,
+						"curve": [ 0.5149999856948853, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.4333,
+						"y": -60.65,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{
+						"time": 1.5333,
+						"y": -44.45,
+						"curve": [ 0.5070000290870667, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.6333,
+						"y": -68.41,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{
+						"time": 1.7333,
+						"y": -66.93,
+						"curve": [ 0.5299999713897705, 0.09000000357627869, 1.0, 1.0 ]
+					},
+					{ "time": 1.8667, "y": -78.38 }
+				],
+				"scale": [
+					{ "time": 1.0333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.2333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.4333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.5333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.6333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.7333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.8667, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"polvo": {
+				"translate": [
+					{ "time": 0.4333 },
+					{ "time": 0.6667, "x": -15.18, "y": -52.39 },
+					{ "time": 0.7333, "x": -15.02, "y": -67.36 },
+					{ "time": 0.8667, "x": -21.36, "y": -97.29 },
+					{ "time": 0.9667, "x": -31.38, "y": -119.75 },
+					{ "time": 1.1333, "x": -35.66, "y": 2.19 },
+					{ "time": 1.3333, "x": -35.66, "y": -49.49 }
+				]
+			},
+			"cabeza general": {
+				"translate": [
+					{
+						"time": 1.0333,
+						"curve": [ 0.3840000033378601, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{
+						"time": 1.2333,
+						"x": 10.69,
+						"curve": [ 0.4740000069141388, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{
+						"time": 1.4333,
+						"x": 18.22,
+						"curve": [ 0.25, 0.0, 0.5109999775886536, 0.8999999761581421 ]
+					},
+					{
+						"time": 1.6333,
+						"x": 25.46,
+						"curve": [ 0.4740000069141388, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{ "time": 1.8333, "x": 30.72 }
+				]
+			},
+			"polvo2": {
+				"translate": [
+					{ "time": 0.4333 },
+					{ "time": 0.6667, "x": -15.18, "y": -52.39 },
+					{ "time": 0.7333, "x": -15.02, "y": -67.36 },
+					{ "time": 0.8667, "x": -21.36, "y": -97.29 },
+					{ "time": 0.9667, "x": -31.38, "y": -119.75 },
+					{ "time": 1.1333, "x": -35.66, "y": 2.19 },
+					{ "time": 1.3333, "x": -35.66, "y": -49.49 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"CENIZAS DIBUJAR": {
+					"CENIZAS DIBUJAR": [
+						{
+							"time": 0.4333,
+							"offset": 1,
+							"vertices": [ 1.31702, 0, 1.31702 ]
+						},
+						{
+							"time": 0.5,
+							"offset": 1,
+							"vertices": [ 32.30376, 0, 32.30376 ]
+						},
+						{
+							"time": 0.5333,
+							"offset": 1,
+							"vertices": [ 41.18665, 0, 41.18665 ]
+						},
+						{
+							"time": 0.5667,
+							"offset": 1,
+							"vertices": [ 47.69653, 0, 47.69653 ]
+						},
+						{
+							"time": 0.7,
+							"offset": 1,
+							"vertices": [ 75.68404, 0, 75.68404 ]
+						},
+						{
+							"time": 1,
+							"offset": 1,
+							"vertices": [ 139.80547, 1.0E-5, 139.80547 ]
+						}
+					]
+				},
+				"polvo": {
+					"polvo": [
+						{
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ],
+							"curve": "stepped",
+							"time": 0.0
+						},
+						{
+							"time": 0.4333,
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ]
+						},
+						{
+							"time": 1.2,
+							"offset": 4,
+							"vertices": [ -6.28879, -55.67435, -6.28879, -55.67435 ]
+						},
+						{
+							"time": 1.4333,
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ]
+						}
+					]
+				}
+			}
+		}
+	},
+	"basico/4": {
+		"slots": {
+			"restos caer": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4, "color": "ffffff00" },
+					{ "time": 0.4667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.3, "color": "ffffffff" },
+					{ "time": 1.3667, "color": "ffffff00" }
+				]
+			},
+			"ceniza efc 9": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 18": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 14": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"basico/ojo der": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 12": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 10": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza 7": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"zombidito/ceniza 3": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 16": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 27": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 15": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"zombidito/ceniza 6": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"zombidito/ceniza 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 6": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 2": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 24": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 26": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 30": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ojo der": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 17": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 22": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"basico/ceniza efc 2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 5": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza 8": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"zombidito/ceniza 2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"basico/ojo der2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"basico/restos": {
+				"color": [
+					{ "time": 2.2667, "color": "ffffffff" },
+					{ "time": 2.7667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.2, "name": "restos" }
+				]
+			},
+			"zombidito/ceniza 5": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 21": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 11": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"cabeza": {
+				"attachment": [
+					{ "time": 1, "name": null }
+				]
+			},
+			"ceniza efc 7": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 28": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 20": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"basico/ceniza efc 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 23": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 3": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"zombidito/ceniza 7": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 29": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 1": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 25": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza 1": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 8": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"restos base": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.3667, "color": "ffffff00" },
+					{ "time": 0.4333, "color": "fffffffb" }
+				],
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ojo izq": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 4": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"restos recibir": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.9, "name": "restos recibir" },
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza efc 13": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"zombidito/ceniza 4": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 19": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ceniza 9": {
+				"attachment": [
+					{ "time": 2.2, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ceniza caer": {
+				"translate": [
+					{ "time": 0.4333, "y": 9.12 },
+					{ "time": 0.4667, "x": -0.03, "y": 9.26 },
+					{ "time": 0.5667, "x": -0.12, "y": 26.02 },
+					{ "time": 0.6667, "x": -0.22, "y": 47.29 },
+					{ "time": 0.7333, "x": -20.01, "y": 60.8 },
+					{ "time": 0.8, "x": -19, "y": 74.31 },
+					{ "time": 0.9, "x": -9.54, "y": 94.57 },
+					{ "time": 1, "x": -6.81, "y": 114.84 },
+					{ "time": 1.1667, "x": -13.62, "y": 147.2 },
+					{ "time": 1.3333, "x": -19.77, "y": 179.56 }
+				],
+				"scale": [
+					{ "x": 0.2, "y": 0.2, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4333, "x": 0.2, "y": 0.2 },
+					{ "time": 0.4667, "x": 1.009, "y": 0.467 },
+					{ "time": 0.5333, "x": 1.219, "y": 1.0 },
+					{ "time": 0.5667, "x": 1.189, "y": 1.0 },
+					{ "time": 0.6667, "x": 0.776, "y": 1.0 },
+					{ "time": 0.7333, "x": 0.951, "y": 1.0 },
+					{ "time": 0.8, "x": 1.028, "y": 1.0 },
+					{ "time": 0.9, "x": 1.041, "y": 1.0 },
+					{ "time": 1, "x": 0.935, "y": 1.0 },
+					{ "time": 1.1667, "x": 0.826, "y": 1.0 },
+					{ "time": 1.3333, "x": 0.491, "y": 1.0 }
+				]
+			},
+			"ceniza suelo": {
+				"translate": [
+					{
+						"time": 0.4333,
+						"curve": [ 0.25, 0.0, 0.6079999804496765, 1.0 ]
+					},
+					{ "time": 0.9333, "y": 10.84 }
+				],
+				"scale": [
+					{
+						"time": 0.4333,
+						"curve": [ 0.25, 0.0, 0.6079999804496765, 1.0 ],
+						"x": 1.0,
+						"y": 1.0
+					},
+					{ "time": 0.9333, "x": 2.714, "y": 8.5 }
+				]
+			},
+			"recibir": {
+				"translate": [
+					{ "time": 0.9, "y": -19.08 },
+					{ "time": 1.4, "y": -42 }
+				],
+				"scale": [
+					{ "time": 0.9, "x": 1.0, "y": 1.0 },
+					{ "time": 1.4, "x": 1.5, "y": 2 }
+				]
+			},
+			"cabeza": {
+				"rotate": [
+					{
+						"time": 1.4,
+						"curve": [ 0.5170000195503235, 0.10999999940395355, 0.5, 1.0 ],
+						"angle": 0.0
+					},
+					{
+						"time": 1.5667,
+						"angle": -5.81,
+						"curve": [ 0.5149999856948853, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.8,
+						"angle": -23.08,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{
+						"time": 2,
+						"angle": -28.56,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{ "time": 2.2, "angle": -36.9 }
+				],
+				"translate": [
+					{
+						"time": 1.4,
+						"curve": [ 0.5170000195503235, 0.10999999940395355, 0.5, 1.0 ]
+					},
+					{
+						"time": 1.5667,
+						"y": 26.18,
+						"curve": [ 0.5149999856948853, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.8,
+						"y": -134.4,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{
+						"time": 1.9,
+						"y": -119.22,
+						"curve": [ 0.5070000290870667, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 2,
+						"y": -134.4,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{
+						"time": 2.1,
+						"y": -126.25,
+						"curve": [ 0.5299999713897705, 0.09000000357627869, 1.0, 1.0 ]
+					},
+					{ "time": 2.2, "y": -134.4 }
+				],
+				"scale": [
+					{ "time": 1.4, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.5667, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.8, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.9, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 2, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 2.1, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 2.2, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"polvo": {
+				"translate": [
+					{ "time": 0.4333 },
+					{ "time": 0.6667, "x": 0.25, "y": -52.39 },
+					{ "time": 0.7333, "x": -15.02, "y": -67.36 },
+					{ "time": 0.9667, "x": -3.37, "y": -119.75 },
+					{ "time": 1.1, "x": -6.41, "y": -149.68, "curve": "stepped" },
+					{ "time": 1.1333, "x": -10.96, "y": 2.19 },
+					{ "time": 1.3667, "x": -16.39, "y": -49.49 },
+					{ "time": 1.7, "x": -11.4, "y": -138.09 }
+				]
+			},
+			"cabeza general": {
+				"translate": [
+					{
+						"time": 1.4,
+						"curve": [ 0.3840000033378601, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{
+						"time": 1.5667,
+						"x": 10.55,
+						"curve": [ 0.4740000069141388, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{
+						"time": 1.8,
+						"x": 26.96,
+						"curve": [ 0.25, 0.0, 0.5109999775886536, 0.8999999761581421 ]
+					},
+					{
+						"time": 2,
+						"x": 36.86,
+						"curve": [ 0.4740000069141388, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{ "time": 2.2, "x": 42.86 }
+				]
+			},
+			"polvo2": {
+				"translate": [
+					{ "time": 0.4333 },
+					{ "time": 0.6667, "x": 0.25, "y": -52.39 },
+					{ "time": 0.7333, "x": -15.02, "y": -67.36 },
+					{ "time": 0.9667, "x": -3.37, "y": -119.75 },
+					{ "time": 1.1, "x": -6.41, "y": -149.68, "curve": "stepped" },
+					{ "time": 1.1333, "x": -10.96, "y": 2.19 },
+					{ "time": 1.3667, "x": -16.39, "y": -49.49 },
+					{ "time": 1.7, "x": -11.4, "y": -138.09 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"CENIZAS DIBUJAR": {
+					"CENIZAS DIBUJAR": [
+						{
+							"time": 0.4333,
+							"offset": 1,
+							"vertices": [ 15.54697, 0, 15.54697 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ 1.62078, 81.77802, 1.62078, 81.77802 ]
+						},
+						{
+							"time": 1.0333,
+							"vertices": [ 3.24155, 141.75105, 3.24155, 141.75105 ]
+						},
+						{
+							"time": 1.3333,
+							"vertices": [ 4.86233, 202.90332, 4.86233, 202.90332 ]
+						},
+						{
+							"time": 1.5667,
+							"vertices": [ 6.30302, 216.73294, 6.30302, 216.73294 ]
+						}
+					]
+				},
+				"polvo": {
+					"polvo": [
+						{
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ],
+							"curve": "stepped",
+							"time": 0.0
+						},
+						{
+							"time": 0.4333,
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ]
+						},
+						{
+							"time": 1.5667,
+							"offset": 4,
+							"vertices": [ -6.94801, 45.90402, -6.94801, 45.90402 ]
+						},
+						{
+							"time": 1.8333,
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ]
+						}
+					]
+				},
+				"cabeza": {
+					"cabeza": [
+						{ "time": 0.0333 },
+						{
+							"time": 0.1667,
+							"offset": 1,
+							"vertices": [ -30.675, 0, -30.675, 0, -30.675, 0, -30.675 ]
+						},
+						{ "time": 0.3333, "curve": "stepped" },
+						{ "time": 0.4 },
+						{
+							"time": 0.5333,
+							"offset": 1,
+							"vertices": [ -30.675, 0, -30.675, 0, -30.675, 0, -30.675 ]
+						},
+						{ "time": 0.7667 }
+					]
+				}
+			}
+		}
+	},
+	"zombidito/4": {
+		"slots": {
+			"restos caer": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4667, "color": "ffffff00" },
+					{ "time": 0.5333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1667, "color": "ffffffff" },
+					{ "time": 1.2, "color": "ffffff00" }
+				]
+			},
+			"basico/ojo der2": {
+				"attachment": [
+					{ "time": 1.9333, "name": null }
+				]
+			},
+			"ceniza efc 14": {
+				"attachment": [
+					{ "time": 1.9333, "name": null }
+				]
+			},
+			"basico/ojo der": {
+				"attachment": [
+					{ "time": 1.9333, "name": null }
+				]
+			},
+			"ceniza 4": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"zombidito/restos": {
+				"color": [
+					{ "time": 1.9667, "color": "ffffffff" },
+					{ "time": 2.4667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 1.9333, "name": "restos" }
+				]
+			},
+			"ceniza 2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza 7": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza 3": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"restos base": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4333, "color": "ffffff00" },
+					{ "time": 0.5, "color": "fffffffb" }
+				],
+				"attachment": [
+					{ "time": 1.9333, "name": null }
+				]
+			},
+			"ceniza 6": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 15": {
+				"attachment": [
+					{ "time": 1.9333, "name": null }
+				]
+			},
+			"zombidito/ceniza 6": {
+				"attachment": [
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"ceniza 8": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"basico/ceniza efc 1": {
+				"attachment": [
+					{ "time": 1.9333, "name": null }
+				]
+			},
+			"zombidito/ceniza 7": {
+				"attachment": [
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"ceniza 5": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza efc 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 1.9, "name": null }
+				]
+			},
+			"ceniza 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 1.9, "name": null }
+				]
+			},
+			"ceniza efc 2": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 1.9, "name": null }
+				]
+			},
+			"ceniza efc 24": {
+				"attachment": [
+					{ "time": 1.9333, "name": null }
+				]
+			},
+			"zombidito/ceniza 1": {
+				"attachment": [
+					{ "time": 1.9333, "name": null }
+				]
+			},
+			"ojo izq": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 1.9, "name": null }
+				]
+			},
+			"ceniza efc 30": {
+				"attachment": [
+					{ "time": 1.9333, "name": null }
+				]
+			},
+			"ojo der": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 1.9, "name": null }
+				]
+			},
+			"restos recibir": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.6667, "name": "restos recibir" },
+					{ "time": 1.9333, "name": null }
+				]
+			},
+			"basico/ceniza efc 2": {
+				"attachment": [
+					{ "time": 1.9333, "name": null }
+				]
+			},
+			"cabeza": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"ceniza 9": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"ceniza caer": {
+				"translate": [
+					{ "time": 0.5, "y": 9.12 },
+					{ "time": 0.5333, "x": -10.05, "y": 9.26 },
+					{ "time": 0.6, "x": -18.34, "y": 20.43 },
+					{ "time": 0.6333, "x": -16.31, "y": 26.02 },
+					{ "time": 0.6667, "x": -24.83, "y": 33.11 },
+					{ "time": 0.7333, "x": -18.72, "y": 47.29 },
+					{ "time": 0.8, "x": -17.44, "y": 60.8 },
+					{ "time": 0.8667, "x": -19, "y": 74.31 },
+					{ "time": 0.9667, "x": -16.02, "y": 94.57 },
+					{ "time": 1.0667, "x": -53.07, "y": 114.84 }
+				],
+				"scale": [
+					{ "x": 0.2, "y": 0.2, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.5, "x": 0.2, "y": 0.2 },
+					{ "time": 0.5333, "x": 0.773, "y": 0.467 },
+					{ "time": 0.6, "x": 0.78, "y": 1.0 },
+					{ "time": 0.6333, "x": 0.745, "y": 1.0 },
+					{ "time": 0.6667, "x": 1.043, "y": 1.0 },
+					{ "time": 0.7333, "x": 1.062, "y": 1.0 },
+					{ "time": 0.8, "x": 1.066, "y": 1.0 },
+					{ "time": 0.8667, "x": 1.073, "y": 1.0 },
+					{ "time": 0.9667, "x": 0.759, "y": 1.084 },
+					{ "time": 1, "x": 0.9, "y": 1.056 },
+					{ "time": 1.0333, "x": 0.968, "y": 1.028 },
+					{ "time": 1.0667, "x": 0.664, "y": 1.0 }
+				]
+			},
+			"ceniza suelo": {
+				"translate": [
+					{ "x": -15.33, "curve": "stepped", "time": 0.0 },
+					{
+						"time": 0.5,
+						"x": -15.33,
+						"curve": [ 0.25, 0.0, 0.6079999804496765, 1.0 ]
+					},
+					{ "time": 1, "x": -15.33, "y": 10.84 }
+				],
+				"scale": [
+					{
+						"time": 0.5,
+						"curve": [ 0.25, 0.0, 0.6079999804496765, 1.0 ],
+						"x": 1.0,
+						"y": 1.0
+					},
+					{ "time": 1, "x": 2.714, "y": 8.5 }
+				]
+			},
+			"recibir": {
+				"translate": [
+					{ "time": 0.6667, "y": -19.08 },
+					{ "time": 1.1667, "y": -42 }
+				],
+				"scale": [
+					{ "time": 0.6667, "x": 1.0, "y": 1.0 },
+					{ "time": 1.1667, "x": 1.5, "y": 2 }
+				]
+			},
+			"cabeza": {
+				"rotate": [
+					{ "time": 1.1, "angle": 0.0 },
+					{ "time": 1.2667, "angle": -3.74 }
+				],
+				"translate": [
+					{
+						"time": 1.1,
+						"curve": [ 0.5170000195503235, 0.10999999940395355, 0.5, 1.0 ]
+					},
+					{
+						"time": 1.2667,
+						"y": 26.18,
+						"curve": [ 0.5149999856948853, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.5,
+						"y": -60.65,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{
+						"time": 1.6,
+						"y": -44.45,
+						"curve": [ 0.5070000290870667, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.7,
+						"y": -68.41,
+						"curve": [ 0.0, 0.0, 0.5, 0.8999999761581421 ]
+					},
+					{
+						"time": 1.8,
+						"y": -66.93,
+						"curve": [ 0.5299999713897705, 0.09000000357627869, 1.0, 1.0 ]
+					},
+					{ "time": 1.9, "y": -78.38 }
+				],
+				"scale": [
+					{ "time": 1.1, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.2667, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.5, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.6, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.7, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.8, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.9, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"polvo": {
+				"translate": [
+					{ "time": 0.5 },
+					{ "time": 0.7333, "x": -15.18, "y": -52.39 },
+					{ "time": 0.8, "x": -15.02, "y": -67.36 },
+					{ "time": 0.9333, "x": -21.36, "y": -97.29 },
+					{ "time": 1.0333, "x": -31.38, "y": -119.75 },
+					{ "time": 1.1667, "x": -35.66, "y": 2.19 },
+					{ "time": 1.4, "x": -35.66, "y": -49.49 }
+				]
+			},
+			"cabeza general": {
+				"translate": [
+					{
+						"time": 1.1,
+						"curve": [ 0.3840000033378601, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{
+						"time": 1.2667,
+						"x": 10.69,
+						"curve": [ 0.4740000069141388, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{
+						"time": 1.5,
+						"x": 18.22,
+						"curve": [ 0.25, 0.0, 0.5109999775886536, 0.8999999761581421 ]
+					},
+					{
+						"time": 1.7,
+						"x": 25.46,
+						"curve": [ 0.4740000069141388, 0.10000000149011612, 0.6230000257492065, 1.0 ]
+					},
+					{ "time": 1.8667, "x": 30.72 }
+				]
+			},
+			"polvo2": {
+				"translate": [
+					{ "time": 0.5 },
+					{ "time": 0.7333, "x": -15.18, "y": -52.39 },
+					{ "time": 0.8, "x": -15.02, "y": -67.36 },
+					{ "time": 0.9333, "x": -21.36, "y": -97.29 },
+					{ "time": 1.0333, "x": -31.38, "y": -119.75 },
+					{ "time": 1.1667, "x": -35.66, "y": 2.19 },
+					{ "time": 1.4, "x": -35.66, "y": -49.49 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"CENIZAS DIBUJAR": {
+					"CENIZAS DIBUJAR": [
+						{
+							"time": 0.5,
+							"offset": 1,
+							"vertices": [ 1.31702, 0, 1.31702 ]
+						},
+						{
+							"time": 0.5333,
+							"offset": 1,
+							"vertices": [ 24.96317, 0, 24.96317 ]
+						},
+						{
+							"time": 0.5667,
+							"offset": 1,
+							"vertices": [ 33.34529, 0, 33.34529 ]
+						},
+						{
+							"time": 0.6,
+							"offset": 1,
+							"vertices": [ 41.72742, 0, 41.72742 ]
+						},
+						{
+							"time": 0.6667,
+							"offset": 1,
+							"vertices": [ 54.27169, 0, 54.27169 ]
+						},
+						{
+							"time": 0.7,
+							"offset": 1,
+							"vertices": [ 62.45181, 0, 62.45181 ]
+						},
+						{
+							"time": 0.9,
+							"offset": 1,
+							"vertices": [ 102.74262, 0, 102.74262 ]
+						},
+						{
+							"time": 1.0667,
+							"offset": 1,
+							"vertices": [ 139.80547, 1.0E-5, 139.80547 ]
+						}
+					]
+				},
+				"polvo": {
+					"polvo": [
+						{
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ],
+							"curve": "stepped",
+							"time": 0.0
+						},
+						{
+							"time": 0.5,
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ]
+						},
+						{
+							"time": 1.2333,
+							"offset": 4,
+							"vertices": [ -6.28879, -55.67435, -6.28879, -55.67435 ]
+						},
+						{
+							"time": 1.5,
+							"offset": 4,
+							"vertices": [ -5.59002, -163.22794, -5.59002, -163.22794 ]
+						}
+					]
+				}
+			}
+		}
+	}
+},
+"skins": {
+	"default": {
+		"polvo": {
+			"polvo": {
+				"type": "clipping",
+				"end": "ceniza efc 15",
+				"vertexCount": 4,
+				"vertices": [ -97.33, 3.08, 158.18, 3.08, 96.51, 175.79, -83.74, 177.76 ],
+				"color": "6cce3a00"
+			}
+		},
+		"cabeza": {
+			"cabeza": {
+				"type": "clipping",
+				"end": "ceniza efc 2",
+				"vertexCount": 4,
+				"vertices": [ -110.05, 184.5, 32.37, 184.32, 29.24, 216.63, -105.99, 216.9 ],
+				"color": "5d3ace00"
+			}
+		},
+		"CENIZAS DIBUJAR": {
+			"CENIZAS DIBUJAR": {
+				"type": "clipping",
+				"end": "ceniza 2",
+				"vertexCount": 4,
+				"vertices": [ -147.15, -14.38, 113.46, -14.82, 120.51, 268.08, -151.55, 268.08 ],
+				"color": "ce3a3a00"
+			}
+		}
+	},
+	"basico": {
+		"ceniza efc 22": {
+			"ceniza efc 2": {
+				"path": "basico/ceniza efc 2",
+				"x": 0.41,
+				"y": -108.25,
+				"scaleX": -1,
+				"rotation": -0.39,
+				"width": 19,
+				"height": 34
+			}
+		},
+		"ceniza efc 2": {
+			"ceniza efc 1": { "path": "basico/ceniza efc 1", "x": 17.58, "y": -0.1, "width": 9, "height": 9 }
+		},
+		"basico/restos": {
+			"restos": { "name": "basico/restos", "x": 1.39, "y": 48.88, "width": 139, "height": 145 }
+		},
+		"ceniza efc 28": {
+			"ceniza efc 3": {
+				"path": "basico/ceniza efc 3",
+				"x": 2.68,
+				"y": -130.83,
+				"scaleX": -1,
+				"rotation": 28.17,
+				"width": 23,
+				"height": 18
+			}
+		},
+		"ceniza 1": {
+			"ceniza 1": { "path": "basico/ceniza 1", "x": 5.52, "y": 4.48, "width": 106, "height": 114 }
+		},
+		"ceniza 2": {
+			"ceniza 2": { "path": "basico/ceniza 2", "x": -10.92, "y": 157.62, "width": 73, "height": 39 }
+		},
+		"ceniza 3": {
+			"ceniza 3": { "path": "basico/ceniza 3", "x": -6.99, "y": 129.74, "width": 81, "height": 32 }
+		},
+		"ceniza 4": {
+			"ceniza 4": { "path": "basico/ceniza 4", "x": -7.94, "y": 105.97, "width": 89, "height": 30 }
+		},
+		"ceniza 5": {
+			"ceniza 5": { "path": "basico/ceniza 5", "x": -12.85, "y": 80.57, "width": 98, "height": 35 }
+		},
+		"ceniza 6": {
+			"ceniza 6": { "path": "basico/ceniza 6", "x": -14.51, "y": 57.36, "width": 92, "height": 26 }
+		},
+		"ceniza 7": {
+			"ceniza 7": { "path": "basico/ceniza 7", "x": 3.05, "y": 40.61, "width": 78, "height": 23 }
+		},
+		"ceniza 8": {
+			"ceniza 8": { "path": "basico/ceniza 8", "x": 1.23, "y": 24.37, "width": 106, "height": 26 }
+		},
+		"ceniza 9": {
+			"ceniza 9": { "path": "basico/ceniza 9", "x": 0.24, "y": 5.79, "width": 100, "height": 26 }
+		},
+		"ceniza efc 27": {
+			"ceniza efc 3": {
+				"path": "basico/ceniza efc 3",
+				"x": 1.91,
+				"y": 21.2,
+				"scaleX": -1,
+				"rotation": 28.17,
+				"width": 23,
+				"height": 18
+			}
+		},
+		"ceniza efc 29": {
+			"ceniza efc 3": {
+				"path": "basico/ceniza efc 3",
+				"x": -3.53,
+				"y": -20.62,
+				"scaleX": -1,
+				"rotation": -30.76,
+				"width": 23,
+				"height": 18
+			}
+		},
+		"ceniza efc 23": {
+			"ceniza efc 2": { "path": "basico/ceniza efc 2", "x": -2.4, "y": -0.76, "rotation": -0.39, "width": 19, "height": 34 }
+		},
+		"basico/ceniza efc 1": {
+			"basico/ceniza efc 1": { "x": -46.91, "y": -70.99, "width": 9, "height": 9 }
+		},
+		"basico/ceniza efc 2": {
+			"basico/ceniza efc 1": { "x": -10.34, "y": -74.04, "width": 9, "height": 9 }
+		},
+		"restos recibir": {
+			"restos recibir": {
+				"path": "basico/restos recibir",
+				"x": 0.07,
+				"y": 32.19,
+				"scaleX": 0.5,
+				"scaleY": 0.5,
+				"width": 48,
+				"height": 23
+			}
+		},
+		"ceniza efc 21": {
+			"ceniza efc 2": {
+				"path": "basico/ceniza efc 2",
+				"x": -0.36,
+				"y": 43.78,
+				"scaleX": -1,
+				"rotation": -0.39,
+				"width": 19,
+				"height": 34
+			}
+		},
+		"zombistein/ojo izq": {
+			"zombistein/ojo izq": { "x": -139.07, "y": 130.63, "width": 32, "height": 32 }
+		},
+		"ojo izq": {
+			"ojo izq": { "path": "basico/ojo izq", "x": -29.94, "y": 1.97, "width": 28, "height": 28 }
+		},
+		"ceniza efc 12": {
+			"ceniza efc 2": {
+				"path": "basico/ceniza efc 2",
+				"x": 0.41,
+				"y": -108.25,
+				"scaleX": -1,
+				"rotation": -0.39,
+				"width": 19,
+				"height": 34
+			}
+		},
+		"ceniza efc 1": {
+			"ceniza efc 1": { "path": "basico/ceniza efc 1", "x": -33.04, "y": 1.78, "width": 9, "height": 9 }
+		},
+		"ceniza efc 10": {
+			"ceniza efc 2": { "path": "basico/ceniza efc 2", "x": -2.58, "y": -60.24, "rotation": -0.39, "width": 19, "height": 34 }
+		},
+		"ceniza efc 11": {
+			"ceniza efc 3": { "path": "basico/ceniza efc 3", "x": -2, "y": -85.46, "rotation": -24.42, "width": 23, "height": 18 }
+		},
+		"basico/ojo der2": {
+			"basico/ojo der": { "x": -41.04, "y": -70.11, "width": 34, "height": 34 }
+		},
+		"ceniza efc 13": {
+			"ceniza efc 3": {
+				"path": "basico/ceniza efc 3",
+				"x": 2.68,
+				"y": -130.83,
+				"scaleX": -1,
+				"rotation": 28.17,
+				"width": 23,
+				"height": 18
+			}
+		},
+		"ceniza efc 14": {
+			"ceniza efc 2": { "path": "basico/ceniza efc 2", "x": -1.63, "y": -152.79, "rotation": -0.39, "width": 19, "height": 34 }
+		},
+		"ceniza efc 15": {
+			"ceniza efc 3": {
+				"path": "basico/ceniza efc 3",
+				"x": -2.76,
+				"y": -172.65,
+				"scaleX": -1,
+				"rotation": -30.76,
+				"width": 23,
+				"height": 18
+			}
+		},
+		"ceniza efc 16": {
+			"ceniza efc 2": {
+				"path": "basico/ceniza efc 2",
+				"x": -0.27,
+				"y": -192.57,
+				"scaleY": -1,
+				"rotation": -0.39,
+				"width": 19,
+				"height": 34
+			}
+		},
+		"ceniza efc 17": {
+			"ceniza efc 2": { "path": "basico/ceniza efc 2", "x": -3.35, "y": 91.79, "rotation": -0.39, "width": 19, "height": 34 }
+		},
+		"ceniza efc 18": {
+			"ceniza efc 2": { "path": "basico/ceniza efc 2", "x": -2.58, "y": -60.24, "rotation": -0.39, "width": 19, "height": 34 }
+		},
+		"ceniza efc 19": {
+			"ceniza efc 3": { "path": "basico/ceniza efc 3", "x": -2.76, "y": 66.57, "rotation": -24.42, "width": 23, "height": 18 }
+		},
+		"zombidito/ceniza 1": {
+			"zombidito/ceniza 1": { "x": -12.05, "y": -67.28, "rotation": -12.27, "width": 103, "height": 105 }
+		},
+		"zombidito/ceniza 2": {
+			"zombidito/ceniza 2": { "x": -21.74, "y": 102.23, "width": 89, "height": 34 }
+		},
+		"zombidito/ceniza 3": {
+			"zombidito/ceniza 3": { "x": -18.25, "y": 75.56, "width": 95, "height": 32 }
+		},
+		"zombidito/ceniza 4": {
+			"zombidito/ceniza 4": { "x": -17.11, "y": 54.84, "width": 90, "height": 23 }
+		},
+		"zombidito/ceniza 5": {
+			"zombidito/ceniza 5": { "x": -21.06, "y": 38.74, "width": 96, "height": 22 }
+		},
+		"zombidito/ceniza 6": {
+			"zombidito/ceniza 6": { "x": -25.87, "y": 22.67, "width": 90, "height": 25 }
+		},
+		"zombidito/ceniza 7": {
+			"zombidito/ceniza 7": { "x": -9.48, "y": 4.53, "width": 74, "height": 26 }
+		},
+		"ceniza efc 20": {
+			"ceniza efc 3": { "path": "basico/ceniza efc 3", "x": -2, "y": -85.46, "rotation": -24.42, "width": 23, "height": 18 }
+		},
+		"basico/ojo der": {
+			"basico/ojo der": { "x": -4.88, "y": -73.85, "width": 34, "height": 34 }
+		},
+		"ceniza efc 25": {
+			"ceniza efc 2": {
+				"path": "basico/ceniza efc 2",
+				"x": -1.04,
+				"y": -40.54,
+				"scaleY": -1,
+				"rotation": -0.39,
+				"width": 19,
+				"height": 34
+			}
+		},
+		"ceniza efc 3": {
+			"ceniza efc 2": { "path": "basico/ceniza efc 2", "x": -3.35, "y": 91.79, "rotation": -0.39, "width": 19, "height": 34 }
+		},
+		"ceniza efc 4": {
+			"ceniza efc 3": { "path": "basico/ceniza efc 3", "x": -2.76, "y": 66.57, "rotation": -24.42, "width": 23, "height": 18 }
+		},
+		"ceniza efc 5": {
+			"ceniza efc 2": {
+				"path": "basico/ceniza efc 2",
+				"x": -0.36,
+				"y": 43.78,
+				"scaleX": -1,
+				"rotation": -0.39,
+				"width": 19,
+				"height": 34
+			}
+		},
+		"ceniza efc 6": {
+			"ceniza efc 3": {
+				"path": "basico/ceniza efc 3",
+				"x": 1.91,
+				"y": 21.2,
+				"scaleX": -1,
+				"rotation": 28.17,
+				"width": 23,
+				"height": 18
+			}
+		},
+		"ceniza efc 7": {
+			"ceniza efc 2": { "path": "basico/ceniza efc 2", "x": -2.4, "y": -0.76, "rotation": -0.39, "width": 19, "height": 34 }
+		},
+		"ceniza efc 8": {
+			"ceniza efc 3": {
+				"path": "basico/ceniza efc 3",
+				"x": -3.53,
+				"y": -20.62,
+				"scaleX": -1,
+				"rotation": -30.76,
+				"width": 23,
+				"height": 18
+			}
+		},
+		"ceniza efc 9": {
+			"ceniza efc 2": {
+				"path": "basico/ceniza efc 2",
+				"x": -1.04,
+				"y": -40.54,
+				"scaleY": -1,
+				"rotation": -0.39,
+				"width": 19,
+				"height": 34
+			}
+		},
+		"zombistein/ojo der": {
+			"zombistein/ojo der": { "x": -75.69, "y": 134.16, "width": 63, "height": 62 }
+		},
+		"restos base": {
+			"restos base": { "path": "basico/restos base", "y": 0.39, "width": 68, "height": 42 }
+		},
+		"ojo der": {
+			"ojo der": { "path": "basico/ojo der", "x": 16.25, "y": 0.13, "width": 34, "height": 34 }
+		},
+		"ceniza efc 24": {
+			"ceniza efc 2": { "path": "basico/ceniza efc 2", "x": -1.63, "y": -152.79, "rotation": -0.39, "width": 19, "height": 34 }
+		},
+		"zombidito/restos": {
+			"restos": { "name": "zombidito/restos", "x": -15.53, "y": 40.11, "width": 130, "height": 131 }
+		},
+		"ceniza efc 26": {
+			"ceniza efc 2": {
+				"path": "basico/ceniza efc 2",
+				"x": -0.27,
+				"y": -192.57,
+				"scaleY": -1,
+				"rotation": -0.39,
+				"width": 19,
+				"height": 34
+			}
+		},
+		"restos caer": {
+			"restos caer": {
+				"path": "basico/restos caer",
+				"x": 1.93,
+				"y": 8.87,
+				"scaleX": 1.8,
+				"scaleY": 0.5,
+				"width": 51,
+				"height": 39
+			}
+		},
+		"zombidito/restos2": {
+			"restos2": { "name": "zombidito/restos2", "x": -8.33, "y": 29.85, "width": 128, "height": 95 }
+		},
+		"zombistein/restos": {
+			"restos": { "name": "zombistein/restos", "x": 3.1, "y": 75.7, "width": 344, "height": 277 }
+		},
+		"ceniza efc 30": {
+			"ceniza efc 3": {
+				"path": "basico/ceniza efc 3",
+				"x": -2.76,
+				"y": -172.65,
+				"scaleX": -1,
+				"rotation": -30.76,
+				"width": 23,
+				"height": 18
+			}
+		},
+		"zombistein/ceniza 1": {
+			"zombistein/ceniza 1": { "x": -81.44, "y": 113.95, "width": 210, "height": 265 }
+		},
+		"zombistein/ceniza 2": {
+			"zombistein/ceniza 2": { "x": -62.64, "y": 213.75, "width": 485, "height": 457 }
+		}
+	}
+}
+}

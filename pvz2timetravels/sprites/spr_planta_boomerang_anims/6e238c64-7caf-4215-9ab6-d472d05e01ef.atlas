@@ -1,0 +1,125 @@
+
+skeleton.png
+size: 491,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+IMAGE_PLANT_BLOOMERANG_BLOOMERANG_22X17
+  rotate: true
+  xy: 66, 38
+  size: 24, 18
+  orig: 28, 22
+  offset: 2, 2
+  index: -1
+boca
+  rotate: false
+  xy: 86, 50
+  size: 14, 12
+  orig: 19, 16
+  offset: 2, 2
+  index: -1
+bom 1
+  rotate: true
+  xy: 2, 2
+  size: 28, 58
+  orig: 32, 62
+  offset: 2, 2
+  index: -1
+bom 2
+  rotate: false
+  xy: 229, 8
+  size: 49, 54
+  orig: 53, 58
+  offset: 2, 2
+  index: -1
+bom 3
+  rotate: false
+  xy: 154, 6
+  size: 73, 56
+  orig: 78, 60
+  offset: 2, 2
+  index: -1
+bom 4
+  rotate: false
+  xy: 323, 5
+  size: 42, 63
+  orig: 46, 67
+  offset: 2, 2
+  index: -1
+bom 5
+  rotate: false
+  xy: 367, 5
+  size: 42, 63
+  orig: 46, 67
+  offset: 2, 2
+  index: -1
+bom 6
+  rotate: false
+  xy: 411, 14
+  size: 49, 54
+  orig: 53, 58
+  offset: 2, 2
+  index: -1
+bom giro 1
+  rotate: false
+  xy: 259, 70
+  size: 187, 70
+  orig: 191, 74
+  offset: 2, 2
+  index: -1
+bom giro 2
+  rotate: false
+  xy: 66, 64
+  size: 191, 76
+  orig: 196, 81
+  offset: 2, 3
+  index: -1
+cabeza
+  rotate: true
+  xy: 105, 3
+  size: 59, 47
+  orig: 63, 51
+  offset: 2, 2
+  index: -1
+cabeza giro base
+  rotate: true
+  xy: 280, 3
+  size: 65, 41
+  orig: 69, 45
+  offset: 2, 2
+  index: -1
+cabeza giro efecto
+  rotate: true
+  xy: 448, 90
+  size: 50, 41
+  orig: 54, 46
+  offset: 2, 3
+  index: -1
+cuerpo
+  rotate: false
+  xy: 2, 32
+  size: 62, 108
+  orig: 66, 113
+  offset: 2, 3
+  index: -1
+hoja der
+  rotate: true
+  xy: 462, 48
+  size: 40, 24
+  orig: 44, 28
+  offset: 2, 2
+  index: -1
+hoja izq
+  rotate: false
+  xy: 62, 6
+  size: 41, 24
+  orig: 45, 28
+  offset: 2, 2
+  index: -1
+ojo 1
+  rotate: true
+  xy: 411, 3
+  size: 9, 23
+  orig: 13, 27
+  offset: 2, 2
+  index: -1

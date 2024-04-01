@@ -1,0 +1,139 @@
+
+skeleton.png
+size: 412,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ceja
+  rotate: false
+  xy: 18, 5
+  size: 30, 16
+  orig: 34, 19
+  offset: 2, 2
+  index: -1
+cuerpo frente
+  rotate: false
+  xy: 2, 23
+  size: 101, 117
+  orig: 105, 121
+  offset: 2, 2
+  index: -1
+hoja del centro
+  rotate: true
+  xy: 344, 57
+  size: 83, 24
+  orig: 86, 28
+  offset: 1, 2
+  index: -1
+hoja del der
+  rotate: false
+  xy: 171, 4
+  size: 84, 36
+  orig: 87, 39
+  offset: 1, 2
+  index: -1
+hoja del izq 
+  rotate: false
+  xy: 257, 5
+  size: 73, 35
+  orig: 76, 39
+  offset: 1, 2
+  index: -1
+hoja tras der
+  rotate: false
+  xy: 116, 2
+  size: 53, 31
+  orig: 57, 35
+  offset: 2, 2
+  index: -1
+hoja tras izq
+  rotate: true
+  xy: 370, 88
+  size: 52, 40
+  orig: 55, 44
+  offset: 1, 2
+  index: -1
+ojo 1
+  rotate: true
+  xy: 50, 7
+  size: 14, 24
+  orig: 18, 28
+  offset: 2, 2
+  index: -1
+ojo 2
+  rotate: true
+  xy: 2, 4
+  size: 17, 14
+  orig: 21, 18
+  offset: 2, 2
+  index: -1
+ojo 3
+  rotate: false
+  xy: 91, 3
+  size: 23, 6
+  orig: 27, 10
+  offset: 2, 2
+  index: -1
+proj mantequilla efect 1
+  rotate: true
+  xy: 105, 35
+  size: 105, 56
+  orig: 115, 64
+  offset: 4, 4
+  index: -1
+proj mantequilla efect 2
+  rotate: true
+  xy: 91, 11
+  size: 10, 9
+  orig: 18, 18
+  offset: 3, 5
+  index: -1
+proj mantequilla efect 3
+  rotate: false
+  xy: 76, 8
+  size: 13, 13
+  orig: 16, 16
+  offset: 1, 2
+  index: -1
+rama final atras
+  rotate: true
+  xy: 163, 42
+  size: 98, 54
+  orig: 101, 57
+  offset: 1, 2
+  index: -1
+rama final frente
+  rotate: true
+  xy: 219, 42
+  size: 98, 44
+  orig: 101, 48
+  offset: 1, 2
+  index: -1
+rama final muestra maiz
+  rotate: false
+  xy: 332, 8
+  size: 40, 44
+  orig: 44, 48
+  offset: 2, 2
+  index: -1
+rama final muestra mantequilla
+  rotate: false
+  xy: 265, 54
+  size: 77, 86
+  orig: 81, 91
+  offset: 2, 3
+  index: -1
+rama inicio
+  rotate: true
+  xy: 370, 55
+  size: 31, 27
+  orig: 35, 31
+  offset: 2, 2
+  index: -1
+rama mitad
+  rotate: true
+  xy: 374, 18
+  size: 35, 30
+  orig: 39, 34
+  offset: 2, 2
+  index: -1

@@ -1,0 +1,27 @@
+
+skeleton.png
+size: 52,62
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tierrita 1
+  rotate: false
+  xy: 28, 2
+  size: 22, 24
+  orig: 26, 28
+  offset: 2, 2
+  index: -1
+tierrita 2
+  rotate: false
+  xy: 2, 2
+  size: 24, 24
+  orig: 28, 28
+  offset: 2, 2
+  index: -1
+tierrita 3
+  rotate: false
+  xy: 2, 28
+  size: 40, 32
+  orig: 44, 36
+  offset: 2, 2
+  index: -1

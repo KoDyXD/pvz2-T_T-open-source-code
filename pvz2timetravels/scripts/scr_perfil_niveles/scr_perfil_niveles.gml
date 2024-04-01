@@ -1,0 +1,62 @@
+///cargar el progreso de los niveles
+function scr_perfil_niveles(perfil){
+	ini_open(perfil);
+	global.nivel_tutorial[1] = ini_read_real("Nivel", "tut_1_1", false);
+	global.nivel_tutorial[2] = ini_read_real("Nivel", "tut_1_2", false);
+	global.nivel_tutorial[3] = ini_read_real("Nivel", "tut_1_3", false);
+	global.nivel_tutorial[4] = ini_read_real("Nivel", "tut_1_4", false);
+	global.nivel_tutorial[5] = ini_read_real("Nivel", "tut_1_5", false);
+	
+	global.nivel_egipto[1] = ini_read_real("Nivel","egipto_1_1", false);
+	global.nivel_egipto[2] = ini_read_real("Nivel","egipto_1_2", false);
+	global.nivel_egipto[3] = ini_read_real("Nivel","egipto_1_3", false);
+	global.nivel_egipto[4] = ini_read_real("Nivel","egipto_1_4", false);
+	global.nivel_egipto[5] = ini_read_real("Nivel","egipto_1_5", false);
+	global.nivel_egipto[6] = ini_read_real("Nivel","egipto_1_6", false);
+	global.nivel_egipto[7] = ini_read_real("Nivel","egipto_1_7", false);
+	global.nivel_egipto[8] = ini_read_real("Nivel","egipto_1_8", false);
+	global.nivel_egipto[9] = ini_read_real("Nivel","egipto_1_9", false);
+	global.nivel_egipto[10] = ini_read_real("Nivel","egipto_1_10", false);
+	global.nivel_egipto[11] = ini_read_real("Nivel","egipto_1_11", false);
+	global.nivel_egipto[12] = ini_read_real("Nivel","egipto_1_12", false);
+	global.nivel_egipto[13] = ini_read_real("Nivel","egipto_1_13", false);
+	global.nivel_egipto[14] = ini_read_real("Nivel","egipto_1_14", false);
+	global.nivel_egipto[15] = ini_read_real("Nivel","egipto_1_15", false);
+	global.nivel_egipto[16] = ini_read_real("Nivel","egipto_1_16", false);
+	global.nivel_egipto[17] = ini_read_real("Nivel","egipto_1_17", false);
+	global.nivel_egipto[18] = ini_read_real("Nivel","egipto_1_18", false);
+	global.nivel_egipto[19] = ini_read_real("Nivel","egipto_1_19", false);
+	global.nivel_egipto[20] = ini_read_real("Nivel","egipto_1_20", false);
+	global.nivel_egipto[21] = ini_read_real("Nivel","egipto_1_21", false);
+	global.nivel_egipto[22] = ini_read_real("Nivel","egipto_1_22", false);
+	global.nivel_egipto[23] = ini_read_real("Nivel","egipto_1_23", false);
+	global.nivel_egipto[24] = ini_read_real("Nivel","egipto_1_24", false);
+	global.nivel_egipto[25] = ini_read_real("Nivel","egipto_1_25", false);
+	
+	global.nivel_pirata[1] = ini_read_real("Nivel","pirata_2_1", false);
+	global.nivel_pirata[2] = ini_read_real("Nivel","pirata_2_2", false);
+	global.nivel_pirata[3] = ini_read_real("Nivel","pirata_2_3", false);
+	global.nivel_pirata[4] = ini_read_real("Nivel","pirata_2_4", false);
+	global.nivel_pirata[5] = ini_read_real("Nivel","pirata_2_5", false);
+	global.nivel_pirata[6] = ini_read_real("Nivel","pirata_2_6", false);
+	global.nivel_pirata[7] = ini_read_real("Nivel","pirata_2_7", false);
+	global.nivel_pirata[8] = ini_read_real("Nivel","pirata_2_8", false);
+	global.nivel_pirata[9] = ini_read_real("Nivel","pirata_2_9", false);
+	global.nivel_pirata[10] = ini_read_real("Nivel","pirata_2_10", false);
+	global.nivel_pirata[11] = ini_read_real("Nivel","pirata_2_11", false);
+	global.nivel_pirata[12] = ini_read_real("Nivel","pirata_2_12", false);
+	global.nivel_pirata[13] = ini_read_real("Nivel","pirata_2_13", false);
+	global.nivel_pirata[14] = ini_read_real("Nivel","pirata_2_14", false);
+	global.nivel_pirata[15] = ini_read_real("Nivel","pirata_2_15", false);
+	global.nivel_pirata[16] = ini_read_real("Nivel","pirata_2_16", false);
+	global.nivel_pirata[17] = ini_read_real("Nivel","pirata_2_17", false);
+	global.nivel_pirata[18] = ini_read_real("Nivel","pirata_2_18", false);
+	global.nivel_pirata[19] = ini_read_real("Nivel","pirata_2_19", false);
+	global.nivel_pirata[20] = ini_read_real("Nivel","pirata_2_20", false);
+	global.nivel_pirata[21] = ini_read_real("Nivel","pirata_2_21", false);
+	global.nivel_pirata[22] = ini_read_real("Nivel","pirata_2_22", false);
+	global.nivel_pirata[23] = ini_read_real("Nivel","pirata_2_23", false);
+	global.nivel_pirata[24] = ini_read_real("Nivel","pirata_2_24", false);
+	global.nivel_pirata[25] = ini_read_real("Nivel","pirata_2_25", false);
+	ini_close();
+}

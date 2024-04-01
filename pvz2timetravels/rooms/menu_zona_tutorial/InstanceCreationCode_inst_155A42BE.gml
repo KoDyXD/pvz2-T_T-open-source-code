@@ -1,0 +1,1 @@
+nivel_id_last = global.extra_pala;

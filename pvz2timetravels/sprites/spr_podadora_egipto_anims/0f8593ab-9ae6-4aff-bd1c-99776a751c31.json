@@ -1,0 +1,256 @@
+{
+"skeleton": {
+	"hash": "nmUnIn42rObNwOEfHkFs7wKc6j0",
+	"spine": "3.7-from-3.8.75",
+	"x": -127.92,
+	"y": -23.43,
+	"width": 192.22,
+	"height": 187.35,
+	"images": "C:/Users/Arnold/Desktop/pvz2 T_T/texturas/extras/podadoras/egipto/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "cuerpo", "parent": "root", "x": -42.67, "y": 35.59 },
+	{ "name": "rueda 1", "parent": "cuerpo", "x": -5.84, "y": -29.87 },
+	{ "name": "rueda 2", "parent": "cuerpo", "x": 5.27, "y": 11.35 },
+	{ "name": "sujetar", "parent": "cuerpo" }
+],
+"slots": [
+	{ "name": "rueda 2", "bone": "rueda 2", "attachment": "rueda 2" },
+	{ "name": "sujetar 2", "bone": "sujetar", "attachment": "sujetar 2" },
+	{ "name": "sujetar 3", "bone": "sujetar", "attachment": "sujetar 3" },
+	{ "name": "sujetar 1", "bone": "sujetar", "attachment": "sujetar 1" },
+	{ "name": "cuerpo 1", "bone": "cuerpo", "attachment": "cuerpo 1" },
+	{ "name": "cuerpo 2", "bone": "cuerpo", "attachment": "cuerpo 2" },
+	{ "name": "cuerpo 3", "bone": "cuerpo", "attachment": "cuerpo 3" },
+	{ "name": "rueda 1", "bone": "rueda 1", "attachment": "rueda 1" },
+	{ "name": "rueda mover 1", "bone": "rueda 1" },
+	{ "name": "rueda mover 2", "bone": "rueda 1" },
+	{ "name": "rueda mover 3", "bone": "rueda 1" }
+],
+"animations": {
+	"podar1": {
+		"slots": {
+			"rueda 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"rueda mover 1": {
+				"attachment": [
+					{ "name": "rueda mover 1", "time": 0.0 }
+				]
+			},
+			"rueda mover 2": {
+				"attachment": [
+					{ "name": "rueda mover 2", "time": 0.0 }
+				]
+			},
+			"rueda mover 3": {
+				"attachment": [
+					{ "name": "rueda mover 3", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"cuerpo": {
+				"rotate": [
+					{
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0,
+						"angle": 0.0
+					},
+					{ "time": 0.3333, "angle": 8.98 }
+				]
+			},
+			"sujetar": {
+				"rotate": [
+					{
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0,
+						"angle": 0.0
+					},
+					{ "time": 0.2667, "angle": 7.47, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 7.47 }
+				]
+			},
+			"rueda 1": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.3333, "angle": 180 }
+				]
+			},
+			"rueda 2": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.3333, "angle": 180 }
+				]
+			}
+		}
+	},
+	"podar2": {
+		"slots": {
+			"rueda 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"rueda mover 1": {
+				"attachment": [
+					{ "name": "rueda mover 1", "time": 0.0 }
+				]
+			},
+			"rueda mover 2": {
+				"attachment": [
+					{ "name": "rueda mover 2", "time": 0.0 }
+				]
+			},
+			"rueda mover 3": {
+				"attachment": [
+					{ "name": "rueda mover 3", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"cuerpo": {
+				"rotate": [
+					{
+						"angle": 8.98,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0
+					},
+					{
+						"time": 0.1667,
+						"angle": 9.87,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{
+						"time": 0.3333,
+						"angle": 8.98,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{
+						"time": 0.5,
+						"angle": 9.87,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{ "time": 0.6667, "angle": 8.98 }
+				]
+			},
+			"sujetar": {
+				"rotate": [
+					{
+						"angle": 7.47,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0
+					},
+					{
+						"time": 0.3333,
+						"angle": 5.76,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{ "time": 0.6667, "angle": 7.47 }
+				]
+			},
+			"rueda 1": {
+				"rotate": [
+					{ "angle": 180, "time": 0.0 },
+					{ "time": 0.3333, "angle": 0.0 },
+					{ "time": 0.6667, "angle": 180 }
+				]
+			},
+			"rueda 2": {
+				"rotate": [
+					{ "angle": 180, "time": 0.0 },
+					{ "time": 0.3333, "angle": 0.0 },
+					{ "time": 0.6667, "angle": 180 }
+				]
+			}
+		}
+	},
+	"tranquilo": {
+		"slots": {
+			"rueda 1": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"rueda mover 1": {
+				"attachment": [
+					{ "name": "rueda mover 1", "time": 0.0 }
+				]
+			},
+			"rueda mover 2": {
+				"attachment": [
+					{ "name": "rueda mover 2", "time": 0.0 }
+				]
+			},
+			"rueda mover 3": {
+				"attachment": [
+					{ "name": "rueda mover 3", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"cuerpo": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				]
+			},
+			"sujetar": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				]
+			},
+			"rueda 1": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				]
+			},
+			"rueda 2": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				]
+			}
+		}
+	}
+},
+"skins": {
+	"default": {
+		"rueda 1": {
+			"rueda 1": { "x": -0.26, "y": -0.15, "width": 58, "height": 58 }
+		},
+		"rueda 2": {
+			"rueda 2": { "x": -0.15, "y": 0.03, "width": 42, "height": 42 }
+		},
+		"rueda mover 1": {
+			"rueda mover 1": { "x": -0.26, "y": -0.15, "width": 58, "height": 58 }
+		},
+		"cuerpo 1": {
+			"cuerpo 1": { "x": 45.47, "y": -9.59, "width": 123, "height": 81 }
+		},
+		"cuerpo 2": {
+			"cuerpo 2": { "x": 40.69, "y": 8.6, "width": 94, "height": 60 }
+		},
+		"cuerpo 3": {
+			"cuerpo 3": { "x": 35.74, "y": 31.63, "width": 49, "height": 44 }
+		},
+		"rueda mover 2": {
+			"rueda mover 2": { "x": -0.26, "y": -0.15, "width": 48, "height": 48 }
+		},
+		"rueda mover 3": {
+			"rueda mover 3": { "x": -0.26, "y": -0.15, "width": 28, "height": 28 }
+		},
+		"sujetar 1": {
+			"sujetar 1": { "x": -36.25, "y": 51.32, "width": 98, "height": 154 }
+		},
+		"sujetar 2": {
+			"sujetar 2": { "x": -29.77, "y": 22.6, "width": 73, "height": 115 }
+		},
+		"sujetar 3": {
+			"sujetar 3": { "x": -39.79, "y": 67.74, "width": 51, "height": 50 }
+		}
+	}
+}
+}

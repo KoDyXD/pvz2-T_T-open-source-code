@@ -1,0 +1,17 @@
+var _desafio = instance_create_depth(0,0,0,objetivo_cuales);	//desafio general
+_desafio.desafio = [
+	//[objetivo_ataquemasivo],
+	//[objetivo_soles,(soles a obtener)],
+	//[objetivo_no_solares],
+	[objetivo_bolera,(columna maxima para plantar)],
+	//[objetivo_planta_proteger,(pos X),(pos Y),(planta a crear)],
+			[objetivo_no_selector], ELIMINAR
+	//[objetivo_costo_distinto],
+	//[objetivo_plantas_tener,(cantidad),(planta)],
+	//[objetivo_semillas_dadas,(semillas a colocar)],
+	//[objetivo_soles_limite,(maximo de soles)],
+			[objetivo_tener_semillas,(semillas a tener),(cantidad)],	ELIMINAR
+	//[objetivo_plantas_limite,(cantidad limite)],
+	//[objetivo_flores_peligro,(culumna a spawnear)],
+	//[objetivo_canones,(columna mas lejana a atacar)],
+]

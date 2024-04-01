@@ -1,0 +1,1 @@
+if mover = false {audio_play_sound(sound_podadora,5,0); mover = true;}

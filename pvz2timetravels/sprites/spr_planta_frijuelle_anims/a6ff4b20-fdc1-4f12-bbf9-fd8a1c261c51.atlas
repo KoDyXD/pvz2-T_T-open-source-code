@@ -1,0 +1,97 @@
+
+skeleton.png
+size: 358,131
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+boca
+  rotate: false
+  xy: 252, 56
+  size: 17, 12
+  orig: 21, 16
+  offset: 2, 2
+  index: -1
+cuerpo 1
+  rotate: false
+  xy: 275, 28
+  size: 81, 101
+  orig: 85, 105
+  offset: 2, 2
+  index: -1
+cuerpo 2
+  rotate: false
+  xy: 109, 70
+  size: 164, 59
+  orig: 168, 63
+  offset: 2, 2
+  index: -1
+dormir
+  rotate: false
+  xy: 244, 3
+  size: 27, 31
+  orig: 31, 35
+  offset: 2, 2
+  index: -1
+muelle 1
+  rotate: false
+  xy: 109, 37
+  size: 67, 31
+  orig: 71, 35
+  offset: 2, 2
+  index: -1
+muelle 3
+  rotate: false
+  xy: 2, 2
+  size: 105, 127
+  orig: 110, 131
+  offset: 2, 2
+  index: -1
+muelle cabeza
+  rotate: false
+  xy: 273, 2
+  size: 33, 24
+  orig: 37, 28
+  offset: 2, 2
+  index: -1
+ojo aplast 1
+  rotate: true
+  xy: 146, 3
+  size: 32, 28
+  orig: 37, 32
+  offset: 2, 2
+  index: -1
+ojo aplast 2
+  rotate: false
+  xy: 176, 6
+  size: 32, 28
+  orig: 37, 32
+  offset: 2, 2
+  index: -1
+ojo aplast 3
+  rotate: false
+  xy: 210, 6
+  size: 32, 28
+  orig: 37, 32
+  offset: 2, 2
+  index: -1
+ojo normal 1
+  rotate: true
+  xy: 109, 3
+  size: 32, 35
+  orig: 37, 39
+  offset: 2, 2
+  index: -1
+ojo normal 2
+  rotate: true
+  xy: 178, 36
+  size: 32, 35
+  orig: 37, 39
+  offset: 2, 2
+  index: -1
+ojo normal 3
+  rotate: true
+  xy: 215, 36
+  size: 32, 35
+  orig: 37, 39
+  offset: 2, 2
+  index: -1

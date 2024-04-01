@@ -1,0 +1,46 @@
+{
+  "spriteId": {
+    "name": "spr_planta_comepiedras_anims",
+    "path": "sprites/spr_planta_comepiedras_anims/spr_planta_comepiedras_anims.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "oPlantaInvisible",
+    "path": "objects/oPlantaInvisible/oPlantaInvisible.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"pala_usable","path":"objects/pala_usable/pala_usable.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [
+    {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"morir","tags":[],"resourceType":"GMObjectProperty",},
+  ],
+  "overriddenProperties": [
+    {"propertyId":{"name":"pala","path":"objects/planta_lanzaguisantes/planta_lanzaguisantes.yy",},"objectId":{"name":"planta_lanzaguisantes","path":"objects/planta_lanzaguisantes/planta_lanzaguisantes.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hp","path":"objects/oPlantaGeneral/oPlantaGeneral.yy",},"objectId":{"name":"oPlantaGeneral","path":"objects/oPlantaGeneral/oPlantaGeneral.yy",},"value":"350","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
+  "parent": {
+    "name": "egipto",
+    "path": "folders/Objetos/npc/usables/plantas/egipto.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "planta_comepiedras",
+  "tags": [],
+  "resourceType": "GMObject",
+}

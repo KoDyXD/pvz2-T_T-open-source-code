@@ -1,0 +1,37 @@
+GUIA PARA EL INSTANCE_CREATE_ZOMBIS
+Escribo esto por si me olvido como funciona el instance_create_zombis o por si alguien mas lo ve xd
+
+instance_create_zombis(Xpos,Ypos,cantidadMIN,cantidadMAX,zombi)
+
+
+Xpos = genera los zombis en la posicion del eje X
+-Tiene un total de tres valores principales, esto es asi para evitar que todos los zombis se generen demasiado
+cerca uno del otro, los valores son los siguientes:
+
+--.-1 = genera los zombis mucho mas cerca del patio siempre en un rango de 2725 y 2825 en el eje X
+--.1 = genera los zombis lo mas cerca posible del patio entre un rango de 2725 y 3025 en el eje X
+--.2 = genera los zombis en una posicion intermedia en un rango de 3000 y 3300 en el eje X
+--.3 = genera los zombis lo mas lejano posible del patio entre un rango de 3300 y 3600 en el eje X
+--.4 = genera los zombis en todo el rango que ve desde 2725 y 3600 en el eje X
+
+Ypos = genera los zombis en las filas deseadas
+-Sirve para crear a los zombis en la fila que se desea ademas posee varios valores para crear los zombis
+en distintas posiciones facilmente, por ejemplo:
+
+--.0 = filas 1,2,3,4,5
+--.1 = fila 1			--.-1 = filas 2,3,4
+--.2 = fila 2			--.-2 = filas 1,3,5
+--.3 = fila 3			--.-3 = filas 2,4
+--.4 = fila 4			--.-4 = filas 1,2,4,5
+--.5 = fila 5			--.-5 = filas 1,5
+
+
+cantidadMIN y cantidadMAX = sirve para especificar la cantidad de zombis a crear, en MIN se pone el minimo de
+zombis y en MAX se pone el maximo de zombis, de ahi se elige un total aleatorio entre los valores colocados
+si se quiere un numero fijo de zombis se debe colocar el mismo valor en MIN y MAX
+
+cantidadMIN = valor		cantidadMAX = valor
+cantidad total = (cantidadMIN,cantidadMAX)
+
+
+zombi = se elige el zombi a crear nada mas xd

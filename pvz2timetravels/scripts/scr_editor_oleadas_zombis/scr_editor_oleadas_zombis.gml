@@ -1,0 +1,25 @@
+//aqui se guardaran los zombis que se colocaran en las oleadas
+zombi[0] = "zombi_tut_basico";
+zombi[1] = "zombi_tut_basico";
+zombi[2] = "zombi_tut_caracono";
+zombi[3] = "zombi_tut_caracubo";
+zombi[4] = "zombi_egipto_basico";
+zombi[5] = "zombi_egipto_caracono";
+zombi[6] = "zombi_egipto_caracubo";
+zombi[7] = "zombi_egipto_ra";
+zombi[8] = "zombi_egipto_camello";
+zombi[9] = "zombi_egipto_explorador";
+zombi[10] = "zombi_egipto_anubis";
+zombi[11] = "zombi_egipto_faraon";
+zombi[12] = "zombi_egipto_zombistein";
+zombi[13] = "zombi_egipto_zombidito";
+zombi[14] = "zombi_pirata_basico";
+zombi[15] = "zombi_pirata_caracono";
+zombi[16] = "zombi_pirata_caracubo";
+zombi[17] = "zombi_pirata_gaviotero";
+zombi[18] = "zombi_pirata_espadachin";
+zombi[19] = "zombi_pirata_barrilero";
+zombi[20] = "zombi_pirata_canon";
+zombi[21] = "zombi_pirata_capitan";
+zombi[22] = "zombi_pirata_zombidito";
+zombi[23] = "zombi_pirata_zombistein";

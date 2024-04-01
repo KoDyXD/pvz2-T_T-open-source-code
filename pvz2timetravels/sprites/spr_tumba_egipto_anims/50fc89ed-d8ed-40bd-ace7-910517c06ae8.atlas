@@ -1,0 +1,90 @@
+
+skeleton.png
+size: 591,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+destruir
+  rotate: true
+  xy: 2, 151
+  size: 370, 333
+  orig: 375, 337
+  offset: 2, 2
+  index: -1
+polvo 1
+  rotate: false
+  xy: 337, 302
+  size: 177, 76
+  orig: 220, 123
+  offset: 25, 29
+  index: -1
+tierra
+  rotate: true
+  xy: 521, 296
+  size: 225, 61
+  orig: 240, 76
+  offset: 4, 11
+  index: -1
+trozo 1
+  rotate: true
+  xy: 521, 224
+  size: 26, 27
+  orig: 30, 31
+  offset: 2, 2
+  index: -1
+trozo 2
+  rotate: false
+  xy: 521, 252
+  size: 46, 42
+  orig: 50, 46
+  offset: 2, 2
+  index: -1
+trozo 3
+  rotate: false
+  xy: 516, 13
+  size: 58, 58
+  orig: 62, 62
+  offset: 2, 2
+  index: -1
+trozo 4
+  rotate: false
+  xy: 516, 73
+  size: 73, 82
+  orig: 77, 86
+  offset: 2, 2
+  index: -1
+tumba 1
+  rotate: true
+  xy: 2, 2
+  size: 147, 186
+  orig: 151, 190
+  offset: 2, 2
+  index: -1
+tumba 2
+  rotate: true
+  xy: 190, 2
+  size: 147, 186
+  orig: 151, 190
+  offset: 2, 2
+  index: -1
+tumba 3
+  rotate: true
+  xy: 337, 380
+  size: 141, 182
+  orig: 145, 186
+  offset: 2, 2
+  index: -1
+tumba 4
+  rotate: true
+  xy: 337, 157
+  size: 137, 182
+  orig: 141, 186
+  offset: 2, 2
+  index: -1
+tumba 5
+  rotate: false
+  xy: 378, 6
+  size: 136, 149
+  orig: 140, 153
+  offset: 2, 2
+  index: -1

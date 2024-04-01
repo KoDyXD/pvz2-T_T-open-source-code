@@ -1,0 +1,23 @@
+//aqui se guardaran los zombis que se colocaran en las oleadas
+zombi[0] = "oPlantaGeneral";
+zombi[1] = "planta_lanzaguisantes";
+zombi[2] = "planta_girasol";
+zombi[3] = "planta_nuez";
+zombi[4] = "planta_papapum";
+zombi[5] = "planta_coltapulta";
+zombi[6] = "planta_boomerang";
+zombi[7] = "planta_hielaguisantes";
+zombi[8] = "planta_comepiedras";
+zombi[9] = "planta_bonkchoy";
+zombi[10] = "planta_repetidora";
+zombi[11] = "planta_birasol";
+zombi[12] = "planta_bolos_nuez";
+zombi[13] = "planta_bolos_explotonuez";
+zombi[14] = "planta_bolos_giganuez";
+zombi[15] = "planta_carnivora";
+zombi[16] = "planta_lanzamaiz";
+zombi[17] = "planta_frijuelle";
+zombi[18] = "planta_pinchohierba";
+zombi[19] = "planta_cococanon";
+zombi[20] = "planta_bocadedragon";
+zombi[21] = "planta_petacereza";

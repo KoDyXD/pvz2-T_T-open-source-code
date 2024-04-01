@@ -1,0 +1,377 @@
+
+skeleton.png
+size: 568,268
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+abanderado/brazo del 1
+  rotate: true
+  xy: 503, 212
+  size: 26, 59
+  orig: 30, 63
+  offset: 2, 2
+  index: -1
+abanderado/brazo del 1 roto
+  rotate: true
+  xy: 480, 240
+  size: 26, 67
+  orig: 31, 72
+  offset: 2, 3
+  index: -1
+abanderado/brazo del 2
+  rotate: false
+  xy: 383, 118
+  size: 19, 45
+  orig: 23, 49
+  offset: 2, 2
+  index: -1
+zombi basico egipto/brazo del 2
+  rotate: false
+  xy: 383, 118
+  size: 19, 45
+  orig: 23, 49
+  offset: 2, 2
+  index: -1
+abanderado/brazo del 3
+  rotate: true
+  xy: 311, 113
+  size: 41, 46
+  orig: 46, 50
+  offset: 2, 2
+  index: -1
+zombi basico egipto/brazo del 3
+  rotate: true
+  xy: 311, 113
+  size: 41, 46
+  orig: 46, 50
+  offset: 2, 2
+  index: -1
+abanderado/brazo del 4
+  rotate: false
+  xy: 522, 61
+  size: 44, 54
+  orig: 48, 59
+  offset: 2, 3
+  index: -1
+zombi basico egipto/brazo del 4
+  rotate: false
+  xy: 522, 61
+  size: 44, 54
+  orig: 48, 59
+  offset: 2, 3
+  index: -1
+abanderado/brazo del 5
+  rotate: true
+  xy: 255, 112
+  size: 42, 54
+  orig: 46, 58
+  offset: 2, 2
+  index: -1
+zombi basico egipto/brazo del 5
+  rotate: true
+  xy: 255, 112
+  size: 42, 54
+  orig: 46, 58
+  offset: 2, 2
+  index: -1
+abanderado/brazo tras 1
+  rotate: false
+  xy: 478, 178
+  size: 23, 60
+  orig: 27, 64
+  offset: 2, 2
+  index: -1
+zombi basico egipto/brazo tras 1
+  rotate: false
+  xy: 478, 178
+  size: 23, 60
+  orig: 27, 64
+  offset: 2, 2
+  index: -1
+abanderado/brazo tras 2
+  rotate: false
+  xy: 404, 118
+  size: 14, 45
+  orig: 18, 50
+  offset: 2, 3
+  index: -1
+zombi basico egipto/brazo tras 2
+  rotate: false
+  xy: 404, 118
+  size: 14, 45
+  orig: 18, 50
+  offset: 2, 3
+  index: -1
+abanderado/brazo tras 4
+  rotate: false
+  xy: 465, 48
+  size: 40, 35
+  orig: 44, 40
+  offset: 2, 3
+  index: -1
+abanderado/brazo tras 5
+  rotate: false
+  xy: 524, 24
+  size: 35, 35
+  orig: 39, 40
+  offset: 2, 3
+  index: -1
+abanderado/cabeza 1
+  rotate: true
+  xy: 149, 148
+  size: 118, 90
+  orig: 123, 95
+  offset: 2, 3
+  index: -1
+zombi basico egipto/cabeza 1
+  rotate: true
+  xy: 149, 148
+  size: 118, 90
+  orig: 123, 95
+  offset: 2, 3
+  index: -1
+abanderado/cabeza 2
+  rotate: false
+  xy: 31, 5
+  size: 62, 46
+  orig: 67, 50
+  offset: 2, 2
+  index: -1
+abanderado/cuerpo 1
+  rotate: false
+  xy: 400, 23
+  size: 63, 93
+  orig: 67, 98
+  offset: 2, 3
+  index: -1
+abanderado/cuerpo 2
+  rotate: true
+  xy: 420, 120
+  size: 51, 28
+  orig: 55, 32
+  offset: 2, 2
+  index: -1
+zombi basico egipto/cuerpo 2
+  rotate: true
+  xy: 420, 120
+  size: 51, 28
+  orig: 55, 32
+  offset: 2, 2
+  index: -1
+abanderado/nada
+  rotate: false
+  xy: 31, 2
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+zombi basico egipto/nada
+  rotate: false
+  xy: 31, 2
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+abanderado/palo 1
+  rotate: false
+  xy: 2, 52
+  size: 25, 214
+  orig: 30, 218
+  offset: 2, 2
+  index: -1
+abanderado/palo 2
+  rotate: true
+  xy: 29, 110
+  size: 156, 118
+  orig: 160, 123
+  offset: 2, 3
+  index: -1
+abanderado/pierna del 1
+  rotate: true
+  xy: 465, 85
+  size: 30, 55
+  orig: 34, 59
+  offset: 2, 2
+  index: -1
+zombi basico egipto/pierna del 1
+  rotate: true
+  xy: 465, 85
+  size: 30, 55
+  orig: 34, 59
+  offset: 2, 2
+  index: -1
+abanderado/pierna del 2
+  rotate: true
+  xy: 400, 7
+  size: 14, 41
+  orig: 18, 45
+  offset: 2, 2
+  index: -1
+zombi basico egipto/pierna del 2
+  rotate: true
+  xy: 400, 7
+  size: 14, 41
+  orig: 18, 45
+  offset: 2, 2
+  index: -1
+abanderado/pierna del 3
+  rotate: false
+  xy: 213, 111
+  size: 40, 35
+  orig: 45, 40
+  offset: 2, 3
+  index: -1
+zombi basico egipto/pierna del 3
+  rotate: false
+  xy: 213, 111
+  size: 40, 35
+  orig: 45, 40
+  offset: 2, 3
+  index: -1
+abanderado/pierna del 4
+  rotate: true
+  xy: 450, 120
+  size: 51, 28
+  orig: 55, 32
+  offset: 2, 2
+  index: -1
+zombi basico egipto/pierna del 4
+  rotate: true
+  xy: 450, 120
+  size: 51, 28
+  orig: 55, 32
+  offset: 2, 2
+  index: -1
+abanderado/pierna tras 1
+  rotate: false
+  xy: 359, 117
+  size: 22, 46
+  orig: 26, 51
+  offset: 2, 3
+  index: -1
+zombi basico egipto/pierna tras 1
+  rotate: false
+  xy: 359, 117
+  size: 22, 46
+  orig: 26, 51
+  offset: 2, 3
+  index: -1
+abanderado/pierna tras 2
+  rotate: true
+  xy: 503, 145
+  size: 40, 55
+  orig: 44, 60
+  offset: 2, 3
+  index: -1
+zombi basico egipto/pierna tras 2
+  rotate: true
+  xy: 503, 145
+  size: 40, 55
+  orig: 44, 60
+  offset: 2, 3
+  index: -1
+abanderado/pierna tras 3
+  rotate: true
+  xy: 499, 9
+  size: 37, 23
+  orig: 41, 27
+  offset: 2, 2
+  index: -1
+zombi basico egipto/pierna tras 3
+  rotate: true
+  xy: 499, 9
+  size: 37, 23
+  orig: 41, 27
+  offset: 2, 2
+  index: -1
+abanderado/pierna tras 4
+  rotate: true
+  xy: 2, 3
+  size: 47, 27
+  orig: 51, 31
+  offset: 2, 2
+  index: -1
+zombi basico egipto/pierna tras 4
+  rotate: true
+  xy: 2, 3
+  size: 47, 27
+  orig: 51, 31
+  offset: 2, 2
+  index: -1
+zombi basico egipto/brazo del 1
+  rotate: true
+  xy: 503, 187
+  size: 23, 59
+  orig: 28, 63
+  offset: 2, 2
+  index: -1
+zombi basico egipto/brazo del 1 roto
+  rotate: true
+  xy: 480, 117
+  size: 26, 67
+  orig: 31, 72
+  offset: 2, 3
+  index: -1
+zombi basico egipto/brazo tras 3
+  rotate: false
+  xy: 465, 8
+  size: 32, 38
+  orig: 36, 42
+  offset: 2, 2
+  index: -1
+zombi basico egipto/cabeza 2
+  rotate: false
+  xy: 149, 110
+  size: 62, 36
+  orig: 67, 40
+  offset: 2, 2
+  index: -1
+zombi basico egipto/cono 1
+  rotate: true
+  xy: 241, 156
+  size: 110, 109
+  orig: 114, 113
+  offset: 2, 2
+  index: -1
+zombi basico egipto/cono 2
+  rotate: true
+  xy: 321, 11
+  size: 100, 77
+  orig: 104, 81
+  offset: 2, 2
+  index: -1
+zombi basico egipto/cono 3
+  rotate: false
+  xy: 29, 53
+  size: 77, 55
+  orig: 81, 59
+  offset: 2, 2
+  index: -1
+zombi basico egipto/cubo 1
+  rotate: true
+  xy: 215, 4
+  size: 105, 104
+  orig: 109, 109
+  offset: 2, 3
+  index: -1
+zombi basico egipto/cubo 2
+  rotate: false
+  xy: 108, 3
+  size: 105, 105
+  orig: 109, 109
+  offset: 2, 2
+  index: -1
+zombi basico egipto/cubo 3
+  rotate: true
+  xy: 352, 165
+  size: 101, 59
+  orig: 105, 63
+  offset: 2, 2
+  index: -1
+zombi basico egipto/cuerpo 1
+  rotate: false
+  xy: 413, 173
+  size: 63, 93
+  orig: 67, 98
+  offset: 2, 3
+  index: -1

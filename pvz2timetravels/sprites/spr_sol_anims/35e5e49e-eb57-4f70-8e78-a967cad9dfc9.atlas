@@ -1,0 +1,20 @@
+
+NewProject.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sun2
+  rotate: false
+  xy: 1, 1
+  size: 87, 88
+  orig: 87, 88
+  offset: 0, 0
+  index: -1
+Sun1
+  rotate: false
+  xy: 1, 91
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1

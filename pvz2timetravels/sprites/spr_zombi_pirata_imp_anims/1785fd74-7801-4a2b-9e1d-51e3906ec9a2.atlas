@@ -1,0 +1,125 @@
+
+skeleton.png
+size: 265,110
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zombidito/brazo del 1
+  rotate: true
+  xy: 236, 63
+  size: 17, 27
+  orig: 21, 32
+  offset: 2, 3
+  index: -1
+zombidito/brazo del 1 roto
+  rotate: true
+  xy: 212, 7
+  size: 18, 31
+  orig: 22, 35
+  offset: 2, 2
+  index: -1
+zombidito/brazo del 2
+  rotate: false
+  xy: 217, 82
+  size: 18, 26
+  orig: 22, 30
+  offset: 2, 2
+  index: -1
+zombidito/brazo del 3
+  rotate: true
+  xy: 34, 4
+  size: 23, 28
+  orig: 27, 32
+  offset: 2, 2
+  index: -1
+zombidito/brazo tras 1
+  rotate: false
+  xy: 244, 35
+  size: 15, 26
+  orig: 19, 31
+  offset: 2, 3
+  index: -1
+zombidito/brazo tras 2
+  rotate: true
+  xy: 237, 90
+  size: 18, 24
+  orig: 23, 28
+  offset: 2, 2
+  index: -1
+zombidito/brazo tras 3
+  rotate: true
+  xy: 217, 30
+  size: 18, 25
+  orig: 22, 30
+  offset: 2, 3
+  index: -1
+zombidito/cabeza 1
+  rotate: false
+  xy: 83, 36
+  size: 92, 72
+  orig: 96, 76
+  offset: 2, 2
+  index: -1
+zombidito/cabeza 2
+  rotate: true
+  xy: 177, 27
+  size: 81, 38
+  orig: 85, 42
+  offset: 2, 2
+  index: -1
+zombidito/cuerpo 1
+  rotate: false
+  xy: 2, 29
+  size: 79, 79
+  orig: 83, 83
+  offset: 2, 2
+  index: -1
+zombidito/cuerpo 2
+  rotate: false
+  xy: 83, 2
+  size: 64, 32
+  orig: 68, 36
+  offset: 2, 2
+  index: -1
+zombidito/pierna del 1
+  rotate: false
+  xy: 149, 4
+  size: 26, 30
+  orig: 30, 34
+  offset: 2, 2
+  index: -1
+zombidito/pierna del 2
+  rotate: false
+  xy: 217, 50
+  size: 17, 30
+  orig: 22, 34
+  offset: 2, 2
+  index: -1
+zombidito/pierna del 3
+  rotate: true
+  xy: 245, 15
+  size: 18, 13
+  orig: 23, 17
+  offset: 2, 2
+  index: -1
+zombidito/pierna tras 1
+  rotate: true
+  xy: 2, 3
+  size: 24, 30
+  orig: 28, 34
+  offset: 2, 2
+  index: -1
+zombidito/pierna tras 2
+  rotate: true
+  xy: 177, 6
+  size: 19, 33
+  orig: 23, 37
+  offset: 2, 2
+  index: -1
+zombidito/pierna tras 3
+  rotate: true
+  xy: 64, 8
+  size: 19, 13
+  orig: 23, 17
+  offset: 2, 2
+  index: -1

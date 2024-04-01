@@ -1,0 +1,230 @@
+
+skeleton.png
+size: 189,951
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+barrilero/barril cara 1
+  rotate: false
+  xy: 2, 791
+  size: 158, 158
+  orig: 162, 162
+  offset: 2, 2
+  index: -1
+barrilero/barril cara 2
+  rotate: false
+  xy: 2, 631
+  size: 158, 158
+  orig: 162, 162
+  offset: 2, 2
+  index: -1
+barrilero/barril cara 3
+  rotate: true
+  xy: 2, 475
+  size: 154, 158
+  orig: 158, 162
+  offset: 2, 2
+  index: -1
+barrilero/barril cara hueco
+  rotate: false
+  xy: 160, 331
+  size: 27, 142
+  orig: 32, 146
+  offset: 2, 2
+  index: -1
+barrilero/barril cuerpo anillo
+  rotate: true
+  xy: 2, 296
+  size: 64, 154
+  orig: 68, 158
+  offset: 2, 2
+  index: -1
+barrilero/barril cuerpo linea
+  rotate: true
+  xy: 179, 686
+  size: 35, 8
+  orig: 39, 12
+  offset: 2, 2
+  index: -1
+barrilero/barril cuerpo tras
+  rotate: true
+  xy: 2, 362
+  size: 111, 156
+  orig: 115, 160
+  offset: 2, 2
+  index: -1
+barrilero/barril expl madera 1
+  rotate: true
+  xy: 2, 261
+  size: 33, 146
+  orig: 37, 150
+  offset: 2, 2
+  index: -1
+barrilero/barril expl madera 2
+  rotate: true
+  xy: 2, 226
+  size: 33, 134
+  orig: 37, 138
+  offset: 2, 2
+  index: -1
+barrilero/barril imp ojos 0
+  rotate: false
+  xy: 66, 60
+  size: 50, 32
+  orig: 54, 36
+  offset: 2, 2
+  index: -1
+barrilero/brazo del 1
+  rotate: false
+  xy: 162, 822
+  size: 24, 62
+  orig: 28, 66
+  offset: 2, 2
+  index: -1
+barrilero/brazo del 1 roto
+  rotate: false
+  xy: 162, 886
+  size: 24, 63
+  orig: 28, 68
+  offset: 2, 3
+  index: -1
+barrilero/brazo del 2
+  rotate: false
+  xy: 162, 685
+  size: 15, 36
+  orig: 19, 40
+  offset: 2, 2
+  index: -1
+barrilero/brazo del 3
+  rotate: true
+  xy: 53, 17
+  size: 41, 46
+  orig: 46, 50
+  offset: 2, 2
+  index: -1
+barrilero/brazo del 4
+  rotate: true
+  xy: 138, 205
+  size: 38, 49
+  orig: 42, 53
+  offset: 2, 2
+  index: -1
+barrilero/brazo del 5
+  rotate: true
+  xy: 2, 9
+  size: 41, 46
+  orig: 45, 50
+  offset: 2, 2
+  index: -1
+barrilero/brazo tras 1
+  rotate: false
+  xy: 162, 723
+  size: 23, 59
+  orig: 27, 63
+  offset: 2, 2
+  index: -1
+barrilero/brazo tras 2
+  rotate: false
+  xy: 162, 650
+  size: 15, 33
+  orig: 19, 37
+  offset: 2, 2
+  index: -1
+barrilero/brazo tras 3
+  rotate: true
+  xy: 101, 2
+  size: 32, 38
+  orig: 36, 42
+  offset: 2, 2
+  index: -1
+barrilero/brazo tras 4
+  rotate: false
+  xy: 158, 275
+  size: 28, 54
+  orig: 32, 58
+  offset: 2, 2
+  index: -1
+barrilero/cabeza 1
+  rotate: false
+  xy: 2, 128
+  size: 122, 96
+  orig: 126, 100
+  offset: 2, 2
+  index: -1
+barrilero/cabeza 2
+  rotate: false
+  xy: 2, 81
+  size: 62, 45
+  orig: 67, 49
+  offset: 2, 2
+  index: -1
+barrilero/cuerpo 1
+  rotate: false
+  xy: 126, 97
+  size: 58, 106
+  orig: 62, 110
+  offset: 2, 2
+  index: -1
+barrilero/cuerpo 2
+  rotate: false
+  xy: 2, 52
+  size: 49, 27
+  orig: 53, 31
+  offset: 2, 2
+  index: -1
+barrilero/pierna del 1
+  rotate: true
+  xy: 66, 94
+  size: 32, 55
+  orig: 36, 59
+  offset: 2, 2
+  index: -1
+barrilero/pierna del 2
+  rotate: false
+  xy: 162, 607
+  size: 14, 41
+  orig: 18, 45
+  offset: 2, 2
+  index: -1
+barrilero/pierna del 3
+  rotate: false
+  xy: 150, 245
+  size: 35, 28
+  orig: 39, 32
+  offset: 2, 2
+  index: -1
+barrilero/pierna del 4
+  rotate: false
+  xy: 118, 36
+  size: 49, 27
+  orig: 54, 31
+  offset: 2, 2
+  index: -1
+barrilero/pierna tras 1
+  rotate: true
+  xy: 123, 65
+  size: 30, 54
+  orig: 34, 58
+  offset: 2, 2
+  index: -1
+barrilero/pierna tras 2
+  rotate: false
+  xy: 162, 564
+  size: 14, 41
+  orig: 18, 45
+  offset: 2, 2
+  index: -1
+barrilero/pierna tras 3
+  rotate: true
+  xy: 141, 8
+  size: 26, 31
+  orig: 30, 35
+  offset: 2, 2
+  index: -1
+barrilero/pierna tras 4
+  rotate: true
+  xy: 162, 784
+  size: 36, 24
+  orig: 40, 28
+  offset: 2, 2
+  index: -1

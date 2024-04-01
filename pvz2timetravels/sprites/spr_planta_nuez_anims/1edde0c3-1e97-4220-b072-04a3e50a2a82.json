@@ -1,0 +1,1539 @@
+{
+"skeleton": { "hash": "5GiBgNvEIdOzwtSc5Sr/acH7HqY", "spine": "3.7-from-3.8.75", "x": -72.5, "y": -7.44, "width": 152, "height": 174.04 },
+"bones": [
+	{ "name": "root", "y": -5 },
+	{ "name": "cuerpo", "parent": "root", "x": -4.76, "y": 84.63 },
+	{ "name": "cara", "parent": "cuerpo", "x": 17.79, "y": 7.41 },
+	{ "name": "ojo der", "parent": "root", "x": 34.2, "y": 110.47, "shearX": -1.94, "shearY": 2.1 },
+	{
+		"name": "ojo izq",
+		"parent": "root",
+		"rotation": -0.98,
+		"x": -11.35,
+		"y": 110.78,
+		"scaleX": 0.9986,
+		"scaleY": 0.9986
+	},
+	{ "name": "ceja der", "parent": "root", "x": 12.82, "y": 110.41 },
+	{
+		"name": "pupila der",
+		"parent": "root",
+		"rotation": 3.87,
+		"x": 36.53,
+		"y": 108.83,
+		"shearX": -1.94,
+		"shearY": 2.1,
+		"transform": "noRotationOrReflection"
+	},
+	{ "name": "ceja izq", "parent": "root", "x": 12.82, "y": 110.41 },
+	{
+		"name": "pupila izq",
+		"parent": "root",
+		"rotation": 1.94,
+		"x": -12.94,
+		"y": 106.64,
+		"shearX": -1.94,
+		"shearY": 2.1,
+		"transform": "noRotationOrReflection"
+	}
+],
+"slots": [
+	{ "name": "cuerpo atras", "bone": "cuerpo", "attachment": "2" },
+	{ "name": "cuerpo medio", "bone": "cuerpo", "attachment": "17" },
+	{ "name": "cuerpo frontal", "bone": "cuerpo", "attachment": "1" },
+	{ "name": "cuerpo dano 1", "bone": "cuerpo" },
+	{ "name": "cuerpo dano 2", "bone": "cuerpo" },
+	{ "name": "cuerpo dano 3", "bone": "cuerpo" },
+	{ "name": "boca", "bone": "cara", "attachment": "3" },
+	{ "name": "boca 2", "bone": "cara" },
+	{ "name": "boca 3", "bone": "cara" },
+	{ "name": "boca 4", "bone": "cara" },
+	{ "name": "ojo abierto der", "bone": "ojo der", "attachment": "4" },
+	{ "name": "ojo abierto izq", "bone": "ojo izq", "attachment": "4" },
+	{ "name": "ojo cerrando izq", "bone": "ojo izq" },
+	{ "name": "ojo cerrando der", "bone": "ojo der" },
+	{ "name": "ojo cerrando 2 izq", "bone": "ojo izq" },
+	{ "name": "ojo cerrando 2 der", "bone": "ojo der" },
+	{ "name": "pupila izq", "bone": "pupila izq", "attachment": "19" },
+	{ "name": "pupila der", "bone": "pupila der", "attachment": "19" },
+	{ "name": "ojo cerrado der", "bone": "ojo der" },
+	{ "name": "ojo cerrado izq", "bone": "ojo izq" },
+	{ "name": "pupila grande", "bone": "pupila izq" },
+	{ "name": "ceja izq", "bone": "ceja izq", "attachment": "20" },
+	{ "name": "ceja der", "bone": "ceja der", "attachment": "20" },
+	{ "name": "boca sonriendo", "bone": "cara" },
+	{ "name": "boca serio", "bone": "cara" },
+	{ "name": "Sprite160", "bone": "root" }
+],
+"animations": {
+	"danada 1": {
+		"slots": {
+			"ojo cerrando 2 izq": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.7, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "21", "time": 0.0 }
+				]
+			},
+			"ojo abierto izq": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"boca sonriendo": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"pupila grande": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrado izq": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "6", "time": 0.0 }
+				]
+			},
+			"cuerpo dano 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"pupila der": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.7, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"cuerpo dano 1": {
+				"attachment": [
+					{ "name": "10", "time": 0.0 }
+				]
+			},
+			"ojo cerrado der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "6", "time": 0.0 }
+				]
+			},
+			"ojo cerrando izq": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.7667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "5", "time": 0.0 }
+				]
+			},
+			"boca serio": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"pupila izq": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.7, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"boca 3": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrando der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.7667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "5", "time": 0.0 }
+				]
+			},
+			"cuerpo frontal": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrando 2 der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.7, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "21", "time": 0.0 }
+				]
+			},
+			"boca": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"boca 4": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"boca 2": {
+				"attachment": [
+					{ "name": "13", "time": 0.0 }
+				]
+			},
+			"ojo abierto der": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"cuerpo dano 3": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"ojo izq": {
+				"translate": [
+					{ "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333 },
+					{ "time": 0.1667, "x": 0.07, "y": 4.61, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0.07, "y": 4.61 },
+					{ "time": 0.7, "curve": "stepped" },
+					{ "time": 0.8333 }
+				]
+			},
+			"pupila der": {
+				"translate": [
+					{ "x": 5.27, "y": -2.54, "time": 0.0 }
+				]
+			},
+			"pupila izq": {
+				"translate": [
+					{ "x": -2.69, "y": -4.56, "time": 0.0 }
+				]
+			},
+			"ceja der": {
+				"translate": [
+					{ "y": -8.74, "time": 0.0 },
+					{ "time": 0.1333, "y": -12.35, "curve": "stepped" },
+					{ "time": 0.7, "y": -12.35 },
+					{ "time": 0.8333, "y": -8.74 }
+				]
+			},
+			"ojo der": {
+				"translate": [
+					{ "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333 },
+					{ "time": 0.1667, "x": -0.13, "y": 3.63, "curve": "stepped" },
+					{ "time": 0.6667, "x": -0.13, "y": 3.63 },
+					{ "time": 0.7, "curve": "stepped" },
+					{ "time": 0.8333 }
+				],
+				"shear": [
+					{ "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333 },
+					{ "time": 0.1667, "x": 4.67, "curve": "stepped" },
+					{ "time": 0.6667, "x": 4.67 },
+					{ "time": 0.7, "curve": "stepped" },
+					{ "time": 0.8333 }
+				]
+			},
+			"ceja izq": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1333, "y": -8.76 },
+					{ "time": 0.7, "y": -8.76 },
+					{ "time": 0.8333 }
+				]
+			}
+		}
+	},
+	"danada 2": {
+		"slots": {
+			"ojo cerrando 2 izq": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.7, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "21", "time": 0.0 }
+				]
+			},
+			"ojo abierto izq": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"boca sonriendo": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"pupila grande": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrado izq": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "6", "time": 0.0 }
+				]
+			},
+			"cuerpo dano 2": {
+				"attachment": [
+					{ "name": "9", "time": 0.0 }
+				]
+			},
+			"pupila der": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.7, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"cuerpo dano 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrado der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "6", "time": 0.0 }
+				]
+			},
+			"ojo cerrando izq": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.7667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "5", "time": 0.0 }
+				]
+			},
+			"boca serio": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"pupila izq": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.7, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"boca 3": {
+				"color": [
+					{ "color": "ffffffff", "time": 0.0 }
+				],
+				"attachment": [
+					{ "name": "16", "time": 0.0 }
+				]
+			},
+			"ojo cerrando der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.7667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "5", "time": 0.0 }
+				]
+			},
+			"cuerpo frontal": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrando 2 der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.7, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "21", "time": 0.0 }
+				]
+			},
+			"boca": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"boca 4": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"boca 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo abierto der": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"cuerpo dano 3": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"ojo izq": {
+				"translate": [
+					{ "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333 },
+					{ "time": 0.1667, "x": 0.07, "y": 4.61, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0.07, "y": 4.61 },
+					{ "time": 0.7, "curve": "stepped" },
+					{ "time": 0.8333 }
+				]
+			},
+			"pupila der": {
+				"translate": [
+					{ "x": 8.42, "y": -4.87, "time": 0.0 }
+				]
+			},
+			"pupila izq": {
+				"translate": [
+					{ "x": -6.5, "y": -2.75, "time": 0.0 }
+				]
+			},
+			"ceja der": {
+				"translate": [
+					{ "y": -8.74, "time": 0.0 },
+					{ "time": 0.1333, "y": -12.35, "curve": "stepped" },
+					{ "time": 0.7, "y": -12.35 },
+					{ "time": 0.8333, "y": -8.74 }
+				]
+			},
+			"ojo der": {
+				"translate": [
+					{ "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333 },
+					{ "time": 0.1667, "x": -0.13, "y": 3.63, "curve": "stepped" },
+					{ "time": 0.6667, "x": -0.13, "y": 3.63 },
+					{ "time": 0.7, "curve": "stepped" },
+					{ "time": 0.8333 }
+				],
+				"shear": [
+					{ "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333 },
+					{ "time": 0.1667, "x": 4.67, "curve": "stepped" },
+					{ "time": 0.6667, "x": 4.67 },
+					{ "time": 0.7, "curve": "stepped" },
+					{ "time": 0.8333 }
+				]
+			},
+			"ceja izq": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1333, "y": -8.76 },
+					{ "time": 0.7, "y": -8.76 },
+					{ "time": 0.8333 }
+				]
+			}
+		}
+	},
+	"danada 3": {
+		"slots": {
+			"ojo cerrando 2 izq": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.7, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "21", "time": 0.0 }
+				]
+			},
+			"ojo abierto izq": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"boca sonriendo": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"pupila grande": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.7, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "7", "time": 0.0 }
+				]
+			},
+			"ojo cerrado izq": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "6", "time": 0.0 }
+				]
+			},
+			"cuerpo dano 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"pupila der": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.7, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"cuerpo dano 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrado der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "6", "time": 0.0 }
+				]
+			},
+			"ojo cerrando izq": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.7667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "5", "time": 0.0 }
+				]
+			},
+			"boca serio": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"pupila izq": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"boca 3": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.5333, "color": "ffffff00" }
+				]
+			},
+			"ojo cerrando der": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"cuerpo frontal": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrando 2 der": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.7, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "21", "time": 0.0 }
+				]
+			},
+			"boca": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"boca 4": {
+				"color": [
+					{ "color": "ffffffff", "time": 0.0 }
+				],
+				"attachment": [
+					{ "name": "15", "time": 0.0 }
+				]
+			},
+			"boca 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo abierto der": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"cuerpo dano 3": {
+				"attachment": [
+					{ "name": "8", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"ojo izq": {
+				"translate": [
+					{ "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333 },
+					{ "time": 0.1667, "x": 0.07, "y": 4.61, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0.07, "y": 4.61 },
+					{ "time": 0.7, "curve": "stepped" },
+					{ "time": 0.8333 }
+				]
+			},
+			"pupila der": {
+				"translate": [
+					{ "x": 8.28, "y": -1.11, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "x": 8.28, "y": -1.11 }
+				]
+			},
+			"pupila izq": {
+				"translate": [
+					{ "x": -6.48, "y": -3.16, "time": 0.0 }
+				]
+			},
+			"ceja der": {
+				"translate": [
+					{ "y": -8.74, "time": 0.0 },
+					{ "time": 0.1333, "y": -12.35, "curve": "stepped" },
+					{ "time": 0.7, "y": -12.35 },
+					{ "time": 0.8333, "y": -8.74 }
+				]
+			},
+			"ojo der": {
+				"rotate": [
+					{ "angle": 7.9, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "angle": 7.9, "curve": "stepped" },
+					{ "time": 0.7, "angle": 7.9 }
+				],
+				"translate": [
+					{ "x": 0.29, "y": 1.53, "time": 0.0 },
+					{ "time": 0.1333, "x": 0.29, "y": 1.53 },
+					{ "time": 0.1667, "x": -0.13, "y": 3.63, "curve": "stepped" },
+					{ "time": 0.6667, "x": -0.13, "y": 3.63 },
+					{ "time": 0.7, "x": 0.29, "y": 1.53 },
+					{ "time": 0.8333, "x": 0.29, "y": 1.53 }
+				],
+				"shear": [
+					{ "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "curve": "stepped" },
+					{ "time": 0.1667, "curve": "stepped" },
+					{ "time": 0.6667, "curve": "stepped" },
+					{ "time": 0.7, "curve": "stepped" },
+					{ "time": 0.8333 }
+				]
+			},
+			"ceja izq": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1333, "y": -8.76 },
+					{ "time": 0.7, "y": -8.76 },
+					{ "time": 0.8333 }
+				]
+			}
+		}
+	},
+	"no sonreir": {
+		"slots": {
+			"ojo cerrado der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"boca sonriendo": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"pupila grande": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrado izq": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"cuerpo dano 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"cuerpo dano 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrando 2 izq": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"boca 4": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrando izq": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"boca serio": {
+				"attachment": [
+					{ "name": "14", "time": 0.0 }
+				]
+			},
+			"boca 3": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrando der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"boca": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrando 2 der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"boca 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"cuerpo dano 3": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"ojo der": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.5 },
+					{ "time": 1.3333 }
+				]
+			},
+			"pupila der": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.4, "x": -7.29, "y": 0.25, "curve": "stepped" },
+					{ "time": 0.9333, "x": -7.29, "y": 0.25 },
+					{ "time": 1.3333 }
+				]
+			},
+			"pupila izq": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.4, "x": -7.29, "y": 0.25, "curve": "stepped" },
+					{ "time": 0.9333, "x": -7.29, "y": 0.25 },
+					{ "time": 1.3333 }
+				]
+			}
+		}
+	},
+	"ojos": {
+		"slots": {
+			"ojo cerrado der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"boca sonriendo": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"pupila grande": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrado izq": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"cuerpo dano 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"cuerpo dano 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrando 2 izq": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"boca 4": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrando izq": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"boca serio": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"boca 3": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrando der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"ojo cerrando 2 der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"boca 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"cuerpo dano 3": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"ojo der": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.5 },
+					{ "time": 1.3333 }
+				]
+			},
+			"pupila der": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.4, "x": -7.29, "y": 0.25, "curve": "stepped" },
+					{ "time": 0.9333, "x": -7.29, "y": 0.25 },
+					{ "time": 1.3333 }
+				]
+			},
+			"pupila izq": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.4, "x": -7.29, "y": 0.25, "curve": "stepped" },
+					{ "time": 0.9333, "x": -7.29, "y": 0.25 },
+					{ "time": 1.3333 }
+				]
+			}
+		}
+	},
+	"parpadear": {
+		"slots": {
+			"ojo cerrando 2 izq": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.7, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1333, "name": "21" }
+				]
+			},
+			"ojo abierto izq": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"boca sonriendo": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"pupila grande": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				],
+				"attachment": [
+					{ "time": 0.1333, "name": null }
+				]
+			},
+			"ojo cerrado izq": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.1667, "name": "6" }
+				]
+			},
+			"cuerpo dano 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"pupila der": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.7, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"cuerpo dano 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrado der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.1667, "name": "6" }
+				]
+			},
+			"boca 4": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrando izq": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.7667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "5", "time": 0.0 }
+				]
+			},
+			"boca serio": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"pupila izq": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.7, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"boca 3": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrando der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.7667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "5", "time": 0.0 }
+				]
+			},
+			"ojo cerrando 2 der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.7, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1333, "name": "21" }
+				]
+			},
+			"boca 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo abierto der": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"cuerpo dano 3": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"ojo izq": {
+				"translate": [
+					{ "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333 },
+					{ "time": 0.1667, "x": 0.07, "y": 4.61, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0.07, "y": 4.61 },
+					{ "time": 0.7, "curve": "stepped" },
+					{ "time": 0.8333 }
+				]
+			},
+			"ojo der": {
+				"translate": [
+					{ "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333 },
+					{ "time": 0.1667, "x": -0.13, "y": 3.63, "curve": "stepped" },
+					{ "time": 0.6667, "x": -0.13, "y": 3.63 },
+					{ "time": 0.7, "curve": "stepped" },
+					{ "time": 0.8333 }
+				],
+				"shear": [
+					{ "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333 },
+					{ "time": 0.1667, "x": 4.67, "curve": "stepped" },
+					{ "time": 0.6667, "x": 4.67 },
+					{ "time": 0.7, "curve": "stepped" },
+					{ "time": 0.8333 }
+				]
+			},
+			"ceja der": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1333, "y": -8.76 },
+					{ "time": 0.7, "y": -8.76 },
+					{ "time": 0.8333 }
+				]
+			},
+			"pupila der": {
+				"translate": [
+					{ "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667 },
+					{ "time": 0.1667, "x": 0.05, "y": -1.47, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0.05, "y": -1.47 },
+					{ "time": 0.7667, "curve": "stepped" },
+					{ "time": 0.8333 }
+				]
+			},
+			"ceja izq": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1333, "y": -8.76 },
+					{ "time": 0.7, "y": -8.76 },
+					{ "time": 0.8333 }
+				]
+			},
+			"pupila izq": {
+				"translate": [
+					{ "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667 },
+					{ "time": 0.1667, "x": 0.05, "y": -1.47, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0.05, "y": -1.47 },
+					{ "time": 0.7667, "curve": "stepped" },
+					{ "time": 0.8333 }
+				]
+			}
+		}
+	},
+	"sonriendo": {
+		"slots": {
+			"ojo cerrado der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"boca sonriendo": {
+				"attachment": [
+					{ "name": "18", "time": 0.0 }
+				]
+			},
+			"pupila grande": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrado izq": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"cuerpo dano 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"cuerpo dano 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrando 2 izq": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"boca 4": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrando izq": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"boca serio": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"boca 3": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrando der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"boca": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrando 2 der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"boca 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"cuerpo dano 3": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"ceja izq": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1667, "y": 3.59 },
+					{ "time": 0.3333 },
+					{ "time": 0.5, "y": 3.59 },
+					{ "time": 0.6667 },
+					{ "time": 0.8333, "y": 3.59 },
+					{ "time": 1, "curve": "stepped" },
+					{ "time": 1.3333 }
+				]
+			},
+			"ceja der": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1667, "y": 3.59 },
+					{ "time": 0.3333 },
+					{ "time": 0.5, "y": 3.59 },
+					{ "time": 0.6667 },
+					{ "time": 0.8333, "y": 3.59 },
+					{ "time": 1, "curve": "stepped" },
+					{ "time": 1.3333 }
+				]
+			}
+		}
+	},
+	"tranquilo": {
+		"slots": {
+			"ojo cerrando 2 izq": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"boca sonriendo": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"pupila grande": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrado izq": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"cuerpo dano 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"cuerpo dano 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrado der": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrando izq": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"boca serio": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"boca 3": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrando der": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo cerrando 2 der": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"boca 4": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"boca 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"cuerpo dano 3": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			}
+		}
+	}
+},
+"skins": {
+	"normal": {
+		"ojo cerrando der": {
+			"5": { "x": 1.71, "y": -1.59, "scaleX": 0.8, "scaleY": 0.8, "width": 40, "height": 38 }
+		},
+		"boca 4": {
+			"15": { "x": 0.76, "y": -2.29, "scaleX": 1.0075, "scaleY": 1.0075, "width": 14, "height": 19 }
+		},
+		"ojo cerrando izq": {
+			"5": { "x": -0.97, "y": -3.95, "width": 40, "height": 38 }
+		},
+		"boca sonriendo": {
+			"18": { "x": 0.76, "y": -2.29, "width": 22, "height": 18 }
+		},
+		"ojo cerrando 2 der": {
+			"21": { "x": 1.95, "y": -0.67, "scaleX": 0.8, "scaleY": 0.8, "width": 40, "height": 38 }
+		},
+		"ceja der": {
+			"20": { "x": 25.27, "y": 26.96, "scaleX": -0.5955, "scaleY": 0.6045, "width": 14, "height": 12 }
+		},
+		"ojo cerrado der": {
+			"6": { "x": 1.74, "y": -1.64, "scaleX": 0.8, "scaleY": 0.8, "width": 38, "height": 22 }
+		},
+		"boca serio": {
+			"14": { "x": 0.76, "y": -2.29, "width": 22, "height": 12 }
+		},
+		"cuerpo dano 2": {
+			"9": { "x": 14.64, "y": -1.94, "width": 115, "height": 169 }
+		},
+		"cuerpo frontal": {
+			"1": { "x": 14.64, "y": -1.94, "scaleX": 1.0075, "scaleY": 1.0075, "width": 115, "height": 169 }
+		},
+		"ojo abierto der": {
+			"4": { "x": 1.03, "y": -1.94, "scaleX": 0.806, "scaleY": 0.806, "width": 37, "height": 40 }
+		},
+		"ojo cerrando 2 izq": {
+			"21": { "x": -0.87, "y": -4.89, "width": 40, "height": 38 }
+		},
+		"ceja izq": {
+			"20": { "x": -31.09, "y": 26.97, "scaleX": 1.0075, "scaleY": 1.0075, "width": 14, "height": 12 }
+		},
+		"boca 2": {
+			"13": { "x": 0.76, "y": -2.29, "width": 18, "height": 15 }
+		},
+		"ojo cerrado izq": {
+			"6": { "x": -1.04, "y": -3.45, "width": 38, "height": 22 }
+		},
+		"pupila der": {
+			"19": { "x": -2.38, "y": 1.45, "scaleY": 0.8, "width": 5, "height": 6 }
+		},
+		"cuerpo dano 1": {
+			"10": { "x": 14.64, "y": -1.94, "width": 115, "height": 169 }
+		},
+		"boca": {
+			"3": { "x": 0.76, "y": -2.29, "width": 22, "height": 14 }
+		},
+		"cuerpo medio": {
+			"17": { "x": -8.43, "y": 0.32, "scaleX": 1.0075, "scaleY": 1.0075, "width": 86, "height": 172 }
+		},
+		"pupila izq": {
+			"19": { "x": 1.74, "y": 2.32, "scaleY": 0.8, "rotation": 1.05, "width": 5, "height": 6 }
+		},
+		"pupila grande": {
+			"7": {
+				"x": 1.75,
+				"y": 2.3,
+				"scaleX": 0.5,
+				"scaleY": 0.5,
+				"rotation": 1.94,
+				"width": 13,
+				"height": 13
+			}
+		},
+		"ojo abierto izq": {
+			"4": { "x": -2.04, "y": -4.67, "scaleX": 1.0075, "scaleY": 1.0075, "width": 37, "height": 40 }
+		},
+		"cuerpo dano 3": {
+			"8": { "x": 14.72, "y": -6.2, "width": 115, "height": 159 }
+		},
+		"boca 3": {
+			"16": { "x": 0.76, "y": -2.29, "width": 14, "height": 17 }
+		},
+		"cuerpo atras": {
+			"2": { "x": -44.06, "y": -6.94, "scaleX": 1.0075, "scaleY": 1.0075, "width": 47, "height": 138 }
+		}
+	}
+}
+}

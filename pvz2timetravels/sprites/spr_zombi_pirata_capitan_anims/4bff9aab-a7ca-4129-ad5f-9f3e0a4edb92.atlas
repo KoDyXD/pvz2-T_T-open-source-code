@@ -1,0 +1,307 @@
+
+skeleton.png
+size: 1078,144
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+capitan/brazo del 1
+  rotate: false
+  xy: 388, 2
+  size: 23, 47
+  orig: 27, 51
+  offset: 2, 2
+  index: -1
+capitan/brazo del 1 roto
+  rotate: false
+  xy: 678, 2
+  size: 24, 62
+  orig: 28, 66
+  offset: 2, 2
+  index: -1
+capitan/brazo del 2
+  rotate: false
+  xy: 916, 31
+  size: 34, 54
+  orig: 39, 58
+  offset: 2, 2
+  index: -1
+capitan/brazo del 3
+  rotate: false
+  xy: 952, 48
+  size: 41, 46
+  orig: 46, 50
+  offset: 2, 2
+  index: -1
+capitan/brazo tras 1
+  rotate: false
+  xy: 860, 82
+  size: 26, 60
+  orig: 30, 64
+  offset: 2, 2
+  index: -1
+capitan/brazo tras 2
+  rotate: false
+  xy: 888, 83
+  size: 24, 59
+  orig: 28, 63
+  offset: 2, 2
+  index: -1
+capitan/cabeza 1
+  rotate: true
+  xy: 2, 22
+  size: 120, 119
+  orig: 124, 123
+  offset: 2, 2
+  index: -1
+capitan/cabeza 2
+  rotate: true
+  xy: 564, 5
+  size: 50, 55
+  orig: 55, 59
+  offset: 2, 2
+  index: -1
+capitan/cabeza 3
+  rotate: true
+  xy: 301, 51
+  size: 91, 90
+  orig: 95, 95
+  offset: 2, 3
+  index: -1
+capitan/cabeza gorro del
+  rotate: false
+  xy: 591, 66
+  size: 196, 76
+  orig: 200, 80
+  offset: 2, 2
+  index: -1
+capitan/cabeza gorro tras
+  rotate: false
+  xy: 393, 57
+  size: 196, 85
+  orig: 200, 90
+  offset: 2, 3
+  index: -1
+capitan/cuerpo 1
+  rotate: false
+  xy: 123, 35
+  size: 73, 107
+  orig: 77, 112
+  offset: 2, 3
+  index: -1
+capitan/cuerpo 2
+  rotate: false
+  xy: 916, 2
+  size: 49, 27
+  orig: 53, 31
+  offset: 2, 2
+  index: -1
+capitan/loro ala der 1
+  rotate: false
+  xy: 621, 2
+  size: 55, 62
+  orig: 59, 67
+  offset: 2, 3
+  index: -1
+capitan/loro ala der 2
+  rotate: false
+  xy: 826, 3
+  size: 44, 65
+  orig: 48, 69
+  offset: 2, 2
+  index: -1
+capitan/loro ala der 3
+  rotate: false
+  xy: 210, 2
+  size: 63, 33
+  orig: 68, 37
+  offset: 2, 2
+  index: -1
+capitan/loro ala der 4
+  rotate: false
+  xy: 872, 21
+  size: 42, 59
+  orig: 46, 63
+  offset: 2, 2
+  index: -1
+capitan/loro ala der 5
+  rotate: true
+  xy: 967, 2
+  size: 44, 45
+  orig: 48, 49
+  offset: 2, 2
+  index: -1
+capitan/loro ala der 6
+  rotate: false
+  xy: 339, 2
+  size: 47, 47
+  orig: 51, 51
+  offset: 2, 2
+  index: -1
+capitan/loro ala general 0
+  rotate: false
+  xy: 300, 5
+  size: 37, 30
+  orig: 41, 34
+  offset: 2, 2
+  index: -1
+capitan/loro ala izq 1
+  rotate: false
+  xy: 744, 4
+  size: 41, 60
+  orig: 45, 64
+  offset: 2, 2
+  index: -1
+capitan/loro ala izq 2
+  rotate: false
+  xy: 704, 3
+  size: 38, 61
+  orig: 42, 66
+  offset: 2, 3
+  index: -1
+capitan/loro ala izq 3
+  rotate: false
+  xy: 123, 2
+  size: 56, 31
+  orig: 60, 35
+  offset: 2, 2
+  index: -1
+capitan/loro ala izq 4
+  rotate: false
+  xy: 455, 4
+  size: 37, 51
+  orig: 41, 55
+  offset: 2, 2
+  index: -1
+capitan/loro ala izq 5
+  rotate: true
+  xy: 413, 2
+  size: 53, 40
+  orig: 57, 44
+  offset: 2, 2
+  index: -1
+capitan/loro ala izq 6
+  rotate: false
+  xy: 951, 96
+  size: 45, 46
+  orig: 49, 50
+  offset: 2, 2
+  index: -1
+capitan/loro cabeza
+  rotate: false
+  xy: 494, 5
+  size: 68, 50
+  orig: 72, 55
+  offset: 2, 3
+  index: -1
+capitan/loro cola
+  rotate: true
+  xy: 998, 101
+  size: 41, 27
+  orig: 45, 31
+  offset: 2, 2
+  index: -1
+capitan/loro cuello
+  rotate: false
+  xy: 1048, 47
+  size: 28, 24
+  orig: 32, 28
+  offset: 2, 2
+  index: -1
+capitan/loro cuerpo
+  rotate: true
+  xy: 1027, 102
+  size: 40, 36
+  orig: 44, 40
+  offset: 2, 2
+  index: -1
+capitan/loro expl 1
+  rotate: false
+  xy: 789, 70
+  size: 69, 72
+  orig: 96, 100
+  offset: 12, 15
+  index: -1
+capitan/loro expl 2
+  rotate: true
+  xy: 198, 37
+  size: 105, 101
+  orig: 117, 118
+  offset: 6, 9
+  index: -1
+capitan/loro expl pluma
+  rotate: true
+  xy: 26, 6
+  size: 14, 33
+  orig: 18, 37
+  offset: 2, 2
+  index: -1
+capitan/loro pata 1
+  rotate: false
+  xy: 2, 2
+  size: 22, 18
+  orig: 26, 22
+  offset: 2, 2
+  index: -1
+capitan/loro pata 2
+  rotate: false
+  xy: 275, 4
+  size: 23, 31
+  orig: 27, 35
+  offset: 2, 2
+  index: -1
+capitan/pierna del 1
+  rotate: false
+  xy: 995, 52
+  size: 27, 42
+  orig: 31, 46
+  offset: 2, 2
+  index: -1
+capitan/pierna del 2
+  rotate: false
+  xy: 914, 87
+  size: 35, 55
+  orig: 39, 60
+  offset: 2, 3
+  index: -1
+capitan/pierna del 3
+  rotate: true
+  xy: 181, 2
+  size: 31, 27
+  orig: 35, 31
+  offset: 2, 2
+  index: -1
+capitan/pierna del 4
+  rotate: true
+  xy: 1014, 9
+  size: 41, 27
+  orig: 45, 32
+  offset: 2, 3
+  index: -1
+capitan/pierna tras 1
+  rotate: false
+  xy: 1024, 58
+  size: 22, 41
+  orig: 26, 45
+  offset: 2, 2
+  index: -1
+capitan/pierna tras 2
+  rotate: false
+  xy: 787, 4
+  size: 37, 60
+  orig: 42, 64
+  offset: 2, 2
+  index: -1
+capitan/pierna tras 3
+  rotate: true
+  xy: 1048, 73
+  size: 27, 28
+  orig: 32, 32
+  offset: 2, 2
+  index: -1
+capitan/pierna tras 4
+  rotate: true
+  xy: 1043, 10
+  size: 35, 27
+  orig: 39, 31
+  offset: 2, 2
+  index: -1

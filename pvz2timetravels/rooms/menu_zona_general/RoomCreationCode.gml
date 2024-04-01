@@ -1,0 +1,2 @@
+audio_group_unload(grupo_musica_egipto);
+audio_group_unload(grupo_musica_frontal);

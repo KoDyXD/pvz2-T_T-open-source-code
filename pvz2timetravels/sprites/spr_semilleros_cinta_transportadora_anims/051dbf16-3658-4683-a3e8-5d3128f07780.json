@@ -1,0 +1,858 @@
+{
+"skeleton": {
+	"hash": "yxp8zQlzdhhQJO5kU9203C6ZNrQ",
+	"spine": "3.7-from-3.8.75",
+	"x": -379.5,
+	"y": -3072,
+	"width": 530.59,
+	"height": 3072,
+	"images": "C:/Users/usuario/Desktop/pvz2 Deluxe/texturas/texturas/extras/cinta transportadora/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "general", "parent": "root" },
+	{ "name": "cinta1", "parent": "general" }
+],
+"slots": [
+	{ "name": "cintalimite", "bone": "general", "attachment": "cintalimite" },
+	{ "name": "cinta181", "bone": "general", "attachment": "cinta" },
+	{ "name": "cinta243", "bone": "general", "attachment": "cinta" },
+	{ "name": "cinta", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta97", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta96", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta192", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta24", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta120", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta95", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta191", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta12", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta108", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta94", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta190", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta13", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta109", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta93", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta189", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta5", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta101", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta92", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta188", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta20", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta116", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta91", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta187", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta8", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta104", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta90", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta186", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta17", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta113", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta89", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta185", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta6", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta102", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta88", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta184", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta19", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta115", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta87", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta183", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta7", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta103", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta86", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta182", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta18", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta114", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta37", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta133", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta85", "bone": "cinta1" },
+	{ "name": "cinta4", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta100", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta84", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta180", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta21", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta117", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta83", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta179", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta9", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta105", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta82", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta178", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta16", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta112", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta81", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta177", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta2", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta98", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta80", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta176", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta23", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta119", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta79", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta175", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta11", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta107", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta78", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta174", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta14", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta110", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta77", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta173", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta3", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta99", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta76", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta172", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta22", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta118", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta75", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta171", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta10", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta106", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta74", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta170", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta15", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta111", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta73", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta169", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta193", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta194", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta195", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta196", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta197", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta198", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta199", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta200", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta201", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta202", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta203", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta204", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta205", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta206", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta207", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta208", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta209", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta210", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta211", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta212", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta213", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta214", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta215", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta216", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta217", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta218", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta219", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta220", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta221", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta222", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta223", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta224", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta225", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta226", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta227", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta228", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta229", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta230", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta231", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta232", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta233", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta234", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta235", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta236", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta237", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta238", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta239", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta240", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta241", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta242", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta49", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta50", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta51", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta52", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta53", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta54", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta55", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta56", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta57", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta58", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta59", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta60", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta61", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta62", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta63", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta64", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta65", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta66", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta67", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta68", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta69", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta70", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta71", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta72", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta145", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta146", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta147", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta148", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta149", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta150", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta151", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta152", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta153", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta154", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta155", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta156", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta157", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta158", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta159", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta160", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta161", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta162", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta163", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta164", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta165", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "cinta166", "bone": "cinta1", "attachment": "cinta" },
+	{ "name": "limite der", "bone": "general", "attachment": "limite der" },
+	{ "name": "limite der2", "bone": "general", "attachment": "limite der" },
+	{ "name": "limite arriba", "bone": "general", "attachment": "limite arriba" },
+	{ "name": "limite arriba2", "bone": "general", "attachment": "limite arriba" }
+],
+"animations": {
+	"mover1": {
+		"bones": {
+			"cinta1": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 6, "y": 972 }
+				]
+			}
+		}
+	},
+	"mover2": {
+		"bones": {
+			"cinta1": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 2, "y": 324 }
+				]
+			},
+			"general": {
+				"translate": [
+					{
+						"x": -500,
+						"curve": [ 0.4350000023841858, 0.10000000149011612, 0.33500000834465027, 1.2999999523162842 ],
+						"time": 0.0
+					},
+					{ "time": 2 }
+				]
+			}
+		}
+	}
+},
+"skins": {
+	"default": {
+		"cinta65": {
+			"cinta": { "x": -251.56, "y": -2537.9, "width": 253, "height": 36 }
+		},
+		"cinta154": {
+			"cinta": { "y": -2033.92, "width": 253, "height": 36 }
+		},
+		"cinta49": {
+			"cinta": { "y": -1745.93, "width": 253, "height": 36 }
+		},
+		"cinta233": {
+			"cinta": { "x": -251.56, "y": -1133.96, "width": 253, "height": 36 }
+		},
+		"cinta76": {
+			"cinta": { "x": -251.56, "y": -126, "width": 253, "height": 36 }
+		},
+		"cinta90": {
+			"cinta": { "x": -251.56, "y": -378, "width": 253, "height": 36 }
+		},
+		"cinta91": {
+			"cinta": { "x": -251.56, "y": -593.98, "width": 253, "height": 36 }
+		},
+		"cinta92": {
+			"cinta": { "x": -251.56, "y": -162, "width": 253, "height": 36 }
+		},
+		"cinta93": {
+			"cinta": { "x": -251.56, "y": -665.97, "width": 253, "height": 36 }
+		},
+		"cinta94": {
+			"cinta": { "x": -251.56, "y": -233.99, "width": 253, "height": 36 }
+		},
+		"cinta95": {
+			"cinta": { "x": -251.56, "y": -449.98, "width": 253, "height": 36 }
+		},
+		"cinta96": {
+			"cinta": { "x": -251.56, "y": -18, "width": 253, "height": 36 }
+		},
+		"cinta97": {
+			"cinta": { "y": -2609.9, "width": 253, "height": 36 }
+		},
+		"cinta158": {
+			"cinta": { "y": -2357.91, "width": 253, "height": 36 }
+		},
+		"cinta5": {
+			"cinta": { "x": -251.56, "y": -2753.9, "width": 253, "height": 36 }
+		},
+		"cinta237": {
+			"cinta": { "x": -251.56, "y": -989.97, "width": 253, "height": 36 }
+		},
+		"cinta13": {
+			"cinta": { "x": -251.56, "y": -3257.87, "width": 253, "height": 36 }
+		},
+		"cinta210": {
+			"cinta": { "x": -251.56, "y": -1457.95, "width": 253, "height": 36 }
+		},
+		"cinta15": {
+			"cinta": { "x": -251.56, "y": -3365.87, "width": 253, "height": 36 }
+		},
+		"cinta16": {
+			"cinta": { "x": -251.56, "y": -3329.87, "width": 253, "height": 36 }
+		},
+		"cinta17": {
+			"cinta": { "x": -251.56, "y": -3401.87, "width": 253, "height": 36 }
+		},
+		"cinta18": {
+			"cinta": { "x": -251.56, "y": -3437.87, "width": 253, "height": 36 }
+		},
+		"cinta81": {
+			"cinta": { "x": -251.56, "y": -737.98, "width": 253, "height": 36 }
+		},
+		"cinta146": {
+			"cinta": { "y": -2069.92, "width": 253, "height": 36 }
+		},
+		"cinta147": {
+			"cinta": { "y": -2285.91, "width": 253, "height": 36 }
+		},
+		"cinta148": {
+			"cinta": { "y": -1853.93, "width": 253, "height": 36 }
+		},
+		"cinta10": {
+			"cinta": { "x": -251.56, "y": -2933.89, "width": 253, "height": 36 }
+		},
+		"cinta99": {
+			"cinta": { "y": -2717.9, "width": 253, "height": 36 }
+		},
+		"cinta224": {
+			"cinta": { "x": -251.56, "y": -1385.95, "width": 253, "height": 36 }
+		},
+		"cinta239": {
+			"cinta": { "x": -251.56, "y": -1421.95, "width": 253, "height": 36 }
+		},
+		"cinta230": {
+			"cinta": { "x": -251.56, "y": -917.97, "width": 253, "height": 36 }
+		},
+		"cinta152": {
+			"cinta": { "y": -1781.93, "width": 253, "height": 36 }
+		},
+		"cinta37": {
+			"cinta": { "x": -251.56, "y": -2573.9, "width": 253, "height": 36 }
+		},
+		"cinta50": {
+			"cinta": { "x": -251.56, "y": -2501.9, "width": 253, "height": 36 }
+		},
+		"cinta194": {
+			"cinta": { "y": -1709.94, "width": 253, "height": 36 }
+		},
+		"cinta8": {
+			"cinta": { "x": -251.56, "y": -2969.89, "width": 253, "height": 36 }
+		},
+		"cinta20": {
+			"cinta": { "x": -251.56, "y": -3185.88, "width": 253, "height": 36 }
+		},
+		"cinta229": {
+			"cinta": { "y": -1601.94, "width": 253, "height": 36 }
+		},
+		"cinta22": {
+			"cinta": { "x": -251.56, "y": -3149.88, "width": 253, "height": 36 }
+		},
+		"cinta23": {
+			"cinta": { "x": -251.56, "y": -3077.88, "width": 253, "height": 36 }
+		},
+		"cinta24": {
+			"cinta": { "x": -251.56, "y": -3041.88, "width": 253, "height": 36 }
+		},
+		"cinta151": {
+			"cinta": { "y": -2213.91, "width": 253, "height": 36 }
+		},
+		"cinta53": {
+			"cinta": { "x": -251.56, "y": -1853.93, "width": 253, "height": 36 }
+		},
+		"cinta153": {
+			"cinta": { "y": -2465.9, "width": 253, "height": 36 }
+		},
+		"cinta211": {
+			"cinta": { "x": -251.56, "y": -1241.96, "width": 253, "height": 36 }
+		},
+		"cinta232": {
+			"cinta": { "x": -251.56, "y": -1349.95, "width": 253, "height": 36 }
+		},
+		"limite arriba": {
+			"limite arriba": { "x": -253, "y": -9.5, "width": 253, "height": 19 }
+		},
+		"cinta189": {
+			"cinta": { "y": -665.97, "width": 253, "height": 36 }
+		},
+		"cinta221": {
+			"cinta": { "x": -251.56, "y": -845.98, "width": 253, "height": 36 }
+		},
+		"cinta159": {
+			"cinta": { "y": -1925.93, "width": 253, "height": 36 }
+		},
+		"cinta156": {
+			"cinta": { "y": -1817.93, "width": 253, "height": 36 }
+		},
+		"cinta236": {
+			"cinta": { "y": -1565.94, "width": 253, "height": 36 }
+		},
+		"cinta4": {
+			"cinta": { "x": -251.56, "y": -2681.9, "width": 253, "height": 36 }
+		},
+		"cinta160": {
+			"cinta": { "y": -2537.9, "width": 253, "height": 36 }
+		},
+		"cinta100": {
+			"cinta": { "y": -2681.9, "width": 253, "height": 36 }
+		},
+		"cinta235": {
+			"cinta": { "x": -251.56, "y": -1565.94, "width": 253, "height": 36 }
+		},
+		"cinta58": {
+			"cinta": { "x": -251.56, "y": -2465.9, "width": 253, "height": 36 }
+		},
+		"cinta181": {
+			"cinta": { "y": -1443.31, "scaleY": 80, "width": 253, "height": 36 }
+		},
+		"cinta199": {
+			"cinta": { "y": -1313.95, "width": 253, "height": 36 }
+		},
+		"cinta56": {
+			"cinta": { "x": -251.56, "y": -2213.91, "width": 253, "height": 36 }
+		},
+		"cinta226": {
+			"cinta": { "x": -251.56, "y": -1169.96, "width": 253, "height": 36 }
+		},
+		"cinta110": {
+			"cinta": { "y": -3293.87, "width": 253, "height": 36 }
+		},
+		"cinta162": {
+			"cinta": { "y": -2321.91, "width": 253, "height": 36 }
+		},
+		"cinta163": {
+			"cinta": { "y": -1889.93, "width": 253, "height": 36 }
+		},
+		"cinta164": {
+			"cinta": { "y": -2393.9, "width": 253, "height": 36 }
+		},
+		"cinta172": {
+			"cinta": { "y": -126, "width": 253, "height": 36 }
+		},
+		"cinta166": {
+			"cinta": { "y": -2177.91, "width": 253, "height": 36 }
+		},
+		"cinta200": {
+			"cinta": { "y": -845.98, "width": 253, "height": 36 }
+		},
+		"cinta201": {
+			"cinta": { "x": -251.56, "y": -881.97, "width": 253, "height": 36 }
+		},
+		"cinta202": {
+			"cinta": { "y": -881.97, "width": 253, "height": 36 }
+		},
+		"cinta203": {
+			"cinta": { "x": -251.56, "y": -1313.95, "width": 253, "height": 36 }
+		},
+		"cinta55": {
+			"cinta": { "x": -251.56, "y": -1997.92, "width": 253, "height": 36 }
+		},
+		"cinta205": {
+			"cinta": { "y": -1097.96, "width": 253, "height": 36 }
+		},
+		"cinta206": {
+			"cinta": { "x": -251.56, "y": -1529.94, "width": 253, "height": 36 }
+		},
+		"cinta207": {
+			"cinta": { "y": -1529.94, "width": 253, "height": 36 }
+		},
+		"cinta208": {
+			"cinta": { "x": -251.56, "y": -1025.97, "width": 253, "height": 36 }
+		},
+		"cinta169": {
+			"cinta": { "y": -773.98, "width": 253, "height": 36 }
+		},
+		"cinta9": {
+			"cinta": { "x": -251.56, "y": -2897.89, "width": 253, "height": 36 }
+		},
+		"cinta157": {
+			"cinta": { "y": -2141.92, "width": 253, "height": 36 }
+		},
+		"cinta238": {
+			"cinta": { "y": -989.97, "width": 253, "height": 36 }
+		},
+		"cinta64": {
+			"cinta": { "x": -251.56, "y": -1925.93, "width": 253, "height": 36 }
+		},
+		"cinta101": {
+			"cinta": { "y": -2753.9, "width": 253, "height": 36 }
+		},
+		"cinta150": {
+			"cinta": { "y": -1997.92, "width": 253, "height": 36 }
+		},
+		"cinta170": {
+			"cinta": { "y": -342, "width": 253, "height": 36 }
+		},
+		"cinta171": {
+			"cinta": { "y": -557.98, "width": 253, "height": 36 }
+		},
+		"cinta227": {
+			"cinta": { "y": -1169.96, "width": 253, "height": 36 }
+		},
+		"cinta173": {
+			"cinta": { "y": -701.97, "width": 253, "height": 36 }
+		},
+		"cinta174": {
+			"cinta": { "y": -269.99, "width": 253, "height": 36 }
+		},
+		"cinta175": {
+			"cinta": { "y": -485.98, "width": 253, "height": 36 }
+		},
+		"cinta176": {
+			"cinta": { "y": -54, "width": 253, "height": 36 }
+		},
+		"cinta177": {
+			"cinta": { "y": -737.98, "width": 253, "height": 36 }
+		},
+		"cinta178": {
+			"cinta": { "y": -306, "width": 253, "height": 36 }
+		},
+		"cinta179": {
+			"cinta": { "y": -521.98, "width": 253, "height": 36 }
+		},
+		"cintalimite": {
+			"cintalimite": {
+				"type": "clipping",
+				"end": "cinta166",
+				"vertexCount": 4,
+				"vertices": [ -415.84, -5.17, 178.92, -5.17, 171.51, -3049.16, -548.49, -3061.16 ],
+				"color": "ce3a3a00"
+			}
+		},
+		"cinta214": {
+			"cinta": { "y": -1673.94, "width": 253, "height": 36 }
+		},
+		"cinta215": {
+			"cinta": { "x": -251.56, "y": -1061.97, "width": 253, "height": 36 }
+		},
+		"cinta216": {
+			"cinta": { "y": -1061.97, "width": 253, "height": 36 }
+		},
+		"cinta217": {
+			"cinta": { "x": -251.56, "y": -1493.95, "width": 253, "height": 36 }
+		},
+		"cinta218": {
+			"cinta": { "x": -251.56, "y": -1277.96, "width": 253, "height": 36 }
+		},
+		"cinta209": {
+			"cinta": { "y": -1025.97, "width": 253, "height": 36 }
+		},
+		"cinta11": {
+			"cinta": { "x": -251.56, "y": -2861.89, "width": 253, "height": 36 }
+		},
+		"cinta14": {
+			"cinta": { "x": -251.56, "y": -3293.87, "width": 253, "height": 36 }
+		},
+		"cinta69": {
+			"cinta": { "x": -251.56, "y": -2393.9, "width": 253, "height": 36 }
+		},
+		"cinta241": {
+			"cinta": { "y": -1205.96, "width": 253, "height": 36 }
+		},
+		"cinta228": {
+			"cinta": { "x": -251.56, "y": -1601.94, "width": 253, "height": 36 }
+		},
+		"cinta51": {
+			"cinta": { "x": -251.56, "y": -2069.92, "width": 253, "height": 36 }
+		},
+		"cinta": {
+			"cinta": { "x": -251.56, "y": -2609.9, "width": 253, "height": 36 }
+		},
+		"cinta54": {
+			"cinta": { "x": -251.56, "y": -2429.9, "width": 253, "height": 36 }
+		},
+		"cinta180": {
+			"cinta": { "y": -90, "width": 253, "height": 36 }
+		},
+		"limite arriba2": {
+			"limite arriba": { "y": -9.5, "width": 253, "height": 19 }
+		},
+		"cinta182": {
+			"cinta": { "y": -414, "width": 253, "height": 36 }
+		},
+		"limite der2": {
+			"limite der": { "x": 138.59, "y": -768, "width": 25, "height": 1536 }
+		},
+		"cinta184": {
+			"cinta": { "y": -198, "width": 253, "height": 36 }
+		},
+		"cinta185": {
+			"cinta": { "y": -809.98, "width": 253, "height": 36 }
+		},
+		"cinta186": {
+			"cinta": { "y": -378, "width": 253, "height": 36 }
+		},
+		"cinta187": {
+			"cinta": { "y": -593.98, "width": 253, "height": 36 }
+		},
+		"cinta188": {
+			"cinta": { "y": -162, "width": 253, "height": 36 }
+		},
+		"cinta2": {
+			"cinta": { "x": -251.56, "y": -2645.9, "width": 253, "height": 36 }
+		},
+		"cinta3": {
+			"cinta": { "x": -251.56, "y": -2717.9, "width": 253, "height": 36 }
+		},
+		"cinta103": {
+			"cinta": { "y": -3005.89, "width": 253, "height": 36 }
+		},
+		"cinta104": {
+			"cinta": { "y": -2969.89, "width": 253, "height": 36 }
+		},
+		"cinta6": {
+			"cinta": { "x": -251.56, "y": -2789.9, "width": 253, "height": 36 }
+		},
+		"cinta7": {
+			"cinta": { "x": -251.56, "y": -3005.89, "width": 253, "height": 36 }
+		},
+		"cinta107": {
+			"cinta": { "y": -2861.89, "width": 253, "height": 36 }
+		},
+		"cinta108": {
+			"cinta": { "y": -2825.89, "width": 253, "height": 36 }
+		},
+		"cinta109": {
+			"cinta": { "y": -3257.87, "width": 253, "height": 36 }
+		},
+		"cinta155": {
+			"cinta": { "y": -2249.91, "width": 253, "height": 36 }
+		},
+		"cinta161": {
+			"cinta": { "y": -2105.92, "width": 253, "height": 36 }
+		},
+		"cinta19": {
+			"cinta": { "x": -251.56, "y": -3221.88, "width": 253, "height": 36 }
+		},
+		"cinta223": {
+			"cinta": { "y": -953.97, "width": 253, "height": 36 }
+		},
+		"cinta66": {
+			"cinta": { "x": -251.56, "y": -2105.92, "width": 253, "height": 36 }
+		},
+		"cinta60": {
+			"cinta": { "x": -251.56, "y": -2249.91, "width": 253, "height": 36 }
+		},
+		"cinta61": {
+			"cinta": { "x": -251.56, "y": -1817.93, "width": 253, "height": 36 }
+		},
+		"cinta62": {
+			"cinta": { "x": -251.56, "y": -2141.92, "width": 253, "height": 36 }
+		},
+		"cinta63": {
+			"cinta": { "x": -251.56, "y": -2357.91, "width": 253, "height": 36 }
+		},
+		"cinta190": {
+			"cinta": { "y": -233.99, "width": 253, "height": 36 }
+		},
+		"cinta191": {
+			"cinta": { "y": -449.98, "width": 253, "height": 36 }
+		},
+		"cinta192": {
+			"cinta": { "y": -18, "width": 253, "height": 36 }
+		},
+		"cinta193": {
+			"cinta": { "y": -1637.94, "width": 253, "height": 36 }
+		},
+		"cinta57": {
+			"cinta": { "x": -251.56, "y": -1781.93, "width": 253, "height": 36 }
+		},
+		"cinta195": {
+			"cinta": { "y": -1493.95, "width": 253, "height": 36 }
+		},
+		"cinta196": {
+			"cinta": { "y": -1457.95, "width": 253, "height": 36 }
+		},
+		"cinta197": {
+			"cinta": { "y": -1421.95, "width": 253, "height": 36 }
+		},
+		"cinta231": {
+			"cinta": { "y": -917.97, "width": 253, "height": 36 }
+		},
+		"cinta111": {
+			"cinta": { "y": -3365.87, "width": 253, "height": 36 }
+		},
+		"cinta112": {
+			"cinta": { "y": -3329.87, "width": 253, "height": 36 }
+		},
+		"cinta113": {
+			"cinta": { "y": -3401.87, "width": 253, "height": 36 }
+		},
+		"cinta219": {
+			"cinta": { "y": -1277.96, "width": 253, "height": 36 }
+		},
+		"cinta115": {
+			"cinta": { "y": -3221.88, "width": 253, "height": 36 }
+		},
+		"cinta67": {
+			"cinta": { "x": -251.56, "y": -2321.91, "width": 253, "height": 36 }
+		},
+		"cinta117": {
+			"cinta": { "y": -3113.88, "width": 253, "height": 36 }
+		},
+		"cinta118": {
+			"cinta": { "y": -3149.88, "width": 253, "height": 36 }
+		},
+		"cinta119": {
+			"cinta": { "y": -3077.88, "width": 253, "height": 36 }
+		},
+		"cinta105": {
+			"cinta": { "y": -2897.89, "width": 253, "height": 36 }
+		},
+		"cinta72": {
+			"cinta": { "x": -251.56, "y": -1745.93, "width": 253, "height": 36 }
+		},
+		"cinta220": {
+			"cinta": { "x": -251.56, "y": -1709.94, "width": 253, "height": 36 }
+		},
+		"cinta21": {
+			"cinta": { "x": -251.56, "y": -3113.88, "width": 253, "height": 36 }
+		},
+		"cinta98": {
+			"cinta": { "y": -2645.9, "width": 253, "height": 36 }
+		},
+		"cinta70": {
+			"cinta": { "x": -251.56, "y": -1961.92, "width": 253, "height": 36 }
+		},
+		"cinta71": {
+			"cinta": { "x": -251.56, "y": -2177.91, "width": 253, "height": 36 }
+		},
+		"cinta243": {
+			"cinta": { "x": -251.56, "y": -1443.31, "scaleY": 80, "width": 253, "height": 36 }
+		},
+		"cinta73": {
+			"cinta": { "x": -251.56, "y": -773.98, "width": 253, "height": 36 }
+		},
+		"cinta74": {
+			"cinta": { "x": -251.56, "y": -342, "width": 253, "height": 36 }
+		},
+		"cinta75": {
+			"cinta": { "x": -251.56, "y": -557.98, "width": 253, "height": 36 }
+		},
+		"cinta212": {
+			"cinta": { "y": -1241.96, "width": 253, "height": 36 }
+		},
+		"cinta77": {
+			"cinta": { "x": -251.56, "y": -701.97, "width": 253, "height": 36 }
+		},
+		"cinta78": {
+			"cinta": { "x": -251.56, "y": -269.99, "width": 253, "height": 36 }
+		},
+		"cinta116": {
+			"cinta": { "y": -3185.88, "width": 253, "height": 36 }
+		},
+		"cinta145": {
+			"cinta": { "y": -2501.9, "width": 253, "height": 36 }
+		},
+		"cinta240": {
+			"cinta": { "x": -251.56, "y": -1205.96, "width": 253, "height": 36 }
+		},
+		"cinta120": {
+			"cinta": { "y": -3041.88, "width": 253, "height": 36 }
+		},
+		"cinta242": {
+			"cinta": { "x": -251.56, "y": -1637.94, "width": 253, "height": 36 }
+		},
+		"cinta114": {
+			"cinta": { "y": -3437.87, "width": 253, "height": 36 }
+		},
+		"cinta79": {
+			"cinta": { "x": -251.56, "y": -485.98, "width": 253, "height": 36 }
+		},
+		"cinta165": {
+			"cinta": { "y": -1961.92, "width": 253, "height": 36 }
+		},
+		"cinta149": {
+			"cinta": { "y": -2429.9, "width": 253, "height": 36 }
+		},
+		"cinta68": {
+			"cinta": { "x": -251.56, "y": -1889.93, "width": 253, "height": 36 }
+		},
+		"cinta59": {
+			"cinta": { "x": -251.56, "y": -2033.92, "width": 253, "height": 36 }
+		},
+		"cinta106": {
+			"cinta": { "y": -2933.89, "width": 253, "height": 36 }
+		},
+		"cinta12": {
+			"cinta": { "x": -251.56, "y": -2825.89, "width": 253, "height": 36 }
+		},
+		"cinta222": {
+			"cinta": { "x": -251.56, "y": -953.97, "width": 253, "height": 36 }
+		},
+		"cinta102": {
+			"cinta": { "y": -2789.9, "width": 253, "height": 36 }
+		},
+		"cinta80": {
+			"cinta": { "x": -251.56, "y": -54, "width": 253, "height": 36 }
+		},
+		"cinta204": {
+			"cinta": { "x": -251.56, "y": -1097.96, "width": 253, "height": 36 }
+		},
+		"cinta82": {
+			"cinta": { "x": -251.56, "y": -306, "width": 253, "height": 36 }
+		},
+		"cinta83": {
+			"cinta": { "x": -251.56, "y": -521.98, "width": 253, "height": 36 }
+		},
+		"cinta84": {
+			"cinta": { "x": -251.56, "y": -90, "width": 253, "height": 36 }
+		},
+		"cinta183": {
+			"cinta": { "y": -629.98, "width": 253, "height": 36 }
+		},
+		"cinta86": {
+			"cinta": { "x": -251.56, "y": -414, "width": 253, "height": 36 }
+		},
+		"cinta87": {
+			"cinta": { "x": -251.56, "y": -629.98, "width": 253, "height": 36 }
+		},
+		"cinta88": {
+			"cinta": { "x": -251.56, "y": -198, "width": 253, "height": 36 }
+		},
+		"cinta89": {
+			"cinta": { "x": -251.56, "y": -809.98, "width": 253, "height": 36 }
+		},
+		"cinta213": {
+			"cinta": { "x": -251.56, "y": -1673.94, "width": 253, "height": 36 }
+		},
+		"cinta225": {
+			"cinta": { "y": -1385.95, "width": 253, "height": 36 }
+		},
+		"limite der": {
+			"limite der": { "x": 138.59, "y": -2304, "scaleY": -1, "width": 25, "height": 1536 }
+		},
+		"cinta133": {
+			"cinta": { "y": -2573.9, "width": 253, "height": 36 }
+		},
+		"cinta234": {
+			"cinta": { "y": -1133.96, "width": 253, "height": 36 }
+		},
+		"cinta198": {
+			"cinta": { "y": -1349.95, "width": 253, "height": 36 }
+		},
+		"cinta52": {
+			"cinta": { "x": -251.56, "y": -2285.91, "width": 253, "height": 36 }
+		}
+	}
+}
+}

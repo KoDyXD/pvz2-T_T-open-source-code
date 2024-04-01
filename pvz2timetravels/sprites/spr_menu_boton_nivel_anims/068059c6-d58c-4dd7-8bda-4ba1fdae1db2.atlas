@@ -1,0 +1,251 @@
+
+skeleton.png
+size: 443,1023
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+normal/cristal 1
+  rotate: true
+  xy: 85, 70
+  size: 120, 83
+  orig: 124, 91
+  offset: 2, 6
+  index: -1
+normal/cristal 2
+  rotate: true
+  xy: 170, 140
+  size: 120, 83
+  orig: 124, 91
+  offset: 2, 6
+  index: -1
+normal/cristal 3
+  rotate: false
+  xy: 255, 137
+  size: 120, 83
+  orig: 124, 91
+  offset: 2, 6
+  index: -1
+normal/cristal 4
+  rotate: true
+  xy: 170, 18
+  size: 120, 83
+  orig: 124, 91
+  offset: 2, 6
+  index: -1
+normal/cristal base 1 0
+  rotate: false
+  xy: 257, 355
+  size: 145, 65
+  orig: 149, 69
+  offset: 2, 2
+  index: -1
+normal/cristal base 1 1
+  rotate: true
+  xy: 393, 803
+  size: 147, 47
+  orig: 151, 51
+  offset: 2, 2
+  index: -1
+normal/cristal base 1 2
+  rotate: false
+  xy: 284, 483
+  size: 147, 59
+  orig: 151, 63
+  offset: 2, 2
+  index: -1
+normal/cristal base 2 0
+  rotate: false
+  xy: 257, 288
+  size: 145, 65
+  orig: 149, 69
+  offset: 2, 2
+  index: -1
+normal/cristal base 2 1
+  rotate: true
+  xy: 393, 654
+  size: 147, 47
+  orig: 151, 51
+  offset: 2, 2
+  index: -1
+normal/cristal base 2 2
+  rotate: false
+  xy: 284, 422
+  size: 147, 59
+  orig: 151, 63
+  offset: 2, 2
+  index: -1
+normal/cristal reflejo 1
+  rotate: true
+  xy: 377, 97
+  size: 93, 49
+  orig: 101, 74
+  offset: 2, 20
+  index: -1
+normal/cristal reflejo 2
+  rotate: true
+  xy: 255, 2
+  size: 93, 49
+  orig: 101, 74
+  offset: 2, 20
+  index: -1
+normal/cristal reflejo 3
+  rotate: true
+  xy: 306, 2
+  size: 93, 49
+  orig: 101, 74
+  offset: 2, 20
+  index: -1
+normal/cristal reflejo 4
+  rotate: true
+  xy: 357, 2
+  size: 93, 49
+  orig: 101, 74
+  offset: 2, 20
+  index: -1
+normal/cristal sombra 1
+  rotate: true
+  xy: 310, 631
+  size: 121, 81
+  orig: 133, 92
+  offset: 6, 6
+  index: -1
+normal/cristal sombra 2
+  rotate: false
+  xy: 310, 544
+  size: 129, 85
+  orig: 140, 96
+  offset: 6, 6
+  index: -1
+normal/cristal sombra 3
+  rotate: true
+  xy: 310, 754
+  size: 125, 81
+  orig: 138, 92
+  offset: 7, 6
+  index: -1
+normal/cristal sombra 4
+  rotate: true
+  xy: 2, 69
+  size: 121, 81
+  orig: 133, 92
+  offset: 6, 6
+  index: -1
+normal/cristal special 1 1
+  rotate: false
+  xy: 2, 13
+  size: 114, 54
+  orig: 118, 58
+  offset: 2, 2
+  index: -1
+normal/cristal special 1 2
+  rotate: false
+  xy: 257, 222
+  size: 122, 64
+  orig: 133, 73
+  offset: 5, 4
+  index: -1
+normal/cristal special 2 1
+  rotate: true
+  xy: 381, 192
+  size: 94, 58
+  orig: 108, 71
+  offset: 8, 5
+  index: -1
+normal/cristal special 2 2
+  rotate: false
+  xy: 2, 197
+  size: 99, 63
+  orig: 110, 73
+  offset: 5, 5
+  index: -1
+normal/destello 1
+  rotate: false
+  xy: 404, 346
+  size: 37, 35
+  orig: 48, 46
+  offset: 6, 5
+  index: -1
+normal/destello 1 1
+  rotate: true
+  xy: 2, 724
+  size: 155, 306
+  orig: 315, 337
+  offset: 79, 16
+  index: -1
+normal/destello 2
+  rotate: false
+  xy: 404, 383
+  size: 37, 37
+  orig: 49, 48
+  offset: 6, 5
+  index: -1
+normal/destello 4
+  rotate: false
+  xy: 404, 309
+  size: 37, 35
+  orig: 48, 46
+  offset: 6, 5
+  index: -1
+normal/destello 4 1
+  rotate: true
+  xy: 2, 567
+  size: 155, 306
+  orig: 315, 337
+  offset: 79, 16
+  index: -1
+normal/luz base 1 1
+  rotate: true
+  xy: 2, 396
+  size: 132, 253
+  orig: 136, 292
+  offset: 2, 2
+  index: -1
+normal/luz base 1 2
+  rotate: true
+  xy: 2, 952
+  size: 69, 431
+  orig: 74, 441
+  offset: 2, 7
+  index: -1
+normal/luz base 1 3
+  rotate: true
+  xy: 2, 530
+  size: 35, 280
+  orig: 40, 284
+  offset: 2, 2
+  index: -1
+normal/luz base 4 1
+  rotate: true
+  xy: 2, 262
+  size: 132, 253
+  orig: 136, 292
+  offset: 2, 2
+  index: -1
+normal/luz base 4 2
+  rotate: true
+  xy: 2, 881
+  size: 69, 389
+  orig: 74, 441
+  offset: 2, 7
+  index: -1
+normal/nada
+  rotate: false
+  xy: 435, 1020
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+normal/particula 1
+  rotate: false
+  xy: 257, 503
+  size: 25, 25
+  orig: 34, 34
+  offset: 4, 5
+  index: -1
+normal/particula 4
+  rotate: false
+  xy: 257, 476
+  size: 25, 25
+  orig: 34, 34
+  offset: 4, 5
+  index: -1

@@ -1,0 +1,41 @@
+
+skeleton.png
+size: 739,223
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+soles/sol brillo amarillo
+  rotate: false
+  xy: 444, 48
+  size: 173, 173
+  orig: 213, 213
+  offset: 20, 20
+  index: -1
+soles/sol brillo blanco
+  rotate: false
+  xy: 223, 2
+  size: 219, 219
+  orig: 260, 260
+  offset: 20, 21
+  index: -1
+soles/sol brillo rojo
+  rotate: false
+  xy: 2, 2
+  size: 219, 219
+  orig: 260, 260
+  offset: 20, 21
+  index: -1
+soles/sol cuerpo amarillo
+  rotate: false
+  xy: 619, 19
+  size: 81, 81
+  orig: 100, 100
+  offset: 9, 10
+  index: -1
+soles/sol cuerpo rojo
+  rotate: false
+  xy: 619, 102
+  size: 118, 119
+  orig: 141, 141
+  offset: 11, 12
+  index: -1

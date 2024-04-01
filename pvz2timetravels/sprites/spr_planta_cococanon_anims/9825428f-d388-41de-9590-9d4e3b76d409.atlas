@@ -1,0 +1,160 @@
+
+skeleton.png
+size: 618,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bala 1
+  rotate: false
+  xy: 459, 275
+  size: 146, 143
+  orig: 151, 149
+  offset: 3, 3
+  index: -1
+bala 3
+  rotate: false
+  xy: 183, 96
+  size: 142, 159
+  orig: 164, 167
+  offset: 19, 4
+  index: -1
+bala 4
+  rotate: false
+  xy: 457, 99
+  size: 135, 174
+  orig: 179, 174
+  offset: 44, 0
+  index: -1
+ceja
+  rotate: false
+  xy: 443, 13
+  size: 42, 27
+  orig: 46, 31
+  offset: 2, 2
+  index: -1
+cuerpo
+  rotate: false
+  xy: 274, 283
+  size: 183, 135
+  orig: 187, 138
+  offset: 1, 2
+  index: -1
+efect disp 1
+  rotate: true
+  xy: 274, 420
+  size: 101, 294
+  orig: 131, 324
+  offset: 12, 15
+  index: -1
+efect disp 3
+  rotate: true
+  xy: 327, 121
+  size: 160, 128
+  orig: 177, 168
+  offset: 8, 33
+  index: -1
+efect expl 2
+  rotate: false
+  xy: 2, 257
+  size: 270, 264
+  orig: 274, 274
+  offset: 4, 5
+  index: -1
+efect expl 3
+  rotate: false
+  xy: 2, 115
+  size: 179, 140
+  orig: 185, 174
+  offset: 3, 7
+  index: -1
+efect humo
+  rotate: true
+  xy: 2, 2
+  size: 111, 94
+  orig: 135, 155
+  offset: 14, 22
+  index: -1
+mecha 1
+  rotate: false
+  xy: 98, 2
+  size: 74, 92
+  orig: 82, 100
+  offset: 4, 4
+  index: -1
+mecha 2 1
+  rotate: false
+  xy: 174, 19
+  size: 79, 75
+  orig: 85, 82
+  offset: 6, 2
+  index: -1
+mecha 2 2
+  rotate: false
+  xy: 327, 11
+  size: 114, 108
+  orig: 173, 165
+  offset: 31, 26
+  index: -1
+ojo 0
+  rotate: true
+  xy: 570, 480
+  size: 41, 46
+  orig: 45, 50
+  offset: 2, 2
+  index: -1
+ojo 1
+  rotate: false
+  xy: 570, 441
+  size: 37, 37
+  orig: 41, 41
+  offset: 2, 2
+  index: -1
+ojo 2
+  rotate: false
+  xy: 487, 3
+  size: 37, 37
+  orig: 41, 41
+  offset: 2, 2
+  index: -1
+ojo 3
+  rotate: false
+  xy: 526, 3
+  size: 37, 37
+  orig: 41, 41
+  offset: 2, 2
+  index: -1
+pupila
+  rotate: false
+  xy: 443, 2
+  size: 8, 9
+  orig: 12, 14
+  offset: 2, 3
+  index: -1
+rueda deco del
+  rotate: true
+  xy: 255, 20
+  size: 74, 58
+  orig: 78, 62
+  offset: 2, 2
+  index: -1
+rueda deco tras
+  rotate: false
+  xy: 500, 42
+  size: 54, 55
+  orig: 58, 59
+  offset: 2, 2
+  index: -1
+rueda del
+  rotate: false
+  xy: 443, 42
+  size: 55, 55
+  orig: 60, 59
+  offset: 2, 2
+  index: -1
+rueda tras
+  rotate: true
+  xy: 556, 42
+  size: 55, 53
+  orig: 62, 59
+  offset: 3, 3
+  index: -1

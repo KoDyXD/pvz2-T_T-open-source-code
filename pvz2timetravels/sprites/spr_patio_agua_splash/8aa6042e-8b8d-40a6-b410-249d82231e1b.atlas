@@ -1,0 +1,48 @@
+
+skeleton.png
+size: 1337,534
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+agua cuerpo 1
+  rotate: false
+  xy: 2, 6
+  size: 286, 526
+  orig: 297, 535
+  offset: 5, 5
+  index: -1
+agua cuerpo 2
+  rotate: false
+  xy: 603, 68
+  size: 311, 464
+  orig: 343, 487
+  offset: 8, 18
+  index: -1
+agua cuerpo 3
+  rotate: false
+  xy: 290, 32
+  size: 311, 500
+  orig: 343, 533
+  offset: 8, 29
+  index: -1
+agua particula 2
+  rotate: false
+  xy: 1275, 133
+  size: 51, 46
+  orig: 59, 54
+  offset: 4, 4
+  index: -1
+agua splash 1
+  rotate: false
+  xy: 916, 181
+  size: 419, 351
+  orig: 425, 361
+  offset: 3, 6
+  index: -1
+agua splash 2
+  rotate: false
+  xy: 916, 2
+  size: 357, 177
+  orig: 364, 185
+  offset: 4, 4
+  index: -1

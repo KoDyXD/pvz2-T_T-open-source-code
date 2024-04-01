@@ -1,0 +1,139 @@
+
+skeleton.png
+size: 333,110
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zombidito/brazo del 1
+  rotate: false
+  xy: 317, 75
+  size: 13, 33
+  orig: 18, 37
+  offset: 2, 2
+  index: -1
+zombidito/brazo del 1 roto
+  rotate: false
+  xy: 283, 2
+  size: 15, 37
+  orig: 18, 37
+  offset: 1, 0
+  index: -1
+zombidito/brazo del 2
+  rotate: false
+  xy: 253, 3
+  size: 13, 27
+  orig: 17, 31
+  offset: 2, 2
+  index: -1
+zombidito/brazo del 3
+  rotate: true
+  xy: 183, 2
+  size: 23, 28
+  orig: 27, 32
+  offset: 2, 2
+  index: -1
+zombidito/brazo tras 1
+  rotate: false
+  xy: 268, 4
+  size: 13, 26
+  orig: 17, 30
+  offset: 2, 2
+  index: -1
+zombidito/brazo tras 2
+  rotate: false
+  xy: 238, 2
+  size: 13, 28
+  orig: 17, 32
+  offset: 2, 2
+  index: -1
+zombidito/brazo tras 3
+  rotate: true
+  xy: 156, 6
+  size: 18, 25
+  orig: 22, 30
+  offset: 2, 3
+  index: -1
+zombidito/cabeza 1
+  rotate: true
+  xy: 2, 9
+  size: 99, 88
+  orig: 103, 92
+  offset: 2, 2
+  index: -1
+zombidito/cabeza 2
+  rotate: true
+  xy: 172, 27
+  size: 81, 38
+  orig: 85, 42
+  offset: 2, 2
+  index: -1
+zombidito/cuerpo 1
+  rotate: true
+  xy: 92, 26
+  size: 82, 78
+  orig: 86, 82
+  offset: 2, 2
+  index: -1
+zombidito/cuerpo 2
+  rotate: true
+  xy: 278, 41
+  size: 67, 37
+  orig: 71, 41
+  offset: 2, 2
+  index: -1
+zombidito/cuerpo 3
+  rotate: true
+  xy: 212, 32
+  size: 76, 64
+  orig: 80, 69
+  offset: 2, 3
+  index: -1
+zombidito/nada
+  rotate: false
+  xy: 2, 6
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+zombidito/pierna del 1
+  rotate: false
+  xy: 213, 2
+  size: 23, 28
+  orig: 27, 32
+  offset: 2, 2
+  index: -1
+zombidito/pierna del 2
+  rotate: false
+  xy: 317, 43
+  size: 14, 30
+  orig: 18, 34
+  offset: 2, 2
+  index: -1
+zombidito/pierna del 3
+  rotate: true
+  xy: 126, 5
+  size: 19, 13
+  orig: 23, 17
+  offset: 2, 2
+  index: -1
+zombidito/pierna tras 1
+  rotate: true
+  xy: 92, 2
+  size: 22, 32
+  orig: 27, 36
+  offset: 2, 2
+  index: -1
+zombidito/pierna tras 2
+  rotate: false
+  xy: 300, 6
+  size: 17, 33
+  orig: 21, 37
+  offset: 2, 2
+  index: -1
+zombidito/pierna tras 3
+  rotate: true
+  xy: 141, 5
+  size: 19, 13
+  orig: 23, 17
+  offset: 2, 2
+  index: -1

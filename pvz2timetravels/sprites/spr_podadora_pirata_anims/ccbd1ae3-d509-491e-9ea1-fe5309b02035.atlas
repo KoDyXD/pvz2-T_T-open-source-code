@@ -1,0 +1,167 @@
+
+skeleton.png
+size: 110,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cepillo 1
+  rotate: true
+  xy: 59, 80
+  size: 107, 36
+  orig: 112, 40
+  offset: 2, 2
+  index: -1
+cepillo 2
+  rotate: false
+  xy: 2, 30
+  size: 106, 35
+  orig: 110, 39
+  offset: 2, 2
+  index: -1
+cepillo efect 1
+  rotate: true
+  xy: 90, 295
+  size: 74, 17
+  orig: 89, 22
+  offset: 4, 3
+  index: -1
+cepillo efect 3
+  rotate: true
+  xy: 29, 69
+  size: 108, 28
+  orig: 117, 32
+  offset: 2, 2
+  index: -1
+cepillo efect 4
+  rotate: true
+  xy: 2, 67
+  size: 110, 25
+  orig: 117, 36
+  offset: 2, 2
+  index: -1
+cuerpo 1_1
+  rotate: true
+  xy: 2, 416
+  size: 105, 63
+  orig: 109, 67
+  offset: 2, 2
+  index: -1
+cuerpo 2 cinta del
+  rotate: false
+  xy: 2, 2
+  size: 100, 26
+  orig: 104, 30
+  offset: 2, 2
+  index: -1
+cuerpo 2 cinta tras
+  rotate: true
+  xy: 54, 315
+  size: 99, 23
+  orig: 103, 27
+  offset: 2, 2
+  index: -1
+cuerpo 2_1
+  rotate: true
+  xy: 45, 189
+  size: 55, 41
+  orig: 59, 45
+  offset: 2, 2
+  index: -1
+cuerpo 3_1
+  rotate: true
+  xy: 2, 179
+  size: 65, 41
+  orig: 69, 45
+  offset: 2, 2
+  index: -1
+cuerpo 3_2
+  rotate: true
+  xy: 88, 198
+  size: 24, 17
+  orig: 27, 22
+  offset: 1, 3
+  index: -1
+cuerpo 3_3
+  rotate: false
+  xy: 90, 281
+  size: 12, 12
+  orig: 16, 17
+  offset: 2, 3
+  index: -1
+rueda del 1
+  rotate: false
+  xy: 2, 364
+  size: 50, 50
+  orig: 54, 54
+  offset: 2, 2
+  index: -1
+rueda del 2
+  rotate: false
+  xy: 48, 270
+  size: 40, 40
+  orig: 44, 44
+  offset: 2, 2
+  index: -1
+rueda del 3
+  rotate: false
+  xy: 88, 224
+  size: 20, 21
+  orig: 25, 25
+  offset: 2, 2
+  index: -1
+rueda tras 1
+  rotate: false
+  xy: 2, 312
+  size: 50, 50
+  orig: 54, 54
+  offset: 2, 2
+  index: -1
+rueda tras 2
+  rotate: false
+  xy: 67, 481
+  size: 40, 40
+  orig: 44, 44
+  offset: 2, 2
+  index: -1
+sujetar base del
+  rotate: false
+  xy: 48, 247
+  size: 33, 21
+  orig: 37, 25
+  offset: 2, 2
+  index: -1
+sujetar base tras
+  rotate: true
+  xy: 79, 371
+  size: 33, 27
+  orig: 37, 31
+  offset: 2, 2
+  index: -1
+sujetar int
+  rotate: false
+  xy: 67, 441
+  size: 35, 38
+  orig: 39, 42
+  offset: 2, 2
+  index: -1
+sujetar int del
+  rotate: false
+  xy: 79, 406
+  size: 29, 33
+  orig: 34, 37
+  offset: 2, 2
+  index: -1
+sujetar int tras
+  rotate: true
+  xy: 83, 247
+  size: 21, 23
+  orig: 25, 28
+  offset: 2, 3
+  index: -1
+sujetar palo
+  rotate: false
+  xy: 2, 246
+  size: 44, 64
+  orig: 49, 68
+  offset: 2, 2
+  index: -1

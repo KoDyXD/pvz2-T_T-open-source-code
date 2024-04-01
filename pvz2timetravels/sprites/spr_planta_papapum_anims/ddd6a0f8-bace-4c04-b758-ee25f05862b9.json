@@ -1,0 +1,1789 @@
+{
+"skeleton": { "hash": "VoCNu1Rw0eX+X9hP0SmmBQf2rBA", "spine": "3.7-from-3.8.75", "images": "C:/Users/Arnold/Desktop/pvz2 T_T/texturas/plantas/papapum/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "planta", "parent": "root", "skin": true, "color": "00ff07ff" },
+	{ "name": "cuerpo", "parent": "planta", "x": 0.08, "y": 34.75, "skin": true, "color": "ff9300ff" },
+	{ "name": "ojo izq", "parent": "cuerpo", "x": 9.15, "y": -1.94, "skin": true },
+	{ "name": "ojo der", "parent": "cuerpo", "x": 37.64, "y": 6.83, "skin": true },
+	{ "name": "tubo", "parent": "cuerpo", "x": -6.33, "y": 28.89, "skin": true },
+	{ "name": "tierra oculta", "parent": "planta", "x": -6.41, "y": -0.01, "skin": true, "color": "ff9300ff" },
+	{ "name": "tierras", "parent": "planta", "x": -0.14, "y": -0.18, "skin": true, "color": "ff9300ff" },
+	{ "name": "boca", "parent": "cuerpo", "x": 33, "y": -14.94, "skin": true },
+	{ "name": "explosion", "parent": "root", "skin": true, "color": "00ff07ff" },
+	{ "name": "spudow", "parent": "explosion", "x": -2.96, "y": 134.28, "skin": true, "color": "ffda00ff" },
+	{ "name": "letra s", "parent": "spudow", "x": -250.99, "y": -56.77, "skin": true },
+	{ "name": "letra p", "parent": "spudow", "x": -191.94, "y": -23.1, "skin": true },
+	{ "name": "letra u", "parent": "spudow", "x": -110.1, "y": -12.74, "skin": true },
+	{ "name": "letra d", "parent": "spudow", "x": -26.18, "y": -1.86, "skin": true },
+	{ "name": "letra o", "parent": "spudow", "x": 60.33, "y": -10.15, "skin": true },
+	{ "name": "letra w", "parent": "spudow", "x": 164.44, "y": -26.73, "skin": true },
+	{ "name": "letra !", "parent": "spudow", "x": 227.21, "y": -61.72, "skin": true },
+	{
+		"name": "expl onda",
+		"parent": "explosion",
+		"x": -1.48,
+		"y": -14.68,
+		"scaleX": 0.5,
+		"skin": true,
+		"color": "ffda00ff"
+	},
+	{ "name": "expl papa base", "parent": "explosion", "x": -2.62, "y": 13.29, "skin": true, "color": "ffda00ff" },
+	{ "name": "expl papa centro", "parent": "explosion", "x": -0.72, "y": 49.2, "skin": true, "color": "ffda00ff" },
+	{ "name": "expl papa arriba", "parent": "explosion", "x": -0.72, "y": 49.2, "skin": true, "color": "ffda00ff" },
+	{ "name": "expl polvo", "parent": "explosion", "x": -0.73, "y": 21.23, "skin": true, "color": "ffda00ff" },
+	{ "name": "expl polvo2", "parent": "explosion", "x": -1.48, "y": 25.39, "skin": true, "color": "ffda00ff" },
+	{ "name": "expl fuego", "parent": "explosion", "x": -0.35, "y": 76.04, "skin": true, "color": "ffda00ff" }
+],
+"slots": [
+	{ "name": "tierra izq tras", "bone": "tierras", "attachment": "12" },
+	{ "name": "cuerpo", "bone": "cuerpo", "attachment": "1" },
+	{ "name": "tubo", "bone": "tubo", "attachment": "11" },
+	{ "name": "tierra oculta der", "bone": "tierra oculta", "attachment": "17" },
+	{ "name": "tierra oculta izq", "bone": "tierra oculta", "attachment": "18" },
+	{ "name": "tierra oculta central", "bone": "tierra oculta", "attachment": "16" },
+	{ "name": "tierra der", "bone": "tierras", "attachment": "4" },
+	{ "name": "tierra izq", "bone": "tierras", "attachment": "9" },
+	{ "name": "tierra frontal", "bone": "tierras", "attachment": "2" },
+	{ "name": "bola apagada", "bone": "tubo", "attachment": "5" },
+	{ "name": "bola encendida", "bone": "tubo" },
+	{ "name": "boca", "bone": "boca", "attachment": "7" },
+	{ "name": "ojo der", "bone": "ojo der", "attachment": "6" },
+	{ "name": "ojo izq", "bone": "ojo izq", "attachment": "6" },
+	{ "name": "expl polvo 2", "bone": "expl polvo2" },
+	{ "name": "expl polvo 1", "bone": "expl polvo" },
+	{ "name": "expl 1", "bone": "expl fuego" },
+	{ "name": "expl papa base", "bone": "expl papa base" },
+	{ "name": "expl papa base 2", "bone": "expl papa base" },
+	{ "name": "expl papa centro", "bone": "expl papa centro" },
+	{ "name": "expl papa arriba", "bone": "expl papa arriba" },
+	{ "name": "expl papa restos 1", "bone": "expl papa arriba" },
+	{ "name": "expl onda 2", "bone": "expl onda" },
+	{ "name": "expl onda 1", "bone": "expl onda" },
+	{ "name": "d", "bone": "letra d" },
+	{ "name": "p", "bone": "letra p" },
+	{ "name": "s", "bone": "letra s" },
+	{ "name": "u", "bone": "letra u" },
+	{ "name": "o", "bone": "letra o" },
+	{ "name": "!", "bone": "letra !" },
+	{ "name": "w", "bone": "letra w" }
+],
+"animations": {
+	"armar": {
+		"slots": {
+			"tierra izq": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" }
+				]
+			},
+			"expl polvo 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl onda 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"d": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"!": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa base 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"w": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"p": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"s": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"bola encendida": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"u": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa base": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"tierra frontal": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" }
+				]
+			},
+			"ojo der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" }
+				]
+			},
+			"expl papa centro": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo izq": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" }
+				]
+			},
+			"boca": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" }
+				]
+			},
+			"o": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"tierra izq tras": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" }
+				]
+			},
+			"tierra der": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" }
+				]
+			},
+			"expl 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa restos 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl polvo 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl onda 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa arriba": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"ojo izq": {
+				"rotate": [
+					{ "angle": 18.39, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.3, "angle": 18.39 },
+					{ "time": 0.4333, "angle": 0.0 }
+				],
+				"scale": [
+					{ "y": 0.1, "curve": "stepped", "time": 0.0, "x": 1.0 },
+					{ "time": 0.3, "y": 0.1, "x": 1.0 },
+					{ "time": 0.4333, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "y": -33.56, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.3, "y": -33.56 },
+					{ "time": 0.4333 }
+				]
+			},
+			"ojo der": {
+				"rotate": [
+					{ "angle": 21.51, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.3, "angle": 21.51 },
+					{ "time": 0.4333, "angle": 0.0 }
+				],
+				"scale": [
+					{ "y": 0.1, "curve": "stepped", "time": 0.0, "x": 1.0 },
+					{ "time": 0.3, "y": 0.1, "x": 1.0 },
+					{ "time": 0.4333, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "y": -31.21, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.3, "y": -31.21 },
+					{ "time": 0.4333 }
+				]
+			},
+			"cuerpo": {
+				"translate": [
+					{ "y": -33.69, "time": 0.0 },
+					{ "time": 0.4 }
+				],
+				"scale": [
+					{ "x": 0.2, "y": 0.1, "time": 0.0 },
+					{ "time": 0.4, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"tubo": {
+				"translate": [
+					{ "x": -25.3, "y": -16.89, "time": 0.0 },
+					{ "time": 0.3333 }
+				],
+				"scale": [
+					{ "x": 5, "y": 10, "time": 0.0 },
+					{ "time": 0.3333, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"tierras": {
+				"translate": [
+					{ "x": -4.63, "y": -5.14, "time": 0.0 },
+					{ "time": 0.4 }
+				],
+				"scale": [
+					{ "x": 0.254, "y": 0.254, "time": 0.0 },
+					{ "time": 0.4, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"boca": {
+				"translate": [
+					{ "x": -1.76, "y": 5.77, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.2667, "x": -1.76, "y": 5.77 },
+					{ "time": 0.4 }
+				],
+				"scale": [
+					{ "y": 0.3, "curve": "stepped", "time": 0.0, "x": 1.0 },
+					{ "time": 0.2667, "y": 0.3, "x": 1.0 },
+					{ "time": 0.4, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "x": 11.17, "y": 3.81, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.2667, "x": 11.17, "y": 3.81 },
+					{ "time": 0.4 }
+				]
+			},
+			"tierra oculta": {
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.0667, "x": 1.5, "y": 1.0 }
+				]
+			}
+		}
+	},
+	"desarmada": {
+		"slots": {
+			"tierra izq": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"tierra der": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl polvo 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl onda 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"d": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"!": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa base 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"w": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"p": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"s": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"bola encendida": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"u": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa base": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"tierra frontal": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo der": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa centro": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo izq": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"boca": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"o": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"tierra izq tras": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"cuerpo": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa restos 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl polvo 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl onda 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa arriba": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"tubo": {
+				"translate": [
+					{ "y": -61.39, "time": 0.0 }
+				]
+			}
+		}
+	},
+	"explosion": {
+		"slots": {
+			"tierra izq": {
+				"color": [
+					{ "color": "ffe6d8ff", "time": 0.0 },
+					{ "time": 0.1, "color": "ffe5d800" }
+				]
+			},
+			"tierra der": {
+				"color": [
+					{ "color": "ffe6d8ff", "time": 0.0 },
+					{ "time": 0.1, "color": "ffe5d800" }
+				]
+			},
+			"expl polvo 2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0333, "color": "ffffff00" },
+					{ "time": 0.3667, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "expl/2", "time": 0.0 }
+				]
+			},
+			"expl onda 2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0333, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "expl/6", "time": 0.0 }
+				]
+			},
+			"d": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.2, "color": "ffffff00" },
+					{ "time": 0.4333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "expl/23", "time": 0.0 }
+				]
+			},
+			"!": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 },
+					{ "time": 0.2667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "expl/15", "time": 0.0 }
+				]
+			},
+			"tubo": {
+				"color": [
+					{ "color": "ffe6d8ff", "time": 0.0 },
+					{ "time": 0.1, "color": "ffe5d800" }
+				]
+			},
+			"tierra oculta izq": {
+				"color": [
+					{ "color": "ffe5d800", "time": 0.0 }
+				]
+			},
+			"expl papa base 2": {
+				"color": [
+					{ "color": "ffffff66", "time": 0.0 },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "expl/9", "time": 0.0 }
+				]
+			},
+			"w": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "expl/20", "time": 0.0 }
+				]
+			},
+			"p": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "expl/22", "time": 0.0 }
+				]
+			},
+			"s": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 },
+					{ "time": 0.2667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "expl/21", "time": 0.0 }
+				]
+			},
+			"bola encendida": {
+				"color": [
+					{ "color": "ffe6d8ff", "time": 0.0 },
+					{ "time": 0.1, "color": "ffe5d800" }
+				],
+				"attachment": [
+					{ "name": "10", "time": 0.0 }
+				]
+			},
+			"u": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "expl/19", "time": 0.0 }
+				]
+			},
+			"expl papa base": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0333, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.6, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "expl/10", "time": 0.0 }
+				]
+			},
+			"tierra frontal": {
+				"color": [
+					{ "color": "ffe6d8ff", "time": 0.0 },
+					{ "time": 0.1, "color": "ffe5d800" }
+				]
+			},
+			"ojo der": {
+				"color": [
+					{ "color": "ffe6d8ff", "time": 0.0 },
+					{ "time": 0.1, "color": "ffe5d800" }
+				]
+			},
+			"tierra oculta der": {
+				"color": [
+					{ "color": "ffe5d800", "time": 0.0 }
+				]
+			},
+			"bola apagada": {
+				"color": [
+					{ "color": "ffe6d8ff", "time": 0.0 },
+					{ "time": 0.1, "color": "ffe5d800" }
+				]
+			},
+			"expl papa centro": {
+				"color": [
+					{ "color": "ffffff7f", "time": 0.0 },
+					{ "time": 0.0667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2333, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "expl/11", "time": 0.0 }
+				]
+			},
+			"ojo izq": {
+				"color": [
+					{ "color": "ffe6d8ff", "time": 0.0 },
+					{ "time": 0.1, "color": "ffe5d800" }
+				]
+			},
+			"boca": {
+				"color": [
+					{ "color": "ffe6d8ff", "time": 0.0 },
+					{ "time": 0.1, "color": "ffe5d800" }
+				]
+			},
+			"o": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "expl/14", "time": 0.0 }
+				]
+			},
+			"tierra izq tras": {
+				"color": [
+					{ "color": "ffe6d8ff", "time": 0.0 },
+					{ "time": 0.1, "color": "ffe5d800" }
+				]
+			},
+			"cuerpo": {
+				"color": [
+					{ "color": "ffe6d8ff", "time": 0.0 },
+					{ "time": 0.1, "color": "ffe5d800" }
+				]
+			},
+			"expl 1": {
+				"color": [
+					{ "color": "ffffffaa", "time": 0.0 },
+					{ "time": 0.0333, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "expl/4", "time": 0.0 }
+				]
+			},
+			"expl papa restos 1": {
+				"color": [
+					{ "color": "ffffff55", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3667, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "expl/18", "time": 0.0 }
+				]
+			},
+			"expl polvo 1": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0333, "color": "ffffff00" },
+					{ "time": 0.2333, "color": "ffffffff" },
+					{ "time": 0.7667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "expl/13", "time": 0.0 }
+				]
+			},
+			"expl onda 1": {
+				"color": [
+					{ "color": "ffffff66", "time": 0.0 },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.2333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "expl/5", "time": 0.0 }
+				]
+			},
+			"expl papa arriba": {
+				"color": [
+					{ "color": "ffffff55", "time": 0.0 },
+					{ "time": 0.1333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3667, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "expl/1", "time": 0.0 }
+				]
+			},
+			"tierra oculta central": {
+				"color": [
+					{ "color": "ffe5d800", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"ojo izq": {
+				"rotate": [
+					{ "angle": 18.39, "time": 0.0 }
+				],
+				"scale": [
+					{ "y": 0.2, "time": 0.0, "x": 1.0 }
+				],
+				"shear": [
+					{ "y": -33.56, "time": 0.0 }
+				]
+			},
+			"cuerpo": {
+				"scale": [
+					{ "x": 1.05, "y": 1.2, "time": 0.0 }
+				]
+			},
+			"tubo": {
+				"scale": [
+					{ "y": 0.8, "time": 0.0, "x": 1.0 }
+				]
+			},
+			"tierras": {
+				"scale": [
+					{ "x": 1.05, "time": 0.0, "y": 1.0 }
+				]
+			},
+			"boca": {
+				"translate": [
+					{ "x": -1.76, "y": 5.77, "time": 0.0 }
+				],
+				"scale": [
+					{ "y": 0.3, "time": 0.0, "x": 1.0 }
+				],
+				"shear": [
+					{ "x": 11.17, "y": 3.81, "time": 0.0 }
+				]
+			},
+			"ojo der": {
+				"rotate": [
+					{ "angle": 21.51, "time": 0.0 }
+				],
+				"scale": [
+					{ "y": 0.2, "time": 0.0, "x": 1.0 }
+				],
+				"shear": [
+					{ "y": -31.21, "time": 0.0 }
+				]
+			},
+			"expl fuego": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "y": 20.54, "time": 0.0 },
+					{ "time": 0.1, "y": 51.36 },
+					{ "time": 0.4333, "y": 53.39 }
+				],
+				"scale": [
+					{ "x": 1.16, "y": 1.28, "time": 0.0 },
+					{ "time": 0.1, "x": 1.4, "y": 1.7 },
+					{ "time": 0.4333, "x": 1.5, "y": 1.8 }
+				]
+			},
+			"expl onda": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "x": 1.56, "time": 0.0, "y": 1.0 },
+					{ "time": 0.1, "x": 2.4, "y": 1.0 },
+					{ "time": 0.4333, "x": 2.6, "y": 1.0 }
+				]
+			},
+			"expl papa arriba": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "y": 44.93, "time": 0.0 },
+					{ "time": 0.1, "y": 112.32 },
+					{ "time": 0.5333, "y": 73.11 }
+				],
+				"scale": [
+					{ "y": 1.44, "time": 0.0, "x": 1.0 },
+					{ "time": 0.1, "y": 2.1, "curve": "stepped", "x": 1.0 },
+					{ "time": 0.5333, "y": 2.1, "x": 1.0 }
+				]
+			},
+			"expl papa base": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "x": 1.06, "y": 1.04, "time": 0.0 },
+					{ "time": 0.6, "x": 1.6, "y": 1.4 }
+				]
+			},
+			"expl papa centro": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "y": 24.72, "time": 0.0 },
+					{ "time": 0.1, "y": 61.8 },
+					{ "time": 0.2667, "y": 58.7 },
+					{ "time": 0.4, "y": 45.98 }
+				],
+				"scale": [
+					{ "x": 1.28, "y": 1.52, "time": 0.0 },
+					{ "time": 0.1, "x": 1.7, "y": 2.3 },
+					{ "time": 0.2667, "x": 1.8, "y": 2.4 },
+					{ "time": 0.6, "x": 1.7, "y": 2.3 }
+				]
+			},
+			"expl polvo": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "curve": "stepped", "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.1667, "x": 1.0, "y": 1.0 },
+					{ "time": 0.7667, "x": 1.4, "y": 2 }
+				]
+			},
+			"expl polvo2": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "curve": "stepped", "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.1667, "x": 1.0, "y": 1.0 },
+					{ "time": 0.7, "y": 1.7, "x": 1.0 }
+				]
+			},
+			"letra d": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "curve": "stepped", "time": 0.0 },
+					{ "time": 0.2 },
+					{ "time": 0.4333, "y": 33.36, "curve": "stepped" },
+					{ "time": 0.6333, "y": 33.36 },
+					{ "time": 0.9 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"letra o": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333 },
+					{ "time": 0.4, "y": 29.74, "curve": "stepped" },
+					{ "time": 0.6333, "y": 29.74 },
+					{ "time": 0.9 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"letra p": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667 },
+					{ "time": 0.3333, "y": 13.23, "curve": "stepped" },
+					{ "time": 0.6333, "y": 13.23 },
+					{ "time": 0.9 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"letra s": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"letra u": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333 },
+					{ "time": 0.4, "y": 29.74, "curve": "stepped" },
+					{ "time": 0.6333, "y": 29.74 },
+					{ "time": 0.9 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"letra w": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667 },
+					{ "time": 0.3333, "y": 13.23, "curve": "stepped" },
+					{ "time": 0.6333, "y": 13.23 },
+					{ "time": 0.9 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"spudow": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.3333, "y": 52.07, "curve": "stepped" },
+					{ "time": 0.5667, "y": 52.07 },
+					{ "time": 0.9 }
+				],
+				"scale": [
+					{ "x": 0.5, "time": 0.0, "y": 1.0 },
+					{ "time": 0.3667, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 0.5667, "x": 1.0, "y": 1.0 },
+					{ "time": 0.9, "x": 0.9, "y": 1.0 }
+				]
+			},
+			"letra !": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"explosion": {
+				"rotate": [
+					{ "time": 0.0667, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0667 }
+				],
+				"scale": [
+					{ "time": 0.0667, "x": 1.0, "y": 1.0 }
+				]
+			}
+		}
+	},
+	"explotar": {
+		"slots": {
+			"expl polvo 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl onda 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"d": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"!": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"w": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"p": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"s": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"bola encendida": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 },
+					{ "time": 0.2667, "color": "ffffffff" }
+				]
+			},
+			"u": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa base": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa restos 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa centro": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa base 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"o": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl onda 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"cuerpo": {
+				"color": [
+					{ "color": "ffffffff", "time": 0.0 },
+					{ "time": 0.2667, "color": "ffe6d8ff" }
+				]
+			},
+			"expl 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl polvo 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa arriba": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"cuerpo": {
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.2667, "x": 1.05, "y": 1.2 }
+				]
+			},
+			"tubo": {
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.2667, "y": 0.8, "x": 1.0 }
+				]
+			},
+			"tierras": {
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.2667, "x": 1.05, "y": 1.0 }
+				]
+			},
+			"ojo der": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.2667, "angle": 21.51 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.2667, "y": 0.2, "x": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 },
+					{ "time": 0.2667, "y": -31.21 }
+				]
+			},
+			"ojo izq": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.2667, "angle": 18.39 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.2667, "y": 0.2, "x": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 },
+					{ "time": 0.2667, "y": -33.56 }
+				]
+			},
+			"boca": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.2667, "x": -1.76, "y": 5.77 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.2667, "y": 0.3, "x": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 },
+					{ "time": 0.2667, "x": 11.17, "y": 3.81 }
+				]
+			}
+		}
+	},
+	"parpadear": {
+		"slots": {
+			"expl polvo 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl onda 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"d": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"!": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"w": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"p": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"s": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"bola encendida": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 },
+					{ "time": 0.4667, "color": "ffffffff" },
+					{ "time": 0.6333, "color": "ffffffdd" },
+					{ "time": 0.9667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.0333, "color": "ffffff00" },
+					{ "time": 1.3667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.5333, "color": "ffffffff" },
+					{ "time": 2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "10", "time": 0.0 }
+				]
+			},
+			"u": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa base": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa restos 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa centro": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa base 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"o": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl onda 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl polvo 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa arriba": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"ojo der": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.1333, "angle": 21.51 },
+					{ "time": 0.3, "angle": 0.0 },
+					{ "time": 0.4667, "angle": 21.51 },
+					{ "time": 0.6333, "curve": "stepped", "angle": 0.0 },
+					{ "time": 1.3667, "angle": 0.0 },
+					{ "time": 1.5333, "angle": 21.51 },
+					{ "time": 1.7, "curve": "stepped", "angle": 0.0 },
+					{ "time": 2, "angle": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.1333, "y": 0.1, "x": 1.0 },
+					{ "time": 0.3, "x": 1.0, "y": 1.0 },
+					{ "time": 0.4667, "y": 0.1, "x": 1.0 },
+					{ "time": 0.6333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.3667, "x": 1.0, "y": 1.0 },
+					{ "time": 1.5333, "y": 0.1, "x": 1.0 },
+					{ "time": 1.7, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 2, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 },
+					{ "time": 0.1333, "y": -31.21 },
+					{ "time": 0.3 },
+					{ "time": 0.4667, "y": -31.21 },
+					{ "time": 0.6333, "curve": "stepped" },
+					{ "time": 1.3667 },
+					{ "time": 1.5333, "y": -31.21 },
+					{ "time": 1.7, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"ojo izq": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.1333, "angle": 18.39 },
+					{ "time": 0.3, "angle": 0.0 },
+					{ "time": 0.4667, "angle": 18.39 },
+					{ "time": 0.6333, "curve": "stepped", "angle": 0.0 },
+					{ "time": 1.3667, "angle": 0.0 },
+					{ "time": 1.5333, "angle": 18.39 },
+					{ "time": 1.7, "curve": "stepped", "angle": 0.0 },
+					{ "time": 2, "angle": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.1333, "y": 0.1, "x": 1.0 },
+					{ "time": 0.3, "x": 1.0, "y": 1.0 },
+					{ "time": 0.4667, "y": 0.1, "x": 1.0 },
+					{ "time": 0.6333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 1.3667, "x": 1.0, "y": 1.0 },
+					{ "time": 1.5333, "y": 0.1, "x": 1.0 },
+					{ "time": 1.7, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 2, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 },
+					{ "time": 0.1333, "y": -33.56 },
+					{ "time": 0.3 },
+					{ "time": 0.4667, "y": -33.56 },
+					{ "time": 0.6333, "curve": "stepped" },
+					{ "time": 1.3667 },
+					{ "time": 1.5333, "y": -33.56 },
+					{ "time": 1.7, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"cuerpo": {
+				"translate": [
+					{
+						"curve": [ 0.5120000243186951, 0.029999999329447746, 0.4959999918937683, 0.9800000190734863 ],
+						"time": 0.0
+					},
+					{
+						"time": 0.9667,
+						"y": 1.85,
+						"curve": [ 0.5120000243186951, 0.029999999329447746, 0.4959999918937683, 0.9800000190734863 ]
+					},
+					{ "time": 2 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.5120000243186951, 0.029999999329447746, 0.4959999918937683, 0.9800000190734863 ],
+						"time": 0.0,
+						"x": 1.0,
+						"y": 1.0
+					},
+					{
+						"time": 1.0333,
+						"x": 1.01,
+						"y": 1.057,
+						"curve": [ 0.5120000243186951, 0.029999999329447746, 0.4959999918937683, 0.9800000190734863 ]
+					},
+					{ "time": 2, "x": 1.0, "y": 1.0 }
+				]
+			}
+		}
+	},
+	"plantar": {
+		"slots": {
+			"tierra izq": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"tierra der": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl polvo 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl onda 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"d": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"!": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa base 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"w": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"p": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"s": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"bola encendida": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"u": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa base": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"tierra frontal": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo der": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa centro": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"ojo izq": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"boca": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"o": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"tierra izq tras": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"cuerpo": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa restos 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl polvo 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl onda 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa arriba": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"tubo": {
+				"translate": [
+					{ "y": -56.03, "time": 0.0 },
+					{ "time": 0.2, "y": -64.43, "curve": "stepped" },
+					{ "time": 0.2333, "y": -64.43 },
+					{ "time": 0.3333, "y": -61.39, "curve": "stepped" },
+					{ "time": 0.6667, "y": -61.39 }
+				],
+				"scale": [
+					{ "x": 0.8, "y": 2.5, "time": 0.0 },
+					{ "time": 0.2, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 0.2333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 0.3333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 0.6667, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "curve": "stepped", "time": 0.0 },
+					{ "time": 0.2, "curve": "stepped" },
+					{ "time": 0.2333, "curve": "stepped" },
+					{ "time": 0.3333, "curve": "stepped" },
+					{ "time": 0.6667 }
+				]
+			},
+			"tierras": {
+				"translate": [
+					{ "time": 0.0 }
+				],
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{ "time": 0.0 }
+				]
+			},
+			"tierra oculta": {
+				"scale": [
+					{ "time": 0.1, "x": 1.0, "y": 1.0 },
+					{ "time": 0.2, "x": 1.2, "y": 1.05, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1.2, "y": 1.05 },
+					{ "time": 0.3333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{ "time": 0.6667, "x": 1.0, "y": 1.0 }
+				]
+			}
+		}
+	},
+	"tranquilo": {
+		"slots": {
+			"expl polvo 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl onda 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"d": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"!": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"w": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"p": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"s": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"bola encendida": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 },
+					{ "time": 0.4667, "color": "ffffffff" },
+					{ "time": 0.6333, "color": "ffffffdd" },
+					{ "time": 0.9667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.0333, "color": "ffffff00" },
+					{ "time": 1.3667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.5333, "color": "ffffffff" },
+					{ "time": 2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "10", "time": 0.0 }
+				]
+			},
+			"u": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa base": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa restos 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa centro": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa base 2": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"o": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl onda 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl polvo 1": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			},
+			"expl papa arriba": {
+				"color": [
+					{ "color": "ffffff00", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"cuerpo": {
+				"translate": [
+					{
+						"curve": [ 0.5120000243186951, 0.029999999329447746, 0.4959999918937683, 0.9800000190734863 ],
+						"time": 0.0
+					},
+					{
+						"time": 0.9667,
+						"y": 1.85,
+						"curve": [ 0.5120000243186951, 0.029999999329447746, 0.4959999918937683, 0.9800000190734863 ]
+					},
+					{ "time": 2 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.5120000243186951, 0.029999999329447746, 0.4959999918937683, 0.9800000190734863 ],
+						"time": 0.0,
+						"x": 1.0,
+						"y": 1.0
+					},
+					{
+						"time": 1.0333,
+						"x": 1.01,
+						"y": 1.057,
+						"curve": [ 0.5120000243186951, 0.029999999329447746, 0.4959999918937683, 0.9800000190734863 ]
+					},
+					{ "time": 2, "x": 1.0, "y": 1.0 }
+				]
+			}
+		}
+	}
+},
+"skins": {
+	"expl": {
+		"expl 1": {
+			"expl/4": { "x": 1.53, "y": -9.93, "rotation": 90, "width": 207, "height": 203 }
+		},
+		"expl papa restos 1": {
+			"expl/18": { "x": -53.83, "y": 18.23, "width": 28, "height": 78 }
+		},
+		"expl papa base": {
+			"expl/10": { "x": 4.62, "y": -1.61, "width": 184, "height": 65 }
+		},
+		"!": {
+			"expl/15": { "x": 5.61, "y": 2.71, "width": 140, "height": 118 }
+		},
+		"d": {
+			"expl/23": { "x": 0.64, "y": 5.52, "width": 78, "height": 152 }
+		},
+		"expl polvo 1": {
+			"expl/13": { "x": -1.26, "y": 32.14, "width": 121, "height": 96 }
+		},
+		"expl polvo 2": {
+			"expl/2": { "x": -2.48, "y": 73.58, "width": 248, "height": 227 }
+		},
+		"o": {
+			"expl/14": { "x": 6.96, "y": 6.11, "width": 94, "height": 155 }
+		},
+		"expl papa base 2": {
+			"expl/9": { "x": 1.5, "y": -10.09, "width": 181, "height": 65 }
+		},
+		"expl papa centro": {
+			"expl/11": { "x": -0.61, "y": -3.84, "width": 118, "height": 90 }
+		},
+		"s": {
+			"expl/21": { "x": 7.34, "y": -2.28, "width": 130, "height": 123 }
+		},
+		"expl papa arriba": {
+			"expl/1": { "x": 2.04, "y": 13.66, "width": 145, "height": 126 }
+		},
+		"u": {
+			"expl/19": { "x": -3.58, "y": 4.45, "width": 106, "height": 155 }
+		},
+		"w": {
+			"expl/20": { "x": 16.57, "y": 4.59, "width": 161, "height": 154 }
+		},
+		"p": {
+			"expl/22": { "x": -7.94, "y": -1.46, "width": 109, "height": 149 }
+		},
+		"expl onda 1": {
+			"expl/5": { "x": 1.21, "y": 10.31, "rotation": 90, "width": 106, "height": 305 }
+		},
+		"expl onda 2": {
+			"expl/6": { "x": -1.53, "y": 10.31, "rotation": 90, "width": 104, "height": 277 }
+		}
+	},
+	"normal": {
+		"tierra der": {
+			"4": { "x": 52.94, "y": 16.08, "width": 35, "height": 36 }
+		},
+		"tierra frontal": {
+			"2": { "x": 3.56, "y": 0.42, "width": 78, "height": 30 }
+		},
+		"tierra oculta izq": {
+			"18": { "x": -7.96, "y": 1.33, "width": 14, "height": 15 }
+		},
+		"bola apagada": {
+			"5": { "x": -1.01, "y": 34.78, "width": 40, "height": 40 }
+		},
+		"tubo": {
+			"11": { "x": 2.9, "y": 10.19, "width": 28, "height": 31 }
+		},
+		"tierra izq": {
+			"9": { "x": -50.86, "y": 9.39, "width": 42, "height": 27 }
+		},
+		"tierra oculta central": {
+			"16": { "x": 0.8, "y": -0.8, "rotation": 0.62, "width": 18, "height": 18 }
+		},
+		"cuerpo": {
+			"1": { "x": -1.97, "y": 4.31, "width": 110, "height": 71 }
+		},
+		"tierra izq tras": {
+			"12": { "x": -57.21, "y": 19.97, "width": 20, "height": 22 }
+		},
+		"ojo der": {
+			"6": {
+				"x": 0.77,
+				"y": -0.49,
+				"scaleX": 0.6,
+				"scaleY": 0.8,
+				"rotation": 26.33,
+				"width": 19,
+				"height": 26
+			}
+		},
+		"bola encendida": {
+			"10": { "x": -1.02, "y": 34.78, "width": 40, "height": 40 }
+		},
+		"boca": {
+			"7": { "x": -1.71, "y": 2.77, "width": 21, "height": 15 }
+		},
+		"ojo izq": {
+			"6": { "x": 1.36, "y": -1.64, "rotation": 18, "width": 19, "height": 26 }
+		},
+		"tierra oculta der": {
+			"17": { "x": 10.7, "y": 1.14, "width": 17, "height": 15 }
+		}
+	}
+}
+}

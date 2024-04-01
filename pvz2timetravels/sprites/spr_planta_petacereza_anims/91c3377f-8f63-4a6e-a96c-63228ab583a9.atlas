@@ -1,0 +1,153 @@
+
+skeleton.png
+size: 958,237
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+boca der 1
+  rotate: false
+  xy: 397, 3
+  size: 30, 23
+  orig: 35, 27
+  offset: 2, 2
+  index: -1
+boca der 2
+  rotate: false
+  xy: 397, 28
+  size: 55, 28
+  orig: 59, 32
+  offset: 2, 2
+  index: -1
+boca izq 1
+  rotate: true
+  xy: 824, 3
+  size: 31, 18
+  orig: 35, 22
+  offset: 2, 2
+  index: -1
+boca izq 2
+  rotate: true
+  xy: 874, 10
+  size: 26, 17
+  orig: 30, 21
+  offset: 2, 2
+  index: -1
+ceja 1
+  rotate: true
+  xy: 858, 38
+  size: 18, 36
+  orig: 22, 41
+  offset: 2, 3
+  index: -1
+ceja 2
+  rotate: true
+  xy: 362, 11
+  size: 45, 33
+  orig: 50, 37
+  offset: 2, 2
+  index: -1
+ceja 3
+  rotate: false
+  xy: 2, 4
+  size: 17, 14
+  orig: 21, 18
+  offset: 2, 2
+  index: -1
+ceja 4
+  rotate: false
+  xy: 34, 13
+  size: 19, 5
+  orig: 23, 9
+  offset: 2, 2
+  index: -1
+cereza der
+  rotate: true
+  xy: 707, 10
+  size: 90, 82
+  orig: 94, 86
+  offset: 2, 2
+  index: -1
+cereza izq
+  rotate: true
+  xy: 454, 8
+  size: 92, 88
+  orig: 96, 91
+  offset: 2, 2
+  index: -1
+expl 1
+  rotate: false
+  xy: 2, 20
+  size: 309, 215
+  orig: 318, 220
+  offset: 5, 2
+  index: -1
+expl 2
+  rotate: false
+  xy: 544, 10
+  size: 161, 90
+  orig: 164, 110
+  offset: 2, 18
+  index: -1
+expl 3
+  rotate: true
+  xy: 313, 58
+  size: 177, 139
+  orig: 177, 167
+  offset: 0, 0
+  index: -1
+expl 4
+  rotate: true
+  xy: 454, 102
+  size: 133, 502
+  orig: 136, 502
+  offset: 2, 0
+  index: -1
+hojita
+  rotate: true
+  xy: 313, 2
+  size: 54, 47
+  orig: 58, 51
+  offset: 2, 2
+  index: -1
+mecha fuego
+  rotate: true
+  xy: 829, 58
+  size: 42, 41
+  orig: 46, 46
+  offset: 2, 3
+  index: -1
+ojo 1
+  rotate: false
+  xy: 844, 7
+  size: 28, 28
+  orig: 31, 31
+  offset: 1, 2
+  index: -1
+ojo 2
+  rotate: true
+  xy: 791, 2
+  size: 32, 31
+  orig: 35, 34
+  offset: 1, 2
+  index: -1
+ojo 3
+  rotate: true
+  xy: 829, 37
+  size: 19, 27
+  orig: 22, 30
+  offset: 1, 2
+  index: -1
+pupila
+  rotate: false
+  xy: 21, 7
+  size: 11, 11
+  orig: 13, 13
+  offset: 1, 1
+  index: -1
+tallo
+  rotate: false
+  xy: 791, 36
+  size: 36, 64
+  orig: 40, 68
+  offset: 2, 2
+  index: -1

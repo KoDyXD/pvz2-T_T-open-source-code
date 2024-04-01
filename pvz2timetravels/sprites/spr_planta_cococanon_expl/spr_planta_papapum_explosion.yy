@@ -1,0 +1,170 @@
+{
+  "bboxMode": 2,
+  "collisionKind": 1,
+  "type": 0,
+  "origin": 9,
+  "preMultiplyAlpha": false,
+  "edgeFiltering": false,
+  "collisionTolerance": 0,
+  "swfPrecision": 2.525,
+  "bbox_left": 310,
+  "bbox_right": 530,
+  "bbox_top": 453,
+  "bbox_bottom": 639,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 830,
+  "height": 930,
+  "textureGroupId": {
+    "name": "plantas_papapum",
+    "path": "texturegroups/plantas_papapum",
+  },
+  "swatchColours": null,
+  "gridX": 0,
+  "gridY": 0,
+  "frames": [
+    {"compositeImage":{"FrameId":{"name":"7c3e25c7-81b6-4009-bb59-892c48844a7f","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7c3e25c7-81b6-4009-bb59-892c48844a7f","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"7c3e25c7-81b6-4009-bb59-892c48844a7f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9b51b25a-fae9-4343-a4c2-a5971b4c04d9","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9b51b25a-fae9-4343-a4c2-a5971b4c04d9","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"9b51b25a-fae9-4343-a4c2-a5971b4c04d9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d607e61d-2fcd-48c3-8569-37e1e2724650","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d607e61d-2fcd-48c3-8569-37e1e2724650","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"d607e61d-2fcd-48c3-8569-37e1e2724650","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5e62b897-23ad-47c8-990b-4b9e8fb957f9","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5e62b897-23ad-47c8-990b-4b9e8fb957f9","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"5e62b897-23ad-47c8-990b-4b9e8fb957f9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a6e04be9-d628-4c09-838f-65ce6404f84c","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a6e04be9-d628-4c09-838f-65ce6404f84c","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"a6e04be9-d628-4c09-838f-65ce6404f84c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e51bf066-a03f-4dbf-8e24-6f8af870a982","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e51bf066-a03f-4dbf-8e24-6f8af870a982","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"e51bf066-a03f-4dbf-8e24-6f8af870a982","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1de871f0-78bb-4f76-8d0e-d165d3e53829","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1de871f0-78bb-4f76-8d0e-d165d3e53829","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"1de871f0-78bb-4f76-8d0e-d165d3e53829","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3de287ce-20dd-43ad-b3ad-7b2ac6a4a5fd","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3de287ce-20dd-43ad-b3ad-7b2ac6a4a5fd","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"3de287ce-20dd-43ad-b3ad-7b2ac6a4a5fd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"74cd24d5-e087-4739-a205-ec1dafa20924","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"74cd24d5-e087-4739-a205-ec1dafa20924","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"74cd24d5-e087-4739-a205-ec1dafa20924","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ae00d1b5-ca4a-4212-9c7c-e7186d145e6a","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ae00d1b5-ca4a-4212-9c7c-e7186d145e6a","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"ae00d1b5-ca4a-4212-9c7c-e7186d145e6a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2ad07ab2-f134-4702-93c2-19c24f1c0106","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2ad07ab2-f134-4702-93c2-19c24f1c0106","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"2ad07ab2-f134-4702-93c2-19c24f1c0106","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e620d841-f2fe-48ef-a92c-7ee895d63626","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e620d841-f2fe-48ef-a92c-7ee895d63626","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"e620d841-f2fe-48ef-a92c-7ee895d63626","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"16fdd1bb-3814-479c-9280-fe92c5648297","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"16fdd1bb-3814-479c-9280-fe92c5648297","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"16fdd1bb-3814-479c-9280-fe92c5648297","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bb68afce-b3d3-48c7-a982-5d4785c36ea7","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bb68afce-b3d3-48c7-a982-5d4785c36ea7","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"bb68afce-b3d3-48c7-a982-5d4785c36ea7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d35cf126-0beb-49b6-a0ae-f2bc77321d64","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d35cf126-0beb-49b6-a0ae-f2bc77321d64","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"d35cf126-0beb-49b6-a0ae-f2bc77321d64","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a9d9f284-b599-4d6f-9abf-067c016d46cd","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a9d9f284-b599-4d6f-9abf-067c016d46cd","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"a9d9f284-b599-4d6f-9abf-067c016d46cd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"23937b18-3653-4967-9b9f-89796364b097","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"23937b18-3653-4967-9b9f-89796364b097","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"23937b18-3653-4967-9b9f-89796364b097","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a4abb847-26d8-43d0-8975-e02c2c91f5ff","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a4abb847-26d8-43d0-8975-e02c2c91f5ff","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"a4abb847-26d8-43d0-8975-e02c2c91f5ff","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1c7ff9d3-14f1-48f4-b660-f43712a68d0a","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1c7ff9d3-14f1-48f4-b660-f43712a68d0a","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"1c7ff9d3-14f1-48f4-b660-f43712a68d0a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8175d906-2f65-4529-96f4-c4bf9b809f14","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8175d906-2f65-4529-96f4-c4bf9b809f14","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"8175d906-2f65-4529-96f4-c4bf9b809f14","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"56962208-cedd-4906-9a90-67ddcb0f9452","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"56962208-cedd-4906-9a90-67ddcb0f9452","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"56962208-cedd-4906-9a90-67ddcb0f9452","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"45dab6bd-8a8b-4d63-aac0-2205be16099d","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"45dab6bd-8a8b-4d63-aac0-2205be16099d","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"45dab6bd-8a8b-4d63-aac0-2205be16099d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"19384f24-471a-4c2f-b292-537066f6bb1c","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"19384f24-471a-4c2f-b292-537066f6bb1c","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"19384f24-471a-4c2f-b292-537066f6bb1c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8520564f-bcf4-4174-8dda-33e6ed7b3e10","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8520564f-bcf4-4174-8dda-33e6ed7b3e10","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"LayerId":{"name":"4f20450b-eba9-4369-9fda-194162751e04","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","name":"8520564f-bcf4-4174-8dda-33e6ed7b3e10","tags":[],"resourceType":"GMSpriteFrame",},
+  ],
+  "sequence": {
+    "spriteId": {"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},
+    "timeUnits": 1,
+    "playback": 1,
+    "playbackSpeed": 28.0,
+    "playbackSpeedType": 0,
+    "autoRecord": true,
+    "volume": 1.0,
+    "length": 24.0,
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"a0fab9d7-c6a9-4878-ba0f-7bf0102ab488","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7c3e25c7-81b6-4009-bb59-892c48844a7f","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0b515337-4967-4853-8651-8cafd4a3d06d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9b51b25a-fae9-4343-a4c2-a5971b4c04d9","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f05b87e7-210e-4c2f-b909-39cdc4f75ed6","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d607e61d-2fcd-48c3-8569-37e1e2724650","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"331f94a2-50d4-4cd8-8360-ec2bf916d31c","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5e62b897-23ad-47c8-990b-4b9e8fb957f9","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"35146d8f-62c1-4638-944d-0be7fcbbaa9e","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a6e04be9-d628-4c09-838f-65ce6404f84c","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6ca72c1a-9dbc-4e61-a780-b590e10bba8a","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e51bf066-a03f-4dbf-8e24-6f8af870a982","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8880ba94-8577-42f7-808f-a62d4979e140","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1de871f0-78bb-4f76-8d0e-d165d3e53829","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e175169c-1a30-4fa0-8abe-964b1addf145","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3de287ce-20dd-43ad-b3ad-7b2ac6a4a5fd","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"dcfb4920-e101-4ada-90ee-93eb979e79f2","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"74cd24d5-e087-4739-a205-ec1dafa20924","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"25f9b9eb-9c90-43a5-b6d9-6424aced7a94","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ae00d1b5-ca4a-4212-9c7c-e7186d145e6a","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1a3cd59d-832e-465e-afcd-bcaacb260e63","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2ad07ab2-f134-4702-93c2-19c24f1c0106","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7ff3340c-6ef7-4cf6-8ca6-04c136bf2890","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e620d841-f2fe-48ef-a92c-7ee895d63626","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1039dd9f-76f1-48e7-a005-5591a398ad5c","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"16fdd1bb-3814-479c-9280-fe92c5648297","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"74cebfcc-61ff-481b-bfa1-b43bc9fcfd5b","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bb68afce-b3d3-48c7-a982-5d4785c36ea7","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f0f9a2df-9ffe-4798-9777-01f18979ab18","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d35cf126-0beb-49b6-a0ae-f2bc77321d64","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6adc6da4-6d68-499a-911c-3d5728deb9db","Key":15.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a9d9f284-b599-4d6f-9abf-067c016d46cd","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0b59a131-a573-4a77-91e6-fd76a8375acf","Key":16.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"23937b18-3653-4967-9b9f-89796364b097","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"eea727d2-2916-4094-b0e0-71b67e56aebb","Key":17.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a4abb847-26d8-43d0-8975-e02c2c91f5ff","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e097dc46-cace-4a01-b4ae-d7eac7660fa5","Key":18.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1c7ff9d3-14f1-48f4-b660-f43712a68d0a","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fe33cc1f-0ebd-4ded-8a52-57bf5a2e74ac","Key":19.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8175d906-2f65-4529-96f4-c4bf9b809f14","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"70460105-5759-4d36-953a-d8594abecd11","Key":20.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"56962208-cedd-4906-9a90-67ddcb0f9452","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e20f6d76-f659-4d50-a65c-ed047cf9b625","Key":21.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"45dab6bd-8a8b-4d63-aac0-2205be16099d","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ca133edd-0ecd-46c5-bcfb-c4aaacaf96f6","Key":22.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"19384f24-471a-4c2f-b292-537066f6bb1c","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1363dc6f-4988-43b8-ae28-9f356848ff75","Key":23.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8520564f-bcf4-4174-8dda-33e6ed7b3e10","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+    ],
+    "visibleRange": null,
+    "lockOrigin": false,
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "backdropImagePath": "",
+    "backdropImageOpacity": 0.5,
+    "backdropWidth": 1366,
+    "backdropHeight": 768,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "xorigin": 336,
+    "yorigin": 481,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"spr_planta_papapum_explosion","path":"sprites/spr_planta_papapum_explosion/spr_planta_papapum_explosion.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_planta_papapum_explosion",
+    "tags": [],
+    "resourceType": "GMSequence",
+  },
+  "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4f20450b-eba9-4369-9fda-194162751e04","tags":[],"resourceType":"GMImageLayer",},
+  ],
+  "parent": {
+    "name": "expl",
+    "path": "folders/Sprites/aaaaaaaaaaaaa/expl.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "spr_planta_papapum_explosion",
+  "tags": [],
+  "resourceType": "GMSprite",
+}

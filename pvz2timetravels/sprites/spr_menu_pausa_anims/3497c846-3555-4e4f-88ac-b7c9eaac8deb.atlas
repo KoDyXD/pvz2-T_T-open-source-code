@@ -1,0 +1,125 @@
+
+skeleton.png
+size: 1961,472
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brazo 1
+  rotate: true
+  xy: 1417, 103
+  size: 48, 89
+  orig: 52, 93
+  offset: 2, 2
+  index: -1
+brazo 2
+  rotate: false
+  xy: 1596, 46
+  size: 37, 42
+  orig: 41, 46
+  offset: 2, 2
+  index: -1
+cabeza 1
+  rotate: true
+  xy: 1753, 36
+  size: 166, 206
+  orig: 170, 210
+  offset: 2, 2
+  index: -1
+cuerpo 1
+  rotate: false
+  xy: 1417, 153
+  size: 97, 83
+  orig: 101, 87
+  offset: 2, 2
+  index: -1
+cuerpo 2
+  rotate: false
+  xy: 1753, 204
+  size: 166, 266
+  orig: 170, 270
+  offset: 2, 2
+  index: -1
+deco cesped central 1
+  rotate: false
+  xy: 2, 12
+  size: 1102, 215
+  orig: 1102, 215
+  offset: 0, 0
+  index: -1
+deco cesped central 2
+  rotate: false
+  xy: 1106, 94
+  size: 309, 142
+  orig: 309, 142
+  offset: 0, 0
+  index: -1
+deco cesped girasol
+  rotate: true
+  xy: 1545, 90
+  size: 247, 206
+  orig: 247, 206
+  offset: 0, 0
+  index: -1
+dedo 1
+  rotate: false
+  xy: 1596, 28
+  size: 16, 16
+  orig: 20, 20
+  offset: 2, 2
+  index: -1
+dedo 2
+  rotate: true
+  xy: 1516, 148
+  size: 18, 26
+  orig: 22, 30
+  offset: 2, 2
+  index: -1
+dedo 3
+  rotate: false
+  xy: 1516, 168
+  size: 20, 30
+  orig: 24, 34
+  offset: 2, 2
+  index: -1
+dedo 4
+  rotate: false
+  xy: 1516, 200
+  size: 22, 36
+  orig: 26, 40
+  offset: 2, 2
+  index: -1
+mano 1
+  rotate: false
+  xy: 1508, 107
+  size: 32, 39
+  orig: 36, 43
+  offset: 2, 2
+  index: -1
+niebla 1
+  rotate: false
+  xy: 2, 229
+  size: 1045, 241
+  orig: 1102, 250
+  offset: 30, 5
+  index: -1
+niebla 2
+  rotate: false
+  xy: 1049, 339
+  size: 579, 131
+  orig: 584, 135
+  offset: 2, 2
+  index: -1
+niebla 3
+  rotate: false
+  xy: 1106, 2
+  size: 488, 86
+  orig: 504, 103
+  offset: 7, 10
+  index: -1
+niebla 4
+  rotate: false
+  xy: 1049, 238
+  size: 494, 99
+  orig: 510, 115
+  offset: 8, 10
+  index: -1

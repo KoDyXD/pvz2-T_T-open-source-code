@@ -1,0 +1,153 @@
+
+skeleton.png
+size: 363,271
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+boca
+  rotate: true
+  xy: 302, 157
+  size: 47, 19
+  orig: 51, 26
+  offset: 2, 5
+  index: -1
+brazo 1
+  rotate: false
+  xy: 2, 2
+  size: 104, 109
+  orig: 108, 113
+  offset: 2, 2
+  index: -1
+brazo 2
+  rotate: false
+  xy: 200, 48
+  size: 59, 63
+  orig: 63, 67
+  offset: 2, 2
+  index: -1
+brazo 2 2
+  rotate: false
+  xy: 261, 48
+  size: 54, 63
+  orig: 63, 67
+  offset: 2, 2
+  index: -1
+brazo 3
+  rotate: true
+  xy: 311, 118
+  size: 37, 45
+  orig: 41, 49
+  offset: 2, 2
+  index: -1
+brazo 3 2
+  rotate: true
+  xy: 264, 115
+  size: 33, 45
+  orig: 41, 49
+  offset: 2, 2
+  index: -1
+brazo 4
+  rotate: true
+  xy: 200, 4
+  size: 42, 46
+  orig: 46, 51
+  offset: 2, 3
+  index: -1
+brazo 4 2
+  rotate: true
+  xy: 307, 6
+  size: 40, 45
+  orig: 46, 51
+  offset: 2, 3
+  index: -1
+ceja 1
+  rotate: true
+  xy: 264, 150
+  size: 54, 36
+  orig: 59, 45
+  offset: 3, 2
+  index: -1
+ceja 2
+  rotate: true
+  xy: 264, 206
+  size: 63, 45
+  orig: 72, 50
+  offset: 5, 2
+  index: -1
+ceja 3
+  rotate: false
+  xy: 248, 5
+  size: 57, 41
+  orig: 74, 45
+  offset: 15, 2
+  index: -1
+cuerpo 1
+  rotate: false
+  xy: 96, 113
+  size: 82, 156
+  orig: 87, 174
+  offset: 2, 2
+  index: -1
+cuerpo 2
+  rotate: false
+  xy: 2, 113
+  size: 92, 156
+  orig: 96, 170
+  offset: 2, 2
+  index: -1
+cuerpo 3
+  rotate: false
+  xy: 180, 113
+  size: 82, 156
+  orig: 87, 174
+  offset: 2, 2
+  index: -1
+hoja
+  rotate: true
+  xy: 108, 2
+  size: 109, 90
+  orig: 113, 94
+  offset: 2, 2
+  index: -1
+ojo der 1
+  rotate: false
+  xy: 311, 233
+  size: 21, 36
+  orig: 25, 40
+  offset: 2, 2
+  index: -1
+ojo der 2
+  rotate: true
+  xy: 311, 210
+  size: 21, 36
+  orig: 25, 40
+  offset: 2, 2
+  index: -1
+ojo der 3
+  rotate: false
+  xy: 334, 233
+  size: 21, 36
+  orig: 25, 40
+  offset: 2, 2
+  index: -1
+ojo izq 1
+  rotate: true
+  xy: 323, 182
+  size: 26, 18
+  orig: 30, 22
+  offset: 2, 2
+  index: -1
+ojo izq 2
+  rotate: false
+  xy: 323, 162
+  size: 26, 18
+  orig: 30, 22
+  offset: 2, 2
+  index: -1
+ojo izq 3
+  rotate: true
+  xy: 343, 182
+  size: 26, 18
+  orig: 30, 22
+  offset: 2, 2
+  index: -1

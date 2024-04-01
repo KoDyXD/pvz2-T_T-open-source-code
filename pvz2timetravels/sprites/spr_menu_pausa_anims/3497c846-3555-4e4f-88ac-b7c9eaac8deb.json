@@ -1,0 +1,609 @@
+{
+"skeleton": {
+	"hash": "m4N0w4swsLP+hpO2mvLgi4gcGpM",
+	"spine": "3.7-from-3.8.75",
+	"x": -551,
+	"y": -123.59,
+	"width": 1102,
+	"height": 323.01,
+	"images": "C:/Users/Arnold/Desktop/pvz2 T_T/texturas/extras/menu pausa/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "cesped", "parent": "root", "skin": true, "color": "12cd3fa1" },
+	{ "name": "girasol", "parent": "cesped", "skin": true, "color": "d96a07b1" },
+	{ "name": "niebla", "parent": "root", "skin": true, "color": "0047b18a" },
+	{ "name": "zomboss", "parent": "niebla", "skin": true, "color": "0047b18a" },
+	{
+		"name": "mano der",
+		"parent": "zomboss",
+		"length": 45,
+		"rotation": 138.75,
+		"x": 37.68,
+		"y": -56.36,
+		"skin": true,
+		"color": "1517af95"
+	},
+	{
+		"name": "mano izq",
+		"parent": "zomboss",
+		"length": 46.23,
+		"rotation": 39.88,
+		"x": -38.78,
+		"y": -56.36,
+		"skin": true,
+		"color": "612bb582"
+	},
+	{
+		"name": "dedo1",
+		"parent": "mano der",
+		"length": 16.5,
+		"rotation": 14.28,
+		"x": 17.04,
+		"y": 14.4,
+		"skin": true,
+		"color": "1517af95"
+	},
+	{
+		"name": "dedo2",
+		"parent": "mano der",
+		"length": 21.85,
+		"rotation": -11.51,
+		"x": 22.8,
+		"y": 6.38,
+		"skin": true,
+		"color": "1517af95"
+	},
+	{
+		"name": "dedo3",
+		"parent": "mano der",
+		"length": 28.33,
+		"rotation": -19.11,
+		"x": 29.19,
+		"y": -2.49,
+		"skin": true,
+		"color": "1517af95"
+	},
+	{
+		"name": "dedo4",
+		"parent": "mano der",
+		"length": 35.14,
+		"rotation": -24.17,
+		"x": 29.81,
+		"y": -5.3,
+		"skin": true,
+		"color": "1517af95"
+	},
+	{
+		"name": "dedo5",
+		"parent": "mano izq",
+		"length": 16.57,
+		"rotation": -13.04,
+		"x": 17.51,
+		"y": -14.3,
+		"skin": true,
+		"color": "612bb582"
+	},
+	{
+		"name": "dedo6",
+		"parent": "mano izq",
+		"length": 22.56,
+		"rotation": 12.02,
+		"x": 24.07,
+		"y": -6.99,
+		"skin": true,
+		"color": "612bb582"
+	},
+	{
+		"name": "dedo7",
+		"parent": "mano izq",
+		"length": 28.14,
+		"rotation": 20.07,
+		"x": 30.41,
+		"y": 2.22,
+		"skin": true,
+		"color": "612bb582"
+	},
+	{
+		"name": "dedo8",
+		"parent": "mano izq",
+		"length": 35.33,
+		"rotation": 23.18,
+		"x": 30.4,
+		"y": 5.74,
+		"skin": true,
+		"color": "612bb582"
+	},
+	{ "name": "rayo", "parent": "niebla", "skin": true, "color": "0047b18a" }
+],
+"slots": [
+	{ "name": "deco cesped central 3", "bone": "cesped", "attachment": "deco cesped central 2" },
+	{ "name": "deco cesped central 2", "bone": "cesped", "attachment": "deco cesped central 2" },
+	{ "name": "deco cesped girasol", "bone": "girasol", "attachment": "deco cesped girasol" },
+	{ "name": "deco cesped central 1", "bone": "cesped", "attachment": "deco cesped central 1" },
+	{ "name": "niebla 3", "bone": "rayo" },
+	{ "name": "niebla 4", "bone": "rayo" },
+	{ "name": "niebla 1", "bone": "niebla", "attachment": "niebla 1" },
+	{ "name": "niebla 2", "bone": "niebla" },
+	{ "name": "cuerpo 1", "bone": "zomboss", "attachment": "cuerpo 1" },
+	{ "name": "brazo 1", "bone": "zomboss", "attachment": "brazo 1" },
+	{ "name": "brazo 2", "bone": "zomboss", "attachment": "brazo 1" },
+	{ "name": "cabeza 1", "bone": "zomboss", "attachment": "cabeza 1" },
+	{ "name": "cuerpo 2", "bone": "zomboss" },
+	{ "name": "brazo 3", "bone": "mano izq", "attachment": "brazo 2" },
+	{ "name": "brazo 4", "bone": "mano der", "attachment": "brazo 2" },
+	{ "name": "mano 1", "bone": "mano izq", "attachment": "mano 1" },
+	{ "name": "mano 2", "bone": "mano der", "attachment": "mano 1" },
+	{ "name": "dedo 4", "bone": "dedo8", "attachment": "dedo 4" },
+	{ "name": "dedo 5", "bone": "dedo4", "attachment": "dedo 4" },
+	{ "name": "dedo 3", "bone": "dedo7", "attachment": "dedo 3" },
+	{ "name": "dedo 6", "bone": "dedo3", "attachment": "dedo 3" },
+	{ "name": "dedo 2", "bone": "dedo6", "attachment": "dedo 2" },
+	{ "name": "dedo 7", "bone": "dedo2", "attachment": "dedo 2" },
+	{ "name": "dedo 1", "bone": "dedo5", "attachment": "dedo 1" },
+	{ "name": "dedo 8", "bone": "dedo1", "attachment": "dedo 1" }
+],
+"animations": {
+	"cesped": {
+		"bones": {
+			"girasol": {
+				"rotate": [
+					{
+						"curve": [ 0.0, 0.0, 0.3310000002384186, 0.9399999976158142 ],
+						"time": 0.0,
+						"angle": 0.0
+					},
+					{
+						"time": 1,
+						"angle": 5,
+						"curve": [ 0.6190000176429749, 0.14000000059604645, 0.3580000102519989, 0.8500000238418579 ]
+					},
+					{
+						"time": 2.6667,
+						"angle": -5,
+						"curve": [ 0.6759999990463257, 0.05000000074505806, 1.0, 1.0 ]
+					},
+					{ "time": 3.6667, "angle": 0.0 }
+				]
+			}
+		}
+	},
+	"zomboss": {
+		"slots": {
+			"niebla 3": {
+				"attachment": [
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6333, "name": "niebla 3" },
+					{ "time": 0.7, "name": null },
+					{ "time": 1.1, "name": null },
+					{ "time": 1.2333, "name": "niebla 3" },
+					{ "time": 1.3, "name": null },
+					{ "time": 2.0333, "name": null },
+					{ "time": 2.1667, "name": "niebla 3" },
+					{ "time": 2.2333, "name": null }
+				]
+			},
+			"niebla 2": {
+				"attachment": [
+					{ "time": 0.5, "name": null },
+					{ "time": 0.5667, "name": "niebla 2" },
+					{ "time": 0.7667, "name": null },
+					{ "time": 1.1, "name": null },
+					{ "time": 1.1667, "name": "niebla 2" },
+					{ "time": 1.3667, "name": null },
+					{ "time": 2.0333, "name": null },
+					{ "time": 2.1, "name": "niebla 2" },
+					{ "time": 2.3, "name": null }
+				]
+			},
+			"niebla 4": {
+				"attachment": [
+					{ "time": 0.5, "name": null },
+					{ "time": 0.5667, "name": "niebla 4" },
+					{ "time": 0.6333, "name": null },
+					{ "time": 1.1, "name": null },
+					{ "time": 1.1667, "name": "niebla 4" },
+					{ "time": 1.2333, "name": null },
+					{ "time": 2.0333, "name": null },
+					{ "time": 2.1, "name": "niebla 4" },
+					{ "time": 2.1667, "name": null }
+				]
+			},
+			"cuerpo 2": {
+				"attachment": [
+					{ "time": 0.5, "name": null },
+					{ "time": 0.5667, "name": "cuerpo 2" },
+					{ "time": 0.8, "name": null },
+					{ "time": 1.1, "name": null },
+					{ "time": 1.1667, "name": "cuerpo 2" },
+					{ "time": 1.4, "name": null },
+					{ "time": 2.0333, "name": null },
+					{ "time": 2.1, "name": "cuerpo 2" },
+					{ "time": 2.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"rayo": {
+				"scale": [
+					{
+						"time": 0.5667,
+						"curve": [ 0.2549999952316284, 0.05000000074505806, 0.5929999947547913, 0.5799999833106995 ],
+						"x": 1.0,
+						"y": 1.0
+					},
+					{
+						"time": 0.6667,
+						"x": 1.376,
+						"curve": [ 0.3009999990463257, 0.550000011920929, 0.6359999775886536, 1.0 ],
+						"y": 1.0
+					},
+					{ "time": 0.7333, "x": 1.5, "y": 0.6, "curve": "stepped" },
+					{ "time": 1, "x": -1, "curve": "stepped", "y": 1.0 },
+					{
+						"time": 1.1667,
+						"x": -1,
+						"curve": [ 0.2549999952316284, 0.05000000074505806, 0.5929999947547913, 0.5799999833106995 ],
+						"y": 1.0
+					},
+					{
+						"time": 1.2667,
+						"x": -1.377,
+						"curve": [ 0.3009999990463257, 0.550000011920929, 0.6359999775886536, 1.0 ],
+						"y": 1.0
+					},
+					{ "time": 1.3333, "x": -1.5, "y": 0.6, "curve": "stepped" },
+					{ "time": 1.5333, "curve": "stepped", "x": 1.0, "y": 1.0 },
+					{
+						"time": 2.1,
+						"curve": [ 0.2549999952316284, 0.05000000074505806, 0.5929999947547913, 0.5799999833106995 ],
+						"x": 1.0,
+						"y": 1.0
+					},
+					{
+						"time": 2.2,
+						"x": 1.376,
+						"curve": [ 0.3009999990463257, 0.550000011920929, 0.6359999775886536, 1.0 ],
+						"y": 1.0
+					},
+					{ "time": 2.2667, "x": 1.5, "y": 0.6 }
+				]
+			},
+			"mano der": {
+				"rotate": [
+					{ "curve": "stepped", "time": 0.0, "angle": 0.0 },
+					{ "time": 2.6667, "angle": 0.0 }
+				]
+			},
+			"dedo4": {
+				"rotate": [
+					{
+						"curve": [ 0.5649999976158142, 0.03999999910593033, 0.4350000023841858, 0.949999988079071 ],
+						"time": 0.0,
+						"angle": 0.0
+					},
+					{
+						"time": 0.6667,
+						"angle": -4.65,
+						"curve": [ 0.4449999928474426, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.3333,
+						"curve": [ 0.5649999976158142, 0.03999999910593033, 0.4350000023841858, 0.949999988079071 ],
+						"angle": 0.0
+					},
+					{
+						"time": 2,
+						"angle": -4.65,
+						"curve": [ 0.44200000166893005, 0.10999999940395355, 1.0, 1.0 ]
+					},
+					{ "time": 2.6667, "angle": 0.0 }
+				]
+			},
+			"dedo8": {
+				"rotate": [
+					{
+						"curve": [ 0.5649999976158142, 0.03999999910593033, 0.4350000023841858, 0.949999988079071 ],
+						"time": 0.0,
+						"angle": 0.0
+					},
+					{
+						"time": 0.6667,
+						"angle": 4.05,
+						"curve": [ 0.4449999928474426, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.3333,
+						"curve": [ 0.5649999976158142, 0.03999999910593033, 0.4350000023841858, 0.949999988079071 ],
+						"angle": 0.0
+					},
+					{
+						"time": 2,
+						"angle": 4.05,
+						"curve": [ 0.4449999928474426, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{ "time": 2.6667, "angle": 0.0 }
+				]
+			},
+			"dedo3": {
+				"rotate": [
+					{
+						"angle": -1.64,
+						"curve": [ 0.6290000081062317, 0.6000000238418579, 1.0, 1.0 ],
+						"time": 0.0
+					},
+					{
+						"time": 0.1667,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"angle": 0.0
+					},
+					{
+						"time": 0.8333,
+						"angle": -4.65,
+						"curve": [ 0.4449999928474426, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.5,
+						"curve": [ 0.5649999976158142, 0.03999999910593033, 0.4350000023841858, 0.949999988079071 ],
+						"angle": 0.0
+					},
+					{
+						"time": 2.1667,
+						"angle": -4.65,
+						"curve": [ 0.3659999966621399, 0.09000000357627869, 0.8040000200271606, 0.699999988079071 ]
+					},
+					{ "time": 2.6667, "angle": -1.64 }
+				]
+			},
+			"dedo7": {
+				"rotate": [
+					{
+						"angle": 1.45,
+						"curve": [ 0.6299999952316284, 0.6000000238418579, 1.0, 1.0 ],
+						"time": 0.0
+					},
+					{
+						"time": 0.1667,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"angle": 0.0
+					},
+					{
+						"time": 0.8333,
+						"angle": 4.05,
+						"curve": [ 0.4449999928474426, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.5,
+						"curve": [ 0.5649999976158142, 0.03999999910593033, 0.4350000023841858, 0.949999988079071 ],
+						"angle": 0.0
+					},
+					{
+						"time": 2.1667,
+						"angle": 4.05,
+						"curve": [ 0.36800000071525574, 0.09000000357627869, 0.8050000071525574, 0.699999988079071 ]
+					},
+					{ "time": 2.6667, "angle": 1.45 }
+				]
+			},
+			"dedo2": {
+				"rotate": [
+					{
+						"angle": -3,
+						"curve": [ 0.5830000042915344, 0.5099999904632568, 1.0, 1.0 ],
+						"time": 0.0
+					},
+					{
+						"time": 0.3333,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"angle": 0.0
+					},
+					{
+						"time": 1,
+						"angle": -4.65,
+						"curve": [ 0.4449999928474426, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.6667,
+						"curve": [ 0.5649999976158142, 0.03999999910593033, 0.4350000023841858, 0.949999988079071 ],
+						"angle": 0.0
+					},
+					{
+						"time": 2.3333,
+						"angle": -4.65,
+						"curve": [ 0.3319999873638153, 0.10000000149011612, 0.7070000171661377, 0.5600000023841858 ]
+					},
+					{ "time": 2.6667, "angle": -3 }
+				]
+			},
+			"dedo1": {
+				"rotate": [
+					{
+						"angle": -4.05,
+						"curve": [ 0.5220000147819519, 0.3700000047683716, 1.0, 1.0 ],
+						"time": 0.0
+					},
+					{
+						"time": 0.5,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"angle": 0.0
+					},
+					{
+						"time": 1.1667,
+						"angle": -4.65,
+						"curve": [ 0.4449999928474426, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.8333,
+						"curve": [ 0.5649999976158142, 0.03999999910593033, 0.4350000023841858, 0.949999988079071 ],
+						"angle": 0.0
+					},
+					{
+						"time": 2.5,
+						"angle": -4.65,
+						"curve": [ 0.32199999690055847, 0.12999999523162842, 0.6660000085830688, 0.5099999904632568 ]
+					},
+					{ "time": 2.6667, "angle": -4.05 }
+				]
+			},
+			"dedo6": {
+				"rotate": [
+					{
+						"angle": 2.63,
+						"curve": [ 0.5839999914169312, 0.5099999904632568, 1.0, 1.0 ],
+						"time": 0.0
+					},
+					{
+						"time": 0.3333,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"angle": 0.0
+					},
+					{
+						"time": 1,
+						"angle": 4.05,
+						"curve": [ 0.4449999928474426, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.6667,
+						"curve": [ 0.5649999976158142, 0.03999999910593033, 0.4350000023841858, 0.949999988079071 ],
+						"angle": 0.0
+					},
+					{
+						"time": 2.3333,
+						"angle": 4.05,
+						"curve": [ 0.33399999141693115, 0.09000000357627869, 0.7089999914169312, 0.5600000023841858 ]
+					},
+					{ "time": 2.6667, "angle": 2.63 }
+				]
+			},
+			"dedo5": {
+				"rotate": [
+					{
+						"angle": 3.54,
+						"curve": [ 0.5239999890327454, 0.3700000047683716, 1.0, 1.0 ],
+						"time": 0.0
+					},
+					{
+						"time": 0.5,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"angle": 0.0
+					},
+					{
+						"time": 1.1667,
+						"angle": 4.05,
+						"curve": [ 0.4449999928474426, 0.10000000149011612, 1.0, 1.0 ]
+					},
+					{
+						"time": 1.8333,
+						"curve": [ 0.5649999976158142, 0.03999999910593033, 0.4350000023841858, 0.949999988079071 ],
+						"angle": 0.0
+					},
+					{
+						"time": 2.5,
+						"angle": 4.05,
+						"curve": [ 0.3230000138282776, 0.11999999731779099, 0.6669999957084656, 0.5 ]
+					},
+					{ "time": 2.6667, "angle": 3.54 }
+				]
+			}
+		}
+	}
+},
+"skins": {
+	"girasol": {
+		"deco cesped central 1": {
+			"deco cesped central 1": { "width": 1102, "height": 215 }
+		},
+		"deco cesped central 2": {
+			"deco cesped central 2": {
+				"x": 163.03,
+				"y": 51.42,
+				"scaleX": 0.85,
+				"scaleY": 0.85,
+				"rotation": -6.59,
+				"width": 309,
+				"height": 142
+			}
+		},
+		"deco cesped central 3": {
+			"deco cesped central 2": {
+				"x": -161.09,
+				"y": 54.44,
+				"scaleX": -0.85,
+				"scaleY": 0.85,
+				"rotation": 6.59,
+				"width": 309,
+				"height": 142
+			}
+		},
+		"deco cesped girasol": {
+			"deco cesped girasol": { "y": 85.68, "width": 247, "height": 206 }
+		}
+	},
+	"niebla": {
+		"niebla 1": {
+			"niebla 1": { "y": 1.41, "width": 1102, "height": 250 }
+		},
+		"dedo 5": {
+			"dedo 4": { "x": 17.5, "y": 1.13, "scaleX": -1, "rotation": -114.58, "width": 26, "height": 40 }
+		},
+		"dedo 3": {
+			"dedo 3": { "x": 13.33, "y": -0.67, "rotation": -59.95, "width": 24, "height": 34 }
+		},
+		"brazo 3": {
+			"brazo 2": { "x": -8.49, "y": 1.84, "rotation": -39.88, "width": 41, "height": 46 }
+		},
+		"brazo 1": {
+			"brazo 1": { "x": -50.09, "y": -23.9, "width": 52, "height": 93 }
+		},
+		"brazo 2": {
+			"brazo 1": { "x": 54.08, "y": -22.24, "scaleX": -1, "width": 52, "height": 93 }
+		},
+		"cabeza 1": {
+			"cabeza 1": { "y": 94.42, "width": 170, "height": 210 }
+		},
+		"brazo 4": {
+			"brazo 2": { "x": -8.48, "y": -2.08, "scaleX": -1, "rotation": -138.75, "width": 41, "height": 46 }
+		},
+		"dedo 1": {
+			"dedo 1": { "x": 9.67, "y": 0.04, "rotation": -26.83, "width": 20, "height": 20 }
+		},
+		"dedo 2": {
+			"dedo 2": { "x": 10.28, "y": -1.05, "rotation": -51.89, "width": 22, "height": 30 }
+		},
+		"niebla 2": {
+			"niebla 2": { "x": 29.67, "y": 46.48, "scaleX": 1.1729, "scaleY": 1.2055, "width": 584, "height": 135 }
+		},
+		"niebla 3": {
+			"niebla 3": { "x": 9.9, "y": 10.41, "width": 504, "height": 103 }
+		},
+		"niebla 4": {
+			"niebla 4": { "x": -1.64, "y": 17.15, "width": 510, "height": 115 }
+		},
+		"dedo 6": {
+			"dedo 3": { "x": 13.75, "y": 1.34, "scaleX": -1, "rotation": -119.64, "width": 24, "height": 34 }
+		},
+		"dedo 7": {
+			"dedo 2": { "x": 10.38, "y": 1.66, "scaleX": -1, "rotation": -127.23, "width": 22, "height": 30 }
+		},
+		"dedo 4": {
+			"dedo 4": { "x": 17.47, "y": -0.84, "rotation": -63.06, "width": 26, "height": 40 }
+		},
+		"mano 1": {
+			"mano 1": { "x": 17.94, "y": -1.9, "rotation": -39.88, "width": 36, "height": 43 }
+		},
+		"mano 2": {
+			"mano 1": { "x": 17.82, "y": 2.26, "scaleX": -1, "rotation": -138.75, "width": 36, "height": 43 }
+		},
+		"dedo 8": {
+			"dedo 1": { "x": 9.05, "y": -0.15, "scaleX": -1, "rotation": -153.03, "width": 20, "height": 20 }
+		},
+		"cuerpo 1": {
+			"cuerpo 1": { "y": -14.09, "width": 101, "height": 87 }
+		},
+		"cuerpo 2": {
+			"cuerpo 2": { "y": 64.31, "width": 170, "height": 270 }
+		}
+	}
+}
+}

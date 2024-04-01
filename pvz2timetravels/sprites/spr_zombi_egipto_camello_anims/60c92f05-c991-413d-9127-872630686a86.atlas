@@ -1,0 +1,202 @@
+
+skeleton.png
+size: 824,527
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zombi basico egipto/cuerpo 1
+  rotate: false
+  xy: 440, 2
+  size: 63, 93
+  orig: 67, 98
+  offset: 2, 3
+  index: -1
+zombi basico egipto/cuerpo 2
+  rotate: false
+  xy: 748, 113
+  size: 51, 28
+  orig: 55, 32
+  offset: 2, 2
+  index: -1
+zombi basico egipto/pierna del 1
+  rotate: true
+  xy: 691, 4
+  size: 30, 55
+  orig: 34, 59
+  offset: 2, 2
+  index: -1
+zombi basico egipto/pierna del 2
+  rotate: false
+  xy: 805, 142
+  size: 14, 41
+  orig: 18, 45
+  offset: 2, 2
+  index: -1
+zombi basico egipto/pierna del 3
+  rotate: true
+  xy: 748, 4
+  size: 40, 35
+  orig: 45, 40
+  offset: 2, 3
+  index: -1
+zombi basico egipto/pierna del 4
+  rotate: true
+  xy: 728, 46
+  size: 51, 28
+  orig: 55, 32
+  offset: 2, 2
+  index: -1
+zombi basico egipto/pierna tras 1
+  rotate: true
+  xy: 758, 59
+  size: 22, 46
+  orig: 26, 51
+  offset: 2, 3
+  index: -1
+zombi basico egipto/pierna tras 2
+  rotate: true
+  xy: 748, 143
+  size: 40, 55
+  orig: 44, 60
+  offset: 2, 3
+  index: -1
+zombi basico egipto/pierna tras 3
+  rotate: false
+  xy: 785, 88
+  size: 37, 23
+  orig: 41, 27
+  offset: 2, 2
+  index: -1
+zombi basico egipto/pierna tras 4
+  rotate: false
+  xy: 697, 156
+  size: 47, 27
+  orig: 51, 31
+  offset: 2, 2
+  index: -1
+zombi camello/caliza 1_1
+  rotate: false
+  xy: 2, 268
+  size: 144, 257
+  orig: 149, 261
+  offset: 2, 2
+  index: -1
+zombi camello/caliza 1_2
+  rotate: false
+  xy: 148, 268
+  size: 144, 257
+  orig: 149, 261
+  offset: 2, 2
+  index: -1
+zombi camello/caliza 1_3
+  rotate: false
+  xy: 294, 268
+  size: 144, 257
+  orig: 149, 261
+  offset: 2, 2
+  index: -1
+zombi camello/caliza 2_1
+  rotate: false
+  xy: 2, 9
+  size: 144, 257
+  orig: 149, 261
+  offset: 2, 2
+  index: -1
+zombi camello/caliza 2_2
+  rotate: false
+  xy: 148, 9
+  size: 144, 257
+  orig: 149, 261
+  offset: 2, 2
+  index: -1
+zombi camello/caliza 2_3
+  rotate: false
+  xy: 294, 9
+  size: 144, 257
+  orig: 149, 261
+  offset: 2, 2
+  index: -1
+zombi camello/caliza 3_1
+  rotate: true
+  xy: 440, 240
+  size: 141, 255
+  orig: 145, 259
+  offset: 2, 2
+  index: -1
+zombi camello/caliza 3_2
+  rotate: true
+  xy: 440, 383
+  size: 142, 255
+  orig: 146, 259
+  offset: 2, 2
+  index: -1
+zombi camello/caliza 3_3
+  rotate: true
+  xy: 440, 97
+  size: 141, 255
+  orig: 145, 259
+  offset: 2, 2
+  index: -1
+zombi camello/caliza roto 1
+  rotate: true
+  xy: 697, 185
+  size: 140, 111
+  orig: 145, 115
+  offset: 2, 2
+  index: -1
+zombi camello/caliza roto 2
+  rotate: true
+  xy: 697, 327
+  size: 141, 117
+  orig: 145, 121
+  offset: 2, 2
+  index: -1
+zombi camello/caliza roto 3
+  rotate: false
+  xy: 505, 3
+  size: 140, 92
+  orig: 144, 96
+  offset: 2, 2
+  index: -1
+zombi camello/caliza trozo 1
+  rotate: true
+  xy: 758, 83
+  size: 28, 23
+  orig: 32, 27
+  offset: 2, 2
+  index: -1
+zombi camello/caliza trozo 2
+  rotate: true
+  xy: 697, 99
+  size: 42, 36
+  orig: 46, 40
+  offset: 2, 2
+  index: -1
+zombi camello/caliza trozo 3
+  rotate: true
+  xy: 689, 36
+  size: 59, 37
+  orig: 63, 41
+  offset: 2, 2
+  index: -1
+zombi camello/caliza trozo 4
+  rotate: true
+  xy: 647, 27
+  size: 68, 40
+  orig: 72, 45
+  offset: 2, 3
+  index: -1
+zombi camello/mano
+  rotate: true
+  xy: 647, 2
+  size: 23, 42
+  orig: 27, 46
+  offset: 2, 2
+  index: -1
+zombi camello/polvo
+  rotate: false
+  xy: 697, 470
+  size: 125, 55
+  orig: 155, 86
+  offset: 17, 19
+  index: -1

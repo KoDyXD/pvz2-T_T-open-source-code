@@ -1,0 +1,160 @@
+
+skeleton.png
+size: 475,269
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+normal/boca 1
+  rotate: false
+  xy: 2, 4
+  size: 67, 15
+  orig: 67, 15
+  offset: 0, 0
+  index: -1
+normal/boca 2
+  rotate: true
+  xy: 437, 200
+  size: 67, 21
+  orig: 67, 21
+  offset: 0, 0
+  index: -1
+normal/cabeza 1
+  rotate: false
+  xy: 225, 58
+  size: 91, 74
+  orig: 91, 75
+  offset: 0, 0
+  index: -1
+normal/cabeza 2
+  rotate: false
+  xy: 318, 113
+  size: 91, 74
+  orig: 91, 75
+  offset: 0, 0
+  index: -1
+normal/disf 1
+  rotate: true
+  xy: 411, 120
+  size: 67, 48
+  orig: 71, 53
+  offset: 2, 3
+  index: -1
+normal/disf 2
+  rotate: false
+  xy: 137, 45
+  size: 86, 87
+  orig: 90, 92
+  offset: 2, 3
+  index: -1
+normal/disf 3
+  rotate: false
+  xy: 232, 16
+  size: 87, 40
+  orig: 91, 44
+  offset: 2, 2
+  index: -1
+normal/disf 4
+  rotate: false
+  xy: 321, 29
+  size: 100, 38
+  orig: 104, 42
+  offset: 2, 2
+  index: -1
+normal/disf 5
+  rotate: false
+  xy: 318, 69
+  size: 104, 42
+  orig: 109, 46
+  offset: 2, 2
+  index: -1
+normal/disf 6
+  rotate: false
+  xy: 318, 189
+  size: 117, 78
+  orig: 121, 82
+  offset: 2, 2
+  index: -1
+normal/disf 7
+  rotate: false
+  xy: 137, 2
+  size: 93, 41
+  orig: 109, 46
+  offset: 7, 5
+  index: -1
+normal/hoja 1
+  rotate: false
+  xy: 390, 4
+  size: 44, 23
+  orig: 44, 23
+  offset: 0, 0
+  index: -1
+normal/hoja 2
+  rotate: true
+  xy: 447, 20
+  size: 39, 21
+  orig: 40, 21
+  offset: 0, 0
+  index: -1
+normal/hojita
+  rotate: false
+  xy: 71, 4
+  size: 18, 15
+  orig: 19, 15
+  offset: 1, 0
+  index: -1
+normal/ojo
+  rotate: false
+  xy: 460, 244
+  size: 13, 23
+  orig: 14, 24
+  offset: 1, 1
+  index: -1
+normal/petalos 1
+  rotate: false
+  xy: 2, 21
+  size: 133, 111
+  orig: 133, 111
+  offset: 0, 0
+  index: -1
+normal/petalos 2
+  rotate: false
+  xy: 2, 134
+  size: 156, 133
+  orig: 157, 135
+  offset: 1, 1
+  index: -1
+normal/tallo
+  rotate: false
+  xy: 447, 61
+  size: 21, 57
+  orig: 21, 57
+  offset: 0, 0
+  index: -1
+skin1/boca 1
+  rotate: false
+  xy: 321, 12
+  size: 67, 15
+  orig: 67, 15
+  offset: 0, 0
+  index: -1
+skin1/boca 2
+  rotate: true
+  xy: 424, 51
+  size: 67, 21
+  orig: 67, 21
+  offset: 0, 0
+  index: -1
+skin1/ojo
+  rotate: false
+  xy: 460, 219
+  size: 13, 23
+  orig: 14, 24
+  offset: 1, 1
+  index: -1
+skin1/petalos 2
+  rotate: false
+  xy: 160, 134
+  size: 156, 133
+  orig: 157, 135
+  offset: 1, 1
+  index: -1

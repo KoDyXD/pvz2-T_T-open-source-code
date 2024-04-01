@@ -1,0 +1,43 @@
+{
+  "spriteId": {
+    "name": "spr_pala_usable",
+    "path": "sprites/spr_pala_usable/spr_pala_usable.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": {
+    "name": "spr_pala_base",
+    "path": "sprites/spr_pala_base/spr_pala_base.yy",
+  },
+  "persistent": true,
+  "parentObjectId": {
+    "name": "recom_sem_debug",
+    "path": "objects/recom_sem_debug/recom_sem_debug.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "general",
+    "path": "folders/Objetos/semilleros/recompensas/general.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "recom_pala",
+  "tags": [],
+  "resourceType": "GMObject",
+}

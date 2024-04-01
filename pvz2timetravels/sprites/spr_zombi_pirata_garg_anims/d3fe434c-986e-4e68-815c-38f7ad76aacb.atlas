@@ -1,0 +1,510 @@
+
+skeleton.png
+size: 2033,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zombinstein/brazo del 1
+  rotate: false
+  xy: 345, 2
+  size: 149, 152
+  orig: 153, 156
+  offset: 2, 2
+  index: -1
+zombinstein/brazo del 2
+  rotate: false
+  xy: 1734, 238
+  size: 123, 134
+  orig: 127, 138
+  offset: 2, 2
+  index: -1
+zombinstein/brazo del 3
+  rotate: false
+  xy: 1137, 83
+  size: 125, 91
+  orig: 130, 95
+  offset: 2, 2
+  index: -1
+zombinstein/brazo del 4
+  rotate: false
+  xy: 1565, 9
+  size: 74, 49
+  orig: 78, 53
+  offset: 2, 2
+  index: -1
+zombinstein/brazo del 5
+  rotate: false
+  xy: 1249, 25
+  size: 36, 56
+  orig: 40, 60
+  offset: 2, 2
+  index: -1
+zombinstein/brazo tras 1
+  rotate: false
+  xy: 1859, 239
+  size: 118, 137
+  orig: 122, 141
+  offset: 2, 2
+  index: -1
+zombinstein/brazo tras 2
+  rotate: true
+  xy: 669, 2
+  size: 100, 101
+  orig: 104, 106
+  offset: 2, 3
+  index: -1
+zombinstein/brazo tras 3
+  rotate: true
+  xy: 1914, 65
+  size: 73, 58
+  orig: 77, 62
+  offset: 2, 2
+  index: -1
+zombinstein/brazo tras 4
+  rotate: false
+  xy: 1979, 232
+  size: 42, 53
+  orig: 46, 57
+  offset: 2, 2
+  index: -1
+zombinstein/brazo tras 5
+  rotate: false
+  xy: 1903, 2
+  size: 44, 44
+  orig: 49, 49
+  offset: 2, 3
+  index: -1
+zombinstein/brazo tras 6
+  rotate: false
+  xy: 1287, 37
+  size: 36, 47
+  orig: 41, 51
+  offset: 2, 2
+  index: -1
+zombinstein/brazo tras 7
+  rotate: true
+  xy: 1390, 24
+  size: 38, 42
+  orig: 42, 46
+  offset: 2, 2
+  index: -1
+zombinstein/brazo tras 8
+  rotate: false
+  xy: 2, 2
+  size: 41, 32
+  orig: 45, 36
+  offset: 2, 2
+  index: -1
+zombinstein/cabeza 1
+  rotate: false
+  xy: 496, 5
+  size: 171, 149
+  orig: 176, 154
+  offset: 2, 3
+  index: -1
+zombinstein/cabeza 1 detalle 1
+  rotate: false
+  xy: 82, 6
+  size: 28, 28
+  orig: 32, 32
+  offset: 2, 2
+  index: -1
+zombinstein/cabeza 1 detalle 2
+  rotate: true
+  xy: 1970, 171
+  size: 59, 58
+  orig: 63, 62
+  offset: 2, 2
+  index: -1
+zombinstein/cabeza 1 detalle 3
+  rotate: true
+  xy: 45, 6
+  size: 28, 35
+  orig: 32, 39
+  offset: 2, 2
+  index: -1
+zombinstein/cabeza 1 detalle 4
+  rotate: true
+  xy: 1368, 47
+  size: 37, 20
+  orig: 41, 25
+  offset: 2, 3
+  index: -1
+zombinstein/cabeza 2
+  rotate: false
+  xy: 1471, 38
+  size: 92, 81
+  orig: 96, 85
+  offset: 2, 2
+  index: -1
+zombinstein/cabeza detalle nariz 1
+  rotate: false
+  xy: 1249, 2
+  size: 9, 21
+  orig: 13, 25
+  offset: 2, 2
+  index: -1
+zombinstein/cabeza detalle nariz 2
+  rotate: true
+  xy: 1240, 396
+  size: 12, 15
+  orig: 16, 19
+  offset: 2, 2
+  index: -1
+zombinstein/canon/espalda  imp cabeza 1
+  rotate: true
+  xy: 1070, 8
+  size: 90, 65
+  orig: 94, 69
+  offset: 2, 2
+  index: -1
+zombinstein/canon/espalda base del
+  rotate: false
+  xy: 1859, 378
+  size: 172, 143
+  orig: 176, 147
+  offset: 2, 2
+  index: -1
+zombinstein/canon/espalda base del rueda
+  rotate: false
+  xy: 1974, 115
+  size: 54, 54
+  orig: 58, 58
+  offset: 2, 2
+  index: -1
+zombinstein/canon/espalda base del wea 1
+  rotate: true
+  xy: 1854, 2
+  size: 44, 47
+  orig: 49, 51
+  offset: 2, 2
+  index: -1
+zombinstein/canon/espalda base tras
+  rotate: false
+  xy: 1562, 248
+  size: 170, 124
+  orig: 174, 128
+  offset: 2, 2
+  index: -1
+zombinstein/canon/espalda base tras rueda
+  rotate: false
+  xy: 1974, 59
+  size: 54, 54
+  orig: 58, 58
+  offset: 2, 2
+  index: -1
+zombinstein/canon/espalda canon 1
+  rotate: false
+  xy: 1257, 388
+  size: 316, 133
+  orig: 320, 138
+  offset: 2, 3
+  index: -1
+zombinstein/canon/espalda canon 2
+  rotate: false
+  xy: 1240, 198
+  size: 224, 188
+  orig: 243, 213
+  offset: 9, 12
+  index: -1
+zombinstein/canon/espalda canon efect 3
+  rotate: true
+  xy: 1471, 121
+  size: 135, 81
+  orig: 145, 105
+  offset: 7, 12
+  index: -1
+zombinstein/canon/espalda canon efect 4
+  rotate: true
+  xy: 1979, 287
+  size: 89, 37
+  orig: 99, 59
+  offset: 5, 11
+  index: -1
+zombinstein/canon/espalda imp cabeza 2
+  rotate: true
+  xy: 868, 215
+  size: 81, 38
+  orig: 85, 42
+  offset: 2, 2
+  index: -1
+zombinstein/canon/espalda imp cabeza nariz
+  rotate: false
+  xy: 659, 286
+  size: 14, 10
+  orig: 18, 14
+  offset: 2, 2
+  index: -1
+zombinstein/canon/espalda imp cabeza ojo der
+  rotate: false
+  xy: 1434, 27
+  size: 35, 35
+  orig: 39, 39
+  offset: 2, 2
+  index: -1
+zombinstein/canon/espalda imp cabeza ojo izq
+  rotate: false
+  xy: 144, 12
+  size: 22, 22
+  orig: 26, 26
+  offset: 2, 2
+  index: -1
+zombinstein/canon/espalda imp cabeza ojo pupila
+  rotate: false
+  xy: 1970, 232
+  size: 5, 5
+  orig: 9, 9
+  offset: 2, 2
+  index: -1
+zombinstein/canon/espalda imp cabeza pelo
+  rotate: true
+  xy: 1854, 48
+  size: 77, 58
+  orig: 81, 62
+  offset: 2, 2
+  index: -1
+zombinstein/canon/espalda imp mano del
+  rotate: false
+  xy: 1829, 17
+  size: 23, 28
+  orig: 27, 32
+  offset: 2, 2
+  index: -1
+zombinstein/canon/espalda imp mano izq
+  rotate: true
+  xy: 836, 84
+  size: 18, 25
+  orig: 22, 30
+  offset: 2, 3
+  index: -1
+zombinstein/choque 1
+  rotate: false
+  xy: 1554, 136
+  size: 131, 110
+  orig: 135, 114
+  offset: 2, 2
+  index: -1
+zombinstein/choque 2
+  rotate: true
+  xy: 737, 104
+  size: 192, 129
+  orig: 196, 133
+  offset: 2, 2
+  index: -1
+zombinstein/choque 3
+  rotate: false
+  xy: 1575, 374
+  size: 282, 147
+  orig: 286, 151
+  offset: 2, 2
+  index: -1
+zombinstein/choque 4
+  rotate: false
+  xy: 2, 36
+  size: 341, 118
+  orig: 345, 122
+  offset: 2, 2
+  index: -1
+zombinstein/choque 5
+  rotate: false
+  xy: 908, 410
+  size: 347, 111
+  orig: 351, 115
+  offset: 2, 2
+  index: -1
+zombinstein/cuerpo 1
+  rotate: false
+  xy: 369, 285
+  size: 288, 236
+  orig: 292, 240
+  offset: 2, 2
+  index: -1
+zombinstein/cuerpo 2
+  rotate: false
+  xy: 369, 156
+  size: 236, 127
+  orig: 240, 131
+  offset: 2, 2
+  index: -1
+zombinstein/cuerpo 3
+  rotate: false
+  xy: 836, 5
+  size: 140, 77
+  orig: 145, 81
+  offset: 2, 2
+  index: -1
+zombinstein/cuerpo 4
+  rotate: true
+  xy: 1137, 176
+  size: 232, 101
+  orig: 236, 105
+  offset: 2, 2
+  index: -1
+zombinstein/cuerpo 5
+  rotate: false
+  xy: 1264, 86
+  size: 133, 110
+  orig: 138, 115
+  offset: 2, 3
+  index: -1
+zombinstein/onda 0
+  rotate: false
+  xy: 2, 156
+  size: 365, 365
+  orig: 369, 369
+  offset: 2, 2
+  index: -1
+zombinstein/onda 1
+  rotate: false
+  xy: 607, 156
+  size: 128, 127
+  orig: 149, 158
+  offset: 19, 3
+  index: -1
+zombinstein/onda 2
+  rotate: true
+  xy: 659, 298
+  size: 223, 247
+  orig: 295, 346
+  offset: 2, 2
+  index: -1
+zombinstein/pierna del 1
+  rotate: false
+  xy: 1013, 100
+  size: 122, 92
+  orig: 126, 96
+  offset: 2, 2
+  index: -1
+zombinstein/pierna del 2
+  rotate: true
+  xy: 1466, 258
+  size: 128, 94
+  orig: 132, 99
+  offset: 2, 3
+  index: -1
+zombinstein/pierna del 3
+  rotate: true
+  xy: 1797, 127
+  size: 109, 72
+  orig: 113, 76
+  offset: 2, 2
+  index: -1
+zombinstein/pierna del 4
+  rotate: true
+  xy: 1399, 64
+  size: 132, 70
+  orig: 136, 74
+  offset: 2, 2
+  index: -1
+zombinstein/pierna tras 1
+  rotate: false
+  xy: 978, 2
+  size: 90, 79
+  orig: 94, 83
+  offset: 2, 2
+  index: -1
+zombinstein/pierna tras 2
+  rotate: false
+  xy: 1687, 130
+  size: 108, 106
+  orig: 112, 110
+  offset: 2, 2
+  index: -1
+zombinstein/pierna tras 3
+  rotate: true
+  xy: 772, 2
+  size: 100, 62
+  orig: 104, 67
+  offset: 2, 3
+  index: -1
+zombinstein/pierna tras 4
+  rotate: false
+  xy: 1137, 8
+  size: 110, 73
+  orig: 115, 77
+  offset: 2, 2
+  index: -1
+zombinstein/tiburon cabeza 1
+  rotate: false
+  xy: 868, 84
+  size: 143, 108
+  orig: 147, 112
+  offset: 2, 2
+  index: -1
+zombinstein/tiburon cabeza 2
+  rotate: false
+  xy: 1769, 47
+  size: 83, 78
+  orig: 87, 82
+  offset: 2, 2
+  index: -1
+zombinstein/tiburon cabeza boca
+  rotate: true
+  xy: 669, 109
+  size: 45, 60
+  orig: 49, 64
+  offset: 2, 2
+  index: -1
+zombinstein/tiburon cola
+  rotate: false
+  xy: 1871, 140
+  size: 97, 97
+  orig: 101, 101
+  offset: 2, 2
+  index: -1
+zombinstein/tiburon cuerpo 1
+  rotate: false
+  xy: 908, 194
+  size: 227, 214
+  orig: 231, 219
+  offset: 2, 3
+  index: -1
+zombinstein/tiburon cuerpo 2
+  rotate: false
+  xy: 1565, 60
+  size: 95, 74
+  orig: 99, 78
+  offset: 2, 2
+  index: -1
+zombinstein/tiburon cuerpo aleta arriba
+  rotate: false
+  xy: 1662, 73
+  size: 105, 55
+  orig: 109, 60
+  offset: 2, 3
+  index: -1
+zombinstein/tiburon cuerpo aleta del
+  rotate: false
+  xy: 1662, 2
+  size: 49, 69
+  orig: 53, 73
+  offset: 2, 2
+  index: -1
+zombinstein/tiburon cuerpo aleta tras
+  rotate: true
+  xy: 1764, 5
+  size: 40, 63
+  orig: 44, 67
+  offset: 2, 2
+  index: -1
+zombinstein/tiburon cuerpo branquias
+  rotate: false
+  xy: 1713, 3
+  size: 49, 68
+  orig: 53, 72
+  offset: 2, 2
+  index: -1
+zombinstein/tiburon ojo 1
+  rotate: false
+  xy: 1325, 43
+  size: 41, 41
+  orig: 45, 46
+  offset: 2, 3
+  index: -1
+zombinstein/tiburon ojo 2
+  rotate: false
+  xy: 112, 10
+  size: 30, 24
+  orig: 34, 28
+  offset: 2, 2
+  index: -1

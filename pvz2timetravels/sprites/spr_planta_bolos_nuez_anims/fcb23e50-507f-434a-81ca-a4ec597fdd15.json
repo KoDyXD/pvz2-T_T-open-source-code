@@ -1,0 +1,534 @@
+{
+"skeleton": {
+	"hash": "8HcHYiEMmUqtWpe1Z5KAgCj+E/k",
+	"spine": "3.7-from-3.8.75",
+	"x": -72.5,
+	"y": -7.44,
+	"width": 140.31,
+	"height": 174.04,
+	"images": "C:/Users/usuario/Desktop/pvz2 Deluxe/texturas/plantas/nuez/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root", "y": -5 },
+	{ "name": "cuerpo general", "parent": "root", "y": 80 },
+	{ "name": "cuerpo", "parent": "cuerpo general", "x": -4.76, "y": 4.63 },
+	{ "name": "cara", "parent": "cuerpo", "x": 17.79, "y": 7.41 },
+	{ "name": "ojo der", "parent": "cuerpo general", "x": 34.2, "y": 30.47, "shearX": -1.94, "shearY": 2.1 },
+	{
+		"name": "ojo izq",
+		"parent": "cuerpo general",
+		"rotation": -0.98,
+		"x": -11.35,
+		"y": 30.78,
+		"scaleX": 0.9986,
+		"scaleY": 0.9986
+	},
+	{ "name": "ceja der", "parent": "cuerpo general", "x": 12.82, "y": 30.41 },
+	{
+		"name": "pupila der",
+		"parent": "cuerpo general",
+		"rotation": 3.87,
+		"x": 36.53,
+		"y": 28.83,
+		"shearX": -1.94,
+		"shearY": 2.1,
+		"transform": "noRotationOrReflection"
+	},
+	{ "name": "ceja izq", "parent": "cuerpo general", "x": 12.82, "y": 30.41 },
+	{
+		"name": "pupila izq",
+		"parent": "cuerpo general",
+		"rotation": 1.94,
+		"x": -12.94,
+		"y": 26.64,
+		"shearX": -1.94,
+		"shearY": 2.1,
+		"transform": "noRotationOrReflection"
+	}
+],
+"slots": [
+	{ "name": "cuerpo atras", "bone": "cuerpo", "attachment": "2" },
+	{ "name": "cuerpo medio", "bone": "cuerpo", "attachment": "17" },
+	{ "name": "cuerpo frontal", "bone": "cuerpo", "attachment": "1" },
+	{ "name": "boca", "bone": "cara" },
+	{ "name": "boca 4", "bone": "cara", "attachment": "15" },
+	{ "name": "ojo abierto der", "bone": "ojo der", "attachment": "4" },
+	{ "name": "ojo abierto izq", "bone": "ojo izq", "attachment": "4" },
+	{ "name": "ojo cerrando izq", "bone": "ojo izq" },
+	{ "name": "ojo cerrando der", "bone": "ojo der" },
+	{ "name": "ojo cerrando 2 izq", "bone": "ojo izq" },
+	{ "name": "ojo cerrando 2 der", "bone": "ojo der" },
+	{ "name": "pupila izq", "bone": "pupila izq" },
+	{ "name": "pupila der", "bone": "pupila der" },
+	{ "name": "ojo cerrado der", "bone": "ojo der" },
+	{ "name": "ojo cerrado izq", "bone": "ojo izq" },
+	{ "name": "ceja izq", "bone": "ceja izq", "attachment": "20" },
+	{ "name": "ceja der", "bone": "ceja der", "attachment": "20" },
+	{ "name": "boca sonriendo", "bone": "cara" },
+	{ "name": "IMAGE_PLANT_CAULIPOWER_CAULIPOWER_24X25", "bone": "pupila izq", "attachment": "IMAGE_PLANT_CAULIPOWER_CAULIPOWER_24X25" },
+	{ "name": "IMAGE_PLANT_CAULIPOWER_CAULIPOWER_24X26", "bone": "pupila der", "attachment": "IMAGE_PLANT_CAULIPOWER_CAULIPOWER_24X25" }
+],
+"animations": {
+	"rodar": {
+		"bones": {
+			"ceja der": {
+				"translate": [
+					{ "y": -7.34, "time": 0.0 }
+				]
+			},
+			"ceja izq": {
+				"translate": [
+					{ "y": -6.49, "time": 0.0 }
+				]
+			},
+			"cara": {
+				"scale": [
+					{
+						"curve": [ 0.4189999997615814, 0.03999999910593033, 0.5809999704360962, 0.9700000286102295 ],
+						"time": 0.0,
+						"x": 1.0,
+						"y": 1.0
+					},
+					{
+						"time": 0.6667,
+						"x": 1.168,
+						"y": 0.776,
+						"curve": [ 0.4189999997615814, 0.03999999910593033, 0.5809999704360962, 0.9700000286102295 ]
+					},
+					{ "time": 1.3333, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"cuerpo general": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.6667, "angle": 180 },
+					{ "time": 1.3333, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.3333, "y": -15.15 },
+					{ "time": 0.6667, "y": 7.88 },
+					{ "time": 1, "y": -10.17 },
+					{ "time": 1.3333 }
+				]
+			},
+			"pupila izq": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.3333, "angle": 179.48 },
+					{ "time": 0.6667, "angle": -0.76 },
+					{ "time": 1, "angle": 166.48 },
+					{ "time": 1.3333, "angle": -16.15 }
+				]
+			},
+			"pupila der": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.3333, "angle": 179.48 },
+					{ "time": 0.6667, "angle": -0.76 },
+					{ "time": 1, "angle": 166.48 },
+					{ "time": 1.3333, "angle": -16.15 }
+				]
+			}
+		}
+	},
+	"rodar2": {
+		"bones": {
+			"ceja der": {
+				"translate": [
+					{ "y": -7.34, "time": 0.0 }
+				]
+			},
+			"ceja izq": {
+				"translate": [
+					{ "y": -6.49, "time": 0.0 }
+				]
+			},
+			"cara": {
+				"scale": [
+					{
+						"curve": [ 0.4189999997615814, 0.03999999910593033, 0.5809999704360962, 0.9700000286102295 ],
+						"time": 0.0,
+						"x": 1.0,
+						"y": 1.0
+					},
+					{
+						"time": 0.6667,
+						"x": 1.168,
+						"y": 0.776,
+						"curve": [ 0.4189999997615814, 0.03999999910593033, 0.5809999704360962, 0.9700000286102295 ]
+					},
+					{ "time": 1.3333, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"cuerpo general": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.6667, "angle": 180 },
+					{ "time": 1.3333, "angle": 0.0 }
+				],
+				"translate": [
+					{ "y": 81.65, "time": 0.0 },
+					{ "time": 0.3333, "y": 51.53 },
+					{ "time": 0.6667, "y": 98.81 },
+					{ "time": 1, "y": 64.31 },
+					{ "time": 1.3333, "y": 81.65 }
+				],
+				"scale": [
+					{ "x": 2, "y": 2, "curve": "stepped", "time": 0.0 },
+					{ "time": 1.3333, "x": 2, "y": 2 }
+				]
+			},
+			"pupila izq": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.3333, "angle": 179.48 },
+					{ "time": 0.6667, "angle": -0.76 },
+					{ "time": 1, "angle": 166.48 },
+					{ "time": 1.3333, "angle": -16.15 }
+				]
+			},
+			"pupila der": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.3333, "angle": 179.48 },
+					{ "time": 0.6667, "angle": -0.76 },
+					{ "time": 1, "angle": 166.48 },
+					{ "time": 1.3333, "angle": -16.15 }
+				]
+			}
+		}
+	},
+	"tranquilo": {
+		"bones": {
+			"ceja der": {
+				"translate": [
+					{ "y": -7.34, "time": 0.0 }
+				]
+			},
+			"ceja izq": {
+				"translate": [
+					{ "y": -6.49, "time": 0.0 }
+				]
+			},
+			"pupila izq": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.6667, "angle": -180 },
+					{ "time": 1.3333, "angle": 9.44 }
+				]
+			},
+			"pupila der": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.6667, "angle": -180 },
+					{ "time": 1.3333, "angle": 9.44 }
+				]
+			},
+			"cara": {
+				"scale": [
+					{
+						"curve": [ 0.4189999997615814, 0.03999999910593033, 0.5809999704360962, 0.9700000286102295 ],
+						"time": 0.0,
+						"x": 1.0,
+						"y": 1.0
+					},
+					{
+						"time": 0.6667,
+						"x": 1.168,
+						"y": 0.776,
+						"curve": [ 0.4189999997615814, 0.03999999910593033, 0.5809999704360962, 0.9700000286102295 ]
+					},
+					{ "time": 1.3333, "x": 1.0, "y": 1.0 }
+				]
+			}
+		}
+	},
+	"tranquilo2": {
+		"bones": {
+			"ceja der": {
+				"translate": [
+					{ "y": -7.34, "time": 0.0 }
+				]
+			},
+			"ceja izq": {
+				"translate": [
+					{ "y": -6.49, "time": 0.0 }
+				]
+			},
+			"pupila izq": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.6667, "angle": -180 },
+					{ "time": 1.3333, "angle": 9.44 }
+				]
+			},
+			"pupila der": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.6667, "angle": -180 },
+					{ "time": 1.3333, "angle": 9.44 }
+				]
+			},
+			"cara": {
+				"scale": [
+					{
+						"curve": [ 0.4189999997615814, 0.03999999910593033, 0.5809999704360962, 0.9700000286102295 ],
+						"time": 0.0,
+						"x": 1.0,
+						"y": 1.0
+					},
+					{
+						"time": 0.6667,
+						"x": 1.168,
+						"y": 0.776,
+						"curve": [ 0.4189999997615814, 0.03999999910593033, 0.5809999704360962, 0.9700000286102295 ]
+					},
+					{ "time": 1.3333, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"cuerpo general": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 }
+				],
+				"translate": [
+					{ "y": 81.65, "time": 0.0 }
+				],
+				"scale": [
+					{ "x": 2, "y": 2, "time": 0.0 }
+				]
+			}
+		}
+	},
+	"tranquilo3": {
+		"slots": {
+			"ojo cerrado der": {
+				"color": [
+					{ "color": "000000ff", "time": 0.0 }
+				]
+			},
+			"pupila izq": {
+				"color": [
+					{ "color": "000000ff", "time": 0.0 }
+				]
+			},
+			"boca": {
+				"color": [
+					{ "color": "000000ff", "time": 0.0 }
+				]
+			},
+			"pupila der": {
+				"color": [
+					{ "color": "000000ff", "time": 0.0 }
+				]
+			},
+			"ceja izq": {
+				"color": [
+					{ "color": "000000ff", "time": 0.0 }
+				]
+			},
+			"IMAGE_PLANT_CAULIPOWER_CAULIPOWER_24X25": {
+				"color": [
+					{ "color": "000000ff", "time": 0.0 }
+				]
+			},
+			"ojo cerrando izq": {
+				"color": [
+					{ "color": "000000ff", "time": 0.0 }
+				]
+			},
+			"ojo cerrado izq": {
+				"color": [
+					{ "color": "000000ff", "time": 0.0 }
+				]
+			},
+			"ceja der": {
+				"color": [
+					{ "color": "000000ff", "time": 0.0 }
+				]
+			},
+			"ojo cerrando der": {
+				"color": [
+					{ "color": "000000ff", "time": 0.0 }
+				]
+			},
+			"cuerpo medio": {
+				"color": [
+					{ "color": "000000ff", "time": 0.0 }
+				]
+			},
+			"cuerpo frontal": {
+				"color": [
+					{ "color": "000000ff", "time": 0.0 }
+				]
+			},
+			"ojo cerrando 2 der": {
+				"color": [
+					{ "color": "000000ff", "time": 0.0 }
+				]
+			},
+			"boca sonriendo": {
+				"color": [
+					{ "color": "000000ff", "time": 0.0 }
+				]
+			},
+			"ojo abierto izq": {
+				"color": [
+					{ "color": "000000ff", "time": 0.0 }
+				]
+			},
+			"ojo cerrando 2 izq": {
+				"color": [
+					{ "color": "000000ff", "time": 0.0 }
+				]
+			},
+			"cuerpo atras": {
+				"color": [
+					{ "color": "000000ff", "time": 0.0 }
+				]
+			},
+			"boca 4": {
+				"color": [
+					{ "color": "000000ff", "time": 0.0 }
+				]
+			},
+			"ojo abierto der": {
+				"color": [
+					{ "color": "000000ff", "time": 0.0 }
+				]
+			},
+			"IMAGE_PLANT_CAULIPOWER_CAULIPOWER_24X26": {
+				"color": [
+					{ "color": "000000ff", "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"ceja der": {
+				"translate": [
+					{ "y": -7.34, "time": 0.0 }
+				]
+			},
+			"ceja izq": {
+				"translate": [
+					{ "y": -6.49, "time": 0.0 }
+				]
+			},
+			"pupila izq": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.6667, "angle": -180 },
+					{ "time": 1.3333, "angle": 9.44 }
+				]
+			},
+			"pupila der": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.6667, "angle": -180 },
+					{ "time": 1.3333, "angle": 9.44 }
+				]
+			},
+			"cara": {
+				"scale": [
+					{
+						"curve": [ 0.4189999997615814, 0.03999999910593033, 0.5809999704360962, 0.9700000286102295 ],
+						"time": 0.0,
+						"x": 1.0,
+						"y": 1.0
+					},
+					{
+						"time": 0.6667,
+						"x": 1.168,
+						"y": 0.776,
+						"curve": [ 0.4189999997615814, 0.03999999910593033, 0.5809999704360962, 0.9700000286102295 ]
+					},
+					{ "time": 1.3333, "x": 1.0, "y": 1.0 }
+				]
+			}
+		}
+	}
+},
+"skins": {
+	"normal": {
+		"boca 4": {
+			"15": { "x": 0.76, "y": -2.29, "scaleX": 1.0075, "scaleY": 1.0075, "width": 14, "height": 19 }
+		},
+		"ojo cerrando izq": {
+			"5": { "x": -0.97, "y": -3.95, "width": 40, "height": 38 }
+		},
+		"boca sonriendo": {
+			"18": { "x": 0.76, "y": -2.29, "width": 22, "height": 18 }
+		},
+		"ojo cerrando 2 der": {
+			"21": { "x": 1.95, "y": -0.67, "scaleX": 0.8, "scaleY": 0.8, "width": 40, "height": 38 }
+		},
+		"ceja der": {
+			"20": { "x": 25.27, "y": 26.96, "scaleX": -0.5955, "scaleY": 0.6045, "width": 14, "height": 12 }
+		},
+		"ojo cerrado der": {
+			"6": { "x": 1.74, "y": -1.64, "scaleX": 0.8, "scaleY": 0.8, "width": 38, "height": 22 }
+		},
+		"cuerpo frontal": {
+			"1": { "x": 14.64, "y": -1.94, "scaleX": 1.0075, "scaleY": 1.0075, "width": 115, "height": 169 }
+		},
+		"ojo abierto der": {
+			"4": { "x": 1.03, "y": -1.94, "scaleX": 0.806, "scaleY": 0.806, "width": 37, "height": 40 }
+		},
+		"ojo cerrando 2 izq": {
+			"21": { "x": -0.87, "y": -4.89, "width": 40, "height": 38 }
+		},
+		"ceja izq": {
+			"20": { "x": -31.09, "y": 26.97, "scaleX": 1.0075, "scaleY": 1.0075, "width": 14, "height": 12 }
+		},
+		"ojo cerrado izq": {
+			"6": { "x": -1.04, "y": -3.45, "width": 38, "height": 22 }
+		},
+		"IMAGE_PLANT_CAULIPOWER_CAULIPOWER_24X25": {
+			"IMAGE_PLANT_CAULIPOWER_CAULIPOWER_24X25": {
+				"color": "000000ff",
+				"x": 1.79,
+				"y": -0.23,
+				"scaleX": 0.8564,
+				"scaleY": 0.9068,
+				"rotation": 0.96,
+				"width": 31,
+				"height": 32
+			}
+		},
+		"IMAGE_PLANT_CAULIPOWER_CAULIPOWER_24X26": {
+			"IMAGE_PLANT_CAULIPOWER_CAULIPOWER_24X25": {
+				"color": "000000ff",
+				"x": 0.75,
+				"y": -0.82,
+				"scaleX": 0.6549,
+				"scaleY": 0.7053,
+				"rotation": -1.93,
+				"width": 31,
+				"height": 32
+			}
+		},
+		"pupila der": {
+			"19": { "x": -2.38, "y": 1.45, "scaleY": 0.8, "width": 5, "height": 6 }
+		},
+		"boca": {
+			"3": { "x": 0.76, "y": -2.29, "width": 22, "height": 14 }
+		},
+		"cuerpo medio": {
+			"17": { "x": -8.43, "y": 0.32, "scaleX": 1.0075, "scaleY": 1.0075, "width": 86, "height": 172 }
+		},
+		"pupila izq": {
+			"19": { "x": 1.74, "y": 2.32, "scaleY": 0.8, "rotation": 1.05, "width": 5, "height": 6 }
+		},
+		"ojo cerrando der": {
+			"5": { "x": 1.71, "y": -1.59, "scaleX": 0.8, "scaleY": 0.8, "width": 40, "height": 38 }
+		},
+		"ojo abierto izq": {
+			"4": { "x": -2.04, "y": -4.67, "scaleX": 1.0075, "scaleY": 1.0075, "width": 37, "height": 40 }
+		},
+		"cuerpo atras": {
+			"2": { "x": -44.06, "y": -6.94, "scaleX": 1.0075, "scaleY": 1.0075, "width": 47, "height": 138 }
+		}
+	}
+}
+}

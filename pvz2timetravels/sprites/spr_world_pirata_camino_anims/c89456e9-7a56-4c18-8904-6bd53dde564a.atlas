@@ -1,0 +1,460 @@
+
+skeleton.png
+size: 4080,4042
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+agua/cascada/cascada base 1
+  rotate: true
+  xy: 3110, 3939
+  size: 101, 339
+  orig: 105, 398
+  offset: 2, 57
+  index: -1
+agua/cascada/cascada base 2
+  rotate: true
+  xy: 3451, 3939
+  size: 101, 339
+  orig: 105, 398
+  offset: 2, 57
+  index: -1
+agua/cascada/cascada efect 1
+  rotate: true
+  xy: 2576, 3950
+  size: 90, 182
+  orig: 94, 226
+  offset: 2, 12
+  index: -1
+agua/cascada/cascada efect 2
+  rotate: true
+  xy: 3792, 3938
+  size: 102, 111
+  orig: 106, 300
+  offset: 2, 187
+  index: -1
+agua/efectos/bordes/borde 1
+  rotate: false
+  xy: 48, 4009
+  size: 73, 31
+  orig: 78, 35
+  offset: 2, 2
+  index: -1
+agua/efectos/bordes/borde 10
+  rotate: false
+  xy: 2, 4022
+  size: 44, 18
+  orig: 50, 23
+  offset: 2, 3
+  index: -1
+agua/efectos/bordes/borde 6
+  rotate: false
+  xy: 275, 3980
+  size: 169, 60
+  orig: 173, 64
+  offset: 2, 2
+  index: -1
+agua/efectos/marea/marea islota zomb 1
+  rotate: false
+  xy: 2989, 3445
+  size: 538, 286
+  orig: 542, 290
+  offset: 2, 2
+  index: -1
+agua/efectos/marea/marea islota zomb 2
+  rotate: false
+  xy: 3091, 3733
+  size: 601, 204
+  orig: 638, 351
+  offset: 2, 38
+  index: -1
+agua/efectos/olas/ola grande 3
+  rotate: false
+  xy: 1446, 3774
+  size: 224, 178
+  orig: 228, 182
+  offset: 2, 2
+  index: -1
+agua/efectos/olas/ola peq 1
+  rotate: false
+  xy: 2801, 3743
+  size: 288, 205
+  orig: 292, 209
+  offset: 2, 2
+  index: -1
+agua/efectos/olas/ola peq 2
+  rotate: false
+  xy: 1831, 3952
+  size: 430, 88
+  orig: 434, 92
+  offset: 2, 2
+  index: -1
+agua/splash/burbuja 3
+  rotate: false
+  xy: 937, 3960
+  size: 180, 80
+  orig: 185, 85
+  offset: 2, 3
+  index: -1
+agua/splash/burbuja 4
+  rotate: false
+  xy: 1119, 3958
+  size: 190, 82
+  orig: 195, 87
+  offset: 2, 3
+  index: -1
+agua/splash/splash 1
+  rotate: false
+  xy: 1088, 3777
+  size: 356, 175
+  orig: 360, 179
+  offset: 2, 2
+  index: -1
+agua/splash/splash 2
+  rotate: false
+  xy: 3552, 3059
+  size: 417, 352
+  orig: 421, 356
+  offset: 2, 2
+  index: -1
+agua/splash/splash 3
+  rotate: true
+  xy: 3694, 3703
+  size: 205, 332
+  orig: 227, 352
+  offset: 4, 18
+  index: -1
+camino y suelo/camino agua 1
+  rotate: false
+  xy: 2343, 2712
+  size: 578, 454
+  orig: 637, 454
+  offset: 0, 0
+  index: -1
+camino y suelo/camino agua 2
+  rotate: false
+  xy: 2923, 2634
+  size: 581, 459
+  orig: 581, 459
+  offset: 0, 0
+  index: -1
+camino y suelo/camino agua 3
+  rotate: false
+  xy: 3506, 2563
+  size: 568, 494
+  orig: 568, 495
+  offset: 0, 0
+  index: -1
+camino y suelo/camino flote 2
+  rotate: false
+  xy: 881, 2815
+  size: 581, 389
+  orig: 583, 403
+  offset: 2, 14
+  index: -1
+camino y suelo/camino flote 3
+  rotate: false
+  xy: 2, 3322
+  size: 370, 289
+  orig: 389, 300
+  offset: 10, 11
+  index: -1
+camino y suelo/camino flote 4
+  rotate: false
+  xy: 3529, 3413
+  size: 366, 288
+  orig: 386, 299
+  offset: 10, 11
+  index: -1
+camino y suelo/camino flote 5
+  rotate: false
+  xy: 406, 2894
+  size: 473, 368
+  orig: 484, 377
+  offset: 4, 9
+  index: -1
+camino y suelo/camino flote 6
+  rotate: false
+  xy: 2, 3620
+  size: 366, 211
+  orig: 389, 300
+  offset: 12, 89
+  index: -1
+camino y suelo/camino flote 7
+  rotate: false
+  xy: 370, 3613
+  size: 359, 214
+  orig: 386, 299
+  offset: 14, 85
+  index: -1
+camino y suelo/camino normal 1
+  rotate: false
+  xy: 1464, 2815
+  size: 430, 389
+  orig: 430, 389
+  offset: 0, 0
+  index: -1
+camino y suelo/camino normal 2
+  rotate: false
+  xy: 2, 2921
+  size: 402, 366
+  orig: 402, 366
+  offset: 0, 0
+  index: -1
+camino y suelo/camino normal 3
+  rotate: false
+  xy: 1672, 3765
+  size: 197, 185
+  orig: 197, 185
+  offset: 0, 0
+  index: -1
+camino y suelo/camino normal 4
+  rotate: false
+  xy: 1201, 3513
+  size: 306, 259
+  orig: 306, 259
+  offset: 0, 0
+  index: -1
+camino y suelo/camino normal 5
+  rotate: false
+  xy: 932, 3814
+  size: 154, 144
+  orig: 154, 144
+  offset: 0, 0
+  index: -1
+decoracion/baranda 1
+  rotate: false
+  xy: 1509, 3490
+  size: 401, 267
+  orig: 401, 267
+  offset: 0, 0
+  index: -1
+decoracion/baranda 2
+  rotate: true
+  xy: 123, 3992
+  size: 48, 150
+  orig: 80, 155
+  offset: 4, 3
+  index: -1
+decoracion/baranda 3
+  rotate: true
+  xy: 2, 3864
+  size: 114, 322
+  orig: 114, 322
+  offset: 0, 0
+  index: -1
+decoracion/baranda 4
+  rotate: true
+  xy: 475, 3829
+  size: 132, 455
+  orig: 132, 455
+  offset: 0, 0
+  index: -1
+decoracion/baranda 5
+  rotate: false
+  xy: 1896, 2763
+  size: 445, 403
+  orig: 445, 403
+  offset: 0, 0
+  index: -1
+decoracion/deco 1
+  rotate: true
+  xy: 2263, 3952
+  size: 88, 311
+  orig: 94, 324
+  offset: 2, 4
+  index: -1
+decoracion/deco 2
+  rotate: true
+  xy: 681, 3963
+  size: 77, 254
+  orig: 85, 254
+  offset: 7, 0
+  index: -1
+decoracion/deco 3
+  rotate: true
+  xy: 2760, 3950
+  size: 90, 348
+  orig: 90, 348
+  offset: 0, 0
+  index: -1
+decoracion/deco 4
+  rotate: true
+  xy: 3905, 3910
+  size: 130, 173
+  orig: 130, 175
+  offset: 0, 2
+  index: -1
+decoracion/deco 5
+  rotate: true
+  xy: 1311, 3954
+  size: 86, 518
+  orig: 88, 518
+  offset: 0, 0
+  index: -1
+decoracion/deco 6
+  rotate: false
+  xy: 326, 3833
+  size: 147, 141
+  orig: 147, 141
+  offset: 0, 0
+  index: -1
+decoracion/deco 8
+  rotate: true
+  xy: 512, 3968
+  size: 72, 73
+  orig: 79, 77
+  offset: 5, 4
+  index: -1
+decoracion/islita 1
+  rotate: false
+  xy: 1455, 2131
+  size: 1185, 579
+  orig: 1185, 579
+  offset: 0, 0
+  index: -1
+decoracion/islita 2
+  rotate: false
+  xy: 2113, 936
+  size: 995, 956
+  orig: 995, 960
+  offset: 0, 4
+  index: -1
+decoracion/islita 3
+  rotate: false
+  xy: 2, 1621
+  size: 1035, 687
+  orig: 1035, 687
+  offset: 0, 0
+  index: -1
+decoracion/islita 4
+  rotate: false
+  xy: 1129, 3206
+  size: 993, 275
+  orig: 993, 275
+  offset: 0, 0
+  index: -1
+decoracion/islita 5
+  rotate: true
+  xy: 1039, 1405
+  size: 724, 1072
+  orig: 724, 1072
+  offset: 0, 0
+  index: -1
+decoracion/islita 6
+  rotate: true
+  xy: 3046, 3095
+  size: 316, 504
+  orig: 316, 504
+  offset: 0, 0
+  index: -1
+decoracion/islita 7
+  rotate: false
+  xy: 2124, 3168
+  size: 920, 275
+  orig: 993, 275
+  offset: 0, 0
+  index: -1
+decoracion/islita 8
+  rotate: false
+  xy: 731, 3558
+  size: 468, 217
+  orig: 468, 275
+  offset: 0, 1
+  index: -1
+decoracion/islita 9
+  rotate: false
+  xy: 2161, 3756
+  size: 638, 192
+  orig: 643, 203
+  offset: 5, 11
+  index: -1
+islas/agua flote 1
+  rotate: false
+  xy: 1912, 3483
+  size: 614, 271
+  orig: 641, 286
+  offset: 10, 4
+  index: -1
+islas/isla 3
+  rotate: false
+  xy: 727, 3264
+  size: 400, 292
+  orig: 409, 292
+  offset: 3, 0
+  index: -1
+islas/isla 4
+  rotate: false
+  xy: 645, 2310
+  size: 808, 503
+  orig: 823, 511
+  offset: 3, 6
+  index: -1
+islas/isla 5
+  rotate: false
+  xy: 2, 2393
+  size: 641, 499
+  orig: 641, 502
+  offset: 0, 0
+  index: -1
+islas/isla 7
+  rotate: false
+  xy: 2528, 3469
+  size: 459, 272
+  orig: 482, 292
+  offset: 15, 7
+  index: -1
+islas/isla agua
+  rotate: false
+  xy: 446, 3976
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+islas/isla zomb 1
+  rotate: false
+  xy: 2, 2
+  size: 1535, 1401
+  orig: 1557, 1406
+  offset: 2, 3
+  index: -1
+islas/isla zomb 2
+  rotate: false
+  xy: 2642, 1894
+  size: 817, 738
+  orig: 822, 749
+  offset: 2, 3
+  index: -1
+texturas 2/IMAGE_WORLDMAP_DANGER_NODE_PIRATE_DANGER_NODE_PIRATE_234X150
+  rotate: false
+  xy: 1871, 3759
+  size: 288, 191
+  orig: 300, 192
+  offset: 1, 1
+  index: -1
+texturas 2/IMAGE_WORLDMAP_DANGER_NODE_PIRATE_DANGER_NODE_PIRATE_274X271
+  rotate: false
+  xy: 374, 3289
+  size: 351, 322
+  orig: 351, 347
+  offset: 0, 25
+  index: -1
+texturas 2/IMAGE_WORLDMAP_DANGER_NODE_PIRATE_DANGER_NODE_PIRATE_56X72
+  rotate: true
+  xy: 587, 3968
+  size: 72, 92
+  orig: 72, 92
+  offset: 0, 0
+  index: -1
+
+skeleton2.png
+size: 3297,2246
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+islas/islota cabeza 1
+  rotate: false
+  xy: 2, 2
+  size: 3293, 2242
+  orig: 3293, 2242
+  offset: 0, 0
+  index: -1

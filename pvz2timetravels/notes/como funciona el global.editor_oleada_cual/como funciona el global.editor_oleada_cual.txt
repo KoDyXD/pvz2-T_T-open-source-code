@@ -1,0 +1,83 @@
+Escribo esto por sie se me olvida como funcio el global.editor_oleada_cual y el global.editor_nivel_base XD
+
+global.editor_nivel_base = [spr_patio_editor,musica_patiofrontal,1,1,"DEBUG"];
+Esta variable global guarda la informacion general del nivel.
+
+El primer valor corresponde a que patio se usara en el nivel
+El segundo valor corresponde a que musica sonara durante en el nivel
+El tercer valor corresponde a la cantidad de oleadas que tendra el nivel
+El cuarto valor corresponde a la cantidad de banderas(oleadas masivas) que tendra el nivel
+El quinto valor corresponde al nombre del nivel
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+global.editor_oleada_cual =
+[
+	["zombi",0,0,asset_get_index("nulo"),1,1],
+];
+
+Esta variable global es una array que contendra todas las cosas que se generaran en la oleadas del nivel
+Debido a que guarda la informacion de cosas como tumbas, plantas, zombis y musica, los valores de la array pueden
+variar.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Si genera un grupo de zombis:
+
+[1,"zombi",-1,5,asset_get_index("zombi_tut_basico"),1,2],
+
+El primer valor "zombi" establece que se generara un grupo de zombis
+El segundo valor -1 corresponde a la posicion X en la que se generara el zombi
+El tercer valor 5 corresponde a la fila en Y donde se generara el zombi
+El cuarto valor asset_get_index("zombi_tut_basico") corresponde a que zombi se generara
+El quinto valor 1 corresponde a la cantidad minima de zombis a generar
+El sexto valor 2 corresponde a la cantidad maxima de zombis a generar
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Si genera un grupo de tumbas:
+
+Este tipo de grupo se divide en dos que son (para generar una unica tumba en una posicion especifica) o (generar un grupo de tumbas en una zona)
+
+-Para crear una unica tumba
+
+[1,"tumba",3,5,tumba_egipto],
+
+El primer valor "tumba" establece que se generara una tumba
+El segundo valor 3 corresponde a la casilla en el eje X
+El tercer valor 5 corresponde a la casilla en el eje Y
+El cuarto valor tumba_egipto  corresponde a la tumba que se creara
+
+-Para crear varias tumbas
+
+[1,"tumbas",2,1,8,5,12,20,tumba_egipto],
+
+El primer valor "tumbas" establece que se generara un grupo de varias tumbas
+El segundo valor 2 corresponde a la primer casilla en el eje X
+El tercer valor 1 corresponde a la primer casilla en el eje Y
+El cuarto valor 8 corresponde a la segunda casilla en el eje X
+El quinto valor 5 corresponde a la segunda casilla en el eje Y
+El sexto valor 12 corresponde al minimo de tumbas a generar
+El septimo valor 20 corresponde al maximo de tumbas a generar
+El octavo valor tumba_egipto  corresponde a la tumba que se creara
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Si genera una planta:
+
+[1,"planta",2,1,planta_lanzaguisantes,false],
+
+El primer valor "planta" establece que se generara una planta
+El segundo valor 2 es la casilla en X
+El tercer valor 1 es la casilla en Y
+El cuarto valor planta_lanzaguisantes corresponde a la planta que se creara
+El quinto valor SOLO voltea la planta, esto puede causar bugs y SOLO se usa en el nivel 3 del tutorial
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Si se quiere modificar la musica de vueltacasete de neon:
+
+[0,"vcn",pop],
+
+El primer valor establece que se modificara la musica de vueltacasete de neon
+El segundo valor corresponde a la musica que se pondra
